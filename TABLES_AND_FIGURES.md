@@ -1,7 +1,7 @@
 # Tables, figures and quoted numbers: command and output
 
 Numbering is that of the manuscript submitted with this version (Sections 1 to 8, Tables 1 to 11,
-Figures 1 to 7). Scripts are in `src/` (those of Section 6.10 in `stb/STB_frozen_2026-10-09.zip`, with the corrected
+Figures 1 to 7). Scripts are in `src/` (those of Section 6.10, apart from `effect_intervals.py`, in `stb/STB_frozen_2026-10-09.zip`, with the corrected
 `stb_prepare.py` in `stb/amendment_1/`, and those of Section 7.1 in `tm/`) and are run inside a run directory set up as in `README.md`;
 "Section 6.9 steps" and "Section 6.10 steps" are the run steps in `CHANGES_v1.5.md`. Every output named
 here is shipped (in `results/`, `stb/run_outputs/`, `tm/` or `figures/`), so each number can be checked

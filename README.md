@@ -42,7 +42,7 @@ and quoted number of the paper to the command and output file that produce it.
 | `SHA256SUMS_v1.2` | Hashes of every file added or changed in version 1.2 |
 | `CHANGES_v1.3.md` | What version 1.3 changes (presentation of Figures 5, 8 and 9 of that draft: Figure 4, a removed figure and Figure 7 of the current manuscript) |
 | `SHA256SUMS_v1.3` | Hashes of every file changed in version 1.3 |
-| `CHANGES_v1.4.md` | What version 1.4 adds (the crossed rule comparison (Section 6.7 of the current manuscript), the processor energies (Section 6.5), the compute undercount and the untuned baselines of Section 7, and the revised figures), the checks it ran, and the run order of the added files |
+| `CHANGES_v1.4.md` | What version 1.4 adds (the crossed rule comparison and the processor energies, Sections 6.7 and 6.5 of the current manuscript, the compute undercount and the untuned baselines of Section 7, and the revised figures), the checks it ran, and the run order of the added files |
 | `SHA256SUMS_v1.4` | Hashes of every file added or changed in version 1.4 |
 | `CHANGES_v1.5.md` | What version 1.5 adds (the robustness analyses of Section 6.9, the Grand St Bernard evaluation of Section 6.10, the training comparison under `tm/`, the map of tables and figures), the checks it ran, the run order of the added files, and the concordance between the section, table and figure numbers used in earlier files and the current manuscript |
 | `SHA256SUMS_v1.5` | Hashes of every file added or changed in version 1.5 and of the separate cells archive (check with `sha256sum -c --ignore-missing SHA256SUMS_v1.5`, or place the cells archive at the root) |
