@@ -14,8 +14,8 @@ e_r*  =  (E_inf,cand − E_inf,ref) / Δρ               (crossover radio cost)
 Everything here is what produced the reported numbers: the evaluation protocol, the data
 preparation, every per-seed output, the saved model weights that exist, and SHA-256 manifests.
 
-This is version 1.5 of the package; see Versions below. `TABLES_AND_FIGURES.md` maps every table, figure
-and quoted number of the paper to the command and output file that produce it.
+This is version 1.5 of the package; see Versions below. `TABLES_AND_FIGURES.md` maps every table and figure
+of the paper, and the main numbers quoted in its text, to the command and output file that produce them.
 
 ---
 
@@ -46,7 +46,8 @@ and quoted number of the paper to the command and output file that produce it.
 | `SHA256SUMS_v1.4` | Hashes of every file added or changed in version 1.4 |
 | `CHANGES_v1.5.md` | What version 1.5 adds (the robustness analyses of Section 6.9, the Grand St Bernard evaluation of Section 6.10, the training comparison under `tm/`, the map of tables and figures), the checks it ran, the run order of the added files, and the concordance between the section, table and figure numbers used in earlier files and the current manuscript |
 | `SHA256SUMS_v1.5` | Hashes of every file added or changed in version 1.5 and of the separate cells archive (check with `sha256sum -c --ignore-missing SHA256SUMS_v1.5`, or place the cells archive at the root) |
-| `TABLES_AND_FIGURES.md` | Version 1.5. Every table and figure of the paper, and the numbers quoted in Sections 3.2, 6.9 and 6.10, with the command and the output file that produce them |
+| `SHA256SUMS_all` | Version 1.5. Hashes of every other file of the package, at its path in the package, and of the separate cells archive (check at the root with `sha256sum -c --ignore-missing SHA256SUMS_all`); `SHA256SUMS_v1.5` lists this file |
+| `TABLES_AND_FIGURES.md` | Version 1.5. Every table and figure of the paper, and the numbers quoted in Sections 3.2, 5.2, 5.3, 6.1, 6.8, 6.9, 6.10 and 7.1, with the command and the output file that produce them |
 | `requirements.txt` | Package versions with which the version 1.1 and 1.2 re-runs reproduced the shipped outputs byte for byte on Linux (on Windows, one field of `port_validation.json` differs in its last digits; see `CHANGES_v1.2.md`) |
 | `audit/`, `audit2/` | Audit scripts from development, kept for the record. They read and write in the directory the runs were made in, given by `WORKDIR` (by default the current directory); `audit/stats.py` also reads a file that is not included (`benchmark_run/main_comparison_tau010.csv`, kept in another folder when the runs were made and now looked for under `WORKDIR`), so they do not run as shipped |
 
@@ -80,7 +81,7 @@ and quoted number of the paper to the command and output file that produce it.
 | `rule_crossed.py` | Version 1.4. Each scheme's two selected parameter sets scored under both transmission rules, with the parameters held fixed (a retrospective diagnostic; Section 6.7) |
 | `rule_crossed_check.py` | Version 1.4. Independent scalar re-implementation that re-scores every run of `rule_crossed.py` and asserts identical transmission counts (sums left to right, so it gives the same counts under Python 3.11 and 3.12+) |
 | `rule_crossed_summary.py` | Version 1.4. `rule_crossed_summary.csv` and the numbers of the Section 6.7 sentence |
-| `m0/` | Version 1.4. The predictors in C (fixed-point and float32) for a Cortex-M0, the build of the simulator of [21] at tag teamplay-D4.5 and of the toolchain (`build_sim.sh`), and `measure.py`, which runs them in the simulator and applies the energy models of [21] |
+| `m0/` | Version 1.4. The predictors in C (fixed-point and float32) for a Cortex-M0, the build of the simulator of [21] at tag teamplay-D4.5 and of the toolchain (`build_sim.sh`), and `measure.py`, which runs them in the simulator and applies the energy models of [21]; the build needs about 1.3 GB of free disk space |
 | `gap8_lstm_energy.py` | Version 1.4. GAP-8 energy per MAC estimated from the cycle counts of a published 16-bit LSTM forecaster [27] (assumed power and frequency; the frequency of the source is ambiguous, see `CHANGES_v1.4.md`), its verdicts with and without activation overheads, the rate margin, and the 15 fixed-point taxi runs on GAP-8 |
 | `platform_energy.py`, `platform_table.py` | Version 1.4. Verdicts and lifetime ratios on GAP-8 (energy per MAC from `gap8_lstm_energy.py`), STM32L4 and STM32H7 (energy per MAC from the efficiencies reported in [26]), all estimated from other workloads and not measured for these models, and the simulated Cortex-M0, all with floating-point suppression (Section 6.5; Table 5 shows GAP-8, STM32L4 and the Cortex-M0) |
 | `quant_closed_loop.py` | Version 1.4. Closed-loop suppression of the fixed-point models against the floating-point ones |
@@ -112,8 +113,9 @@ mkdir raw    # put the raw Intel archive here as raw/data.txt (see Data below)
 The setup copies the shipped results into `run/`, so `run_learned.py` and `run_tau.py` skip every seed that is
 already present and change nothing. To retrain, remove `learned_<stream>.json` and `tau_<stream>.json` from
 `run/` first, or start from a run directory that holds only the scripts and the inputs. The raw Intel archive
-is needed only by `prepare_intel.py`, `text_checks.py --raw`, `epoch_counter_check.py`, `interpolation_check.py`
-and `validate_ports.py`.
+is needed only by `prepare_intel.py`, `text_checks.py --raw`, `epoch_counter_check.py`, `interpolation_check.py`,
+`validate_ports.py` and, from version 1.5, `intel_variants.py`, `intel_variant_short100.py` and `v0_cells.py` (and
+so by retraining with `intel_sens_run.py`, which reads their output).
 
 Then, inside `run/`:
 
@@ -214,7 +216,8 @@ validation-selected parameters it is re-run at every tolerance by `receiver_chec
 **Intel Berkeley Research Lab.** The raw archive `data.txt` (2,313,682 readings) is not
 redistributed here because of its size. It is available from the Intel Lab Data page,
 http://db.csail.mit.edu/labdata/labdata.html (reference [22] of the paper); its SHA-256 is in
-`inputs/raw_sha256.txt` so a downloaded copy can be checked. `prepare_intel.py` builds a 25,127 × 30 matrix on a 31-second **timestamp**
+`inputs/raw_sha256.txt` so a downloaded copy can be checked. The copy used for this work was taken from the
+GitHub mirror `linsea423/Intel_Lab_Data` (`data.zip`), as `prepare_intel.py` records. `prepare_intel.py` builds a 25,127 × 30 matrix on a 31-second **timestamp**
 grid.
 
 Readings are indexed by timestamp, not by the per-mote `epoch` counter. That counter jumps back by
@@ -270,7 +273,7 @@ manifest `SHA256SUMS_v1.1` to `SHA256SUMS_v1.4`.
 
 ## Note on the code in this repository
 
-These files are the code as run; the changes made since are listed in this paragraph. Version 1.1 adds files and updates this README; no other existing file is changed (see `CHANGES_v1.1.md`). Version 1.2 does the same, and also adds two lines to `requirements.txt` (see `CHANGES_v1.2.md`). The manuscript generator (`build_ms.py`) is not
+These files are the code as run; the changes made since are listed in this paragraph (for version 1.5, also under "Differences from the files as run" in `CHANGES_v1.5.md`). Version 1.1 adds files and updates this README; no other existing file is changed (see `CHANGES_v1.1.md`). Version 1.2 does the same, and also adds two lines to `requirements.txt` (see `CHANGES_v1.2.md`). The manuscript generator (`build_ms.py`) is not
 included: it reads absolute paths from the machine the runs were performed on and produces the
 .docx, which is not part of reproducing the results. `SHA256SUMS` is the manifest of the code as
 executed and still lists it. It lists bare file names, so each file is checked from its own folder:
@@ -310,8 +313,10 @@ This version of the package:
 
 ## Licence
 
-Code: MIT (see `LICENSE`). The redistributed datasets remain under their own terms: the Numenta
+Code and documentation: MIT (see `LICENSE`). Outputs (results, figures, model weights, run records and the cells
+archive): CC BY 4.0, as stated in `LICENSE`. Third-party data, wherever they appear in the package (in `inputs/`,
+inside the frozen archives, or as data derived from them), remain under their own terms: the Numenta
 Anomaly Benchmark files are MIT-licensed by Numenta, Inc. (notice in `inputs/nab/LICENSE_NAB.txt`, from
-the pinned commit), the Intel Berkeley data belong to their original publishers, and the SensorScope Grand St Bernard file
+the pinned commit), the Intel Berkeley data (Bodik et al., reference [22] of the paper) belong to their original publishers, and the SensorScope Grand St Bernard file
 (`inputs/sensorscope/`) is licensed CC BY 4.0 by its authors (G. Barrenetxea, Zenodo, doi:10.5281/zenodo.2654726). `src/m0/build_sim.sh` downloads, but the package does not include, the Thumbulator
 simulator (MIT) and the xPack Arm GNU toolchain (GPL with the GCC runtime exception; newlib).

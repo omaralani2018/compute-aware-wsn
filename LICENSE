@@ -22,9 +22,21 @@ SOFTWARE.
 
 ---
 
-The datasets redistributed under inputs/ are not covered by this licence.
-The Intel Berkeley Research Lab data are the property of their original
-publishers; the Numenta Anomaly Benchmark files are distributed by Numenta, Inc.
+Scope. The MIT licence above covers the code and documentation written by
+the authors. The outputs of that code in this package (results/, figures/,
+weights/, weights_sens/, stb/run_outputs/ and the run outputs under tm/) and
+the separate archive compute-aware-wsn-v1.5-cells.zip are released under
+Creative Commons Attribution 4.0 International (CC BY 4.0,
+https://creativecommons.org/licenses/by/4.0/), without prejudice to the terms
+of the data they are derived from.
+
+Third-party data are covered by neither licence, wherever they appear (in
+inputs/, inside stb/STB_frozen_2026-10-09.zip and tm/TM_frozen_2026-10-09.zip,
+or as data derived from them). The Intel Berkeley Research Lab data
+(inputs/intel_*.npy, inputs/intel_time_rows.csv, inputs/mote_locs.txt) are
+from P. Bodik, W. Hong, C. Guestrin, S. Madden, M. Paskin and R. Thibaux,
+"Intel Lab Data", 2004, http://db.csail.mit.edu/labdata/labdata.html, and are
+the property of their original publishers; the Numenta Anomaly Benchmark files are distributed by Numenta, Inc.
 under the MIT licence (Copyright 2014-2024 Numenta Inc.; LICENSE.txt of
 github.com/numenta/NAB at commit ea702d75), whose notice is reproduced in
 inputs/nab/LICENSE_NAB.txt. The SensorScope Grand St Bernard file
