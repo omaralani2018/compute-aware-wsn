@@ -317,6 +317,7 @@ Code and documentation: MIT (see `LICENSE`). Outputs (results, figures, model we
 archive): CC BY 4.0, as stated in `LICENSE`. Third-party data, wherever they appear in the package (in `inputs/` and
 inside the frozen Grand St Bernard archive, including preprocessed copies of them), remain under their own terms: the Numenta
 Anomaly Benchmark files are MIT-licensed by Numenta, Inc. (notice in `inputs/nab/LICENSE_NAB.txt`, from
-the pinned commit), the Intel Berkeley data (Bodik et al., reference [22] of the paper) belong to their original publishers, and the SensorScope Grand St Bernard file
+the pinned commit), the Intel Berkeley data (Bodik et al., reference [22] of the paper) may be used or reproduced with
+acknowledgement, as the Intel Lab Data page states, and the SensorScope Grand St Bernard file
 (`inputs/sensorscope/`) is licensed CC BY 4.0 by its authors (G. Barrenetxea, Zenodo, doi:10.5281/zenodo.2654726). `src/m0/build_sim.sh` downloads, but the package does not include, the Thumbulator
 simulator (MIT) and the xPack Arm GNU toolchain (GPL with the GCC runtime exception; newlib).

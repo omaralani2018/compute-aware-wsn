@@ -36,9 +36,11 @@ copies of them such as inputs/intel_*.npy). The Intel Berkeley Research Lab
 data (inputs/intel_*.npy, inputs/intel_time_rows.csv, inputs/mote_locs.txt)
 are from P. Bodik, W. Hong, C. Guestrin, S. Madden, M. Paskin and
 R. Thibaux, "Intel Lab Data", 2004,
-http://db.csail.mit.edu/labdata/labdata.html, and are the property of their
-original publishers; the Numenta Anomaly Benchmark files are distributed by
-Numenta, Inc. under the MIT licence (Copyright 2014-2024 Numenta Inc.; LICENSE.txt of
+http://db.csail.mit.edu/labdata/labdata.html, whose page states: "Permission
+is granted to use or reproduce this data in any format or venue, although we
+request that you acknowledge our hard efforts in any published work.";
+the Numenta Anomaly Benchmark files are distributed by Numenta, Inc.
+under the MIT licence (Copyright 2014-2024 Numenta Inc.; LICENSE.txt of
 github.com/numenta/NAB at commit ea702d75), whose notice is reproduced in
 inputs/nab/LICENSE_NAB.txt. The SensorScope Grand St Bernard file
 (inputs/sensorscope/stbernard-meteo.zip, unmodified) is by G. Barrenetxea,
