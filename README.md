@@ -46,7 +46,7 @@ of the paper, and the main numbers quoted in its text, to the command and output
 | `SHA256SUMS_v1.4` | Hashes of every file added or changed in version 1.4 |
 | `CHANGES_v1.5.md` | What version 1.5 adds (the robustness analyses of Section 6.9, the Grand St Bernard evaluation of Section 6.10, the training comparison under `tm/`, the map of tables and figures), the checks it ran, the run order of the added files, and the concordance between the section, table and figure numbers used in earlier files and the current manuscript |
 | `SHA256SUMS_v1.5` | Hashes of every file added or changed in version 1.5 and of the separate cells archive (check with `sha256sum -c --ignore-missing SHA256SUMS_v1.5`, or place the cells archive at the root) |
-| `SHA256SUMS_all` | Version 1.5. Hashes of every other file of the package, at its path in the package, and of the separate cells archive (check at the root with `sha256sum -c --ignore-missing SHA256SUMS_all`); `SHA256SUMS_v1.5` lists this file |
+| `SHA256SUMS_all` | Version 1.5. Hashes of every file of the package except itself and `SHA256SUMS_v1.5`, at its path in the package, and of the separate cells archive (check at the root with `sha256sum -c --ignore-missing SHA256SUMS_all`); `SHA256SUMS_v1.5` lists this file |
 | `TABLES_AND_FIGURES.md` | Version 1.5. Every table and figure of the paper, and the numbers quoted in Sections 3.2, 5.2, 5.3, 6.1, 6.8, 6.9, 6.10 and 7.1, with the command and the output file that produce them |
 | `requirements.txt` | Package versions with which the version 1.1 and 1.2 re-runs reproduced the shipped outputs byte for byte on Linux (on Windows, one field of `port_validation.json` differs in its last digits; see `CHANGES_v1.2.md`) |
 | `audit/`, `audit2/` | Audit scripts from development, kept for the record. They read and write in the directory the runs were made in, given by `WORKDIR` (by default the current directory); `audit/stats.py` also reads a file that is not included (`benchmark_run/main_comparison_tau010.csv`, kept in another folder when the runs were made and now looked for under `WORKDIR`), so they do not run as shipped |
@@ -314,8 +314,8 @@ This version of the package:
 ## Licence
 
 Code and documentation: MIT (see `LICENSE`). Outputs (results, figures, model weights, run records and the cells
-archive): CC BY 4.0, as stated in `LICENSE`. Third-party data, wherever they appear in the package (in `inputs/`,
-inside the frozen archives, or as data derived from them), remain under their own terms: the Numenta
+archive): CC BY 4.0, as stated in `LICENSE`. Third-party data, wherever they appear in the package (in `inputs/` and
+inside the frozen Grand St Bernard archive, including preprocessed copies of them), remain under their own terms: the Numenta
 Anomaly Benchmark files are MIT-licensed by Numenta, Inc. (notice in `inputs/nab/LICENSE_NAB.txt`, from
 the pinned commit), the Intel Berkeley data (Bodik et al., reference [22] of the paper) belong to their original publishers, and the SensorScope Grand St Bernard file
 (`inputs/sensorscope/`) is licensed CC BY 4.0 by its authors (G. Barrenetxea, Zenodo, doi:10.5281/zenodo.2654726). `src/m0/build_sim.sh` downloads, but the package does not include, the Thumbulator
