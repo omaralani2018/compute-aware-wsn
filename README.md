@@ -40,12 +40,12 @@ and quoted number of the paper to the command and output file that produce it.
 | `MATCHED_BASELINES.md` | Version 1.2: settings, reproduction checks and rerun commands of the matched comparison with three published schemes (Table 9) |
 | `CHANGES_v1.2.md` | What version 1.2 adds, the checks it ran, and the run order of the added files |
 | `SHA256SUMS_v1.2` | Hashes of every file added or changed in version 1.2 |
-| `CHANGES_v1.3.md` | What version 1.3 changes (presentation of Figures 5, 8 and 9) |
+| `CHANGES_v1.3.md` | What version 1.3 changes (presentation of Figures 5, 8 and 9 of that draft: Figure 4, a removed figure and Figure 7 of the current manuscript) |
 | `SHA256SUMS_v1.3` | Hashes of every file changed in version 1.3 |
-| `CHANGES_v1.4.md` | What version 1.4 adds (the crossed rule comparison of Section 6.8, the processor energies of Section 6.6, the compute undercount and the untuned baselines of Section 7, and the revised figures), the checks it ran, and the run order of the added files |
+| `CHANGES_v1.4.md` | What version 1.4 adds (the crossed rule comparison (Section 6.7 of the current manuscript), the processor energies (Section 6.5), the compute undercount and the untuned baselines of Section 7, and the revised figures), the checks it ran, and the run order of the added files |
 | `SHA256SUMS_v1.4` | Hashes of every file added or changed in version 1.4 |
 | `CHANGES_v1.5.md` | What version 1.5 adds (the robustness analyses of Section 6.9, the Grand St Bernard evaluation of Section 6.10, the training comparison under `tm/`, the map of tables and figures), the checks it ran, the run order of the added files, and the concordance between the section, table and figure numbers used in earlier files and the current manuscript |
-| `SHA256SUMS_v1.5` | Hashes of every file added or changed in version 1.5 |
+| `SHA256SUMS_v1.5` | Hashes of every file added or changed in version 1.5 and of the separate cells archive (check with `sha256sum -c --ignore-missing SHA256SUMS_v1.5`, or place the cells archive at the root) |
 | `TABLES_AND_FIGURES.md` | Version 1.5. Every table and figure of the paper, and the numbers quoted in Sections 3.2, 6.9 and 6.10, with the command and the output file that produce them |
 | `requirements.txt` | Package versions with which the version 1.1 and 1.2 re-runs reproduced the shipped outputs byte for byte on Linux (on Windows, one field of `port_validation.json` differs in its last digits; see `CHANGES_v1.2.md`) |
 | `audit/`, `audit2/` | Audit scripts from development, kept for the record. They read and write in the directory the runs were made in, given by `WORKDIR` (by default the current directory); `audit/stats.py` also reads a file that is not included (`benchmark_run/main_comparison_tau010.csv`, kept in another folder when the runs were made and now looked for under `WORKDIR`), so they do not run as shipped |
@@ -87,6 +87,7 @@ and quoted number of the paper to the command and output file that produce it.
 | `quant_energy_check.py` | Version 1.4. Energy verdicts of the runs of `quant_closed_loop.py` recomputed with their fixed-point suppression, paired with the floating-point ones |
 | `untuned_check.py` | Version 1.4. The untuned-baseline numbers quoted in Section 7 (exponential smoothing with alpha fixed at 0.9, linear extrapolation with K fixed at 12), recomputed with the current code |
 | `undercount_check.py` | Version 1.4. The compute undercount quoted in the Introduction and Section 7: the 48% (51,872 against 99,488 MACs), the earlier count of 53,408 in a docstring sentence and a comment of `frozen_benchmark.py`, and the taxi verdicts at each count against untuned persistence and the validation-selected reference, at 1 nJ per MAC and at the GAP-8 values |
+| Version 1.5 scripts (`intel_variants.py`, `intel_variant_short100.py`, `segeval.py`, `test_segeval.py`, `intel_sens_run.py`, `v0_cells.py`, `intel_sens_report.py`, `intel_mote_blocks.py`, `radio_replay.py`, `effect_intervals.py`) | Version 1.5. The analyses of Section 6.9 and the intervals of Section 6.10; roles and run order in `CHANGES_v1.5.md` |
 
 ---
 

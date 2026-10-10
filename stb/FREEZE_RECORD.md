@@ -3,7 +3,7 @@
 Each protocol below was frozen by a dated WhatsApp message from the first author (Omar Bakr Habeeb,
 named "O. Alani" in the frozen protocols) to the
 co-author (Mustafa Musa, named "M. M. Jaber" in the frozen
-protocols) carrying the protocol and the SHA-256 of its files. Times are Asia/Baghdad
+protocols and in Amendment 1) carrying the protocol and the SHA-256 of its files. Times are Asia/Baghdad
 (UTC+03:00), 9 October 2026. The two protocol archives are shipped exactly as sent, and their SHA-256 can be checked with `sha256sum`
 against the values below. The files of the Amendment 1 archive are shipped unpacked in `stb/amendment_1/`,
 identical to those sent except `synthetic_check_amended.log`, in which the absolute path of the directory

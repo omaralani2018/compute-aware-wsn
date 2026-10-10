@@ -1,7 +1,8 @@
 # Tables, figures and quoted numbers: command and output
 
 Numbering is that of the manuscript submitted with this version (Sections 1 to 8, Tables 1 to 11,
-Figures 1 to 7). Scripts are in `src/` and are run inside a run directory set up as in `README.md`;
+Figures 1 to 7). Scripts are in `src/` (those of Section 6.10 in `stb/STB_frozen_2026-10-09.zip`, with the corrected
+`stb_prepare.py` in `stb/amendment_1/`, and those of Section 7.1 in `tm/`) and are run inside a run directory set up as in `README.md`;
 "Section 6.9 steps" and "Section 6.10 steps" are the run steps in `CHANGES_v1.5.md`. Every output named
 here is shipped (in `results/`, `stb/run_outputs/`, `tm/` or `figures/`), so each number can be checked
 against it without re-running anything; re-running the command regenerates it.
@@ -14,12 +15,12 @@ against it without re-running anything; re-running the command regenerates it.
 | 2. Test-span suppression at τ = 0.10 | `run_learned.py`, then `ms_numbers.py` | `learned_<stream>.json`; `ms_numbers.json` (`datasets.<stream>.by_tau."0.1"`, `datasets.<stream>.learned`) |
 | 3. The criterion per seed | `ms_numbers.py` | `ms_numbers.json` (`datasets.<stream>.learned.<model>`: difference, p, net saving, crossover and its range) |
 | 4. Lightweight minus reference at four tolerances | `run_tau.py <stream>`, then `ms_numbers.py` | `tau_<stream>.json`; `ms_numbers.json` (`datasets.<stream>.tau_sweep_lightweight`) |
-| 5. Full lifetime ratio on four processors | `ms_numbers.py`; `gap8_lstm_energy.py`; `m0/measure.py`; `platform_table.py` | `ms_numbers.json` (`datasets.<stream>.learned.<model>.L_vs_ref`); `gap8_lstm_energy.json`; `m0_measure-*.json`; `platform_table.json` |
+| 5. Full lifetime ratio on three processors | `ms_numbers.py`; `gap8_lstm_energy.py`; `m0/measure.py`; `platform_table.py` | `ms_numbers.json` (`datasets.<stream>.learned.<model>.L_vs_ref`); `gap8_lstm_energy.json`; `m0_measure-*.json`; `platform_table.json` |
 | 6. The ten NAB streams | `nab_data.py` (loaded by `ms_numbers.py`) | `ms_numbers.json` (`datasets.<stream>`: `file`, `T`, `unit`) |
 | 7. Reported data reduction on Intel | values of the cited papers; this work's rows as Tables 1 and 2 | `ms_numbers.json` |
 | 8. What each study measures | none (comparison of the cited papers) | none |
 | 9. Published dual-prediction schemes under this protocol | `matched_baselines.py`, `lstmdps_protocol.py`, `summarise_matched.py`; `rule_crossed.py`, `rule_crossed_summary.py` (steps in `CHANGES_v1.2.md`, `CHANGES_v1.4.md`) | `matched_summary.json`, `lstmdps_summary.json`, `rule_crossed_summary.csv` |
-| 10. Intel test span under four preparations | Section 6.9 steps; `intel_sens_report.py` | `intel_sensitivity.json` (`preparations`); scored readings and filled share from `intel_variants_coverage.json` (`variants.<v>.test`: `cells`, `cells_filled`); per seed `sens_<v>_<model>.json` |
+| 10. Intel test span under four preparations | Section 6.9 steps; `intel_sens_report.py` | `intel_sensitivity.json` (`preparations`); scored readings from `intel_variants_coverage.json`: `variants.<v>.test.closed_loop_steps` for the three new preparations and `V0.test.cells` for the published matrix; filled share `cells_filled` / `cells` (published matrix: 1 − `cells_observed` / `cells`); per seed `sens_<v>_<model>.json` |
 | 11. Grand St Bernard | Section 6.10 steps; `stb_stats.py` | `stb/run_outputs/stb_summary.json` (`primary_obs`); per seed `stb/run_outputs/runs/` |
 
 ## Figures
