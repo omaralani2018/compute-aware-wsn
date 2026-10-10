@@ -1,0 +1,476 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+{"persistence": 0.5184, "expsm": 0.5185, "linear_extrap": 0.4672} selected expsm alpha 0.999 K 6
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+{"persistence": 0.5202, "expsm": 0.5203, "linear_extrap": 0.47} selected expsm alpha 0.999 K 6
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791503271.432049   21506 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791503271.483200   21506 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791503276.404429   21506 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed  0 ok ep 75 val=0.4307 test=0.4500 verified=True 106s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791503379.691171   26997 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791503379.768191   26997 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791503383.316089   26997 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed  1 ok ep150 val=0.4392 test=0.4654 verified=True 108s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791503490.928570     791 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791503490.995133     791 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791503494.704377     791 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed  2 ok ep200 val=0.4422 test=0.3542 verified=True 114s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791503606.867191    5842 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791503606.920239    5842 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791503610.122638    5842 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+{"persistence": 0.5184, "expsm": 0.5185, "linear_extrap": 0.4672} selected expsm alpha 0.999 K 6
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+{"persistence": 0.5202, "expsm": 0.5203, "linear_extrap": 0.47} selected expsm alpha 0.999 K 6
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791505270.364666    2056 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791505270.522440    2056 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791505277.597124    2056 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed  3 ok ep125 val=0.4252 test=0.4254 verified=True 166s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791505442.253662    7460 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791505442.411814    7460 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791505449.736183    7460 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed  4 ok ep150 val=0.3919 test=0.4193 verified=True 121s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791505564.572587   12808 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791505564.674699   12808 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791505567.772584   12808 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed  5 ok ep200 val=0.4494 test=0.4409 verified=True 96s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791505662.619207   17385 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791505662.669188   17385 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791505666.237037   17385 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed  6 ok ep100 val=0.4123 test=0.3866 verified=True 89s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791505754.146834   22799 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791505754.204936   22799 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791505757.499839   22799 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed  7 ok ep175 val=0.4355 test=0.4549 verified=True 90s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791505845.642927   28414 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791505845.722676   28414 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791505848.381639   28414 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed  8 ok ep200 val=0.4186 test=0.3289 verified=True 97s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791505945.617030     524 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791505945.715868     524 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791505948.886781     524 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed  9 ok ep125 val=0.4202 test=0.3911 verified=True 91s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506038.484401    6302 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791506038.536224    6302 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506041.317144    6302 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed 10 ok ep125 val=0.4315 test=0.4461 verified=True 90s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506129.934306   11862 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791506129.998037   11862 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506133.039813   11862 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed 11 ok ep 50 val=0.4446 test=0.4636 verified=True 98s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506230.759265   16573 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791506230.856663   16573 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506234.436060   16573 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed 12 ok ep125 val=0.4221 test=0.4052 verified=True 93s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506325.997649   22018 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791506326.094738   22018 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506329.023195   22018 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed 13 ok ep 25 val=0.3769 test=0.3761 verified=True 88s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506415.829357   27540 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791506415.880941   27540 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506419.119960   27540 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed 14 ok ep100 val=0.4164 test=0.4376 verified=True 94s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506512.379883   32388 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791506512.453911   32388 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506515.404288   32388 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed 15 ok ep200 val=0.4398 test=0.4561 verified=True 77s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506590.662352    4378 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791506590.710171    4378 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506593.018939    4378 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed 16 ok ep 75 val=0.4398 test=0.4364 verified=True 65s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506657.299985    8786 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791506657.350830    8786 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506659.661691    8786 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed 17 ok ep 25 val=0.4220 test=0.4220 verified=True 68s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506727.225115   12621 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791506727.273101   12621 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506729.593328   12621 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed 18 ok ep 75 val=0.4290 test=0.4484 verified=True 66s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506794.968422   17042 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791506795.017420   17042 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506797.209417   17042 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb obs lightweight seed 19 ok ep100 val=0.4382 test=0.4367 verified=True 71s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506867.632206   21483 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791506867.683760   21483 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506870.009972   21483 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed  0 ok ep150 val=0.4671 test=0.4130 verified=True 69s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506938.047654   25522 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791506938.095805   25522 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791506942.564590   25522 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed  1 ok ep200 val=0.4364 test=0.4506 verified=True 85s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507025.094623   29759 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791507025.153221   29759 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507027.651845   29759 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed  2 ok ep 50 val=0.3949 test=0.4449 verified=True 70s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507096.986339    1824 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791507097.033115    1824 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507099.260321    1824 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed  3 ok ep175 val=0.3817 test=0.4070 verified=True 68s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507166.477436    5971 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791507166.527557    5971 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507168.767061    5971 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed  4 ok ep200 val=0.4497 test=0.4201 verified=True 74s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507243.667384   10031 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791507243.777548   10031 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507247.957230   10031 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed  5 ok ep125 val=0.4176 test=0.4570 verified=True 97s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507343.664415   18211 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791507343.731678   18211 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507349.201837   18211 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed  6 ok ep200 val=0.4340 test=0.4343 verified=True 96s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507441.899817   27697 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791507441.950884   27697 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507445.546055   27697 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed  7 ok ep 75 val=0.4167 test=0.4215 verified=True 99s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507542.749865    3948 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791507542.796461    3948 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507545.540700    3948 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed  8 ok ep175 val=0.3615 test=0.4358 verified=True 91s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507636.473102   13022 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791507636.578532   13022 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507639.943290   13022 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed  9 ok ep150 val=0.3944 test=0.4198 verified=True 89s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507727.550693   21640 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791507727.612508   21640 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507730.732310   21640 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed 10 ok ep 50 val=0.4023 test=0.4119 verified=True 100s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507829.695017   30803 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791507829.742825   30803 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507832.829348   30803 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed 11 ok ep125 val=0.4494 test=0.4761 verified=True 94s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507927.193017    7440 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791507927.260729    7440 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791507930.001410    7440 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed 12 ok ep175 val=0.4733 test=0.4785 verified=True 95s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508024.639705   16737 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791508024.782572   16737 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508028.520564   16737 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed 13 ok ep 50 val=0.4215 test=0.4336 verified=True 96s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508122.741443   25372 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791508122.787995   25372 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508126.920200   25372 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed 14 ok ep175 val=0.4654 test=0.4092 verified=True 93s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508217.370619    1963 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791508217.420334    1963 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508220.323958    1963 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed 15 ok ep 50 val=0.4443 test=0.4685 verified=True 92s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508312.982578   11081 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791508313.034557   11081 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508316.987273   11081 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed 16 ok ep125 val=0.4239 test=0.4389 verified=True 90s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508405.046281   20210 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791508405.162682   20210 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508409.435926   20210 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed 17 ok ep125 val=0.4519 test=0.4430 verified=True 98s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508506.307562   29137 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791508506.362895   29137 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508509.699876   29137 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed 18 ok ep150 val=0.4653 test=0.4744 verified=True 99s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508607.531291    3922 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791508607.584547    3922 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508610.940897    3922 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill lightweight seed 19 ok ep125 val=0.4401 test=0.4768 verified=True 100s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508710.274862   10141 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791508710.361238   10141 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791508715.027068   10141 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill cnn_lstm   seed 10 ok ep150 val=0.4324 test=0.3996 verified=True 342s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791509054.239718   21063 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791509054.288553   21063 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791509057.101069   21063 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill cnn_lstm   seed 11 ok ep125 val=0.4694 test=0.4131 verified=True 359s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791509416.571716     543 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791509416.657069     543 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791509420.917365     543 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill cnn_lstm   seed 12 ok ep150 val=0.4683 test=0.3625 verified=True 358s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791509777.630013   11874 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791509777.752006   11874 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791509782.408739   11874 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill cnn_lstm   seed 13 ok ep125 val=0.4491 test=0.3979 verified=True 347s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791510127.771606   23121 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791510127.863023   23121 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791510132.245803   23121 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill cnn_lstm   seed 14 ok ep125 val=0.4872 test=0.5042 verified=True 348s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791510477.708881    2282 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791510477.774329    2282 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791510481.805954    2282 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill cnn_lstm   seed 15 ok ep100 val=0.4528 test=0.3836 verified=True 374s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791510855.346106   13838 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791510855.454626   13838 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791510859.189881   13838 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill cnn_lstm   seed 16 ok ep150 val=0.3755 test=0.3595 verified=True 347s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791511206.156830   25450 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791511206.277930   25450 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791511210.595903   25450 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill cnn_lstm   seed 17 ok ep 25 val=0.4495 test=0.4050 verified=True 367s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791511576.385437    4132 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791511576.506178    4132 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791511582.005000    4132 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill cnn_lstm   seed 18 ok ep150 val=0.4626 test=0.4704 verified=True 354s
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791511933.598728   15754 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791511933.680667   15754 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791511936.610817   15754 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  stb fill cnn_lstm   seed 19 ok ep175 val=0.4654 test=0.3589 verified=True 356s

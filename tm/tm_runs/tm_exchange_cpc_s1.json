@@ -1,0 +1,168 @@
+{
+ "stream": "exchange_cpc",
+ "seed": 1,
+ "kind": "lightweight",
+ "unit": 0.03142080452335894,
+ "T": 1624,
+ "split": [
+  812,
+  1136
+ ],
+ "tau": 0.1,
+ "phase1": {
+  "selected_epoch": 200,
+  "val_rho": 0.14814814814814814,
+  "val_hist": [
+   0.12962962962962965,
+   0.13580246913580252,
+   0.12654320987654322,
+   0.12654320987654322,
+   0.1450617283950617,
+   0.14197530864197527,
+   0.1450617283950617,
+   0.14814814814814814
+  ],
+  "test_rho": 0.1598360655737705,
+  "test_n_tx": 410,
+  "test_mean_err": 0.00024631701400378513,
+  "test_max_err": 0.003139601660251942,
+  "test_rmse": 0.0007171653527947452,
+  "test_nonfinite": 0,
+  "test_n_steps": 488,
+  "test_n_init_reports": 12,
+  "receiver_verified": true,
+  "receiver_bound_holds": true,
+  "receiver_identical": true,
+  "receiver_max_err": 0.003139601660251942,
+  "energy": {
+   "E_inf_per_round": 2.08e-07,
+   "E_operating": 0.155950304,
+   "E_initialisation": 0.00456,
+   "E_total": 0.16051030400000002
+  }
+ },
+ "main_study_entry": {
+  "selected_epoch": 200,
+  "val_rho": 0.14814814814814814,
+  "test_rho": 0.1598360655737705,
+  "reproduced": true
+ },
+ "start_state": {
+  "sha256": "e135c072804568ea2f6141dd2c518ef9507daf45f764af32e3962f91429ef30b",
+  "iterations": 2200,
+  "n_windows": 800,
+  "validation_split": 0.15,
+  "captured": "after the last phase-1 fit, before any validation-selected weights are restored"
+ },
+ "reconstruction": {
+  "tau": 0.1,
+  "train_closed_loop_rho": 0.24624999999999997,
+  "windows_changed": 0.96375,
+  "inputs_changed": 0.24458333333333335,
+  "mean_abs_input_change": 0.000387022388653122
+ },
+ "arms": {
+  "B+": {
+   "selected_epoch": 300,
+   "val_rho": 0.1820987654320988,
+   "val_hist": [
+    0.15740740740740744,
+    0.16666666666666663,
+    0.16666666666666663,
+    0.1820987654320988,
+    0.1820987654320988,
+    0.1820987654320988,
+    0.1635802469135802,
+    0.1728395061728395
+   ],
+   "start_state_sha256": "e135c072804568ea2f6141dd2c518ef9507daf45f764af32e3962f91429ef30b",
+   "updates": 2200,
+   "test_rho": 0.16393442622950816,
+   "test_n_tx": 408,
+   "test_mean_err": 0.00028360178393333006,
+   "test_max_err": 0.003096338476907337,
+   "test_rmse": 0.0007789613872723944,
+   "test_nonfinite": 0,
+   "test_n_steps": 488,
+   "test_n_init_reports": 12,
+   "receiver_verified": true,
+   "receiver_bound_holds": true,
+   "receiver_identical": true,
+   "receiver_max_err": 0.003096338476907337,
+   "energy": {
+    "E_inf_per_round": 2.08e-07,
+    "E_operating": 0.15519030400000003,
+    "E_initialisation": 0.00456,
+    "E_total": 0.15975030400000004
+   }
+  },
+  "C": {
+   "selected_epoch": 325,
+   "val_rho": 0.18518518518518523,
+   "val_hist": [
+    0.154320987654321,
+    0.16666666666666663,
+    0.1728395061728395,
+    0.17592592592592593,
+    0.18518518518518523,
+    0.1728395061728395,
+    0.17592592592592593,
+    0.16049382716049387
+   ],
+   "start_state_sha256": "e135c072804568ea2f6141dd2c518ef9507daf45f764af32e3962f91429ef30b",
+   "updates": 2200,
+   "test_rho": 0.15163934426229508,
+   "test_n_tx": 414,
+   "test_mean_err": 0.000262458271493801,
+   "test_max_err": 0.003141033050361036,
+   "test_rmse": 0.0007587898957530309,
+   "test_nonfinite": 0,
+   "test_n_steps": 488,
+   "test_n_init_reports": 12,
+   "receiver_verified": true,
+   "receiver_bound_holds": true,
+   "receiver_identical": true,
+   "receiver_max_err": 0.003141033050361036,
+   "energy": {
+    "E_inf_per_round": 2.08e-07,
+    "E_operating": 0.157470304,
+    "E_initialisation": 0.00456,
+    "E_total": 0.162030304
+   }
+  }
+ },
+ "d_test_rho_C_minus_Bplus": -0.012295081967213073,
+ "versions": {
+  "python": "3.11.15",
+  "numpy": "2.4.4",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1"
+ },
+ "settings": {
+  "LOOK_BACK": 12,
+  "TAU": 0.1,
+  "SPLIT": [
+   0.5,
+   0.7
+  ],
+  "EPOCH_CAP": 200,
+  "CKPT_EVERY": 25,
+  "MAX_WINDOWS": 4000,
+  "phase2_seed": 1001,
+  "threads": {
+   "OMP_NUM_THREADS": "1",
+   "TF_NUM_INTRAOP_THREADS": "1",
+   "TF_NUM_INTEROP_THREADS": "1"
+  },
+  "data_sha256": "d869ab165254f3ee77ee21fd9fab2be1d07c1f80b8133cf01bbaf2d768c2ac64",
+  "code_sha256": {
+   "tm_run.py": "e23e3bba5c5b701d0ceab9cd764ea9b22081ba26b69db66b5d832aa614ac442f",
+   "frozen_benchmark.py": "1bf24e98c9f65e87b1c37e4925ba35d815cc98a76f579b15a65eb7b86117ac47",
+   "run_learned.py": "63b8b01ea38c492348b77b64733100ee58d7b2174c4b52d16e58ecb16e13a7c5",
+   "fastfwd.py": "c52d7d5a5d3f6847f56a5a8daf3fa6b46525241e0b86842693d73e71dcc13055",
+   "dual_prediction_fix.py": "e8cfb5f685df10023bc3d18e63ef850da0453008f74ac5a0d5653a019dd0f4d6",
+   "nab_data.py": "b96937a86d3560e2edeb3129b5cde021996a06c170e6b974c12d55e23536830c"
+  }
+ },
+ "secs": 125.5
+}

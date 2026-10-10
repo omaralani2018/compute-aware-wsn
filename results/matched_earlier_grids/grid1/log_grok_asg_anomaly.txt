@@ -1,0 +1,4 @@
+[grok_asg_anomaly] LMS  authors sel={'N': 4, 'c': 0.01, 'mu': 8.754222171871896e-06} val=0.0314 test=0.0022 max=0.1043 recv=True/True
+[grok_asg_anomaly] LMS  ours    sel={'N': 10, 'c': 0.1, 'mu': 8.754222171871897e-05} val=0.2100 test=0.3562 max=0.1449 recv=True/True
+[grok_asg_anomaly] AMDR authors sel={'w_f': 4, 'w_s': 8, 'c': 0.0, 'alpha': 0.0} val=0.1234 test=0.0714 max=0.1193 recv=True/True
+[grok_asg_anomaly] AMDR ours    sel={'w_f': 4, 'w_s': 8, 'c': 0.0, 'alpha': 0.0} val=0.4794 test=0.3057 max=0.1409 recv=True/True

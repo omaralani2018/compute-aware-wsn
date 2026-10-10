@@ -1,0 +1,4 @@
+[twitter_aapl] LMS  authors sel={'N': 4, 'c': 0.03, 'mu': 7.519303762593971e-07} val=0.1289 test=0.0029 max=17.86 recv=True/True
+[twitter_aapl] LMS  ours    sel={'N': 6, 'c': 0.0001, 'mu': 2.5064345875313237e-09} val=0.3242 test=0.2754 max=18.67 recv=True/True
+[twitter_aapl] AMDR authors sel={'w_f': 4, 'w_s': 8, 'c': 0.01, 'alpha': 2.86663865376884e-07} val=0.3355 test=0.2421 max=18.67 recv=True/True
+[twitter_aapl] AMDR ours    sel={'w_f': 4, 'w_s': 8, 'c': 0.01, 'alpha': 2.86663865376884e-07} val=0.6513 test=0.4634 max=18.66 recv=True/True

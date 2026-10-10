@@ -1,0 +1,123 @@
+{
+ "rule": {
+  "jump_counts": 1000,
+  "shared_if_motes_within_30_min": 5
+ },
+ "jumps": {
+  "30_motes_valid_readings": {
+   "n_jumps": 54,
+   "per_mote_min": 1,
+   "per_mote_max": 5,
+   "motes_without_jump": 0,
+   "smallest_jump": 1111,
+   "shared_fraction": 0.8333333333333334,
+   "shared_events": [
+    {
+     "start": "2004-03-11 09:33:00",
+     "motes": 12
+    },
+    {
+     "start": "2004-03-12 09:30:00",
+     "motes": 12
+    },
+    {
+     "start": "2004-03-21 19:06:00",
+     "motes": 21
+    }
+   ],
+   "shared_fraction_excluding_jumps_from_counter_maximum": 0.7272727272727273
+  },
+  "30_motes_all_readings": {
+   "n_jumps": 84,
+   "per_mote_min": 1,
+   "per_mote_max": 14,
+   "motes_without_jump": 0,
+   "smallest_jump": 1111,
+   "shared_fraction": 0.6071428571428571,
+   "shared_events": [
+    {
+     "start": "2004-03-11 09:33:00",
+     "motes": 13
+    },
+    {
+     "start": "2004-03-12 09:30:00",
+     "motes": 12
+    },
+    {
+     "start": "2004-03-21 19:06:00",
+     "motes": 26
+    }
+   ],
+   "shared_fraction_excluding_jumps_from_counter_maximum": 0.43103448275862066
+  },
+  "33_motes_valid_readings": {
+   "n_jumps": 65,
+   "per_mote_min": 1,
+   "per_mote_max": 5,
+   "motes_without_jump": 0,
+   "smallest_jump": 2609,
+   "shared_fraction": 0.8923076923076924,
+   "shared_events": [
+    {
+     "start": "2004-03-11 09:33:00",
+     "motes": 15
+    },
+    {
+     "start": "2004-03-12 09:30:00",
+     "motes": 15
+    },
+    {
+     "start": "2004-03-21 19:06:00",
+     "motes": 28
+    }
+   ],
+   "shared_fraction_excluding_jumps_from_counter_maximum": 0.8108108108108109
+  },
+  "33_motes_all_readings": {
+   "n_jumps": 90,
+   "per_mote_min": 1,
+   "per_mote_max": 6,
+   "motes_without_jump": 0,
+   "smallest_jump": 2609,
+   "shared_fraction": 0.7,
+   "shared_events": [
+    {
+     "start": "2004-03-11 09:33:00",
+     "motes": 15
+    },
+    {
+     "start": "2004-03-12 09:30:00",
+     "motes": 15
+    },
+    {
+     "start": "2004-03-21 19:06:00",
+     "motes": 33
+    }
+   ],
+   "shared_fraction_excluding_jumps_from_counter_maximum": 0.5263157894736842
+  }
+ },
+ "epoch_spread": {
+  "30_motes": {
+   "epoch_values": 63418,
+   "fraction_spanning_over_1_day": 0.12363997603204138,
+   "min_span_days_among_those": 1.5163696553935184,
+   "max_span_days": 17.581962965347223
+  },
+  "33_motes": {
+   "epoch_values": 63423,
+   "fraction_spanning_over_1_day": 0.262901471075162,
+   "min_span_days_among_those": 11.509171212662038,
+   "max_span_days": 34.037565709305554
+  }
+ },
+ "withdrawn_epoch_matrix": {
+  "rows": 34478,
+  "shape_matches_intel_full": true,
+  "cell_agreement_with_intel_full": 0.999777635980432,
+  "rows_spanning_over_1_day": 0.3673356923255409,
+  "rows_spanning_over_7_days": 0.21677591507628052,
+  "n_rows_spanning_over_14_days": 6,
+  "max_row_span_days": 17.58191578576389
+ }
+}

@@ -1,0 +1,10 @@
+taxi              d8fa6f7f0734bf5c  realKnownCause/nyc_taxi.csv
+traffic           15ba994384730cb5  realTraffic/speed_7578.csv
+cpu               01613e6f632d067f  realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+machine_temp      92bf5b87fc7f9bba  realKnownCause/machine_temperature_system_failure.csv
+grok_asg_anomaly  86a0abe9d58e3768  realAWSCloudwatch/grok_asg_anomaly.csv
+rds_cpu_util      6b712b922ab3b340  realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+iio_networkin     f115fbe6542159ee  realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+twitter_aapl      826f5cf404c28907  realTweets/Twitter_volume_AAPL.csv
+exchange_cpc      d869ab165254f3ee  realAdExchange/exchange-2_cpc_results.csv
+occupancy         cd357d7820d67507  realTraffic/occupancy_6005.csv

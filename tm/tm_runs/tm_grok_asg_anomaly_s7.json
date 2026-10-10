@@ -1,0 +1,168 @@
+{
+ "stream": "grok_asg_anomaly",
+ "seed": 7,
+ "kind": "lightweight",
+ "unit": 1.4558832160053528,
+ "T": 4621,
+ "split": [
+  2310,
+  3234
+ ],
+ "tau": 0.1,
+ "phase1": {
+  "selected_epoch": 125,
+  "val_rho": 0.11255411255411252,
+  "val_hist": [
+   0.07359307359307354,
+   0.0757575757575758,
+   0.09090909090909094,
+   0.09740259740259738,
+   0.11255411255411252,
+   0.09740259740259738,
+   0.08549783549783552,
+   0.09848484848484851
+  ],
+  "test_rho": 0.046142754145638065,
+  "test_n_tx": 1323,
+  "test_mean_err": 0.003534286270341613,
+  "test_max_err": 0.14557597548532186,
+  "test_rmse": 0.01891677174379899,
+  "test_nonfinite": 0,
+  "test_n_steps": 1387,
+  "test_n_init_reports": 12,
+  "receiver_verified": true,
+  "receiver_bound_holds": true,
+  "receiver_identical": true,
+  "receiver_max_err": 0.14557597548532186,
+  "energy": {
+   "E_inf_per_round": 2.08e-07,
+   "E_operating": 0.503167196,
+   "E_initialisation": 0.00456,
+   "E_total": 0.507727196
+  }
+ },
+ "main_study_entry": {
+  "selected_epoch": 125,
+  "val_rho": 0.11255411255411252,
+  "test_rho": 0.046142754145638065,
+  "reproduced": true
+ },
+ "start_state": {
+  "sha256": "80aaaef669f192e372c97095e7ca64339c7f486b48a7f968eb8bed0852d50f13",
+  "iterations": 6200,
+  "n_windows": 2298,
+  "validation_split": 0.15,
+  "captured": "after the last phase-1 fit, before any validation-selected weights are restored"
+ },
+ "reconstruction": {
+  "tau": 0.1,
+  "train_closed_loop_rho": 0.41253263707571797,
+  "windows_changed": 0.9303742384682332,
+  "inputs_changed": 0.41231505657093126,
+  "mean_abs_input_change": 0.026859008271225088
+ },
+ "arms": {
+  "B+": {
+   "selected_epoch": 300,
+   "val_rho": 0.09740259740259738,
+   "val_hist": [
+    0.08874458874458879,
+    0.08766233766233766,
+    0.09199134199134196,
+    0.09740259740259738,
+    0.09307359307359309,
+    0.09307359307359309,
+    0.08766233766233766,
+    0.09199134199134196
+   ],
+   "start_state_sha256": "80aaaef669f192e372c97095e7ca64339c7f486b48a7f968eb8bed0852d50f13",
+   "updates": 6200,
+   "test_rho": 0.0353280461427542,
+   "test_n_tx": 1338,
+   "test_mean_err": 0.002394492143557376,
+   "test_max_err": 0.14462332332904992,
+   "test_rmse": 0.01525344060658639,
+   "test_nonfinite": 0,
+   "test_n_steps": 1387,
+   "test_n_init_reports": 12,
+   "receiver_verified": true,
+   "receiver_bound_holds": true,
+   "receiver_identical": true,
+   "receiver_max_err": 0.14462332332904992,
+   "energy": {
+    "E_inf_per_round": 2.08e-07,
+    "E_operating": 0.508867196,
+    "E_initialisation": 0.00456,
+    "E_total": 0.513427196
+   }
+  },
+  "C": {
+   "selected_epoch": 250,
+   "val_rho": 0.09740259740259738,
+   "val_hist": [
+    0.09307359307359309,
+    0.09740259740259738,
+    0.08549783549783552,
+    0.0800865800865801,
+    0.08766233766233766,
+    0.08874458874458879,
+    0.08766233766233766,
+    0.08658008658008653
+   ],
+   "start_state_sha256": "80aaaef669f192e372c97095e7ca64339c7f486b48a7f968eb8bed0852d50f13",
+   "updates": 6200,
+   "test_rho": 0.03893294881038212,
+   "test_n_tx": 1333,
+   "test_mean_err": 0.0028284128813175786,
+   "test_max_err": 0.14261357593154855,
+   "test_rmse": 0.016694856083833684,
+   "test_nonfinite": 0,
+   "test_n_steps": 1387,
+   "test_n_init_reports": 12,
+   "receiver_verified": true,
+   "receiver_bound_holds": true,
+   "receiver_identical": true,
+   "receiver_max_err": 0.14261357593154855,
+   "energy": {
+    "E_inf_per_round": 2.08e-07,
+    "E_operating": 0.5069671960000001,
+    "E_initialisation": 0.00456,
+    "E_total": 0.5115271960000001
+   }
+  }
+ },
+ "d_test_rho_C_minus_Bplus": 0.0036049026676279183,
+ "versions": {
+  "python": "3.11.15",
+  "numpy": "2.4.4",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1"
+ },
+ "settings": {
+  "LOOK_BACK": 12,
+  "TAU": 0.1,
+  "SPLIT": [
+   0.5,
+   0.7
+  ],
+  "EPOCH_CAP": 200,
+  "CKPT_EVERY": 25,
+  "MAX_WINDOWS": 4000,
+  "phase2_seed": 1007,
+  "threads": {
+   "OMP_NUM_THREADS": "1",
+   "TF_NUM_INTRAOP_THREADS": "1",
+   "TF_NUM_INTEROP_THREADS": "1"
+  },
+  "data_sha256": "86a0abe9d58e376858d2fd4f4a438f1997e24c64a09e5af03accd4e1b372ac47",
+  "code_sha256": {
+   "tm_run.py": "e23e3bba5c5b701d0ceab9cd764ea9b22081ba26b69db66b5d832aa614ac442f",
+   "frozen_benchmark.py": "1bf24e98c9f65e87b1c37e4925ba35d815cc98a76f579b15a65eb7b86117ac47",
+   "run_learned.py": "63b8b01ea38c492348b77b64733100ee58d7b2174c4b52d16e58ecb16e13a7c5",
+   "fastfwd.py": "c52d7d5a5d3f6847f56a5a8daf3fa6b46525241e0b86842693d73e71dcc13055",
+   "dual_prediction_fix.py": "e8cfb5f685df10023bc3d18e63ef850da0453008f74ac5a0d5653a019dd0f4d6",
+   "nab_data.py": "b96937a86d3560e2edeb3129b5cde021996a06c170e6b974c12d55e23536830c"
+  }
+ },
+ "secs": 272.4
+}

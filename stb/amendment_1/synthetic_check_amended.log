@@ -1,0 +1,11 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/synth/synth_main/dual_prediction_fix.py
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/synth/synth_main/dual_prediction_fix.py
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/synth/synth_main/dual_prediction_fix.py
+main synthetic archive: OK
+not-evaluable archive: OK
+statistics rules: OK
+ALL SYNTHETIC CHECKS PASSED
+exit 0

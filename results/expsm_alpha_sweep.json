@@ -1,0 +1,79 @@
+[
+ {
+  "dataset": "intel",
+  "alpha_star": 0.99,
+  "test_alpha_star": 0.8405575476341137,
+  "test_alpha_0.9": 0.8165295647894255,
+  "persistence": 0.8442780472942886
+ },
+ {
+  "dataset": "taxi",
+  "alpha_star": 0.99,
+  "test_alpha_star": 0.34904746528898933,
+  "test_alpha_0.9": 0.3254762673555053,
+  "persistence": 0.3519535033903778
+ },
+ {
+  "dataset": "traffic",
+  "alpha_star": 0.1,
+  "test_alpha_star": 0.07079646017699115,
+  "test_alpha_0.9": 0.06489675516224191,
+  "persistence": 0.06489675516224191
+ },
+ {
+  "dataset": "cpu",
+  "alpha_star": 0.1,
+  "test_alpha_star": 0.2793388429752066,
+  "test_alpha_0.9": 0.21239669421487606,
+  "persistence": 0.21818181818181814
+ },
+ {
+  "dataset": "machine_temp",
+  "alpha_star": 0.6,
+  "test_alpha_star": 0.7703040093993244,
+  "test_alpha_0.9": 0.7404905272433544,
+  "persistence": 0.7180202672932883
+ },
+ {
+  "dataset": "grok_asg_anomaly",
+  "alpha_star": 0.95,
+  "test_alpha_star": 0.2862292718096612,
+  "test_alpha_0.9": 0.2581110310021629,
+  "persistence": 0.3056957462148522
+ },
+ {
+  "dataset": "rds_cpu_util",
+  "alpha_star": 0.2,
+  "test_alpha_star": 0.23553719008264462,
+  "test_alpha_0.9": 0.1322314049586777,
+  "persistence": 0.12396694214876036
+ },
+ {
+  "dataset": "iio_networkin",
+  "alpha_star": 0.8,
+  "test_alpha_star": 0.8203753351206434,
+  "test_alpha_0.9": 0.8257372654155496,
+  "persistence": 0.8096514745308311
+ },
+ {
+  "dataset": "twitter_aapl",
+  "alpha_star": 0.5,
+  "test_alpha_star": 0.695661286941941,
+  "test_alpha_0.9": 0.68748690002096,
+  "persistence": 0.6799413120939006
+ },
+ {
+  "dataset": "exchange_cpc",
+  "alpha_star": 0.9,
+  "test_alpha_star": 0.12909836065573765,
+  "test_alpha_0.9": 0.12909836065573765,
+  "persistence": 0.15163934426229508
+ },
+ {
+  "dataset": "occupancy",
+  "alpha_star": 0.4,
+  "test_alpha_star": 0.1568627450980392,
+  "test_alpha_0.9": 0.1610644257703081,
+  "persistence": 0.14845938375350143
+ }
+]

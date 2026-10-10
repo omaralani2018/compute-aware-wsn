@@ -1,0 +1,21 @@
+{
+ "status": "ok",
+ "predictor": "cnn_lstm",
+ "seed": 13,
+ "selected_epoch": 125,
+ "val_rho": 0.44914194452396383,
+ "test_rho": 0.3979461719362425,
+ "test_rho_incl_init": 0.396000832076551,
+ "test_mean_err": 0.020264440075187743,
+ "test_rmse": 0.036652354587708165,
+ "test_max_err": 0.09999971829400023,
+ "test_n_steps": 191350,
+ "test_n_tx": 115203,
+ "test_n_init_reports": 940,
+ "test_n_nonfinite_forecasts": 0,
+ "receiver_verified": true,
+ "sender_receiver_identical": true,
+ "train_windows": 4000,
+ "secs": 347.0,
+ "attempts": 1
+}

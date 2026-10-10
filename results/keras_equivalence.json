@@ -1,0 +1,1381 @@
+{
+ "n_models": 196,
+ "max_rel_err": 6.49712647645324e-07,
+ "median_rel_err": 1.5273019013227806e-07,
+ "tolerance": 0.0002,
+ "all_within_tolerance": true,
+ "models": [
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 0,
+   "max_abs_err": 1.2108278797384742e-06,
+   "max_rel_err": 6.415943553346463e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 1,
+   "max_abs_err": 4.362703481808339e-07,
+   "max_rel_err": 2.3497817368209996e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 10,
+   "max_abs_err": 5.459947094443862e-07,
+   "max_rel_err": 2.305927269784826e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 11,
+   "max_abs_err": 6.358162305541981e-07,
+   "max_rel_err": 4.0329183185252016e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 12,
+   "max_abs_err": 3.125176933904683e-07,
+   "max_rel_err": 1.9495078674968544e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 13,
+   "max_abs_err": 4.858705424659604e-07,
+   "max_rel_err": 2.5659260662548044e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 14,
+   "max_abs_err": 6.759873391048998e-07,
+   "max_rel_err": 3.5842266526039406e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 15,
+   "max_abs_err": 3.8671290381042667e-07,
+   "max_rel_err": 2.525364876744479e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 16,
+   "max_abs_err": 4.6518142537976814e-07,
+   "max_rel_err": 3.0929896584940925e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 17,
+   "max_abs_err": 6.327916303727754e-07,
+   "max_rel_err": 4.35575100256755e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 18,
+   "max_abs_err": 3.0274683848752204e-07,
+   "max_rel_err": 2.2655094606684966e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 19,
+   "max_abs_err": 4.4871282428582404e-07,
+   "max_rel_err": 2.641964832189949e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 2,
+   "max_abs_err": 4.1458793953452755e-07,
+   "max_rel_err": 2.2359491829402658e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 3,
+   "max_abs_err": 1.1303484399594055e-06,
+   "max_rel_err": 6.49712647645324e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 4,
+   "max_abs_err": 2.630268700620775e-07,
+   "max_rel_err": 1.5225275791730762e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 5,
+   "max_abs_err": 2.9067280671313256e-07,
+   "max_rel_err": 1.9167962617282148e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 6,
+   "max_abs_err": 5.610511444320565e-07,
+   "max_rel_err": 2.923722919855085e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 7,
+   "max_abs_err": 6.161442127616823e-07,
+   "max_rel_err": 4.2047500358569654e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 8,
+   "max_abs_err": 6.414474303939599e-07,
+   "max_rel_err": 3.9236235408924314e-07
+  },
+  {
+   "dataset": "cpu",
+   "model": "cnn_lstm",
+   "seed": 9,
+   "max_abs_err": 5.733853050138293e-07,
+   "max_rel_err": 3.583690410630114e-07
+  },
+  {
+   "dataset": "exchange_cpc",
+   "model": "cnn_lstm",
+   "seed": 19,
+   "max_abs_err": 1.7923997175373074e-07,
+   "max_rel_err": 1.199034074159202e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 0,
+   "max_abs_err": 1.3390538917690264e-06,
+   "max_rel_err": 6.132505883623436e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 1,
+   "max_abs_err": 5.316882081274343e-07,
+   "max_rel_err": 2.5268383888167396e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 10,
+   "max_abs_err": 2.9657103517433114e-07,
+   "max_rel_err": 1.9697104466270206e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 11,
+   "max_abs_err": 2.6681323644917043e-07,
+   "max_rel_err": 2.1522683617903366e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 12,
+   "max_abs_err": 6.86909777058986e-07,
+   "max_rel_err": 3.1954722777509706e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 13,
+   "max_abs_err": 5.534242115412535e-07,
+   "max_rel_err": 3.4084794532233907e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 14,
+   "max_abs_err": 3.8338676322524634e-07,
+   "max_rel_err": 2.5760580907930254e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 15,
+   "max_abs_err": 4.840927207983015e-07,
+   "max_rel_err": 2.816443748256845e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 16,
+   "max_abs_err": 5.222627599277274e-07,
+   "max_rel_err": 3.15816106902298e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 17,
+   "max_abs_err": 1.0485176864527546e-06,
+   "max_rel_err": 3.058282251664387e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 18,
+   "max_abs_err": 9.461241359809414e-07,
+   "max_rel_err": 3.72384156797521e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 19,
+   "max_abs_err": 7.499534870891722e-07,
+   "max_rel_err": 3.30843843414637e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 2,
+   "max_abs_err": 4.100636148973713e-07,
+   "max_rel_err": 2.6397335485188225e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 3,
+   "max_abs_err": 9.131574740806059e-07,
+   "max_rel_err": 2.9643115228692517e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 4,
+   "max_abs_err": 3.9743190061169997e-07,
+   "max_rel_err": 2.8832431702772087e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 5,
+   "max_abs_err": 4.4976105462168903e-07,
+   "max_rel_err": 2.9386389516491356e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 6,
+   "max_abs_err": 4.2662312593755303e-07,
+   "max_rel_err": 2.1770661851784722e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 7,
+   "max_abs_err": 5.9350293596383e-07,
+   "max_rel_err": 3.4937192496660054e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 8,
+   "max_abs_err": 4.721329358581272e-07,
+   "max_rel_err": 2.5675570380841916e-07
+  },
+  {
+   "dataset": "grok_asg_anomaly",
+   "model": "cnn_lstm",
+   "seed": 9,
+   "max_abs_err": 5.016410465907839e-07,
+   "max_rel_err": 2.464901856342326e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 0,
+   "max_abs_err": 2.0093234831541906e-07,
+   "max_rel_err": 8.373387819851142e-08
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 1,
+   "max_abs_err": 2.8873843405108346e-07,
+   "max_rel_err": 1.6527143522153973e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 10,
+   "max_abs_err": 2.7940185298724884e-07,
+   "max_rel_err": 1.1822892230066698e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 11,
+   "max_abs_err": 2.5416210225337466e-07,
+   "max_rel_err": 1.4470885945401908e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 12,
+   "max_abs_err": 3.1896766961025946e-07,
+   "max_rel_err": 1.6784630907606246e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 13,
+   "max_abs_err": 3.346950336879928e-07,
+   "max_rel_err": 1.7037935078478205e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 14,
+   "max_abs_err": 3.614132801921244e-07,
+   "max_rel_err": 2.030860143334542e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 15,
+   "max_abs_err": 2.332079017119959e-07,
+   "max_rel_err": 1.3450437046730066e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 16,
+   "max_abs_err": 2.9443093096936934e-07,
+   "max_rel_err": 1.4828936292427997e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 17,
+   "max_abs_err": 2.92227462228567e-07,
+   "max_rel_err": 1.3892803851511794e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 18,
+   "max_abs_err": 2.8635645743513294e-07,
+   "max_rel_err": 2.0104440842646251e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 19,
+   "max_abs_err": 2.2103968533304652e-07,
+   "max_rel_err": 1.375085755047849e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 2,
+   "max_abs_err": 2.632067872543331e-07,
+   "max_rel_err": 1.090275205966024e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 3,
+   "max_abs_err": 1.7439721822221088e-07,
+   "max_rel_err": 8.531001601624059e-08
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 4,
+   "max_abs_err": 3.436447819638033e-07,
+   "max_rel_err": 1.8259074187024822e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 5,
+   "max_abs_err": 2.9654159594549867e-07,
+   "max_rel_err": 1.6289396728614222e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 6,
+   "max_abs_err": 3.3418252787242864e-07,
+   "max_rel_err": 1.884349256777526e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 7,
+   "max_abs_err": 2.4676570653525687e-07,
+   "max_rel_err": 1.4508495514728275e-07
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 8,
+   "max_abs_err": 1.7084186840210513e-07,
+   "max_rel_err": 9.11431243438156e-08
+  },
+  {
+   "dataset": "iio_networkin",
+   "model": "cnn_lstm",
+   "seed": 9,
+   "max_abs_err": 2.483347038007011e-07,
+   "max_rel_err": 1.6099214430094777e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 0,
+   "max_abs_err": 2.7281052839001063e-07,
+   "max_rel_err": 1.3111432197364734e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 1,
+   "max_abs_err": 1.1837716562546063e-07,
+   "max_rel_err": 6.475635324101187e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 10,
+   "max_abs_err": 1.8785235678109302e-07,
+   "max_rel_err": 9.00806635927163e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 11,
+   "max_abs_err": 2.1165350272411843e-07,
+   "max_rel_err": 1.1695850324612807e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 12,
+   "max_abs_err": 1.1469253102802668e-07,
+   "max_rel_err": 5.999781883266737e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 13,
+   "max_abs_err": 1.515646951277816e-07,
+   "max_rel_err": 9.726405910021376e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 14,
+   "max_abs_err": 1.982562272129229e-07,
+   "max_rel_err": 9.774002159727827e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 15,
+   "max_abs_err": 1.6134872315998194e-07,
+   "max_rel_err": 9.907829065152432e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 16,
+   "max_abs_err": 1.8468411844274613e-07,
+   "max_rel_err": 9.878770152765805e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 17,
+   "max_abs_err": 1.5885203774601564e-07,
+   "max_rel_err": 8.222865308541638e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 18,
+   "max_abs_err": 1.8749334829148978e-07,
+   "max_rel_err": 1.0039540066765514e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 19,
+   "max_abs_err": 1.6339678077237352e-07,
+   "max_rel_err": 8.411941082426268e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 2,
+   "max_abs_err": 1.6120314416667725e-07,
+   "max_rel_err": 8.528740847115456e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 3,
+   "max_abs_err": 1.3077338978373376e-07,
+   "max_rel_err": 8.612785533112836e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 4,
+   "max_abs_err": 1.5740716274859068e-07,
+   "max_rel_err": 8.007927374908589e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 5,
+   "max_abs_err": 1.9557465646968808e-07,
+   "max_rel_err": 1.0537196450793895e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 6,
+   "max_abs_err": 1.6175455908040703e-07,
+   "max_rel_err": 8.494344993590408e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 7,
+   "max_abs_err": 1.3230552720067124e-07,
+   "max_rel_err": 6.399454604580978e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 8,
+   "max_abs_err": 2.648932144744265e-07,
+   "max_rel_err": 1.2723318519916267e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "cnn_lstm",
+   "seed": 9,
+   "max_abs_err": 2.2193430160299954e-07,
+   "max_rel_err": 1.0621006228208313e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 0,
+   "max_abs_err": 2.0109153298086824e-07,
+   "max_rel_err": 9.122369192129986e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 1,
+   "max_abs_err": 2.3107585489512417e-07,
+   "max_rel_err": 1.0591858326593651e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 10,
+   "max_abs_err": 1.7293505061299896e-07,
+   "max_rel_err": 7.70915786334406e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 11,
+   "max_abs_err": 2.1510222891762965e-07,
+   "max_rel_err": 8.353258623071625e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 12,
+   "max_abs_err": 2.0283118540298517e-07,
+   "max_rel_err": 1.0111667644001517e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 13,
+   "max_abs_err": 2.8957780778826603e-07,
+   "max_rel_err": 1.8394021142880568e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 14,
+   "max_abs_err": 2.3539562366003963e-07,
+   "max_rel_err": 8.230670718418281e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 15,
+   "max_abs_err": 2.3287782013881042e-07,
+   "max_rel_err": 9.193090714107498e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 16,
+   "max_abs_err": 2.523871334147998e-07,
+   "max_rel_err": 8.560577655548752e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 17,
+   "max_abs_err": 3.3604448601565196e-07,
+   "max_rel_err": 1.466801342212563e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 18,
+   "max_abs_err": 3.457883841484488e-07,
+   "max_rel_err": 1.5608091166667586e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 19,
+   "max_abs_err": 2.0219955754186003e-07,
+   "max_rel_err": 1.1779603749727727e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 2,
+   "max_abs_err": 2.554359554984842e-07,
+   "max_rel_err": 9.559974789541242e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 3,
+   "max_abs_err": 2.2388010711971162e-07,
+   "max_rel_err": 1.0266861613953902e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 4,
+   "max_abs_err": 2.735150204102865e-07,
+   "max_rel_err": 1.4899414392350867e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 5,
+   "max_abs_err": 2.4983048796389795e-07,
+   "max_rel_err": 1.3076107821766775e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 6,
+   "max_abs_err": 3.3143679045721797e-07,
+   "max_rel_err": 1.413453515006874e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 7,
+   "max_abs_err": 3.7757911375280173e-07,
+   "max_rel_err": 1.7260663541427887e-07
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 8,
+   "max_abs_err": 1.735141501590931e-07,
+   "max_rel_err": 6.394357331625569e-08
+  },
+  {
+   "dataset": "intel_time",
+   "model": "lightweight",
+   "seed": 9,
+   "max_abs_err": 1.9443790533202332e-07,
+   "max_rel_err": 6.878240757629041e-08
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 0,
+   "max_abs_err": 1.240006051173026e-07,
+   "max_rel_err": 8.870860318430932e-08
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 1,
+   "max_abs_err": 2.5093657951558157e-07,
+   "max_rel_err": 1.1418111743949395e-07
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 10,
+   "max_abs_err": 2.495878517194683e-07,
+   "max_rel_err": 1.0376020827407363e-07
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 11,
+   "max_abs_err": 2.787852648733491e-07,
+   "max_rel_err": 1.2165176038227302e-07
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 12,
+   "max_abs_err": 1.9975494303103858e-07,
+   "max_rel_err": 9.320061166194997e-08
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 13,
+   "max_abs_err": 1.7268547769511144e-07,
+   "max_rel_err": 7.380314842164565e-08
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 14,
+   "max_abs_err": 1.637355659944717e-07,
+   "max_rel_err": 8.327177055179894e-08
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 15,
+   "max_abs_err": 1.602906904984991e-07,
+   "max_rel_err": 9.356153530697429e-08
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 16,
+   "max_abs_err": 1.7845456112830504e-07,
+   "max_rel_err": 8.09638961915546e-08
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 17,
+   "max_abs_err": 1.676568304187498e-07,
+   "max_rel_err": 7.094985988714511e-08
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 18,
+   "max_abs_err": 1.9167439102574235e-07,
+   "max_rel_err": 1.1865285493371963e-07
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 19,
+   "max_abs_err": 2.4519098407171924e-07,
+   "max_rel_err": 1.2293864890576323e-07
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 2,
+   "max_abs_err": 1.564575720092165e-07,
+   "max_rel_err": 7.173622982906703e-08
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 3,
+   "max_abs_err": 2.72530584766173e-07,
+   "max_rel_err": 1.5801765903333203e-07
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 4,
+   "max_abs_err": 1.5665505337381092e-07,
+   "max_rel_err": 8.06970218267085e-08
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 5,
+   "max_abs_err": 1.815075152400425e-07,
+   "max_rel_err": 9.311033959648369e-08
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 6,
+   "max_abs_err": 2.0364414243800866e-07,
+   "max_rel_err": 1.0580351003507452e-07
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 7,
+   "max_abs_err": 1.633185031657547e-07,
+   "max_rel_err": 7.935690456087988e-08
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 8,
+   "max_abs_err": 2.1584027498633418e-07,
+   "max_rel_err": 9.665719833013311e-08
+  },
+  {
+   "dataset": "machine_temp",
+   "model": "cnn_lstm",
+   "seed": 9,
+   "max_abs_err": 2.228868087872371e-07,
+   "max_rel_err": 1.136714983300823e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 0,
+   "max_abs_err": 1.3287747935297745e-07,
+   "max_rel_err": 1.0993480057316054e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 1,
+   "max_abs_err": 1.8537029222720491e-07,
+   "max_rel_err": 1.6926255957415344e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 10,
+   "max_abs_err": 7.27479157913713e-07,
+   "max_rel_err": 2.6815832602685603e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 11,
+   "max_abs_err": 2.2917934683341912e-07,
+   "max_rel_err": 1.941217385108799e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 12,
+   "max_abs_err": 2.566269268200472e-07,
+   "max_rel_err": 1.922279454205672e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 13,
+   "max_abs_err": 1.0479820806708062e-06,
+   "max_rel_err": 2.624439702406373e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 14,
+   "max_abs_err": 1.705519633299346e-07,
+   "max_rel_err": 1.813172399994444e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 15,
+   "max_abs_err": 1.8677721813631365e-07,
+   "max_rel_err": 1.6976357891461515e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 16,
+   "max_abs_err": 1.611727553918474e-07,
+   "max_rel_err": 1.4191080829397443e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 17,
+   "max_abs_err": 1.44448587535706e-07,
+   "max_rel_err": 1.2345717846669832e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 18,
+   "max_abs_err": 1.859533753645337e-07,
+   "max_rel_err": 1.729024918790983e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 19,
+   "max_abs_err": 2.9715634664029267e-07,
+   "max_rel_err": 2.0985534537703258e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 2,
+   "max_abs_err": 1.6202028529921364e-07,
+   "max_rel_err": 1.8591150677417256e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 3,
+   "max_abs_err": 1.1498190677361464e-07,
+   "max_rel_err": 8.723761401640002e-08
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 4,
+   "max_abs_err": 4.2070165562346773e-07,
+   "max_rel_err": 2.1009413983213825e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 5,
+   "max_abs_err": 1.5327810842791223e-07,
+   "max_rel_err": 1.388130438406982e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 6,
+   "max_abs_err": 1.2815223371376305e-07,
+   "max_rel_err": 1.1250021353203583e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 7,
+   "max_abs_err": 2.1228443991549995e-07,
+   "max_rel_err": 1.68310253081077e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 8,
+   "max_abs_err": 5.517826926482172e-07,
+   "max_rel_err": 4.0599587291434e-07
+  },
+  {
+   "dataset": "occupancy",
+   "model": "cnn_lstm",
+   "seed": 9,
+   "max_abs_err": 7.779434089139059e-07,
+   "max_rel_err": 4.239409910256868e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 0,
+   "max_abs_err": 1.4074744714154264e-07,
+   "max_rel_err": 1.5446232238681578e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 1,
+   "max_abs_err": 1.9323864719478223e-07,
+   "max_rel_err": 1.757952508664029e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 10,
+   "max_abs_err": 1.1478649852847411e-07,
+   "max_rel_err": 1.2221433476445044e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 11,
+   "max_abs_err": 1.1429425833542339e-07,
+   "max_rel_err": 1.0496444855595421e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 12,
+   "max_abs_err": 1.3880317623060634e-07,
+   "max_rel_err": 1.617123118059081e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 13,
+   "max_abs_err": 1.6822634424373817e-07,
+   "max_rel_err": 1.6218809827860357e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 14,
+   "max_abs_err": 1.7520740192011885e-07,
+   "max_rel_err": 1.863810325955966e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 15,
+   "max_abs_err": 1.3425865708072138e-07,
+   "max_rel_err": 1.381486903249701e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 16,
+   "max_abs_err": 1.2165790597151727e-07,
+   "max_rel_err": 1.291678041921507e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 17,
+   "max_abs_err": 1.7964165754946748e-07,
+   "max_rel_err": 1.8036811985183925e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 18,
+   "max_abs_err": 1.447001565235695e-07,
+   "max_rel_err": 1.4680328313959753e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 19,
+   "max_abs_err": 1.7558815201823563e-07,
+   "max_rel_err": 1.6016634670793546e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 2,
+   "max_abs_err": 1.989234874599788e-07,
+   "max_rel_err": 1.8672663446198093e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 3,
+   "max_abs_err": 1.89968154984399e-07,
+   "max_rel_err": 1.8302807963801728e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 4,
+   "max_abs_err": 1.2562686935169154e-07,
+   "max_rel_err": 1.222604188272265e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 5,
+   "max_abs_err": 1.602510119047551e-07,
+   "max_rel_err": 1.5312567154625334e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 6,
+   "max_abs_err": 1.6825102133743997e-07,
+   "max_rel_err": 1.42164147212097e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 7,
+   "max_abs_err": 1.393080828471227e-07,
+   "max_rel_err": 1.4093367562558854e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 8,
+   "max_abs_err": 1.1352163375999424e-07,
+   "max_rel_err": 1.4400890605700765e-07
+  },
+  {
+   "dataset": "rds_cpu_util",
+   "model": "cnn_lstm",
+   "seed": 9,
+   "max_abs_err": 1.615010500888303e-07,
+   "max_rel_err": 1.6195995162651508e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 10,
+   "max_abs_err": 3.257459993966094e-07,
+   "max_rel_err": 1.9274650871435597e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 11,
+   "max_abs_err": 3.1469216904556063e-07,
+   "max_rel_err": 1.6611635471539766e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 12,
+   "max_abs_err": 2.661852540608578e-07,
+   "max_rel_err": 1.7113338403619294e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 13,
+   "max_abs_err": 3.064886633374897e-07,
+   "max_rel_err": 1.4418218910965028e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 14,
+   "max_abs_err": 2.8912550487092403e-07,
+   "max_rel_err": 1.3430404702679935e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 15,
+   "max_abs_err": 2.940824226360661e-07,
+   "max_rel_err": 1.5441993537272695e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 16,
+   "max_abs_err": 3.101050902731828e-07,
+   "max_rel_err": 1.5718407313643013e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 17,
+   "max_abs_err": 2.8037704255523543e-07,
+   "max_rel_err": 1.3887337580328056e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 18,
+   "max_abs_err": 2.2113614561725115e-07,
+   "max_rel_err": 1.167618556074591e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 19,
+   "max_abs_err": 3.410890663246846e-07,
+   "max_rel_err": 1.7362126478398907e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 5,
+   "max_abs_err": 3.408304087848535e-07,
+   "max_rel_err": 1.4201228377733337e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 6,
+   "max_abs_err": 3.676977978761542e-07,
+   "max_rel_err": 1.84203434105933e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 7,
+   "max_abs_err": 3.679615048213236e-07,
+   "max_rel_err": 2.1838489212553948e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 8,
+   "max_abs_err": 3.4015924554875454e-07,
+   "max_rel_err": 1.691801168739116e-07
+  },
+  {
+   "dataset": "taxi",
+   "model": "cnn_lstm",
+   "seed": 9,
+   "max_abs_err": 2.537433144711443e-07,
+   "max_rel_err": 1.337566265668116e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 0,
+   "max_abs_err": 2.7920777689871557e-07,
+   "max_rel_err": 2.0015667790565547e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 1,
+   "max_abs_err": 1.8652265398877432e-07,
+   "max_rel_err": 1.496428010851054e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 10,
+   "max_abs_err": 1.8299354720419103e-07,
+   "max_rel_err": 1.886750016347644e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 11,
+   "max_abs_err": 5.915985146209835e-07,
+   "max_rel_err": 2.5554723927973986e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 12,
+   "max_abs_err": 4.1956839380574706e-07,
+   "max_rel_err": 9.936675718061232e-08
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 13,
+   "max_abs_err": 4.655489962424042e-07,
+   "max_rel_err": 1.479126357221859e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 14,
+   "max_abs_err": 2.0734728667370916e-07,
+   "max_rel_err": 1.6237579903057168e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 15,
+   "max_abs_err": 2.0490763441571858e-07,
+   "max_rel_err": 1.4597310655868654e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 16,
+   "max_abs_err": 2.0919661047891225e-07,
+   "max_rel_err": 1.6277704182118848e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 17,
+   "max_abs_err": 3.305378880602561e-07,
+   "max_rel_err": 1.742343856917608e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 18,
+   "max_abs_err": 1.3874700579563637e-06,
+   "max_rel_err": 1.2529910265561363e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 19,
+   "max_abs_err": 2.5669594272414997e-07,
+   "max_rel_err": 1.5233470871830278e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 2,
+   "max_abs_err": 1.626531671572451e-07,
+   "max_rel_err": 1.180438784019381e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 3,
+   "max_abs_err": 3.9038152910286783e-07,
+   "max_rel_err": 3.0733623355871584e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 4,
+   "max_abs_err": 1.803603475458715e-07,
+   "max_rel_err": 1.1444601058369504e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 5,
+   "max_abs_err": 7.268075690181064e-07,
+   "max_rel_err": 4.231340471176142e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 6,
+   "max_abs_err": 5.910419242916021e-07,
+   "max_rel_err": 4.7197508864948315e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 7,
+   "max_abs_err": 5.827303160010899e-07,
+   "max_rel_err": 4.0217210710929174e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 8,
+   "max_abs_err": 5.643079825645714e-07,
+   "max_rel_err": 3.2207981761521025e-07
+  },
+  {
+   "dataset": "twitter_aapl",
+   "model": "cnn_lstm",
+   "seed": 9,
+   "max_abs_err": 7.263269581336829e-07,
+   "max_rel_err": 3.3601638080404937e-07
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "dataset": "cpu",
+ "unit": 3.738003317689896,
+ "cells": {
+  "LMS_sel_authors": {
+   "params": {
+    "N": 4,
+    "c": 1e-06,
+    "mu": 4.794147802985572e-10
+   },
+   "macs": 9,
+   "val_all_zero": true,
+   "cons_lt": {
+    "rho": 0.0,
+    "n_tx": 1210,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.0,
+    "max_abs_err": 0.0,
+    "max_err_over_tau_unit": 0.0
+   },
+   "cons_le": {
+    "rho": 0.0,
+    "n_tx": 1210,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.0,
+    "max_abs_err": 0.0,
+    "max_err_over_tau_unit": 0.0
+   },
+   "single_le": {
+    "rho": 0.0,
+    "n_tx": 1210,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.0,
+    "max_abs_err": 0.0,
+    "max_err_over_tau_unit": 0.0
+   },
+   "single_lt": {
+    "rho": 0.0,
+    "n_tx": 1210,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.0,
+    "max_abs_err": 0.0,
+    "max_err_over_tau_unit": 0.0
+   }
+  },
+  "LMS_sel_ours": {
+   "params": {
+    "N": 5,
+    "c": 0.03,
+    "mu": 1.4382443408956715e-05
+   },
+   "macs": 11,
+   "val_all_zero": false,
+   "cons_lt": {
+    "rho": 0.005785123966942196,
+    "n_tx": 1203,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.0010420900115459463,
+    "max_abs_err": 0.3300882708452022,
+    "max_err_over_tau_unit": 0.8830604009447437
+   },
+   "cons_le": {
+    "rho": 0.005785123966942196,
+    "n_tx": 1203,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.0010420900115459463,
+    "max_abs_err": 0.3300882708452022,
+    "max_err_over_tau_unit": 0.8830604009447437
+   },
+   "single_le": {
+    "rho": 0.2338842975206612,
+    "n_tx": 927,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.042204670768907465,
+    "max_abs_err": 0.3715625700205152,
+    "max_err_over_tau_unit": 0.9940134837818779
+   },
+   "single_lt": {
+    "rho": 0.2338842975206612,
+    "n_tx": 927,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.042204670768907465,
+    "max_abs_err": 0.3715625700205152,
+    "max_err_over_tau_unit": 0.9940134837818779
+   }
+  },
+  "AMDR_sel_authors": {
+   "params": {
+    "w_f": 4,
+    "w_s": 8,
+    "c": 0.0,
+    "alpha": 0.0
+   },
+   "macs": 8,
+   "val_all_zero": true,
+   "cons_lt": {
+    "rho": 0.023966942148760384,
+    "n_tx": 1181,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.004191735537190085,
+    "max_abs_err": 0.3620000000000019,
+    "max_err_over_tau_unit": 0.9684314572083355
+   },
+   "cons_le": {
+    "rho": 0.023966942148760384,
+    "n_tx": 1181,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.004191735537190085,
+    "max_abs_err": 0.3620000000000019,
+    "max_err_over_tau_unit": 0.9684314572083355
+   },
+   "single_le": {
+    "rho": 0.21818181818181814,
+    "n_tx": 946,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.04079338842975206,
+    "max_abs_err": 0.3719999999999999,
+    "max_err_over_tau_unit": 0.9951837074074553
+   },
+   "single_lt": {
+    "rho": 0.21818181818181814,
+    "n_tx": 946,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.04079338842975206,
+    "max_abs_err": 0.3719999999999999,
+    "max_err_over_tau_unit": 0.9951837074074553
+   }
+  },
+  "AMDR_sel_ours": {
+   "params": {
+    "w_f": 5,
+    "w_s": 10,
+    "c": 0.1,
+    "alpha": 0.0071568289071659175
+   },
+   "macs": 9,
+   "val_all_zero": false,
+   "cons_lt": {
+    "rho": 0.006611570247933907,
+    "n_tx": 1202,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.001244860696603065,
+    "max_abs_err": 0.3162388908378517,
+    "max_err_over_tau_unit": 0.8460101930388035
+   },
+   "cons_le": {
+    "rho": 0.006611570247933907,
+    "n_tx": 1202,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.001244860696603065,
+    "max_abs_err": 0.3162388908378517,
+    "max_err_over_tau_unit": 0.8460101930388035
+   },
+   "single_le": {
+    "rho": 0.25619834710743805,
+    "n_tx": 900,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.04708448295776323,
+    "max_abs_err": 0.37262512640730705,
+    "max_err_over_tau_unit": 0.9968560612128914
+   },
+   "single_lt": {
+    "rho": 0.25619834710743805,
+    "n_tx": 900,
+    "n_steps": 1210,
+    "ties_at_tau": 0,
+    "mean_abs_err": 0.04708448295776323,
+    "max_abs_err": 0.37262512640730705,
+    "max_err_over_tau_unit": 0.9968560612128914
+   }
+  }
+ }
+}

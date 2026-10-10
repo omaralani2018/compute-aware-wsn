@@ -1,0 +1,14 @@
+matched/matched_baselines.py:125: RuntimeWarning: overflow encountered in divide
+  err = np.abs(X[t] - pred) / unit
+matched/matched_baselines.py:79: RuntimeWarning: overflow encountered in multiply
+  self.w = np.where(sent[:, None], self.w + self.mu * self.hist * e[:, None], self.w)
+matched/matched_baselines.py:79: RuntimeWarning: invalid value encountered in add
+  self.w = np.where(sent[:, None], self.w + self.mu * self.hist * e[:, None], self.w)
+[exchange_cpc] LMS  authors sel={'N': 4, 'c': 0.0001, 'mu': 0.010885843593542836} val=0.0000 test=0.0000 max=0 recv=True/True
+[exchange_cpc] LMS  ours    sel={'N': 5, 'c': 0.1, 'mu': 10.885843593542836} val=0.1543 test=0.1516 max=0.003121 recv=True/True
+matched/matched_baselines.py:104: RuntimeWarning: overflow encountered in multiply
+  self.lam = np.where(sent, self.lam + self.alpha * e * (self.maf - self.mas), self.lam)
+matched/matched_baselines.py:101: RuntimeWarning: invalid value encountered in add
+  return self.lam * self.maf + (1 - self.lam) * self.mas
+[exchange_cpc] AMDR authors sel={'w_f': 4, 'w_s': 8, 'c': 0.01, 'alpha': 10.128972645300625} val=0.0031 test=0.0061 max=0.001181 recv=True/True
+[exchange_cpc] AMDR ours    sel={'w_f': 4, 'w_s': 8, 'c': 0.1, 'alpha': 101.28972645300624} val=0.1574 test=0.1189 max=0.003023 recv=True/True

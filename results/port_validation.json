@@ -1,0 +1,130 @@
+{
+ "source_lms_amdr": "github.com/YasminFathy/AMDRIoT (baseline/dual_prediction.m, myapproach_AMDR/AMDR_dual_prediction.m)",
+ "selection": "raw/data.txt rows with date in [2004-03-06, 2004-03-09], file order, as dataset/load_data.m",
+ "emax": 0.5,
+ "motes": {
+  "1": {
+   "n": 8337,
+   "LMS_N5_mu1e-5_tx_pct": 8.64,
+   "LMS_N4_mu1e-5_tx_pct": 7.82,
+   "AMDR_ws10_wf5_a1e-7_tx_pct": 5.75,
+   "AMDR_ws8_wf4_a1e-7_tx_pct": 4.76,
+   "AMDR_ws8_wf4_a1.2e-7_tx_pct": 4.76,
+   "AMDR_tx_identical_with_alpha0": true,
+   "max_sink_err_LMS": 0.49984918663945166,
+   "max_sink_err_AMDR": 0.49980001053031486,
+   "published_tx_pct": null
+  },
+  "11": {
+   "n": 8560,
+   "LMS_N5_mu1e-5_tx_pct": 7.39,
+   "LMS_N4_mu1e-5_tx_pct": 7.23,
+   "AMDR_ws10_wf5_a1e-7_tx_pct": 4.25,
+   "AMDR_ws8_wf4_a1e-7_tx_pct": 3.45,
+   "AMDR_ws8_wf4_a1.2e-7_tx_pct": 3.45,
+   "AMDR_tx_identical_with_alpha0": true,
+   "max_sink_err_LMS": 0.4992775136235146,
+   "max_sink_err_AMDR": 0.49980000442534944,
+   "published_tx_pct": {
+    "LMS": 8,
+    "AMDR": 5
+   }
+  },
+  "13": {
+   "n": 6428,
+   "LMS_N5_mu1e-5_tx_pct": 9.85,
+   "LMS_N4_mu1e-5_tx_pct": 9.83,
+   "AMDR_ws10_wf5_a1e-7_tx_pct": 5.55,
+   "AMDR_ws8_wf4_a1e-7_tx_pct": 4.85,
+   "AMDR_ws8_wf4_a1.2e-7_tx_pct": 4.85,
+   "AMDR_tx_identical_with_alpha0": true,
+   "max_sink_err_LMS": 0.49988102393824363,
+   "max_sink_err_AMDR": 0.49980000815760306,
+   "published_tx_pct": null
+  },
+  "30": {
+   "n": 4915,
+   "LMS_N5_mu1e-5_tx_pct": 17.72,
+   "LMS_N4_mu1e-5_tx_pct": 17.78,
+   "AMDR_ws10_wf5_a1e-7_tx_pct": 16.36,
+   "AMDR_ws8_wf4_a1e-7_tx_pct": 13.37,
+   "AMDR_ws8_wf4_a1.2e-7_tx_pct": 13.37,
+   "AMDR_tx_identical_with_alpha0": true,
+   "max_sink_err_LMS": 0.4998482006845286,
+   "max_sink_err_AMDR": 0.4998005507474552,
+   "published_tx_pct": {
+    "LMS": 18,
+    "AMDR": 13
+   }
+  },
+  "49": {
+   "n": 7182,
+   "LMS_N5_mu1e-5_tx_pct": 12.35,
+   "LMS_N4_mu1e-5_tx_pct": 11.58,
+   "AMDR_ws10_wf5_a1e-7_tx_pct": 9.94,
+   "AMDR_ws8_wf4_a1e-7_tx_pct": 8.16,
+   "AMDR_ws8_wf4_a1.2e-7_tx_pct": 8.16,
+   "AMDR_tx_identical_with_alpha0": true,
+   "max_sink_err_LMS": 0.4996152367740976,
+   "max_sink_err_AMDR": 0.4998001389263571,
+   "published_tx_pct": null
+  }
+ },
+ "harness_equivalence": {
+  "slice": "Intel test slice A[va-12:], 30 motes, tau = 0.10 C, released rule",
+  "configs": [
+   {
+    "scheme": "LMS",
+    "settings": "published",
+    "params": {
+     "N": 5,
+     "mu": 1e-05
+    },
+    "rounds_compared": 226170,
+    "disagreements": 0
+   },
+   {
+    "scheme": "LMS",
+    "settings": "selected",
+    "params": {
+     "N": 4,
+     "mu": 2.245873580646253e-05
+    },
+    "rounds_compared": 226170,
+    "disagreements": 0
+   },
+   {
+    "scheme": "AMDR",
+    "settings": "published",
+    "params": {
+     "w_f": 5,
+     "w_s": 10,
+     "alpha": 1e-07
+    },
+    "rounds_compared": 226170,
+    "disagreements": 0
+   },
+   {
+    "scheme": "AMDR",
+    "settings": "selected",
+    "params": {
+     "w_f": 4,
+     "w_s": 8,
+     "alpha": 0.0009007225449395429
+    },
+    "rounds_compared": 226170,
+    "disagreements": 0
+   }
+  ]
+ },
+ "lstmdps_replay": {
+  "experiments": 60,
+  "replayed": 36,
+  "same_data_length": 24,
+  "transmission_count_exact": 24,
+  "exact_motes": [
+   1,
+   11
+  ]
+ }
+}

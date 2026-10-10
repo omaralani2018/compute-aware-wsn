@@ -1,0 +1,4 @@
+[traffic] LMS  authors sel={'N': 4, 'c': 0.0001, 'mu': 2.2503338528153757e-08} val=0.0000 test=0.0000 max=0 recv=True/True
+[traffic] LMS  ours    sel={'N': 10, 'c': 0.01, 'mu': 2.2503338528153758e-06} val=0.1111 test=0.0619 max=0.4692 recv=True/True
+[traffic] AMDR authors sel={'w_f': 4, 'w_s': 8, 'c': 0.0, 'alpha': 0.0} val=0.0000 test=0.0000 max=0 recv=True/True
+[traffic] AMDR ours    sel={'w_f': 4, 'w_s': 8, 'c': 0.001, 'alpha': 4.519641975125563e-05} val=0.1067 test=0.0708 max=0.3416 recv=True/True

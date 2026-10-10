@@ -1,0 +1,19 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<run directory>/dual_prediction_fix.py
+1a reconstruct() == package evaluator (persistence): OK
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791560676.693094    5903 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791560676.750621    5903 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791560679.616369    5903 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+  lightweight seed  3  ep 50  val=0.720 test=0.708  16s
+2  phase 1 reproduces run_learned (seed 3): 50 0.7078 OK
+1b reconstruct() == package evaluator (trained model): OK
+4  tau=0.10: windows changed 0.999, train closed-loop rho 0.792, d = +0.0089, receivers OK
+4b three-node stream: OK
+4c start state = epoch-cap state, not the restored selected checkpoint (phase-1 selected epochs [50, 50, 25]), equal in both arms, equal update counts: OK
+3  tau_recon=0: arms identical, d = 0; phase 1 repeatable: OK
+5  statistics: outcomes, exact p with ties and zeros, bootstrap interval, start-state check, incomplete and invalid handling: OK
+6  driver: attempts, interruption, restart: OK
+ALL TM SYNTHETIC CHECKS PASSED

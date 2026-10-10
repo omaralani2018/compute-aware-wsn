@@ -1,0 +1,20 @@
+{
+ "lightweight": {
+  "runs": 220,
+  "frac_at_epoch_cap": 0.16363636363636364,
+  "frac_epoch_le_50": 0.2727272727272727,
+  "spearman_val_test": 0.9278672247435138,
+  "median_abs_diff": 0.029423403962139327,
+  "max_abs_diff": 0.1733583126069963,
+  "frac_test_below_val": 0.7227272727272728
+ },
+ "cnn_lstm": {
+  "runs": 220,
+  "frac_at_epoch_cap": 0.13636363636363635,
+  "frac_epoch_le_50": 0.39090909090909093,
+  "spearman_val_test": 0.9007806818994717,
+  "median_abs_diff": 0.04914821996934571,
+  "max_abs_diff": 0.17081188606115294,
+  "frac_test_below_val": 0.7772727272727272
+ }
+}

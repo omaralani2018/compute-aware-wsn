@@ -1,0 +1,112 @@
+[
+ {
+  "dataset": "intel",
+  "alpha_wide": 0.999,
+  "test_expsm_wide": 0.8440554032201364,
+  "alpha_narrow": 0.99,
+  "test_expsm_narrow": 0.8405575476341137,
+  "lin_k": 10,
+  "test_lin_tuned": 0.7445774449834774,
+  "test_lin_12": 0.7367614661698189
+ },
+ {
+  "dataset": "taxi",
+  "alpha_wide": 0.999,
+  "test_expsm_wide": 0.3513077171456248,
+  "alpha_narrow": 0.99,
+  "test_expsm_narrow": 0.34904746528898933,
+  "lin_k": 2,
+  "test_lin_tuned": 0.42944785276073616,
+  "test_lin_12": 0.11462705844365517
+ },
+ {
+  "dataset": "traffic",
+  "alpha_wide": 0.02,
+  "test_expsm_wide": 0.06489675516224191,
+  "alpha_narrow": 0.1,
+  "test_expsm_narrow": 0.07079646017699115,
+  "lin_k": 8,
+  "test_lin_tuned": 0.06784660766961648,
+  "test_lin_12": 0.09144542772861353
+ },
+ {
+  "dataset": "cpu",
+  "alpha_wide": 0.05,
+  "test_expsm_wide": 0.2851239669421488,
+  "alpha_narrow": 0.1,
+  "test_expsm_narrow": 0.2793388429752066,
+  "lin_k": 6,
+  "test_lin_tuned": 0.1776859504132231,
+  "test_lin_12": 0.2272727272727273
+ },
+ {
+  "dataset": "machine_temp",
+  "alpha_wide": 0.6,
+  "test_expsm_wide": 0.7703040093993244,
+  "alpha_narrow": 0.6,
+  "test_expsm_narrow": 0.7703040093993244,
+  "lin_k": 12,
+  "test_lin_tuned": 0.7529740049933911,
+  "test_lin_12": 0.7529740049933911
+ },
+ {
+  "dataset": "grok_asg_anomaly",
+  "alpha_wide": 0.95,
+  "test_expsm_wide": 0.2862292718096612,
+  "alpha_narrow": 0.95,
+  "test_expsm_narrow": 0.2862292718096612,
+  "lin_k": 4,
+  "test_lin_tuned": 0.17952415284787315,
+  "test_lin_12": 0.10165825522710892
+ },
+ {
+  "dataset": "rds_cpu_util",
+  "alpha_wide": 0.05,
+  "test_expsm_wide": 0.23305785123966938,
+  "alpha_narrow": 0.2,
+  "test_expsm_narrow": 0.23553719008264462,
+  "lin_k": 12,
+  "test_lin_tuned": 0.1958677685950413,
+  "test_lin_12": 0.1958677685950413
+ },
+ {
+  "dataset": "iio_networkin",
+  "alpha_wide": 0.8,
+  "test_expsm_wide": 0.8203753351206434,
+  "alpha_narrow": 0.8,
+  "test_expsm_narrow": 0.8203753351206434,
+  "lin_k": 12,
+  "test_lin_tuned": 0.7479892761394102,
+  "test_lin_12": 0.7479892761394102
+ },
+ {
+  "dataset": "twitter_aapl",
+  "alpha_wide": 0.5,
+  "test_expsm_wide": 0.695661286941941,
+  "alpha_narrow": 0.5,
+  "test_expsm_narrow": 0.695661286941941,
+  "lin_k": 12,
+  "test_lin_tuned": 0.6151750157199749,
+  "test_lin_12": 0.6151750157199749
+ },
+ {
+  "dataset": "exchange_cpc",
+  "alpha_wide": 0.9,
+  "test_expsm_wide": 0.12909836065573765,
+  "alpha_narrow": 0.9,
+  "test_expsm_narrow": 0.12909836065573765,
+  "lin_k": 3,
+  "test_lin_tuned": 0.14754098360655743,
+  "test_lin_12": 0.09221311475409832
+ },
+ {
+  "dataset": "occupancy",
+  "alpha_wide": 0.4,
+  "test_expsm_wide": 0.1568627450980392,
+  "alpha_narrow": 0.4,
+  "test_expsm_narrow": 0.1568627450980392,
+  "lin_k": 12,
+  "test_lin_tuned": 0.16386554621848737,
+  "test_lin_12": 0.16386554621848737
+ }
+]

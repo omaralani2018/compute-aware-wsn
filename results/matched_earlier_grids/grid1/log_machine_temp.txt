@@ -1,0 +1,4 @@
+[machine_temp] LMS  authors sel={'N': 4, 'c': 0.01, 'mu': 1.292545755171628e-06} val=0.3979 test=0.3889 max=1.171 recv=True/True
+[machine_temp] LMS  ours    sel={'N': 4, 'c': 0.03, 'mu': 3.877637265514883e-06} val=0.7665 test=0.7561 max=1.171 recv=True/True
+[machine_temp] AMDR authors sel={'w_f': 4, 'w_s': 8, 'c': 1.0, 'alpha': 0.007291039351931633} val=0.3774 test=0.3704 max=1.171 recv=True/True
+[machine_temp] AMDR ours    sel={'w_f': 4, 'w_s': 8, 'c': 1.0, 'alpha': 0.007291039351931633} val=0.7414 test=0.7386 max=1.171 recv=True/True

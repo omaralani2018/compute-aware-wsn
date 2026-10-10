@@ -1,0 +1,374 @@
+{
+ "intel_time|cnn_lstm": {
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "diff_mean": -0.004079232435778385,
+  "diff_min": -0.03650793650793649,
+  "diff_max": 0.03679975239863831,
+  "verdicts": {
+   "GAP-8": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "STM32L4": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "STM32H7": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "Cortex-M0": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   }
+  }
+ },
+ "intel_time|lightweight": {
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "diff_mean": -0.0017274616438961831,
+  "diff_min": -0.027519122783746686,
+  "diff_max": 0.007352876155104493,
+  "verdicts": {
+   "GAP-8": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "STM32L4": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "STM32H7": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "Cortex-M0": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   }
+  }
+ },
+ "machine_temp|cnn_lstm": {
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "diff_mean": -0.0006902628873550031,
+  "diff_min": -0.00675576442943171,
+  "diff_max": 0.005433984432368977,
+  "verdicts": {
+   "GAP-8": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "STM32L4": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "STM32H7": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "Cortex-M0": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   }
+  }
+ },
+ "taxi|cnn_lstm": {
+  "seeds": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "diff_mean": 0.0009256269508126117,
+  "diff_min": -0.004520503713270951,
+  "diff_max": 0.012269938650306789,
+  "verdicts": {
+   "GAP-8": {
+    "unchanged": true,
+    "float": [
+     "+"
+    ],
+    "fixed": [
+     "+"
+    ]
+   },
+   "STM32L4": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "STM32H7": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "Cortex-M0": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   }
+  }
+ },
+ "twitter_aapl|cnn_lstm": {
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "diff_mean": -0.0006078390274575684,
+  "diff_min": -0.006916788933137852,
+  "diff_max": 0.007545587927059283,
+  "verdicts": {
+   "GAP-8": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "STM32L4": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "STM32H7": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "Cortex-M0": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   }
+  }
+ },
+ "exchange_cpc|cnn_lstm": {
+  "seeds": [
+   19
+  ],
+  "diff_mean": -0.002049180327868827,
+  "diff_min": -0.002049180327868827,
+  "diff_max": -0.002049180327868827,
+  "verdicts": {
+   "GAP-8": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "STM32L4": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "STM32H7": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   },
+   "Cortex-M0": {
+    "unchanged": true,
+    "float": [
+     "-"
+    ],
+    "fixed": [
+     "-"
+    ]
+   }
+  }
+ },
+ "summary": {
+  "runs": 96,
+  "mean_abs_diff": 0.005735162187361312,
+  "max_abs_diff": 0.03679975239863831,
+  "verdicts_unchanged": true
+ }
+}

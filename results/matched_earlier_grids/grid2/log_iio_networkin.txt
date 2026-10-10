@@ -1,0 +1,4 @@
+[iio_networkin] LMS  authors sel={'N': 4, 'c': 0.03, 'mu': 4.6895009409049765e-16} val=0.3574 test=0.4450 max=6.093e+05 recv=True/True
+[iio_networkin] LMS  ours    sel={'N': 6, 'c': 0.03, 'mu': 4.6895009409049765e-16} val=0.7028 test=0.6756 max=6.195e+05 recv=True/True
+[iio_networkin] AMDR authors sel={'w_f': 4, 'w_s': 8, 'c': 1.0, 'alpha': 2.5945209698713838e-14} val=0.3976 test=0.5898 max=6.17e+05 recv=True/True
+[iio_networkin] AMDR ours    sel={'w_f': 5, 'w_s': 10, 'c': 10.0, 'alpha': 2.594520969871384e-13} val=0.7229 test=0.8097 max=6.191e+05 recv=True/True

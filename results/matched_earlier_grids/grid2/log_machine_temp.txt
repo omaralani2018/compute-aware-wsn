@@ -1,0 +1,10 @@
+/usr/local/lib/python3.11/dist-packages/numpy/_core/_methods.py:49: RuntimeWarning: overflow encountered in reduce
+  return umr_sum(a, axis, dtype, out, keepdims, initial, where)
+matched/matched_baselines.py:79: RuntimeWarning: invalid value encountered in add
+  self.w = np.where(sent[:, None], self.w + self.mu * self.hist * e[:, None], self.w)
+matched/matched_baselines.py:75: RuntimeWarning: overflow encountered in multiply
+  return (self.w * self.hist).sum(1)
+[machine_temp] LMS  authors sel={'N': 4, 'c': 0.01, 'mu': 1.292545755171628e-06} val=0.3979 test=0.3889 max=1.171 recv=True/True
+[machine_temp] LMS  ours    sel={'N': 4, 'c': 0.03, 'mu': 3.877637265514883e-06} val=0.7665 test=0.7561 max=1.171 recv=True/True
+[machine_temp] AMDR authors sel={'w_f': 4, 'w_s': 8, 'c': 10.0, 'alpha': 0.07291039351931633} val=0.3948 test=0.3858 max=1.17 recv=True/True
+[machine_temp] AMDR ours    sel={'w_f': 5, 'w_s': 10, 'c': 10.0, 'alpha': 0.07291039351931633} val=0.7821 test=0.7390 max=1.171 recv=True/True

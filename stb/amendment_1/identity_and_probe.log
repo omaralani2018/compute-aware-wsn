@@ -1,0 +1,8 @@
+Identity check, 9 October 2026: stb_prepare.py with the corrected order (this folder) run on stbernard-meteo.zip (SHA-256 2a78ee47...) in check_fix/, outputs compared with those of the frozen run:
+stb_meta.json  frozen a5f7f1748307a73a0e71af1b572404291ae527134d2157573c02a6b9b138a777  corrected a5f7f1748307a73a0e71af1b572404291ae527134d2157573c02a6b9b138a777
+stb_segments_obs.pkl  frozen e3422d075f835f45071efab8ad69124dda8024e8e837f9bec9b0eef0555e40c0  corrected e3422d075f835f45071efab8ad69124dda8024e8e837f9bec9b0eef0555e40c0
+stb_segments_fill.pkl  frozen 5f8f468f13a5bd982ab1b83e116b63790a8f776e7423bc3252cc6c934ffeae76  corrected 5f8f468f13a5bd982ab1b83e116b63790a8f776e7423bc3252cc6c934ffeae76
+
+Probe:
+frozen code:    valid readings kept: 1000 of 1020; backward drops: 20
+corrected code: valid readings kept: 1020 of 1020; backward drops: 0

@@ -1,0 +1,60 @@
+{
+ "matrix_identical_to_intel_time": true,
+ "cells": 753810,
+ "rows": 25127,
+ "filled_cells": 227237,
+ "interior_gaps_longer_than_8": 4307,
+ "from_gaps_longer_than_8": {
+  "cells": 3896,
+  "rows": 3419,
+  "gaps_contributing_kept_cells": 562,
+  "gap_length_bins": {
+   "min": 9,
+   "median": 11.0,
+   "max": 7643
+  },
+  "abs_diff_from_last_reading_degC": {
+   "median": 0.01809230769230652,
+   "p95": 0.1568000000000005,
+   "max": 1.9208000000000034
+  }
+ },
+ "split_boundaries": {
+  "train_validation": {
+   "first_row_of_later_span": "2004-03-04 00:11:07",
+   "rows_with_cross_boundary_value": 9,
+   "rows_before_boundary": 4,
+   "row_offsets": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_seconds_row_to_boundary": 124.0,
+   "max_seconds_value_to_reading_across": 217.0
+  },
+  "validation_test": {
+   "first_row_of_later_span": "2004-03-06 03:29:25",
+   "rows_with_cross_boundary_value": 8,
+   "rows_before_boundary": 5,
+   "row_offsets": [
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2
+   ],
+   "max_seconds_row_to_boundary": 155.0,
+   "max_seconds_value_to_reading_across": 248.0
+  }
+ },
+ "cross_boundary_cells_from_gaps_longer_than_8": 0
+}

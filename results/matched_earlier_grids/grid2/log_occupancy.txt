@@ -1,0 +1,10 @@
+[occupancy] LMS  authors sel={'N': 4, 'c': 0.003, 'mu': 9.160799364988784e-05} val=0.0063 test=0.0070 max=0.3254 recv=True/True
+[occupancy] LMS  ours    sel={'N': 6, 'c': 0.03, 'mu': 0.0009160799364988784} val=0.1681 test=0.1723 max=0.3235 recv=True/True
+matched/matched_baselines.py:101: RuntimeWarning: overflow encountered in multiply
+  return self.lam * self.maf + (1 - self.lam) * self.mas
+matched/matched_baselines.py:101: RuntimeWarning: invalid value encountered in add
+  return self.lam * self.maf + (1 - self.lam) * self.mas
+[occupancy] AMDR authors sel={'w_f': 4, 'w_s': 8, 'c': 0.01, 'alpha': 0.0009377622262014095} val=0.0063 test=0.0140 max=0.256 recv=True/True
+matched/matched_baselines.py:104: RuntimeWarning: overflow encountered in multiply
+  self.lam = np.where(sent, self.lam + self.alpha * e * (self.maf - self.mas), self.lam)
+[occupancy] AMDR ours    sel={'w_f': 5, 'w_s': 10, 'c': 0.01, 'alpha': 0.0009377622262014095} val=0.1597 test=0.1625 max=0.3251 recv=True/True

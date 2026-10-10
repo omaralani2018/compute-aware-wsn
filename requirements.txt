@@ -1,0 +1,14 @@
+# Python 3.11. With these versions every output shipped in results/, inputs/ and figures/ that the
+# version 1.1 checks re-ran was reproduced byte for byte (1 October 2026), and so was every output of
+# the version 1.2 matched comparison that its checks re-ran (2 October 2026, Linux; on Windows one
+# field differs in its last digits, see CHANGES_v1.2.md).
+# The pandas version matters: timestamp parsing in prepare_intel.py depends on it.
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+matplotlib==3.10.9
+tensorflow==2.21.0        # the checks used the CPU build, tensorflow-cpu==2.21.0
+keras==3.15.1
+hyperopt==0.3.0           # version 1.2: LSTM-DPS training (TPE search)
+h5py==3.14.0              # version 1.2: reading the released LSTM-DPS models in validate_ports.py
+# Version 1.4 re-runs (5 October 2026, Linux, Python 3.11) used the same versions.

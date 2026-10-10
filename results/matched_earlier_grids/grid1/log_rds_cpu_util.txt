@@ -1,0 +1,4 @@
+[rds_cpu_util] LMS  authors sel={'N': 4, 'c': 0.01, 'mu': 4.18675207840597e-05} val=0.0037 test=0.0008 max=0.1843 recv=True/True
+[rds_cpu_util] LMS  ours    sel={'N': 4, 'c': 0.03, 'mu': 0.00012560256235217909} val=0.2320 test=0.1983 max=0.2344 recv=True/True
+[rds_cpu_util] AMDR authors sel={'w_f': 4, 'w_s': 8, 'c': 0.1, 'alpha': 0.01801297344951883} val=0.0074 test=0.0025 max=0.2123 recv=True/True
+[rds_cpu_util] AMDR ours    sel={'w_f': 5, 'w_s': 10, 'c': 0.1, 'alpha': 0.01801297344951883} val=0.2531 test=0.2074 max=0.2356 recv=True/True

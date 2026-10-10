@@ -1,0 +1,49 @@
+{
+ "anchor": {
+  "leach_per_report_J": 0.0003766195527707789,
+  "direct_per_report_J": 0.00026551995700087034,
+  "relay_radius_tx_J": 0.00020259854399999998,
+  "relay_radius_txrx_J": 0.000402598544,
+  "anchor_used_J": 0.00038
+ },
+ "verdict_band": {
+  "n_comparisons": 22,
+  "bonferroni_threshold": 0.002272727272727273,
+  "unchanged_2p0e4_to_4p1e4": true,
+  "highest_er_below_anchor_with_change": null,
+  "lowest_er_above_anchor_with_change": 0.00076,
+  "changes_by_er": {
+   "7.6e-04": [
+    "taxi/cnn_lstm"
+   ],
+   "7.7e-04": [
+    "taxi/cnn_lstm"
+   ],
+   "7.8e-04": [
+    "taxi/cnn_lstm"
+   ],
+   "7.9e-04": [
+    "taxi/cnn_lstm"
+   ],
+   "8.0e-04": [
+    "taxi/cnn_lstm"
+   ]
+  }
+ },
+ "open_loop_test_span": {
+  "0.05": 0.9574599805430264,
+  "0.1": 0.9877288405412576,
+  "0.2": 0.996488900680994,
+  "0.5": 0.9993809144777571
+ },
+ "stress_test_no_interpolation": {
+  "motes": 30,
+  "complete_rows_without_R5": 3,
+  "complete_rows_with_R5": 25127
+ },
+ "lifetime_section_3_2": {
+  "direct_every_report_rounds": 1882.3886790944766,
+  "reference_suppression": 0.9222531723924482,
+  "direct_with_reference_suppression_rounds": 24104.128690540507
+ }
+}

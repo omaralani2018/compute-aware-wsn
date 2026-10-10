@@ -1,0 +1,1195 @@
+{
+ "protocol": "TM_PROTOCOL.md",
+ "alpha": 0.004545454545454546,
+ "frozen_hashes_checked": true,
+ "streams": {
+  "intel_time": {
+   "n_valid": 10,
+   "seeds_missing": [],
+   "seeds_invalid_receiver": [],
+   "status": "complete",
+   "reference": {
+    "arm": "persistence",
+    "rho": 0.9222531723924482,
+    "macs": 0
+   },
+   "phase1_reproduced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "test_steps": 226170,
+   "d_mean": -0.07556837776893487,
+   "d_ci95_bootstrap": [
+    -0.1391098841579343,
+    -0.015870539859397806
+   ],
+   "d_per_seed": [
+    -0.06145377371004112,
+    0.016792678074015122,
+    -0.21196003006587966,
+    -0.2015873015873016,
+    -0.1936110005747889,
+    -0.08015651943228545,
+    0.0438652341159305,
+    -0.13678648803996993,
+    0.03545563072025468,
+    0.0337577928107176
+   ],
+   "n_zero_differences": 0,
+   "p_d": 0.056640625,
+   "outcome": "inconclusive",
+   "arms": {
+    "phase1": {
+     "rho_mean": 0.8921059380112305,
+     "dd_mean": -0.030147234381217667,
+     "net_saving_uJ_per_node_round": -11.663949064862713,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      200,
+      100,
+      50,
+      175,
+      75,
+      125,
+      175,
+      75,
+      175,
+      150
+     ]
+    },
+    "B+": {
+     "rho_mean": 0.8488835831454216,
+     "dd_mean": -0.07336958924702658,
+     "net_saving_uJ_per_node_round": -28.088443913870094,
+     "p_net": 0.01171875,
+     "label": "ns",
+     "selected_epochs": [
+      225,
+      225,
+      400,
+      300,
+      225,
+      400,
+      400,
+      400,
+      250,
+      325
+     ]
+    },
+    "C": {
+     "rho_mean": 0.7733152053764867,
+     "dd_mean": -0.14893796701596146,
+     "net_saving_uJ_per_node_round": -56.80442746606535,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      225,
+      300,
+      250,
+      325,
+      350,
+      225,
+      400,
+      375,
+      225,
+      400
+     ]
+    }
+   },
+   "energy_label_differs_B+_C": true,
+   "reconstruction": {
+    "train_closed_loop_rho": 0.8592693809258225,
+    "windows_changed": 0.999
+   }
+  },
+  "taxi": {
+   "n_valid": 10,
+   "seeds_missing": [],
+   "seeds_invalid_receiver": [],
+   "status": "complete",
+   "reference": {
+    "arm": "linear_extrap",
+    "rho": 0.42944785276073616,
+    "macs": 2
+   },
+   "phase1_reproduced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "test_steps": 3097,
+   "d_mean": 0.004940264772360349,
+   "d_ci95_bootstrap": [
+    -0.0017759121730707135,
+    0.012754278333871489
+   ],
+   "d_per_seed": [
+    0.0,
+    0.0032289312237649337,
+    0.0038747174685179204,
+    0.03035195350339038,
+    -0.012269938650306749,
+    0.006134969325153374,
+    0.021310946076848563,
+    0.004197610590894414,
+    -0.002583144979011947,
+    -0.004843396835647401
+   ],
+   "n_zero_differences": 1,
+   "p_d": 0.27734375,
+   "outcome": "inconclusive",
+   "arms": {
+    "phase1": {
+     "rho_mean": 0.5003228931223764,
+     "dd_mean": 0.0708750403616403,
+     "net_saving_uJ_per_node_round": 26.72651533742331,
+     "p_net": 0.001953125,
+     "label": "saves",
+     "selected_epochs": [
+      200,
+      175,
+      150,
+      200,
+      125,
+      150,
+      175,
+      175,
+      125,
+      200
+     ]
+    },
+    "B+": {
+     "rho_mean": 0.5004520503713271,
+     "dd_mean": 0.0710041976105909,
+     "net_saving_uJ_per_node_round": 26.775595092024542,
+     "p_net": 0.001953125,
+     "label": "saves",
+     "selected_epochs": [
+      225,
+      300,
+      400,
+      325,
+      300,
+      325,
+      350,
+      350,
+      375,
+      325
+     ]
+    },
+    "C": {
+     "rho_mean": 0.5053923151436874,
+     "dd_mean": 0.07594446238295124,
+     "net_saving_uJ_per_node_round": 28.65289570552147,
+     "p_net": 0.001953125,
+     "label": "saves",
+     "selected_epochs": [
+      375,
+      400,
+      275,
+      375,
+      250,
+      400,
+      400,
+      325,
+      350,
+      300
+     ]
+    }
+   },
+   "energy_label_differs_B+_C": false,
+   "reconstruction": {
+    "train_closed_loop_rho": 0.5506410256410256,
+    "windows_changed": 0.9994500000000001
+   }
+  },
+  "traffic": {
+   "n_valid": 10,
+   "seeds_missing": [],
+   "seeds_invalid_receiver": [],
+   "status": "complete",
+   "reference": {
+    "arm": "expsm",
+    "rho": 0.06489675516224191,
+    "macs": 12
+   },
+   "phase1_reproduced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "test_steps": 339,
+   "d_mean": -0.002654867256637168,
+   "d_ci95_bootstrap": [
+    -0.009144542772861357,
+    0.0032448377581120944
+   ],
+   "d_per_seed": [
+    -0.0058997050147492625,
+    0.008849557522123894,
+    0.011799410029498525,
+    -0.008849557522123894,
+    0.0029498525073746312,
+    -0.011799410029498525,
+    -0.0058997050147492625,
+    0.0058997050147492625,
+    0.0,
+    -0.02359882005899705
+   ],
+   "n_zero_differences": 1,
+   "p_d": 0.51953125,
+   "outcome": "inconclusive",
+   "arms": {
+    "phase1": {
+     "rho_mean": 0.0834808259587021,
+     "dd_mean": 0.018584070796460177,
+     "net_saving_uJ_per_node_round": 6.865946902654867,
+     "p_net": 0.001953125,
+     "label": "saves",
+     "selected_epochs": [
+      125,
+      25,
+      75,
+      50,
+      25,
+      25,
+      150,
+      150,
+      25,
+      200
+     ]
+    },
+    "B+": {
+     "rho_mean": 0.072566371681416,
+     "dd_mean": 0.007669616519174041,
+     "net_saving_uJ_per_node_round": 2.7184542772861358,
+     "p_net": 0.158203125,
+     "label": "ns",
+     "selected_epochs": [
+      275,
+      225,
+      225,
+      350,
+      375,
+      400,
+      400,
+      325,
+      225,
+      275
+     ]
+    },
+    "C": {
+     "rho_mean": 0.06991150442477878,
+     "dd_mean": 0.005014749262536873,
+     "net_saving_uJ_per_node_round": 1.7096047197640116,
+     "p_net": 0.392578125,
+     "label": "ns",
+     "selected_epochs": [
+      225,
+      225,
+      250,
+      375,
+      350,
+      375,
+      225,
+      275,
+      225,
+      375
+     ]
+    }
+   },
+   "energy_label_differs_B+_C": false,
+   "reconstruction": {
+    "train_closed_loop_rho": 0.11978221415607986,
+    "windows_changed": 0.7720508166969147
+   }
+  },
+  "cpu": {
+   "n_valid": 10,
+   "seeds_missing": [],
+   "seeds_invalid_receiver": [],
+   "status": "complete",
+   "reference": {
+    "arm": "expsm",
+    "rho": 0.2851239669421488,
+    "macs": 12
+   },
+   "phase1_reproduced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "test_steps": 1210,
+   "d_mean": -0.011735537190082645,
+   "d_ci95_bootstrap": [
+    -0.02371900826446281,
+    0.00024793388429752067
+   ],
+   "d_per_seed": [
+    -0.006611570247933884,
+    -0.019008264462809916,
+    0.00743801652892562,
+    0.012396694214876033,
+    0.003305785123966942,
+    -0.021487603305785124,
+    -0.02809917355371901,
+    -0.045454545454545456,
+    0.012396694214876033,
+    -0.032231404958677684
+   ],
+   "n_zero_differences": 0,
+   "p_d": 0.109375,
+   "outcome": "inconclusive",
+   "arms": {
+    "phase1": {
+     "rho_mean": 0.1929752066115702,
+     "dd_mean": -0.09214876033057852,
+     "net_saving_uJ_per_node_round": -35.212528925619836,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      100,
+      50,
+      75,
+      75,
+      125,
+      75,
+      75,
+      75,
+      125,
+      75
+     ]
+    },
+    "B+": {
+     "rho_mean": 0.14041322314049598,
+     "dd_mean": -0.14471074380165289,
+     "net_saving_uJ_per_node_round": -55.186082644628094,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      225,
+      225,
+      250,
+      250,
+      225,
+      225,
+      275,
+      375,
+      375,
+      400
+     ]
+    },
+    "C": {
+     "rho_mean": 0.1286776859504133,
+     "dd_mean": -0.15644628099173555,
+     "net_saving_uJ_per_node_round": -59.64558677685951,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      225,
+      225,
+      225,
+      225,
+      225,
+      375,
+      250,
+      225,
+      375,
+      400
+     ]
+    }
+   },
+   "energy_label_differs_B+_C": false,
+   "reconstruction": {
+    "train_closed_loop_rho": 0.21392215568862274,
+    "windows_changed": 0.9307884231536926
+   }
+  },
+  "machine_temp": {
+   "n_valid": 10,
+   "seeds_missing": [],
+   "seeds_invalid_receiver": [],
+   "status": "complete",
+   "reference": {
+    "arm": "expsm",
+    "rho": 0.7703040093993244,
+    "macs": 12
+   },
+   "phase1_reproduced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "test_steps": 6809,
+   "d_mean": 0.0016889411073579086,
+   "d_ci95_bootstrap": [
+    -0.003143266265237186,
+    0.006462035541195477
+   ],
+   "d_per_seed": [
+    0.010721104420619769,
+    -0.004259068879424292,
+    -0.008224408870612425,
+    0.005727713320605081,
+    -0.00587457776472316,
+    0.012336613305918637,
+    0.0060214422088412396,
+    0.002349831105889264,
+    -0.009986782200029373,
+    0.008077544426494346
+   ],
+   "n_zero_differences": 0,
+   "p_d": 0.513671875,
+   "outcome": "inconclusive",
+   "arms": {
+    "phase1": {
+     "rho_mean": 0.7292553972683213,
+     "dd_mean": -0.04104861213100308,
+     "net_saving_uJ_per_node_round": -15.794472609781172,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      200,
+      200,
+      175,
+      175,
+      200,
+      200,
+      175,
+      200,
+      200,
+      200
+     ]
+    },
+    "B+": {
+     "rho_mean": 0.7429578499045382,
+     "dd_mean": -0.02734615949478631,
+     "net_saving_uJ_per_node_round": -10.587540608018799,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      375,
+      400,
+      325,
+      400,
+      400,
+      325,
+      400,
+      400,
+      350,
+      300
+     ]
+    },
+    "C": {
+     "rho_mean": 0.744646791011896,
+     "dd_mean": -0.0256572183874284,
+     "net_saving_uJ_per_node_round": -9.945742987222793,
+     "p_net": 0.015625,
+     "label": "ns",
+     "selected_epochs": [
+      300,
+      300,
+      400,
+      375,
+      225,
+      225,
+      300,
+      275,
+      250,
+      375
+     ]
+    }
+   },
+   "energy_label_differs_B+_C": true,
+   "reconstruction": {
+    "train_closed_loop_rho": 0.7752977503308337,
+    "windows_changed": 0.999325
+   }
+  },
+  "grok_asg_anomaly": {
+   "n_valid": 10,
+   "seeds_missing": [],
+   "seeds_invalid_receiver": [],
+   "status": "complete",
+   "reference": {
+    "arm": "expsm",
+    "rho": 0.2862292718096612,
+    "macs": 12
+   },
+   "phase1_reproduced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "test_steps": 1387,
+   "d_mean": 0.0013698630136986301,
+   "d_ci95_bootstrap": [
+    -0.0009372746935832733,
+    0.003749098774333093
+   ],
+   "d_per_seed": [
+    0.004325883201153569,
+    0.0007209805335255948,
+    -0.003604902667627974,
+    0.008651766402307137,
+    -0.003604902667627974,
+    0.0014419610670511895,
+    0.002883922134102379,
+    0.003604902667627974,
+    0.002883922134102379,
+    -0.003604902667627974
+   ],
+   "n_zero_differences": 0,
+   "p_d": 0.33203125,
+   "outcome": "inconclusive",
+   "arms": {
+    "phase1": {
+     "rho_mean": 0.03806777217015134,
+     "dd_mean": -0.24816149963950973,
+     "net_saving_uJ_per_node_round": -94.4973698630137,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      25,
+      150,
+      25,
+      175,
+      50,
+      25,
+      25,
+      125,
+      150,
+      50
+     ]
+    },
+    "B+": {
+     "rho_mean": 0.03100216294160063,
+     "dd_mean": -0.25522710886806055,
+     "net_saving_uJ_per_node_round": -97.182301369863,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      400,
+      225,
+      325,
+      350,
+      400,
+      250,
+      225,
+      300,
+      250,
+      250
+     ]
+    },
+    "C": {
+     "rho_mean": 0.03237202595529931,
+     "dd_mean": -0.2538572458543619,
+     "net_saving_uJ_per_node_round": -96.66175342465753,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      350,
+      225,
+      325,
+      225,
+      225,
+      275,
+      375,
+      250,
+      400,
+      275
+     ]
+    }
+   },
+   "energy_label_differs_B+_C": false,
+   "reconstruction": {
+    "train_closed_loop_rho": 0.4120539599651871,
+    "windows_changed": 0.901000870322019
+   }
+  },
+  "rds_cpu_util": {
+   "n_valid": 10,
+   "seeds_missing": [],
+   "seeds_invalid_receiver": [],
+   "status": "complete",
+   "reference": {
+    "arm": "expsm",
+    "rho": 0.23305785123966938,
+    "macs": 12
+   },
+   "phase1_reproduced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "test_steps": 1210,
+   "d_mean": 0.0005785123966942148,
+   "d_ci95_bootstrap": [
+    -0.001322314049586777,
+    0.002066115702479339
+   ],
+   "d_per_seed": [
+    0.0008264462809917355,
+    -0.006611570247933884,
+    0.001652892561983471,
+    0.0008264462809917355,
+    0.0,
+    0.003305785123966942,
+    0.001652892561983471,
+    0.0,
+    0.0,
+    0.004132231404958678
+   ],
+   "n_zero_differences": 3,
+   "p_d": 0.625,
+   "outcome": "inconclusive",
+   "arms": {
+    "phase1": {
+     "rho_mean": 0.10776859504132241,
+     "dd_mean": -0.1252892561983471,
+     "net_saving_uJ_per_node_round": -47.805917355371896,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      200,
+      175,
+      200,
+      125,
+      150,
+      125,
+      200,
+      200,
+      175,
+      100
+     ]
+    },
+    "B+": {
+     "rho_mean": 0.10512396694214876,
+     "dd_mean": -0.12793388429752067,
+     "net_saving_uJ_per_node_round": -48.81087603305785,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      225,
+      300,
+      225,
+      350,
+      225,
+      250,
+      275,
+      275,
+      250,
+      225
+     ]
+    },
+    "C": {
+     "rho_mean": 0.10570247933884303,
+     "dd_mean": -0.12735537190082644,
+     "net_saving_uJ_per_node_round": -48.59104132231405,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      225,
+      300,
+      225,
+      225,
+      225,
+      250,
+      300,
+      225,
+      225,
+      225
+     ]
+    }
+   },
+   "energy_label_differs_B+_C": false,
+   "reconstruction": {
+    "train_closed_loop_rho": 0.39291417165668663,
+    "windows_changed": 0.9922654690618764
+   }
+  },
+  "iio_networkin": {
+   "n_valid": 10,
+   "seeds_missing": [],
+   "seeds_invalid_receiver": [],
+   "status": "complete",
+   "reference": {
+    "arm": "expsm",
+    "rho": 0.8203753351206434,
+    "macs": 12
+   },
+   "phase1_reproduced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "test_steps": 373,
+   "d_mean": 0.020911528150134046,
+   "d_ci95_bootstrap": [
+    0.0021447721179624667,
+    0.03780160857908847
+   ],
+   "d_per_seed": [
+    0.040214477211796246,
+    0.005361930294906166,
+    0.00804289544235925,
+    -0.010723860589812333,
+    0.04289544235924933,
+    0.05630026809651475,
+    0.05093833780160858,
+    -0.03753351206434316,
+    0.013404825737265416,
+    0.040214477211796246
+   ],
+   "n_zero_differences": 0,
+   "p_d": 0.0546875,
+   "outcome": "inconclusive",
+   "arms": {
+    "phase1": {
+     "rho_mean": 0.6222520107238605,
+     "dd_mean": -0.19812332439678285,
+     "net_saving_uJ_per_node_round": -75.48286327077747,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      200,
+      25,
+      175,
+      150,
+      25,
+      50,
+      50,
+      175,
+      25,
+      125
+     ]
+    },
+    "B+": {
+     "rho_mean": 0.6946380697050938,
+     "dd_mean": -0.12573726541554958,
+     "net_saving_uJ_per_node_round": -47.976160857908845,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      300,
+      325,
+      275,
+      400,
+      250,
+      400,
+      350,
+      350,
+      275,
+      275
+     ]
+    },
+    "C": {
+     "rho_mean": 0.7155495978552279,
+     "dd_mean": -0.10482573726541555,
+     "net_saving_uJ_per_node_round": -40.02978016085791,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      400,
+      300,
+      275,
+      225,
+      250,
+      400,
+      275,
+      325,
+      250,
+      250
+     ]
+    }
+   },
+   "energy_label_differs_B+_C": false,
+   "reconstruction": {
+    "train_closed_loop_rho": 0.6377668308702791,
+    "windows_changed": 0.9977011494252874
+   }
+  },
+  "twitter_aapl": {
+   "n_valid": 10,
+   "seeds_missing": [],
+   "seeds_invalid_receiver": [],
+   "status": "complete",
+   "reference": {
+    "arm": "expsm",
+    "rho": 0.695661286941941,
+    "macs": 12
+   },
+   "phase1_reproduced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "test_steps": 4771,
+   "d_mean": 0.024565080695870888,
+   "d_ci95_bootstrap": [
+    0.012365856214630057,
+    0.03686910500943198
+   ],
+   "d_per_seed": [
+    0.03814713896457766,
+    -0.009012785579543072,
+    0.014462376860197024,
+    0.019283169146929364,
+    0.04946552085516663,
+    0.04443512890379375,
+    0.016139174177321317,
+    0.018444770488367217,
+    0.052819115489415217,
+    0.001467197652483756
+   ],
+   "n_zero_differences": 0,
+   "p_d": 0.005859375,
+   "outcome": "inconclusive",
+   "arms": {
+    "phase1": {
+     "rho_mean": 0.6109411024942359,
+     "dd_mean": -0.08472018444770488,
+     "net_saving_uJ_per_node_round": -32.38967009012785,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      50,
+      50,
+      50,
+      25,
+      25,
+      175,
+      100,
+      25,
+      25,
+      175
+     ]
+    },
+    "B+": {
+     "rho_mean": 0.6036679941312093,
+     "dd_mean": -0.0919932928107315,
+     "net_saving_uJ_per_node_round": -35.153451268077966,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      225,
+      300,
+      400,
+      350,
+      375,
+      325,
+      225,
+      375,
+      375,
+      350
+     ]
+    },
+    "C": {
+     "rho_mean": 0.6282330748270802,
+     "dd_mean": -0.06742821211486061,
+     "net_saving_uJ_per_node_round": -25.818720603647034,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      225,
+      325,
+      350,
+      400,
+      325,
+      350,
+      225,
+      350,
+      275,
+      225
+     ]
+    }
+   },
+   "energy_label_differs_B+_C": false,
+   "reconstruction": {
+    "train_closed_loop_rho": 0.629008691270941,
+    "windows_changed": 0.99185
+   }
+  },
+  "exchange_cpc": {
+   "n_valid": 10,
+   "seeds_missing": [],
+   "seeds_invalid_receiver": [],
+   "status": "complete",
+   "reference": {
+    "arm": "expsm",
+    "rho": 0.12909836065573765,
+    "macs": 12
+   },
+   "phase1_reproduced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "test_steps": 488,
+   "d_mean": -0.003278688524590164,
+   "d_ci95_bootstrap": [
+    -0.008401639344262295,
+    0.002254098360655738
+   ],
+   "d_per_seed": [
+    0.010245901639344262,
+    -0.012295081967213115,
+    0.0020491803278688526,
+    0.0,
+    -0.010245901639344262,
+    -0.012295081967213115,
+    0.006147540983606557,
+    -0.012295081967213115,
+    -0.010245901639344262,
+    0.006147540983606557
+   ],
+   "n_zero_differences": 1,
+   "p_d": 0.3125,
+   "outcome": "inconclusive",
+   "arms": {
+    "phase1": {
+     "rho_mean": 0.17151639344262293,
+     "dd_mean": 0.042418032786885246,
+     "net_saving_uJ_per_node_round": 15.922852459016395,
+     "p_net": 0.001953125,
+     "label": "saves",
+     "selected_epochs": [
+      200,
+      200,
+      50,
+      100,
+      100,
+      125,
+      175,
+      75,
+      75,
+      175
+     ]
+    },
+    "B+": {
+     "rho_mean": 0.1743852459016394,
+     "dd_mean": 0.045286885245901645,
+     "net_saving_uJ_per_node_round": 17.013016393442623,
+     "p_net": 0.001953125,
+     "label": "saves",
+     "selected_epochs": [
+      300,
+      300,
+      400,
+      275,
+      400,
+      300,
+      250,
+      225,
+      275,
+      250
+     ]
+    },
+    "C": {
+     "rho_mean": 0.17110655737704916,
+     "dd_mean": 0.042008196721311473,
+     "net_saving_uJ_per_node_round": 15.767114754098362,
+     "p_net": 0.001953125,
+     "label": "saves",
+     "selected_epochs": [
+      225,
+      325,
+      375,
+      275,
+      400,
+      275,
+      225,
+      350,
+      275,
+      250
+     ]
+    }
+   },
+   "energy_label_differs_B+_C": false,
+   "reconstruction": {
+    "train_closed_loop_rho": 0.23825,
+    "windows_changed": 0.965625
+   }
+  },
+  "occupancy": {
+   "n_valid": 10,
+   "seeds_missing": [],
+   "seeds_invalid_receiver": [],
+   "status": "complete",
+   "reference": {
+    "arm": "expsm",
+    "rho": 0.1568627450980392,
+    "macs": 12
+   },
+   "phase1_reproduced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "test_steps": 714,
+   "d_mean": 0.0008403361344537815,
+   "d_ci95_bootstrap": [
+    -0.004621848739495798,
+    0.0063025210084033615
+   ],
+   "d_per_seed": [
+    -0.0056022408963585435,
+    0.0070028011204481795,
+    -0.01680672268907563,
+    0.0028011204481792717,
+    0.0028011204481792717,
+    0.0056022408963585435,
+    -0.0028011204481792717,
+    0.0196078431372549,
+    -0.0028011204481792717,
+    -0.0014005602240896359
+   ],
+   "n_zero_differences": 0,
+   "p_d": 0.794921875,
+   "outcome": "inconclusive",
+   "arms": {
+    "phase1": {
+     "rho_mean": 0.12170868347338937,
+     "dd_mean": -0.03515406162464986,
+     "net_saving_uJ_per_node_round": -13.554543417366947,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      25,
+      50,
+      175,
+      100,
+      200,
+      50,
+      125,
+      175,
+      50,
+      100
+     ]
+    },
+    "B+": {
+     "rho_mean": 0.13235294117647056,
+     "dd_mean": -0.024509803921568627,
+     "net_saving_uJ_per_node_round": -9.509725490196079,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      375,
+      400,
+      350,
+      225,
+      375,
+      300,
+      300,
+      225,
+      275,
+      225
+     ]
+    },
+    "C": {
+     "rho_mean": 0.13319327731092445,
+     "dd_mean": -0.023669467787114845,
+     "net_saving_uJ_per_node_round": -9.190397759103641,
+     "p_net": 0.001953125,
+     "label": "costs",
+     "selected_epochs": [
+      350,
+      250,
+      275,
+      225,
+      300,
+      400,
+      300,
+      325,
+      250,
+      275
+     ]
+    }
+   },
+   "energy_label_differs_B+_C": false,
+   "reconstruction": {
+    "train_closed_loop_rho": 0.12385398981324278,
+    "windows_changed": 0.785483870967742
+   }
+  }
+ }
+}
