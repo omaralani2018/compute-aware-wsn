@@ -1,0 +1,45 @@
+Third-party components of the flash images in caps/netx/firmware/ (version 1.7)
+
+The images were built from the application code of this package (caps/netx/app/, caps/netx/app_rx2/; MIT, see
+LICENSE at the root) with the following components, whose terms apply to their parts:
+
+- RIOT, tag 2025.07 (commit eb65305cf9f1b7affb50b17af5c12341b83a8636), https://github.com/RIOT-OS/RIOT, GNU Lesser
+  General Public License version 2.1, https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html. The source of RIOT is
+  public at that commit and the source of the application is in this package, so the images can be rebuilt and
+  relinked with the commands of caps/README.md.
+- Arm CMSIS (ARM-software/CMSIS_5, fetched by RIOT into its build folder), Apache License 2.0,
+  http://www.apache.org/licenses/LICENSE-2.0 (M3 and nRF52840 images).
+- STMicroelectronics cmsis_device_f1 (fetched by RIOT into its build folder), Apache License 2.0 (M3 images).
+- Nordic Semiconductor device headers shipped with RIOT (cpu/nrf52/include/vendor), whose notice follows
+  (nRF52840 images).
+- newlib (Ubuntu 24.04 package libnewlib-arm-none-eabi 4.4.0), BSD-style licences listed in its COPYING.NEWLIB.
+
+Nordic Semiconductor notice:
+
+Copyright (c) 2010 - 2020, Nordic Semiconductor ASA All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+3. Neither the name of Nordic Semiconductor ASA nor the names of its
+contributors may be used to endorse or promote products derived from this
+software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL NORDIC SEMICONDUCTOR ASA OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.

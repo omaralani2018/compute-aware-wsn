@@ -1,0 +1,22 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+machine_temp lightweight 0 rhoR=0.770 rhoL=0.673(ok) G96=0.057 sw=21 fracL=0.37
+machine_temp lightweight 1 rhoR=0.770 rhoL=0.758(ok) G96=0.090 sw=29 fracL=0.42
+machine_temp lightweight 2 rhoR=0.770 rhoL=0.752(ok) G96=0.058 sw=25 fracL=0.30
+machine_temp lightweight 3 rhoR=0.770 rhoL=0.712(ok) G96=0.052 sw=26 fracL=0.47
+machine_temp lightweight 4 rhoR=0.770 rhoL=0.669(ok) G96=0.055 sw=19 fracL=0.38
+machine_temp lightweight 5 rhoR=0.770 rhoL=0.752(ok) G96=0.072 sw=24 fracL=0.38
+machine_temp lightweight 6 rhoR=0.770 rhoL=0.760(ok) G96=0.083 sw=26 fracL=0.42
+machine_temp lightweight 7 rhoR=0.770 rhoL=0.741(ok) G96=0.064 sw=20 fracL=0.31
+machine_temp lightweight 8 rhoR=0.770 rhoL=0.745(ok) G96=0.059 sw=20 fracL=0.35
+machine_temp lightweight 9 rhoR=0.770 rhoL=0.732(ok) G96=0.050 sw=17 fracL=0.34
+machine_temp lightweight 10 rhoR=0.770 rhoL=0.778(ok) G96=0.067 sw=20 fracL=0.45
+machine_temp lightweight 11 rhoR=0.770 rhoL=0.753(ok) G96=0.089 sw=25 fracL=0.41
+machine_temp lightweight 12 rhoR=0.770 rhoL=0.640(ok) G96=0.019 sw=18 fracL=0.14
+machine_temp lightweight 13 rhoR=0.770 rhoL=0.772(ok) G96=0.073 sw=29 fracL=0.41
+machine_temp lightweight 14 rhoR=0.770 rhoL=0.742(ok) G96=0.052 sw=25 fracL=0.31
+machine_temp lightweight 15 rhoR=0.770 rhoL=0.739(ok) G96=0.037 sw=20 fracL=0.21
+machine_temp lightweight 16 rhoR=0.770 rhoL=0.743(ok) G96=0.057 sw=22 fracL=0.32
+machine_temp lightweight 17 rhoR=0.770 rhoL=0.738(ok) G96=0.082 sw=31 fracL=0.53
+machine_temp lightweight 18 rhoR=0.770 rhoL=0.689(ok) G96=0.045 sw=28 fracL=0.38
+machine_temp lightweight 19 rhoR=0.770 rhoL=0.780(ok) G96=0.050 sw=28 fracL=0.49

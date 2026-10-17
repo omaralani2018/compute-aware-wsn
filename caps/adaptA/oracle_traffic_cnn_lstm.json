@@ -1,0 +1,8 @@
+{
+ "ds": "traffic",
+ "kind": "cnn_lstm",
+ "ref": "expsm",
+ "ref_macs": 12,
+ "n_readings": 339,
+ "rows": []
+}

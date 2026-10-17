@@ -1,0 +1,41 @@
+  lightweight seed  0  ep125  val=0.955 test=0.949  105s
+  lightweight seed  1  ep 25  val=0.936 test=0.926  97s
+  lightweight seed  2  ep200  val=0.933 test=0.914  96s
+  lightweight seed  3  ep175  val=0.954 test=0.956  102s
+  lightweight seed  4  ep175  val=0.942 test=0.928  97s
+  lightweight seed  5  ep150  val=0.948 test=0.941  89s
+  lightweight seed  6  ep175  val=0.952 test=0.955  76s
+  lightweight seed  7  ep200  val=0.941 test=0.930  78s
+  lightweight seed  8  ep175  val=0.953 test=0.951  77s
+  lightweight seed  9  ep125  val=0.942 test=0.922  75s
+  lightweight seed 10  ep 50  val=0.942 test=0.941  78s
+  lightweight seed 11  ep125  val=0.948 test=0.948  79s
+  lightweight seed 12  ep175  val=0.929 test=0.940  81s
+  lightweight seed 13  ep100  val=0.938 test=0.934  83s
+  lightweight seed 14  ep 75  val=0.940 test=0.930  78s
+  lightweight seed 15  ep200  val=0.952 test=0.945  75s
+  lightweight seed 16  ep 75  val=0.924 test=0.931  75s
+  lightweight seed 17  ep150  val=0.954 test=0.952  75s
+  lightweight seed 18  ep125  val=0.949 test=0.945  77s
+  lightweight seed 19  ep175  val=0.931 test=0.929  77s
+  cnn_lstm   seed  0  ep200  val=0.924 test=0.953  238s
+  cnn_lstm   seed  1  ep200  val=0.882 test=0.921  215s
+  cnn_lstm   seed  2  ep100  val=0.951 test=0.954  239s
+  cnn_lstm   seed  3  ep200  val=0.887 test=0.945  238s
+  cnn_lstm   seed  4  ep100  val=0.952 test=0.953  235s
+  cnn_lstm   seed  5  ep 25  val=0.913 test=0.910  230s
+  cnn_lstm   seed  6  ep200  val=0.903 test=0.927  251s
+  cnn_lstm   seed  7  ep 75  val=0.946 test=0.951  255s
+  cnn_lstm   seed  8  ep 50  val=0.921 test=0.908  265s
+  cnn_lstm   seed  9  ep125  val=0.942 test=0.937  248s
+  cnn_lstm   seed 10  ep125  val=0.947 test=0.954  261s
+  cnn_lstm   seed 11  ep200  val=0.940 test=0.945  258s
+  cnn_lstm   seed 12  ep 75  val=0.923 test=0.915  254s
+  cnn_lstm   seed 13  ep200  val=0.921 test=0.908  248s
+  cnn_lstm   seed 14  ep150  val=0.927 test=0.945  245s
+  cnn_lstm   seed 15  ep200  val=0.942 test=0.937  264s
+  cnn_lstm   seed 16  ep150  val=0.947 test=0.954  270s
+  cnn_lstm   seed 17  ep100  val=0.922 test=0.936  245s
+  cnn_lstm   seed 18  ep200  val=0.931 test=0.951  235s
+  cnn_lstm   seed 19  ep 25  val=0.915 test=0.918  236s
+LANEDONE

@@ -1,0 +1,20 @@
+Amendment 17b to PREREG17, written 15 Oct 2026 before any nRF52840 data were analysed (no nRF power trace has been read).
+Runs 455262 (sink nrf52840dk-6) and 455263 (sink nrf52840dk-7) were stopped after about 2 minutes as technical failures:
+the sinks' serial output at saclay lost characters and newlines, also in the periodic count lines printed before any frame
+(0 of 215 frame lines intact on node 7), so the received frames could not be counted. The sender's lines were intact.
+Change (sink firmware and analysis only; the sender firmware, sequence, energy definition, predictions and outcomes are
+unchanged):
+ 1. Sink v2 (app_rx2/main.c, fw/netx_rx2_nrf.elf; same radio set-up): instead of one line per frame it keeps, per stream
+    and arm, the cumulative count of frames received and an order-independent hash of their contents (sum of
+    mix(stream, arm, round, reading) mod 2^32), and every 10 s prints "RXV s a count hash chk", with chk a check value over
+    the four numbers. A line counts only if it parses fully and its check value matches; corrupted lines are discarded.
+ 2. Frames received in a RUN = the increase of the cumulative count between the last intact line before the run (after
+    the previous run of the same stream and arm; 0 before the first) and the last intact line printed from 1 s after the
+    run's end to the start of the next run of the same stream and arm (end of the log for the last). If either value is
+    missing, the run is not valid. Validity threshold unchanged (99% of the frames sent).
+ 3. O4 values: the hash increase must equal the hash of the frames the sender sent (checked when the count equals the
+    frames sent; otherwise reported as not checkable).
+ 4. Used for the nRF52840 run. The M3 runs keep the PREREG17 sink, whose serial output was intact.
+ Implemented in analyse_netx_17b.py (includes AMENDMENT_17a); the hash in C and Python agree (check/rx2); tested on
+ synthetic traces (sim_netx.py SIM_SINK=v2): 50% of sink lines corrupted gives all runs valid and all values checked;
+ 2% of frames lost gives the runs invalid; the M3 path gives the same result as before.

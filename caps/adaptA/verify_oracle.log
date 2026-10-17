@@ -1,0 +1,14 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+cpu                rows=20 arithmetic+static ok, scalar oracle agrees=True (0.328353 vs 0.328353)
+exchange_cpc       rows=20 arithmetic+static ok, scalar oracle agrees=True (0.156242 vs 0.156242)
+grok_asg_anomaly   rows=20 arithmetic+static ok, scalar oracle agrees=True (0.376217 vs 0.376217)
+iio_networkin      rows=20 arithmetic+static ok, scalar oracle agrees=True (0.025464 vs 0.025464)
+intel_time         rows=20 arithmetic+static ok, scalar oracle agrees=True (0.422619 vs 0.422619)
+machine_temp       rows=20 arithmetic+static ok, scalar oracle agrees=True (0.560310 vs 0.560310)
+occupancy          rows=20 arithmetic+static ok, scalar oracle agrees=True (0.228036 vs 0.228036)
+rds_cpu_util       rows=20 arithmetic+static ok, scalar oracle agrees=True (0.345122 vs 0.345122)
+taxi               rows=20 arithmetic+static ok, scalar oracle agrees=True (0.578880 vs 0.578880)
+traffic            rows=20 arithmetic+static ok, scalar oracle agrees=True (0.117481 vs 0.117481)
+twitter_aapl       rows=20 arithmetic+static ok, scalar oracle agrees=True (0.539522 vs 0.539522)
+FAILURES: 0

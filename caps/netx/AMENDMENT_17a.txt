@@ -1,0 +1,15 @@
+Amendment 17a to PREREG17, written 15 Oct 2026 after the first M3 float run and before the M3 integer and nRF52840 runs.
+First M3 float run: experiment 455253 (grenoble, sender m3-21, sink m3-22), analysed with the frozen analyse_netx.py.
+The run was technically complete (36 of 36 RUN phases valid, decisions and received readings equal to the expected ones),
+but it failed the PREREG17 alignment rule: the offsets fitted to the start and the end SYNC blocks were 36.95 s and 37.07 s,
+a difference of 0.12 s against the 0.1-s tolerance (joint correlation 0.989). The difference is clock drift between the
+serial log and the power monitor over the 45-min run. Under PREREG17 its O1 to O3 are descriptive; it is reported as such,
+with its numbers, next to the confirmatory runs. Its files are kept (data/netx_m3f_serial.txt, data/netx_m3f_21.oml).
+Change (analysis only; firmware, sequence, energy definition, predictions, validity and outcomes unchanged):
+ 1. Alignment: each SYNC block is fitted separately (same search and pattern as PREREG17); the offset of any time in the
+    serial log is the linear interpolation between the two fits. Accepted if both fits reach correlation 0.9 and their
+    difference (the drift over the run) is at most 0.5 s. Implemented in analyse_netx_17a.py, tested on synthetic traces
+    with 0, 0.3 and 0.8 s of drift (accepted, accepted, rejected).
+ 2. M3 float is run once more with the same firmware; that second run is the confirmatory M3 float run. The M3 integer and
+    nRF52840 runs are confirmatory under this amendment. Each confirmatory run is reported whatever it shows.
+ 3. sim_netx.py (test tool only) gained the drift option SIM_DRIFT used for these tests; its new SHA-256 is in AMENDMENT_17a.sha256.

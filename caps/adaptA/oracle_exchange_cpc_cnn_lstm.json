@@ -1,0 +1,45 @@
+{
+ "ds": "exchange_cpc",
+ "kind": "cnn_lstm",
+ "ref": "expsm",
+ "ref_macs": 12,
+ "n_readings": 488,
+ "rows": [
+  {
+   "seed": 19,
+   "weights": "../stage17/run/weights/exchange_cpc_cnn_lstm_s19.npz",
+   "rhoR": 0.12909836065573765,
+   "rhoL": 0.17213114754098358,
+   "rhoL_stored": 0.17213114754098358,
+   "reproduced": true,
+   "E_R": 0.161505856,
+   "E_L": 0.202070144,
+   "crit_picks_L": false,
+   "E_crit": 0.161505856,
+   "B96": {
+    "E": 0.161505856,
+    "rho": 0.12909836065573765,
+    "switches": 0,
+    "fracL": 0.0,
+    "G_best": 0.0,
+    "G_crit": 0.0
+   },
+   "B48": {
+    "E": 0.16150585600000003,
+    "rho": 0.12909836065573765,
+    "switches": 0,
+    "fracL": 0.0,
+    "G_best": -2.220446049250313e-16,
+    "G_crit": -2.220446049250313e-16
+   },
+   "B192": {
+    "E": 0.161505856,
+    "rho": 0.12909836065573765,
+    "switches": 0,
+    "fracL": 0.0,
+    "G_best": 0.0,
+    "G_crit": 0.0
+   }
+  }
+ ]
+}

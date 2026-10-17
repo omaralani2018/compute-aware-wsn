@@ -1,0 +1,15 @@
+PREREG17 (NETX) confirmatory results, 15 Oct 2026
+Build      run     analysis  align (corr, drift)  runs valid  O1    O2     O3    O4     blind/CAPS measured
+m3_float   455264  17a       0.998, 0.13 s        36/36       4/4   6/12   4/4   12/12  69.2x
+m3_int     455256  17a       0.998, 0.05 s        36/36       4/4   8/12   4/4   12/12  13.2x
+nrf        455268  17b/17c   0.999, 0.05 s        60/60       4/4   8/12   4/4   12/12  11.9x
+Total                                                         12/12 22/36  12/12 36/36
+Descriptive: m3_float run 455253 (failed the frozen alignment rule by drift 0.12 s > 0.1 s): O1 4/4, O2 6/12, O3 4/4;
+its energies agree with run 455264 within 0.5%.
+O2 pattern (descriptive): M3 builds, every arm 11% to 26% above E_pred (reference and lightweight arms: about 17 to 19 uJ per
+round of fixed cost not in the separate measurements and 5% to 7% more per report, fitted on each M3 build; CNN-LSTM rounds
+2% to 6% more cycles); nRF52840, reference and
+lightweight arms within 13% (most within 5%), CNN-LSTM 45% to 48% below E_pred (above-idle CPU power about 38% lower and 10% fewer
+cycles than in the Section 5.1 measurement). Rankings and the CAPS choice are unaffected in all 12 cells.
+The nRF52840 summary carries the label "amendment": "17a" written by analyse_netx_17b.py, which includes 17a and adds 17b.
+Technical failures (rerun, no data analysed): 455262, 455263, 455267 (nRF sink serial output corrupted at saclay).

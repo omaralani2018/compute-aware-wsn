@@ -6,7 +6,7 @@ and the raw Intel file at `intel_raw/raw/data.txt` (sha256 21d15688…).
 
 1. `python3 prepare_intel.py`            -> intel_time.npy, intel_time_meta.json   (Intel, timestamp-indexed)
 2. `python3 -c "import frozen_benchmark as fb, numpy as np; fb.run_dataset(np.load('intel_time.npy'),'intel_time',1.0,False,'bench_intel_time.json')"`
-                                          (cheap arms; NAB baselines likewise via nab_data.load)
+                                          (low-cost arms; NAB baselines likewise via nab_data.load)
 3. `python3 run_learned.py <ds> lightweight 0 20`  and  `python3 run_learned.py <ds> cnn_lstm 0 20`
                                           -> learned_<ds>.json   (ds = intel_time or a NAB name)
    `worker.py` / `bg.sh` / `bg_intel.sh` are the schedulers that ran these in the background,

@@ -1,0 +1,31 @@
+Building application "caps_energy" for "nrf52840dk" with CPU "nrf52".
+
+"make" -C <caps>/iotlab/RIOT/pkg/cmsis/ 
+"make" -C <caps>/iotlab/RIOT/boards
+"make" -C <caps>/iotlab/RIOT/boards/nrf52840dk
+"make" -C <caps>/iotlab/RIOT/core
+"make" -C <caps>/iotlab/RIOT/core/lib
+"make" -C <caps>/iotlab/RIOT/boards/common/nrf52xxxdk
+"make" -C <caps>/iotlab/RIOT/boards/common/init
+"make" -C <caps>/iotlab/RIOT/cpu/nrf52
+"make" -C <caps>/iotlab/RIOT/cpu/cortexm_common
+"make" -C <caps>/iotlab/RIOT/cpu/cortexm_common/periph
+"make" -C <caps>/iotlab/RIOT/drivers
+"make" -C <caps>/iotlab/RIOT/drivers/periph_common
+"make" -C <caps>/iotlab/RIOT/sys
+"make" -C <caps>/iotlab/RIOT/cpu/nrf52/periph
+"make" -C <caps>/iotlab/RIOT/sys/auto_init
+"make" -C <caps>/iotlab/RIOT/cpu/nrf52/vectors
+"make" -C <caps>/iotlab/RIOT/cpu/nrf5x_common
+"make" -C <caps>/iotlab/RIOT/cpu/nrf5x_common/periph
+"make" -C <caps>/iotlab/RIOT/sys/div
+"make" -C <caps>/iotlab/RIOT/sys/frac
+"make" -C <caps>/iotlab/RIOT/sys/libc
+"make" -C <caps>/iotlab/RIOT/sys/malloc_thread_safe
+"make" -C <caps>/iotlab/RIOT/sys/newlib_syscalls_default
+"make" -C <caps>/iotlab/RIOT/sys/preprocessor
+"make" -C <caps>/iotlab/RIOT/sys/stdio
+"make" -C <caps>/iotlab/RIOT/sys/stdio_uart
+"make" -C <caps>/iotlab/RIOT/sys/ztimer
+   text	   data	    bss	    dec	    hex	filename
+  54572	    100	   4308	  58980	   e664	<caps>/iotlab/app/bin/nrf52840dk/caps_energy.elf

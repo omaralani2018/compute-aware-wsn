@@ -1,0 +1,27 @@
+{
+ "absolute_J": {
+  "caps": 0.002352758967373487,
+  "cnn": 0.003724779559386805,
+  "hind3": 0.0023118695258951476,
+  "hind3_switch": 0.002289479145431128,
+  "hind4_switch": 0.0022721468597323275,
+  "hind4_with_ta": 0.002286068977492767,
+  "lw": 0.0026344077968765292,
+  "lw_ta": 0.0025265363613113977,
+  "ref": 0.0023597519691414153
+ },
+ "cnn_switching_max_saving": 0.005357493842795158,
+ "gate1_streams_at_5pct": 2,
+ "note": "relative to always running the validation-selected reference; hind3 = best per stream of the reference, the lightweight model and the CNN-LSTM; hind4 also counts the tolerance-aware model of Section 6.12",
+ "relative": {
+  "caps": -0.0029634477942497295,
+  "cnn": 0.578462316419657,
+  "hind3": -0.020291303438848107,
+  "hind3_switch": -0.029779750003071537,
+  "hind4_switch": -0.037124710797873606,
+  "hind4_with_ta": -0.031224888298517883,
+  "lw": 0.11639182055012598,
+  "lw_ta": 0.07067878080028311,
+  "ref": 0.0
+ }
+}

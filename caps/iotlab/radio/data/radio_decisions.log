@@ -1,0 +1,6 @@
+S_BC  m3_float er 2.673e-04 J | lightweight positive  0/11 [] | screened lw  1 CNN 11 | false excl. none | CAPS +0.53% vs ref, 0.53% above hindsight | picks {'ref': 205, 'lightweight': 15, 'cnn_lstm': 0}
+S_BC  m3_int   er 2.673e-04 J | lightweight positive  2/11 ['taxi', 'exchange_cpc'] | screened lw  0 CNN 11 | false excl. none | CAPS -0.68% vs ref, 0.18% above hindsight | picks {'ref': 187, 'lightweight': 33, 'cnn_lstm': 0}
+S_BC  nrf      er 2.656e-05 J | lightweight positive  1/11 ['taxi'] | screened lw  0 CNN 11 | false excl. none | CAPS -0.37% vs ref, 0.00% above hindsight | picks {'ref': 200, 'lightweight': 20, 'cnn_lstm': 0}
+S_UC  m3_float er 3.251e-04 J | lightweight positive  0/11 [] | screened lw  1 CNN 11 | false excl. none | CAPS +0.34% vs ref, 0.34% above hindsight | picks {'ref': 201, 'lightweight': 19, 'cnn_lstm': 0}
+S_UC  m3_int   er 3.251e-04 J | lightweight positive  2/11 ['taxi', 'exchange_cpc'] | screened lw  0 CNN 11 | false excl. none | CAPS -0.76% vs ref, 0.26% above hindsight | picks {'ref': 185, 'lightweight': 35, 'cnn_lstm': 0}
+S_UC  nrf      er 4.531e-05 J | lightweight positive  2/11 ['taxi', 'exchange_cpc'] | screened lw  0 CNN 11 | false excl. none | CAPS -0.69% vs ref, 0.14% above hindsight | picks {'ref': 191, 'lightweight': 29, 'cnn_lstm': 0}

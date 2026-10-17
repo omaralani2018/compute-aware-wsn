@@ -1,0 +1,13 @@
+intel_time        rhoR=0.922 MSE=0.891 TA=0.910 d=+0.019  H1=False rev=False  beatsR: MSE=False TA=False c={0.25: 18, 0.5: 2, 1.0: 0} verified=True
+taxi              rhoR=0.429 MSE=0.501 TA=0.521 d=+0.018  H1=True  rev=False  beatsR: MSE=True  TA=True  c={0.25: 13, 0.5: 6, 1.0: 1} verified=True
+traffic           rhoR=0.065 MSE=0.084 TA=0.093 d=+0.007  H1=False rev=False  beatsR: MSE=True  TA=True  c={0.25: 10, 0.5: 6, 1.0: 4} verified=True
+cpu               rhoR=0.285 MSE=0.182 TA=0.112 d=-0.013  H1=False rev=False  beatsR: MSE=False TA=False c={0.25: 7, 0.5: 2, 1.0: 11} verified=True
+machine_temp      rhoR=0.770 MSE=0.742 TA=0.766 d=+0.015  H1=True  rev=False  beatsR: MSE=False TA=False c={0.25: 6, 0.5: 7, 1.0: 7} verified=True
+grok_asg_anomaly  rhoR=0.286 MSE=0.036 TA=0.055 d=+0.015  H1=True  rev=False  beatsR: MSE=False TA=False c={0.25: 12, 0.5: 7, 1.0: 1} verified=True
+rds_cpu_util      rhoR=0.233 MSE=0.109 TA=0.117 d=+0.012  H1=True  rev=False  beatsR: MSE=False TA=False c={0.25: 6, 0.5: 8, 1.0: 6} verified=True
+iio_networkin     rhoR=0.820 MSE=0.630 TA=0.728 d=+0.076  H1=True  rev=False  beatsR: MSE=False TA=False c={0.25: 8, 0.5: 7, 1.0: 5} verified=True
+twitter_aapl      rhoR=0.696 MSE=0.613 TA=0.723 d=+0.112  H1=True  rev=False  beatsR: MSE=False TA=True  c={0.25: 15, 0.5: 5, 1.0: 0} verified=True
+exchange_cpc      rhoR=0.129 MSE=0.166 TA=0.178 d=+0.005  H1=False rev=False  beatsR: MSE=True  TA=True  c={0.25: 6, 0.5: 5, 1.0: 9} verified=True
+occupancy         rhoR=0.157 MSE=0.122 TA=0.156 d=+0.034  H1=True  rev=False  beatsR: MSE=False TA=False c={0.25: 5, 0.5: 12, 1.0: 3} verified=True
+H1 significant: 7/11, reversed: 0; learned beats R: MSE 3, TA 4  ->  NO-GO
+ANALYSED

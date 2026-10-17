@@ -1,0 +1,6 @@
+iotlab-m3  alignment offset 33.44 s, correlation 0.835  P_idle 0.0751 W (rounds [0.075, 0.075, 0.0746, 0.0751, 0.0751, 0.0751, 0.0751, 0.0746, 0.0751, 0.0751, 0.0751, 0.0751, 0.0746, 0.0751, 0.0751, 0.0751, 0.0751])
+S_BC  E_inc   267.26 uJ (rounds [267.18, 267.26, 267.31])  E_gross   524.31 uJ  3.423 ms/report  reports 3507 received 3507 send_err 0  VALID
+S_UC  E_inc   325.06 uJ (rounds [325.04, 325.11, 325.06])  E_gross   623.39 uJ  3.973 ms/report  reports 3021 received 3021 send_err 0  VALID
+L_BC  E_inc   616.17 uJ (rounds [615.87, 616.17, 616.28])  E_gross  1116.74 uJ  6.667 ms/report  reports 1800 received 1800 send_err 0  VALID
+LISTEN  receive-on power above idle 0.0400 W
+alignment OK (correlation >= 0.8 required)

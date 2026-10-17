@@ -1,0 +1,9 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/confB/code/dual_prediction_fix.py
+fishnet       ref=persistence   rhoR val 0.564 test 0.567 | seeds {'lightweight': 20, 'cnn_lstm': 20} | screened {} | false excl [] | picks {'ref': 19, 'lightweight': 1, 'cnn_lstm': 0} | headroom val 1.8% test 2.0%
+genepi        ref=persistence   rhoR val 0.428 test 0.380 | seeds {'lightweight': 20, 'cnn_lstm': 20} | screened {} | false excl [] | picks {'ref': 20, 'lightweight': 0, 'cnn_lstm': 0} | headroom val 1.4% test 1.3%
+pdg2008       ref=persistence   rhoR val 0.483 test 0.415 | seeds {'lightweight': 20, 'cnn_lstm': 20} | screened {} | false excl [] | picks {'ref': 20, 'lightweight': 0, 'cnn_lstm': 0} | headroom val 0.9% test 1.4%
+plaine_morte  ref=persistence   rhoR val 0.204 test 0.185 | seeds {'lightweight': 20, 'cnn_lstm': 20} | screened {} | false excl [] | picks {'ref': 20, 'lightweight': 0, 'cnn_lstm': 0} | headroom val 0.7% test 0.6%
+evaluable 4/4 | C1 no false exclusion: True | C2 flag agreement 4/4: True | C3 hindsight ceiling 0.0%: True | C4 CAPS 32.9% below always-CNN: True
+totals vs ref: lw +5.0%, cnn +49.1%, caps +0.0%
+ANALYSED

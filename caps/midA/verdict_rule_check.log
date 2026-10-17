@@ -1,0 +1,4 @@
+lightweight    Holm one-sided: save 3 ['taxi', 'traffic', 'exchange_cpc'] cost 8 | Bonferroni/22 two-sided: save 3 ['taxi', 'traffic', 'exchange_cpc'] cost 8
+mlp_mid        Holm one-sided: save 2 ['taxi', 'exchange_cpc'] cost 8 | Bonferroni/22 two-sided: save 2 ['taxi', 'exchange_cpc'] cost 8
+cnnlstm_small  Holm one-sided: save 3 ['taxi', 'traffic', 'exchange_cpc'] cost 8 | Bonferroni/22 two-sided: save 2 ['taxi', 'exchange_cpc'] cost 8
+cnn_lstm       Holm one-sided: save 0 [] cost 11 | Bonferroni/22 two-sided: save 0 [] cost 11

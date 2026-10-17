@@ -1,0 +1,61 @@
+  cnn_lstm   seed  0  ep175  val=0.140 test=0.083  65s
+  cnn_lstm   seed  1  ep100  val=0.114 test=0.103  61s
+  cnn_lstm   seed  2  ep125  val=0.136 test=0.096  60s
+  cnn_lstm   seed  3  ep125  val=0.138 test=0.088  62s
+  cnn_lstm   seed  4  ep175  val=0.136 test=0.083  62s
+  cnn_lstm   seed  5  ep 25  val=0.124 test=0.108  63s
+  cnn_lstm   seed  6  ep200  val=0.146 test=0.087  62s
+  cnn_lstm   seed  7  ep175  val=0.144 test=0.104  61s
+  cnn_lstm   seed  8  ep150  val=0.152 test=0.080  62s
+  cnn_lstm   seed  9  ep175  val=0.152 test=0.103  65s
+  cnn_lstm   seed 10  ep125  val=0.144 test=0.097  62s
+  cnn_lstm   seed 11  ep150  val=0.138 test=0.104  61s
+  cnn_lstm   seed 12  ep175  val=0.130 test=0.093  60s
+  cnn_lstm   seed 13  ep175  val=0.122 test=0.095  64s
+  cnn_lstm   seed 14  ep100  val=0.148 test=0.092  63s
+  cnn_lstm   seed 15  ep175  val=0.134 test=0.108  63s
+  cnn_lstm   seed 16  ep200  val=0.148 test=0.083  60s
+  cnn_lstm   seed 17  ep 25  val=0.132 test=0.120  60s
+  cnn_lstm   seed 18  ep175  val=0.154 test=0.100  60s
+  cnn_lstm   seed 19  ep100  val=0.148 test=0.101  62s
+  cnn_lstm   seed  0  ep 75  val=0.104 test=0.101  64s
+  cnn_lstm   seed  1  ep125  val=0.102 test=0.069  62s
+  cnn_lstm   seed  2  ep100  val=0.080 test=0.068  59s
+  cnn_lstm   seed  3  ep150  val=0.090 test=0.061  58s
+  cnn_lstm   seed  4  ep 25  val=0.088 test=0.105  60s
+  cnn_lstm   seed  5  ep 25  val=0.090 test=0.101  60s
+  cnn_lstm   seed  6  ep 25  val=0.080 test=0.101  59s
+  cnn_lstm   seed  7  ep 50  val=0.090 test=0.091  60s
+  cnn_lstm   seed  8  ep200  val=0.094 test=0.071  58s
+  cnn_lstm   seed  9  ep100  val=0.098 test=0.073  60s
+  cnn_lstm   seed 10  ep150  val=0.094 test=0.061  62s
+  cnn_lstm   seed 11  ep100  val=0.090 test=0.084  61s
+  cnn_lstm   seed 12  ep 75  val=0.090 test=0.084  63s
+  cnn_lstm   seed 13  ep 50  val=0.088 test=0.093  61s
+  cnn_lstm   seed 14  ep150  val=0.102 test=0.081  63s
+  cnn_lstm   seed 15  ep 25  val=0.086 test=0.105  61s
+  cnn_lstm   seed 16  ep 75  val=0.082 test=0.085  62s
+  cnn_lstm   seed 17  ep175  val=0.104 test=0.068  64s
+  cnn_lstm   seed 18  ep 75  val=0.102 test=0.075  62s
+  cnn_lstm   seed 19  ep175  val=0.082 test=0.072  61s
+  cnn_lstm   seed  0  ep150  val=0.116 test=0.095  64s
+  cnn_lstm   seed  1  ep 75  val=0.120 test=0.131  61s
+  cnn_lstm   seed  2  ep150  val=0.118 test=0.088  62s
+  cnn_lstm   seed  3  ep150  val=0.118 test=0.109  62s
+  cnn_lstm   seed  4  ep 50  val=0.122 test=0.117  64s
+  cnn_lstm   seed  5  ep100  val=0.126 test=0.092  64s
+  cnn_lstm   seed  6  ep 25  val=0.114 test=0.130  62s
+  cnn_lstm   seed  7  ep125  val=0.118 test=0.096  63s
+  cnn_lstm   seed  8  ep150  val=0.122 test=0.105  62s
+  cnn_lstm   seed  9  ep175  val=0.130 test=0.108  65s
+  cnn_lstm   seed 10  ep125  val=0.124 test=0.103  62s
+  cnn_lstm   seed 11  ep 75  val=0.112 test=0.134  62s
+  cnn_lstm   seed 12  ep 25  val=0.108 test=0.104  61s
+  cnn_lstm   seed 13  ep 75  val=0.122 test=0.113  62s
+  cnn_lstm   seed 14  ep 25  val=0.112 test=0.121  67s
+  cnn_lstm   seed 15  ep125  val=0.128 test=0.104  66s
+  cnn_lstm   seed 16  ep125  val=0.126 test=0.103  62s
+  cnn_lstm   seed 17  ep100  val=0.138 test=0.109  62s
+  cnn_lstm   seed 18  ep125  val=0.124 test=0.099  63s
+  cnn_lstm   seed 19  ep100  val=0.126 test=0.101  61s
+LANEDONE

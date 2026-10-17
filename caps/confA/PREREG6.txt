@@ -1,0 +1,26 @@
+Confirmatory evaluation of CAPS on six unused NAB sensor streams
+Pre-registered 13 Oct 2026, 10:20 Baghdad, BEFORE the files were downloaded.
+Disclosure: in an earlier session the fastness statistic was computed for every NAB series (to identify
+the ten streams of the study); no CAPS step, predictor or suppression was ever run on these six. Two rows
+of ambient_temperature_system_failure were printed on 13 Oct 2026 by a connectivity check.
+
+Selection rule (fixed): every NAB real-data stream measured by a physical sensor and not used in the study:
+ realKnownCause/ambient_temperature_system_failure.csv
+ realTraffic/occupancy_t4013.csv, speed_6005.csv, speed_t4013.csv, TravelTime_387.csv, TravelTime_451.csv
+Source: https://github.com/numenta/NAB (master), column "value", one stream each, N = 1.
+
+Protocol: identical to the frozen benchmark (frozen_benchmark.py, run_learned.py, ms_numbers.cheap_select):
+splits 0.50/0.70, look-back 12, tau = 0.10 normalised by the training-span std, three low-cost arms tuned
+on validation, lightweight (208 MACs) and CNN-LSTM (99,488 MACs) with 20 seeds each, MSE loss, epoch cap
+200, checkpoints every 25, er = 3.8e-4 J, Eop = 1 nJ. CAPS as Algorithm 1 (B = 96, hmin = 5%, e_cmd = er,
+headroom with the lightweight model, median over seeds).
+
+Pre-specified checks (all reported whatever the outcome):
+ C1 Screen: no false exclusion, i.e. every candidate excluded by Step 1 has a non-positive median test net
+    saving over the reference.
+ C2 Stay-or-Switch: the validation flag (median headroom >= 5%) equals the test flag on at least 5 of 6.
+ C3 Ceiling: summed over the six streams (seed medians, sensing included), the hindsight best fixed arm
+    saves less than 5% over the validation-selected reference (expectation from the main study: 3.1%).
+ C4 CAPS uses less modelled energy than always running the CNN-LSTM (summed over the six).
+Streams with missing or non-finite values: the frozen evaluator rejects them; such a stream is reported
+as not evaluable and the denominators shrink accordingly.

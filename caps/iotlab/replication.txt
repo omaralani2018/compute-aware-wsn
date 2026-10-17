@@ -1,0 +1,2 @@
+m3 vs m3b decisions reproduced: True | E_inc ratio second/first: {'lightweight': 0.9983, 'cnn_lstm': 0.9986}
+nrf vs nrfb decisions reproduced: True | E_inc ratio second/first: {'lightweight': 0.9934, 'cnn_lstm': 0.9927}

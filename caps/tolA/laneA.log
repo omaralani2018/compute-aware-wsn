@@ -1,0 +1,120 @@
+  machine_temp seed  0 c=0.50 ep150 val=0.787 test=0.777 169s
+  machine_temp seed  1 c=0.25 ep200 val=0.794 test=0.756 167s
+  machine_temp seed  2 c=1.00 ep175 val=0.789 test=0.776 175s
+  machine_temp seed  3 c=1.00 ep125 val=0.787 test=0.765 167s
+  machine_temp seed  4 c=0.50 ep125 val=0.782 test=0.777 173s
+  machine_temp seed  5 c=1.00 ep175 val=0.781 test=0.753 181s
+  machine_temp seed  6 c=0.50 ep100 val=0.789 test=0.776 168s
+  machine_temp seed  7 c=0.25 ep100 val=0.783 test=0.720 170s
+  machine_temp seed  8 c=0.50 ep100 val=0.787 test=0.768 178s
+  machine_temp seed  9 c=0.50 ep175 val=0.790 test=0.780 173s
+  machine_temp seed 10 c=1.00 ep175 val=0.795 test=0.782 174s
+  machine_temp seed 11 c=0.25 ep200 val=0.788 test=0.746 171s
+  machine_temp seed 12 c=0.25 ep150 val=0.793 test=0.764 180s
+  machine_temp seed 13 c=0.50 ep175 val=0.785 test=0.785 168s
+  machine_temp seed 14 c=0.25 ep 75 val=0.784 test=0.778 166s
+  machine_temp seed 15 c=1.00 ep125 val=0.788 test=0.737 165s
+  machine_temp seed 16 c=1.00 ep150 val=0.781 test=0.724 174s
+  machine_temp seed 17 c=1.00 ep150 val=0.781 test=0.752 171s
+  machine_temp seed 18 c=0.25 ep175 val=0.786 test=0.718 172s
+  machine_temp seed 19 c=0.50 ep 75 val=0.784 test=0.786 171s
+  taxi seed  0 c=0.25 ep200 val=0.552 test=0.534 170s
+  taxi seed  1 c=0.50 ep175 val=0.554 test=0.504 167s
+  taxi seed  2 c=0.50 ep175 val=0.569 test=0.524 164s
+  taxi seed  3 c=0.25 ep200 val=0.561 test=0.515 168s
+  taxi seed  4 c=0.50 ep200 val=0.579 test=0.537 176s
+  taxi seed  5 c=0.50 ep175 val=0.563 test=0.537 170s
+  taxi seed  6 c=0.25 ep125 val=0.545 test=0.519 177s
+  taxi seed  7 c=0.25 ep175 val=0.553 test=0.511 175s
+  taxi seed  8 c=0.25 ep175 val=0.537 test=0.506 172s
+  taxi seed  9 c=0.25 ep150 val=0.545 test=0.521 173s
+  taxi seed 10 c=1.00 ep200 val=0.559 test=0.518 175s
+  taxi seed 11 c=0.25 ep200 val=0.547 test=0.506 171s
+  taxi seed 12 c=0.25 ep200 val=0.567 test=0.530 180s
+  taxi seed 13 c=0.25 ep175 val=0.540 test=0.498 170s
+  taxi seed 14 c=0.25 ep175 val=0.573 test=0.537 170s
+  taxi seed 15 c=0.25 ep150 val=0.574 test=0.521 161s
+  taxi seed 16 c=0.50 ep175 val=0.573 test=0.547 165s
+  taxi seed 17 c=0.25 ep150 val=0.549 test=0.514 181s
+  taxi seed 18 c=0.25 ep175 val=0.554 test=0.531 172s
+  taxi seed 19 c=0.50 ep175 val=0.578 test=0.540 171s
+  cpu seed  0 c=1.00 ep100 val=0.133 test=0.151 133s
+  cpu seed  1 c=0.25 ep125 val=0.177 test=0.227 123s
+  cpu seed  2 c=0.25 ep 75 val=0.158 test=0.124 118s
+  cpu seed  3 c=0.50 ep125 val=0.164 test=0.104 117s
+  cpu seed  4 c=1.00 ep125 val=0.163 test=0.166 123s
+  cpu seed  5 c=1.00 ep175 val=0.163 test=0.089 118s
+  cpu seed  6 c=1.00 ep200 val=0.187 test=0.080 118s
+  cpu seed  7 c=0.25 ep100 val=0.114 test=0.073 117s
+  cpu seed  8 c=1.00 ep 75 val=0.163 test=0.094 124s
+  cpu seed  9 c=1.00 ep125 val=0.151 test=0.217 121s
+  cpu seed 10 c=1.00 ep150 val=0.156 test=0.060 118s
+  cpu seed 11 c=0.25 ep200 val=0.140 test=0.021 116s
+  cpu seed 12 c=1.00 ep200 val=0.123 test=0.121 120s
+  cpu seed 13 c=1.00 ep125 val=0.158 test=0.169 124s
+  cpu seed 14 c=0.25 ep150 val=0.139 test=0.095 125s
+  cpu seed 15 c=1.00 ep175 val=0.129 test=0.040 123s
+  cpu seed 16 c=0.25 ep200 val=0.139 test=0.142 119s
+  cpu seed 17 c=0.50 ep150 val=0.132 test=0.181 130s
+  cpu seed 18 c=0.25 ep 50 val=0.169 test=0.055 129s
+  cpu seed 19 c=1.00 ep150 val=0.143 test=0.250 125s
+  occupancy seed  0 c=1.00 ep 25 val=0.158 test=0.158 124s
+  occupancy seed  1 c=0.50 ep 75 val=0.174 test=0.147 124s
+  occupancy seed  2 c=0.50 ep125 val=0.172 test=0.179 124s
+  occupancy seed  3 c=0.25 ep100 val=0.168 test=0.140 126s
+  occupancy seed  4 c=1.00 ep 75 val=0.149 test=0.146 123s
+  occupancy seed  5 c=0.25 ep 75 val=0.176 test=0.153 120s
+  occupancy seed  6 c=0.50 ep175 val=0.158 test=0.141 123s
+  occupancy seed  7 c=0.50 ep 75 val=0.168 test=0.155 121s
+  occupancy seed  8 c=0.50 ep150 val=0.191 test=0.139 123s
+  occupancy seed  9 c=0.25 ep200 val=0.166 test=0.155 123s
+  occupancy seed 10 c=0.50 ep100 val=0.181 test=0.158 121s
+  occupancy seed 11 c=0.50 ep 75 val=0.170 test=0.157 124s
+  occupancy seed 12 c=0.25 ep150 val=0.174 test=0.162 137s
+  occupancy seed 13 c=0.50 ep 50 val=0.149 test=0.167 126s
+  occupancy seed 14 c=0.50 ep 50 val=0.158 test=0.162 124s
+  occupancy seed 15 c=0.50 ep125 val=0.158 test=0.154 121s
+  occupancy seed 16 c=0.50 ep 25 val=0.170 test=0.157 119s
+  occupancy seed 17 c=0.25 ep 25 val=0.160 test=0.171 126s
+  occupancy seed 18 c=1.00 ep 25 val=0.158 test=0.151 120s
+  occupancy seed 19 c=0.50 ep 75 val=0.160 test=0.167 119s
+  iio_networkin seed  0 c=1.00 ep150 val=0.751 test=0.740 106s
+  iio_networkin seed  1 c=1.00 ep 25 val=0.719 test=0.735 109s
+  iio_networkin seed  2 c=0.25 ep150 val=0.719 test=0.686 104s
+  iio_networkin seed  3 c=1.00 ep 75 val=0.707 test=0.740 99s
+  iio_networkin seed  4 c=0.25 ep150 val=0.723 test=0.743 108s
+  iio_networkin seed  5 c=0.50 ep200 val=0.723 test=0.735 101s
+  iio_networkin seed  6 c=0.25 ep175 val=0.739 test=0.708 98s
+  iio_networkin seed  7 c=1.00 ep 75 val=0.731 test=0.727 104s
+  iio_networkin seed  8 c=0.25 ep100 val=0.731 test=0.713 113s
+  iio_networkin seed  9 c=0.50 ep175 val=0.715 test=0.684 106s
+  iio_networkin seed 10 c=0.50 ep200 val=0.743 test=0.702 105s
+  iio_networkin seed 11 c=0.50 ep 75 val=0.739 test=0.751 107s
+  iio_networkin seed 12 c=0.25 ep125 val=0.727 test=0.751 118s
+  iio_networkin seed 13 c=0.25 ep175 val=0.711 test=0.732 106s
+  iio_networkin seed 14 c=0.50 ep100 val=0.767 test=0.694 106s
+  iio_networkin seed 15 c=0.50 ep150 val=0.695 test=0.697 104s
+  iio_networkin seed 16 c=0.25 ep200 val=0.679 test=0.662 108s
+  iio_networkin seed 17 c=1.00 ep125 val=0.739 test=0.732 113s
+  iio_networkin seed 18 c=0.25 ep200 val=0.699 test=0.724 106s
+  iio_networkin seed 19 c=0.50 ep100 val=0.731 test=0.729 108s
+  traffic seed  1 c=1.00 ep150 val=0.111 test=0.091 110s
+  traffic seed  2 c=1.00 ep 25 val=0.129 test=0.097 100s
+  traffic seed  3 c=0.50 ep 75 val=0.129 test=0.080 73s
+  traffic seed  4 c=0.25 ep 25 val=0.129 test=0.100 71s
+  traffic seed  5 c=0.50 ep125 val=0.124 test=0.103 75s
+  traffic seed  6 c=0.25 ep 50 val=0.093 test=0.091 68s
+  traffic seed  7 c=0.25 ep 75 val=0.111 test=0.103 70s
+  traffic seed  8 c=0.25 ep 50 val=0.093 test=0.074 76s
+  traffic seed  9 c=0.50 ep150 val=0.111 test=0.109 72s
+  traffic seed 10 c=0.25 ep125 val=0.120 test=0.074 73s
+  traffic seed 11 c=0.25 ep 25 val=0.111 test=0.094 70s
+  traffic seed 12 c=1.00 ep200 val=0.129 test=0.103 70s
+  traffic seed 13 c=0.50 ep175 val=0.120 test=0.091 81s
+  traffic seed 14 c=0.50 ep 75 val=0.102 test=0.077 71s
+  traffic seed 15 c=0.25 ep175 val=0.111 test=0.077 74s
+  traffic seed 16 c=0.25 ep100 val=0.107 test=0.083 71s
+  traffic seed 17 c=1.00 ep 50 val=0.120 test=0.094 73s
+  traffic seed 18 c=0.25 ep 50 val=0.116 test=0.086 80s
+  traffic seed 19 c=0.50 ep 75 val=0.093 test=0.097 73s
+LANEDONE

@@ -1,0 +1,9 @@
+Algorithm 1, step 3: adaptivity-headroom test on the VALIDATION span
+Fixed 12 Oct 2026, 23:30 Baghdad, before computing any validation headroom.
+EXPLORATORY: the test-span headroom (Gate 1) was already seen.
+- Same block oracle as PREREG.txt (B = 96, e_cmd = er, R vs lightweight, 20 seeds),
+  run on the validation span [tr - LB, va) instead of the test span.
+- h_min = 5% (the Gate 1 threshold). A stream is flagged "adaptive candidate" if the
+  median validation headroom >= h_min.
+- Reported: agreement between the validation flag and the test flag (test median >= 5%).
+  The step is useful as a design-time test if agreement >= 10 of 11 streams.

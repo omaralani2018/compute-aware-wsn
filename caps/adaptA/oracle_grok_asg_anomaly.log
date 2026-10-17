@@ -1,0 +1,22 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+grok_asg_anomaly lightweight 0 rhoR=0.286 rhoL=0.035(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 1 rhoR=0.286 rhoL=0.032(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 2 rhoR=0.286 rhoL=0.036(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 3 rhoR=0.286 rhoL=0.037(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 4 rhoR=0.286 rhoL=0.040(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 5 rhoR=0.286 rhoL=0.036(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 6 rhoR=0.286 rhoL=0.053(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 7 rhoR=0.286 rhoL=0.046(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 8 rhoR=0.286 rhoL=0.030(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 9 rhoR=0.286 rhoL=0.035(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 10 rhoR=0.286 rhoL=0.034(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 11 rhoR=0.286 rhoL=0.057(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 12 rhoR=0.286 rhoL=0.046(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 13 rhoR=0.286 rhoL=0.045(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 14 rhoR=0.286 rhoL=0.030(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 15 rhoR=0.286 rhoL=0.027(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 16 rhoR=0.286 rhoL=0.030(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 17 rhoR=0.286 rhoL=0.051(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 18 rhoR=0.286 rhoL=0.048(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly lightweight 19 rhoR=0.286 rhoL=0.043(ok) G96=0.000 sw=0 fracL=0.00

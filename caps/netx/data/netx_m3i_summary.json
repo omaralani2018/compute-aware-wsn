@@ -1,0 +1,707 @@
+{
+ "build": "m3_int",
+ "tag": "m3i",
+ "amendment": "17a",
+ "tx_node": "m3-21",
+ "rx_node": "m3-22",
+ "offset_s": 37.14000000008039,
+ "correlation": 0.9962768545478017,
+ "corr_sync_start": 0.9981263561527524,
+ "corr_sync_end": 0.9981286321171856,
+ "offset_sync_start": 37.11000000008039,
+ "offset_sync_end": 37.1600000000804,
+ "alignment_ok": true,
+ "cells": {
+  "taxi": {
+   "arms": {
+    "linear_extrap": {
+     "E_meas": 0.00021895213034843822,
+     "E_meas_passes": [
+      0.00021895213034843822,
+      0.00021971555430040036,
+      0.00021894142216629967
+     ],
+     "E_gross": 0.0017157814884179398,
+     "E_pred": 0.00018964739662251208,
+     "tx": [
+      280,
+      280,
+      280
+     ],
+     "received": [
+      280,
+      280,
+      280
+     ],
+     "extra": [
+      0,
+      0,
+      0
+     ],
+     "send_err": [
+      0,
+      0,
+      0
+     ],
+     "late": [
+      0,
+      0,
+      0
+     ],
+     "dec_ok": [
+      true,
+      true,
+      true
+     ],
+     "values_ok": [
+      true,
+      true,
+      true
+     ],
+     "valid": [
+      true,
+      true,
+      true
+     ],
+     "passes": 3
+    },
+    "lightweight": {
+     "E_meas": 0.00019465094381786174,
+     "E_meas_passes": [
+      0.00019415197801076755,
+      0.00019485626645149718,
+      0.00019465094381786174
+     ],
+     "E_gross": 0.0016913731854043394,
+     "E_pred": 0.00016635628369091236,
+     "tx": [
+      235,
+      235,
+      235
+     ],
+     "received": [
+      235,
+      235,
+      235
+     ],
+     "extra": [
+      0,
+      0,
+      0
+     ],
+     "send_err": [
+      0,
+      0,
+      0
+     ],
+     "late": [
+      0,
+      0,
+      0
+     ],
+     "dec_ok": [
+      true,
+      true,
+      true
+     ],
+     "values_ok": [
+      true,
+      true,
+      true
+     ],
+     "valid": [
+      true,
+      true,
+      true
+     ],
+     "passes": 3
+    },
+    "cnn_lstm": {
+     "E_meas": 0.003751133231518146,
+     "E_meas_passes": [
+      0.003749386852937742,
+      0.003751133231518146,
+      0.0037521579913048753
+     ],
+     "E_gross": 0.01272286189708317,
+     "E_pred": 0.003335640902531655,
+     "tx": [
+      221,
+      221,
+      221
+     ],
+     "received": [
+      221,
+      221,
+      221
+     ],
+     "extra": [
+      0,
+      0,
+      0
+     ],
+     "send_err": [
+      0,
+      0,
+      0
+     ],
+     "late": [
+      0,
+      0,
+      0
+     ],
+     "dec_ok": [
+      true,
+      true,
+      true
+     ],
+     "values_ok": [
+      true,
+      true,
+      true
+     ],
+     "valid": [
+      true,
+      true,
+      true
+     ],
+     "passes": 3
+    }
+   },
+   "valid": true,
+   "O1": true,
+   "O2": {
+    "linear_extrap": false,
+    "lightweight": false,
+    "cnn_lstm": true
+   },
+   "O3": true,
+   "lowest_meas": "lightweight",
+   "caps": "lightweight",
+   "blind": "cnn_lstm"
+  },
+  "exchange_cpc": {
+   "arms": {
+    "expsm": {
+     "E_meas": 0.00031936628933283614,
+     "E_meas_passes": [
+      0.00031951097657856537,
+      0.00031927481054587926,
+      0.00031936628933283614
+     ],
+     "E_gross": 0.0018146941588819032,
+     "E_pred": 0.000284141886935613,
+     "tx": [
+      419,
+      419,
+      419
+     ],
+     "received": [
+      419,
+      419,
+      419
+     ],
+     "extra": [
+      0,
+      0,
+      0
+     ],
+     "send_err": [
+      0,
+      0,
+      0
+     ],
+     "late": [
+      0,
+      0,
+      0
+     ],
+     "dec_ok": [
+      true,
+      true,
+      true
+     ],
+     "values_ok": [
+      true,
+      true,
+      true
+     ],
+     "valid": [
+      true,
+      true,
+      true
+     ],
+     "passes": 3
+    },
+    "lightweight": {
+     "E_meas": 0.00031853419858436844,
+     "E_meas_passes": [
+      0.00031839121519877976,
+      0.00031853419858436844,
+      0.0003186574561625763
+     ],
+     "E_gross": 0.0018153193127527117,
+     "E_pred": 0.0002821575249986307,
+     "tx": [
+      406,
+      406,
+      406
+     ],
+     "received": [
+      406,
+      406,
+      406
+     ],
+     "extra": [
+      0,
+      0,
+      0
+     ],
+     "send_err": [
+      0,
+      0,
+      0
+     ],
+     "late": [
+      0,
+      0,
+      0
+     ],
+     "dec_ok": [
+      true,
+      true,
+      true
+     ],
+     "values_ok": [
+      true,
+      true,
+      true
+     ],
+     "valid": [
+      true,
+      true,
+      true
+     ],
+     "passes": 3
+    },
+    "cnn_lstm": {
+     "E_meas": 0.0038752976267145286,
+     "E_meas_passes": [
+      0.003875220957704171,
+      0.003877169842880245,
+      0.0038752976267145286
+     ],
+     "E_gross": 0.012856332069126576,
+     "E_pred": 0.003455505345288767,
+     "tx": [
+      398,
+      398,
+      398
+     ],
+     "received": [
+      398,
+      398,
+      398
+     ],
+     "extra": [
+      0,
+      0,
+      0
+     ],
+     "send_err": [
+      0,
+      0,
+      0
+     ],
+     "late": [
+      0,
+      0,
+      0
+     ],
+     "dec_ok": [
+      true,
+      true,
+      true
+     ],
+     "values_ok": [
+      true,
+      true,
+      true
+     ],
+     "valid": [
+      true,
+      true,
+      true
+     ],
+     "passes": 3
+    }
+   },
+   "valid": true,
+   "O1": true,
+   "O2": {
+    "expsm": true,
+    "lightweight": true,
+    "cnn_lstm": true
+   },
+   "O3": true,
+   "lowest_meas": "lightweight",
+   "caps": "lightweight",
+   "blind": "lightweight"
+  },
+  "machine_temp": {
+   "arms": {
+    "expsm": {
+     "E_meas": 0.00010470252580572187,
+     "E_meas_passes": [
+      0.00010462222204519838,
+      0.00010470252580572187,
+      0.00010502921173760977
+     ],
+     "E_gross": 0.0016013894674556215,
+     "E_pred": 8.301341519062846e-05,
+     "tx": [
+      122,
+      122,
+      122
+     ],
+     "received": [
+      122,
+      122,
+      122
+     ],
+     "extra": [
+      0,
+      0,
+      0
+     ],
+     "send_err": [
+      0,
+      0,
+      0
+     ],
+     "late": [
+      0,
+      0,
+      0
+     ],
+     "dec_ok": [
+      true,
+      true,
+      true
+     ],
+     "values_ok": [
+      true,
+      true,
+      true
+     ],
+     "valid": [
+      true,
+      true,
+      true
+     ],
+     "passes": 3
+    },
+    "lightweight": {
+     "E_meas": 0.00020061432405536953,
+     "E_meas_passes": [
+      0.00020061432405536953,
+      0.00020125183693350118,
+      0.00020047527420959918
+     ],
+     "E_gross": 0.0016971005522682444,
+     "E_pred": 0.0001717738856234372,
+     "tx": [
+      243,
+      243,
+      243
+     ],
+     "received": [
+      243,
+      243,
+      243
+     ],
+     "extra": [
+      0,
+      0,
+      0
+     ],
+     "send_err": [
+      0,
+      0,
+      0
+     ],
+     "late": [
+      0,
+      0,
+      0
+     ],
+     "dec_ok": [
+      true,
+      true,
+      true
+     ],
+     "values_ok": [
+      true,
+      true,
+      true
+     ],
+     "valid": [
+      true,
+      true,
+      true
+     ],
+     "passes": 3
+    },
+    "cnn_lstm": {
+     "E_meas": 0.0037022829167119796,
+     "E_meas_passes": [
+      0.003702391757140938,
+      0.003701759545913323,
+      0.0037022829167119796
+     ],
+     "E_gross": 0.01268223370534672,
+     "E_pred": 0.003275370081032316,
+     "tx": [
+      132,
+      132,
+      132
+     ],
+     "received": [
+      132,
+      132,
+      132
+     ],
+     "extra": [
+      0,
+      0,
+      0
+     ],
+     "send_err": [
+      0,
+      0,
+      0
+     ],
+     "late": [
+      0,
+      0,
+      0
+     ],
+     "dec_ok": [
+      true,
+      true,
+      true
+     ],
+     "values_ok": [
+      true,
+      true,
+      true
+     ],
+     "valid": [
+      true,
+      true,
+      true
+     ],
+     "passes": 3
+    }
+   },
+   "valid": true,
+   "O1": true,
+   "O2": {
+    "expsm": false,
+    "lightweight": false,
+    "cnn_lstm": true
+   },
+   "O3": true,
+   "lowest_meas": "expsm",
+   "caps": "expsm",
+   "blind": "cnn_lstm"
+  },
+  "cpu": {
+   "arms": {
+    "expsm": {
+     "E_meas": 0.0002710967453469756,
+     "E_meas_passes": [
+      0.0002711918295882873,
+      0.00027102103843165356,
+      0.0002710967453469756
+     ],
+     "E_gross": 0.0017676543589743591,
+     "E_pred": 0.0002387694707507175,
+     "tx": [
+      352,
+      352,
+      352
+     ],
+     "received": [
+      352,
+      352,
+      352
+     ],
+     "extra": [
+      0,
+      0,
+      0
+     ],
+     "send_err": [
+      0,
+      0,
+      0
+     ],
+     "late": [
+      0,
+      0,
+      0
+     ],
+     "dec_ok": [
+      true,
+      true,
+      true
+     ],
+     "values_ok": [
+      true,
+      true,
+      true
+     ],
+     "valid": [
+      true,
+      true,
+      true
+     ],
+     "passes": 3
+    },
+    "lightweight": {
+     "E_meas": 0.0002976113725665455,
+     "E_meas_passes": [
+      0.0002983514101770385,
+      0.00029748769193907595,
+      0.0002976113725665455
+     ],
+     "E_gross": 0.00179428033530572,
+     "E_pred": 0.000264550318717925,
+     "tx": [
+      380,
+      380,
+      380
+     ],
+     "received": [
+      380,
+      380,
+      380
+     ],
+     "extra": [
+      0,
+      0,
+      0
+     ],
+     "send_err": [
+      0,
+      0,
+      0
+     ],
+     "late": [
+      0,
+      0,
+      0
+     ],
+     "dec_ok": [
+      true,
+      true,
+      true
+     ],
+     "values_ok": [
+      true,
+      true,
+      true
+     ],
+     "valid": [
+      true,
+      true,
+      true
+     ],
+     "passes": 3
+    },
+    "cnn_lstm": {
+     "E_meas": 0.003940202952234821,
+     "E_meas_passes": [
+      0.0039412614702864215,
+      0.0039392889828086305,
+      0.003940202952234821
+     ],
+     "E_gross": 0.01292004781486893,
+     "E_pred": 0.003501554961715228,
+     "tx": [
+      466,
+      466,
+      466
+     ],
+     "received": [
+      466,
+      466,
+      466
+     ],
+     "extra": [
+      0,
+      0,
+      0
+     ],
+     "send_err": [
+      0,
+      0,
+      0
+     ],
+     "late": [
+      0,
+      0,
+      0
+     ],
+     "dec_ok": [
+      true,
+      true,
+      true
+     ],
+     "values_ok": [
+      true,
+      true,
+      true
+     ],
+     "valid": [
+      true,
+      true,
+      true
+     ],
+     "passes": 3
+    }
+   },
+   "valid": true,
+   "O1": true,
+   "O2": {
+    "expsm": true,
+    "lightweight": true,
+    "cnn_lstm": true
+   },
+   "O3": true,
+   "lowest_meas": "expsm",
+   "caps": "expsm",
+   "blind": "cnn_lstm"
+  }
+ },
+ "O1": [
+  4,
+  4
+ ],
+ "O2": [
+  8,
+  12
+ ],
+ "O3": [
+  4,
+  4
+ ],
+ "O4": {
+  "decisions_equal": 12,
+  "values_equal": 12,
+  "runs_valid": 36,
+  "runs": 36
+ },
+ "blind_vs_caps": 12.174756632924538
+}

@@ -1,0 +1,21 @@
+  cnn_lstm   seed  0  ep 25  val=0.338 test=0.395  64s
+  cnn_lstm   seed  1  ep 25  val=0.348 test=0.689  62s
+  cnn_lstm   seed  2  ep 25  val=0.364 test=0.652  61s
+  cnn_lstm   seed  3  ep 25  val=0.360 test=0.660  60s
+  cnn_lstm   seed  4  ep 25  val=0.336 test=0.391  60s
+  cnn_lstm   seed  5  ep 25  val=0.366 test=0.676  60s
+  cnn_lstm   seed  6  ep 25  val=0.362 test=0.652  61s
+  cnn_lstm   seed  7  ep 25  val=0.348 test=0.601  72s
+  cnn_lstm   seed  8  ep 25  val=0.350 test=0.448  63s
+  cnn_lstm   seed  9  ep 25  val=0.338 test=0.436  61s
+  cnn_lstm   seed 10  ep150  val=0.334 test=0.589  61s
+  cnn_lstm   seed 11  ep 25  val=0.312 test=0.269  62s
+  cnn_lstm   seed 12  ep 50  val=0.320 test=0.555  61s
+  cnn_lstm   seed 13  ep 50  val=0.318 test=0.407  63s
+  cnn_lstm   seed 14  ep 25  val=0.348 test=0.453  63s
+  cnn_lstm   seed 15  ep 25  val=0.370 test=0.667  65s
+  cnn_lstm   seed 16  ep 25  val=0.324 test=0.345  66s
+  cnn_lstm   seed 17  ep 25  val=0.344 test=0.499  70s
+  cnn_lstm   seed 18  ep 25  val=0.332 test=0.389  66s
+  cnn_lstm   seed 19  ep 25  val=0.352 test=0.615  69s
+LANEDONE

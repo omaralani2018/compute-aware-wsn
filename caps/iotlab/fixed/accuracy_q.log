@@ -1,0 +1,13 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+intel_time        fi=16  test rho fixed minus float: median +0.0026  range [-0.0222, +0.0139]
+taxi              fi=15  test rho fixed minus float: median -0.0006  range [-0.0068, +0.0032]
+traffic           fi=16  test rho fixed minus float: median +0.0000  range [-0.0029, +0.0029]
+cpu               fi=16  test rho fixed minus float: median +0.0000  range [-0.0017, +0.0033]
+machine_temp      fi=16  test rho fixed minus float: median +0.0001  range [-0.0076, +0.0051]
+grok_asg_anomaly  fi=16  test rho fixed minus float: median +0.0000  range [-0.0014, +0.0007]
+rds_cpu_util      fi=16  test rho fixed minus float: median +0.0000  range [-0.0017, +0.0000]
+iio_networkin     fi= 5  test rho fixed minus float: median -0.0013  range [-0.0295, +0.0214]
+twitter_aapl      fi=16  test rho fixed minus float: median +0.0013  range [-0.0008, +0.0052]
+exchange_cpc      fi=16  test rho fixed minus float: median +0.0000  range [-0.0123, +0.0061]
+occupancy         fi=16  test rho fixed minus float: median +0.0000  range [-0.0028, +0.0014]

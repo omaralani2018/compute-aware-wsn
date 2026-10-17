@@ -1,0 +1,530 @@
+{
+ "median|1nJ|0.0001": {
+  "blind_vs_caps": 34.32429500616758,
+  "caps_vs_ref": -0.22506503370010034,
+  "blind_vs_ref": 34.021977986344545,
+  "tot": {
+   "caps": 0.0006204793072035492,
+   "blind": 0.0008334544550603203,
+   "ref": 0.000621878939247741
+  },
+  "drivers": {
+   "taxi": [
+    2.871,
+    20
+   ],
+   "cpu": [
+    1.204,
+    9
+   ],
+   "machine_temp": [
+    5.425,
+    18
+   ]
+  },
+  "cnn_picks": {
+   "intel_time": 1,
+   "taxi": 20,
+   "traffic": 6,
+   "cpu": 9,
+   "machine_temp": 18,
+   "exchange_cpc": 4
+  }
+ },
+ "median|1nJ|0.00038": {
+  "blind_vs_caps": 10.744354409492773,
+  "caps_vs_ref": -0.29634477942497295,
+  "blind_vs_ref": 10.416169296692356,
+  "tot": {
+   "caps": 0.002352758967373487,
+   "blind": 0.0026055477292292167,
+   "ref": 0.0023597519691414153
+  },
+  "drivers": {
+   "taxi": [
+    1.416,
+    20
+   ],
+   "cpu": [
+    1.205,
+    9
+   ],
+   "machine_temp": [
+    2.254,
+    18
+   ]
+  },
+  "cnn_picks": {
+   "intel_time": 1,
+   "taxi": 20,
+   "traffic": 6,
+   "cpu": 9,
+   "machine_temp": 18,
+   "exchange_cpc": 4
+  }
+ },
+ "median|1nJ|0.003": {
+  "blind_vs_caps": 3.4861765667711264,
+  "caps_vs_ref": -0.4315995059671507,
+  "blind_vs_ref": 3.0395307399646576,
+  "tot": {
+   "caps": 0.01854090883281366,
+   "blind": 0.01918727765180961,
+   "ref": 0.018621278177432227
+  },
+  "drivers": {
+   "cpu": [
+    1.184,
+    9
+   ],
+   "machine_temp": [
+    1.26,
+    18
+   ]
+  },
+  "cnn_picks": {
+   "intel_time": 1,
+   "taxi": 20,
+   "traffic": 6,
+   "cpu": 9,
+   "machine_temp": 18,
+   "exchange_cpc": 4
+  }
+ },
+ "median|mica2|0.00038": {
+  "blind_vs_caps": 9311.75196902648,
+  "caps_vs_ref": 0.0,
+  "blind_vs_ref": 9311.75196902648,
+  "tot": {
+   "caps": 0.0024130376467828753,
+   "blind": 0.22710911823443752,
+   "ref": 0.0024130376467828753
+  },
+  "drivers": {
+   "taxi": [
+    490.741,
+    20
+   ],
+   "cpu": [
+    2.082,
+    9
+   ],
+   "machine_temp": [
+    1142.346,
+    18
+   ],
+   "grok_asg_anomaly": [
+    1.069,
+    0
+   ],
+   "exchange_cpc": [
+    1.671,
+    4
+   ]
+  },
+  "cnn_picks": {
+   "intel_time": 1,
+   "taxi": 20,
+   "traffic": 6,
+   "cpu": 9,
+   "machine_temp": 18,
+   "exchange_cpc": 4
+  }
+ },
+ "median|m3_float|0.00038": {
+  "blind_vs_caps": 1494.689918795691,
+  "caps_vs_ref": 0.16482821571299766,
+  "blind_vs_ref": 1497.3184177349972,
+  "tot": {
+   "caps": 0.002370921238741855,
+   "blind": 0.03780884197680228,
+   "ref": 0.0023670197223679013
+  },
+  "drivers": {
+   "taxi": [
+    80.314,
+    20
+   ],
+   "cpu": [
+    1.464,
+    9
+   ],
+   "machine_temp": [
+    199.402,
+    18
+   ],
+   "exchange_cpc": [
+    1.055,
+    4
+   ]
+  },
+  "cnn_picks": {
+   "intel_time": 1,
+   "taxi": 20,
+   "traffic": 6,
+   "cpu": 9,
+   "machine_temp": 18,
+   "exchange_cpc": 4
+  }
+ },
+ "median|m3_int|0.00038": {
+  "blind_vs_caps": 271.43774288692686,
+  "caps_vs_ref": 0.192368188647829,
+  "blind_vs_ref": 272.15227094487284,
+  "tot": {
+   "caps": 0.0023677868208019587,
+   "blind": 0.008794853923560919,
+   "ref": 0.0023632406974788303
+  },
+  "drivers": {
+   "taxi": [
+    16.958,
+    20
+   ],
+   "cpu": [
+    1.269,
+    9
+   ],
+   "machine_temp": [
+    37.406,
+    18
+   ]
+  },
+  "cnn_picks": {
+   "intel_time": 1,
+   "taxi": 20,
+   "traffic": 6,
+   "cpu": 9,
+   "machine_temp": 18,
+   "exchange_cpc": 4
+  }
+ },
+ "median|nrf|0.00038": {
+  "blind_vs_caps": 66.83902884498671,
+  "caps_vs_ref": -0.09208495107367876,
+  "blind_vs_ref": 66.68539520690302,
+  "tot": {
+   "caps": 0.0023579214991706118,
+   "blind": 0.0039339333301434,
+   "ref": 0.002360094791304477
+  },
+  "drivers": {
+   "taxi": [
+    4.877,
+    20
+   ],
+   "cpu": [
+    1.204,
+    9
+   ],
+   "machine_temp": [
+    9.836,
+    18
+   ]
+  },
+  "cnn_picks": {
+   "intel_time": 1,
+   "taxi": 20,
+   "traffic": 6,
+   "cpu": 9,
+   "machine_temp": 18,
+   "exchange_cpc": 4
+  }
+ },
+ "mean|1nJ|0.0001": {
+  "blind_vs_caps": 47.253153608186935,
+  "caps_vs_ref": -0.14103547130279726,
+  "blind_vs_ref": 47.04547442898741,
+  "tot": {
+   "caps": 0.0006210018693548401,
+   "blind": 0.000914444836590795,
+   "ref": 0.000621878939247741
+  },
+  "drivers": {
+   "intel_time": [
+    1.635,
+    1
+   ],
+   "taxi": [
+    2.89,
+    20
+   ],
+   "traffic": [
+    1.314,
+    6
+   ],
+   "cpu": [
+    1.658,
+    9
+   ],
+   "machine_temp": [
+    4.91,
+    18
+   ],
+   "exchange_cpc": [
+    1.231,
+    4
+   ]
+  },
+  "cnn_picks": {
+   "intel_time": 1,
+   "taxi": 20,
+   "traffic": 6,
+   "cpu": 9,
+   "machine_temp": 18,
+   "exchange_cpc": 4
+  }
+ },
+ "mean|1nJ|0.00038": {
+  "blind_vs_caps": 13.07215245166864,
+  "caps_vs_ref": -0.19827901507730727,
+  "blind_vs_ref": 12.847954101460758,
+  "tot": {
+   "caps": 0.0023550730761787344,
+   "blind": 0.002662931819045021,
+   "ref": 0.0023597519691414153
+  },
+  "drivers": {
+   "intel_time": [
+    1.171,
+    1
+   ],
+   "taxi": [
+    1.428,
+    20
+   ],
+   "traffic": [
+    1.079,
+    6
+   ],
+   "cpu": [
+    1.253,
+    9
+   ],
+   "machine_temp": [
+    2.1,
+    18
+   ],
+   "exchange_cpc": [
+    1.056,
+    4
+   ]
+  },
+  "cnn_picks": {
+   "intel_time": 1,
+   "taxi": 20,
+   "traffic": 6,
+   "cpu": 9,
+   "machine_temp": 18,
+   "exchange_cpc": 4
+  }
+ },
+ "mean|1nJ|0.003": {
+  "blind_vs_caps": 1.9991663506800927,
+  "caps_vs_ref": 0.1591371559357846,
+  "blind_vs_ref": 2.1614849230887856,
+  "tot": {
+   "caps": 0.018650911549922683,
+   "blind": 0.019023774297723846,
+   "ref": 0.018621278177432227
+  },
+  "drivers": {
+   "cpu": [
+    1.074,
+    9
+   ],
+   "machine_temp": [
+    1.224,
+    18
+   ]
+  },
+  "cnn_picks": {
+   "intel_time": 1,
+   "taxi": 20,
+   "traffic": 6,
+   "cpu": 9,
+   "machine_temp": 18,
+   "exchange_cpc": 4
+  }
+ },
+ "mean|mica2|0.00038": {
+  "blind_vs_caps": 13486.255671177787,
+  "caps_vs_ref": 0.0,
+  "blind_vs_ref": 13486.255671177787,
+  "tot": {
+   "caps": 0.0024130376467828753,
+   "blind": 0.3278414641336934,
+   "ref": 0.0024130376467828753
+  },
+  "drivers": {
+   "intel_time": [
+    189.893,
+    1
+   ],
+   "taxi": [
+    490.745,
+    20
+   ],
+   "traffic": [
+    95.652,
+    6
+   ],
+   "cpu": [
+    180.149,
+    9
+   ],
+   "machine_temp": [
+    1028.33,
+    18
+   ],
+   "grok_asg_anomaly": [
+    1.069,
+    0
+   ],
+   "exchange_cpc": [
+    71.036,
+    4
+   ]
+  },
+  "cnn_picks": {
+   "intel_time": 1,
+   "taxi": 20,
+   "traffic": 6,
+   "cpu": 9,
+   "machine_temp": 18,
+   "exchange_cpc": 4
+  }
+ },
+ "mean|m3_float|0.00038": {
+  "blind_vs_caps": 2163.9701803342036,
+  "caps_vs_ref": 0.1259504070459716,
+  "blind_vs_ref": 2166.8216599917337,
+  "tot": {
+   "caps": 0.002370000993343082,
+   "blind": 0.05365611576291179,
+   "ref": 0.0023670197223679013
+  },
+  "drivers": {
+   "intel_time": [
+    30.784,
+    1
+   ],
+   "taxi": [
+    80.653,
+    20
+   ],
+   "traffic": [
+    15.836,
+    6
+   ],
+   "cpu": [
+    30.383,
+    9
+   ],
+   "machine_temp": [
+    179.593,
+    18
+   ],
+   "exchange_cpc": [
+    11.638,
+    4
+   ]
+  },
+  "cnn_picks": {
+   "intel_time": 1,
+   "taxi": 20,
+   "traffic": 6,
+   "cpu": 9,
+   "machine_temp": 18,
+   "exchange_cpc": 4
+  }
+ },
+ "mean|m3_int|0.00038": {
+  "blind_vs_caps": 391.5916642308629,
+  "caps_vs_ref": 0.07193181012505878,
+  "blind_vs_ref": 391.94527501336813,
+  "tot": {
+   "caps": 0.002364940619290139,
+   "blind": 0.01162585094844007,
+   "ref": 0.0023632406974788303
+  },
+  "drivers": {
+   "intel_time": [
+    6.375,
+    1
+   ],
+   "taxi": [
+    17.086,
+    20
+   ],
+   "traffic": [
+    3.681,
+    6
+   ],
+   "cpu": [
+    5.942,
+    9
+   ],
+   "machine_temp": [
+    33.783,
+    18
+   ],
+   "exchange_cpc": [
+    2.93,
+    4
+   ]
+  },
+  "cnn_picks": {
+   "intel_time": 1,
+   "taxi": 20,
+   "traffic": 6,
+   "cpu": 9,
+   "machine_temp": 18,
+   "exchange_cpc": 4
+  }
+ },
+ "mean|nrf|0.00038": {
+  "blind_vs_caps": 94.46997802733814,
+  "caps_vs_ref": -0.050425104406570664,
+  "blind_vs_ref": 94.37191633787843,
+  "tot": {
+   "caps": 0.0023589047110418675,
+   "blind": 0.004587361473248964,
+   "ref": 0.002360094791304477
+  },
+  "drivers": {
+   "intel_time": [
+    2.289,
+    1
+   ],
+   "taxi": [
+    4.906,
+    20
+   ],
+   "traffic": [
+    1.639,
+    6
+   ],
+   "cpu": [
+    2.216,
+    9
+   ],
+   "machine_temp": [
+    8.876,
+    18
+   ],
+   "exchange_cpc": [
+    1.467,
+    4
+   ]
+  },
+  "cnn_picks": {
+   "intel_time": 1,
+   "taxi": 20,
+   "traffic": 6,
+   "cpu": 9,
+   "machine_temp": 18,
+   "exchange_cpc": 4
+  }
+ }
+}

@@ -1,0 +1,19 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+grand_st_bernard     statistic 0.546  persistence test rho 0.518  |diff| 0.027  fastness(train) 0.290
+fishnet              statistic 0.632  persistence test rho 0.567  |diff| 0.065  fastness(train) 0.127
+genepi               statistic 0.461  persistence test rho 0.380  |diff| 0.081  fastness(train) 0.353
+pdg2008              statistic 0.438  persistence test rho 0.415  |diff| 0.023  fastness(train) 0.350
+plaine_morte         statistic 0.199  persistence test rho 0.185  |diff| 0.013  fastness(train) 0.489
+ambient_temperature  statistic 0.292  persistence test rho 0.264  |diff| 0.028  fastness(train) 0.273
+occupancy_t4013      statistic 0.098  persistence test rho 0.097  |diff| 0.000  fastness(train) 0.963
+speed_6005           statistic 0.044  persistence test rho 0.057  |diff| 0.013  fastness(train) 1.275
+speed_t4013          statistic 0.123  persistence test rho 0.100  |diff| 0.023  fastness(train) 1.086
+TravelTime_387       statistic 0.514  persistence test rho 0.755  |diff| 0.241  fastness(train) 0.840
+TravelTime_451       statistic 0.616  persistence test rho 0.794  |diff| 0.178  fastness(train) 0.770
+appliances_indoor    statistic 0.918  persistence test rho 0.836  |diff| 0.082  fastness(train) 0.058
+occupancy_office     statistic 0.977  persistence test rho 0.939  |diff| 0.038  fastness(train) 0.030
+13 new datasets: Spearman 0.97 (one-sided p 0.0000), MAE 0.062, worst 0.241 -> CONFIRMED
+pooled 24: Spearman 0.93, MAE 0.066, worst 0.241
+fastness(train) vs persistence rho, 13 new: Spearman -0.70
+descriptive, 24 datasets: Spearman(statistic, lightweight median delta-rho vs reference) = -0.31

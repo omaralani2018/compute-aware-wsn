@@ -1,0 +1,78 @@
+PREREG17: dual prediction run end to end on IoT-LAB nodes over their own IEEE 802.15.4 radios (NETX)
+Written 15 Oct 2026, before any run. Frozen by the SHA-256 of this file and of the files listed in MANIFEST.sha256.
+
+Purpose. Sections 4.4 and 5.1 measure the cost of a forecast and the cost of a report separately and combine them with
+the closed-loop suppression computed on the host. Here dual prediction runs on the nodes: each round a sender node
+forecasts and transmits a real frame to a sink node only when the forecast misses by more than the tolerance. The test is
+whether the energy the node spends ranks the predictors as the separate measurements predict, and whether the choice CAPS
+makes before deployment is the one that costs least on the node.
+
+Nodes and radio. As PREREG15 and AMENDMENT_15a: IoT-LAB M3 pair (grenoble, sender m3-21, sink m3-22) and nRF52840DK pair
+(saclay, sender 5, sink 6); if a node is unavailable, another node of the same type is used and recorded. Same channel,
+PAN, addresses and driver defaults as PREREG15. Each report is one 7-byte frame (stream and arm, round index, the reading
+as 4 bytes), UNICAST to the sink WITH acknowledgement. Between reports the sender's radio sleeps; the sink listens
+throughout (its energy is not measured) and prints every frame it receives. Consumption profiles as PREREG12 and 15.
+Firmware: RIOT commit eb65305c, arm-none-eabi-gcc 13.2.1, -Os, -std=c11 (no floating-point contraction).
+Builds: m3_float (M3, software float), m3_int (M3, PREREG13 integer predictors and integer readings), nrf (nRF52840, FPU).
+
+Streams and predictors. Four development streams: taxi, exchange_cpc, machine_temp, cpu; tau = 0.10 in the normalised
+units of the paper. The node stores the first R = 480 rounds of the test span plus the 12 preceding readings (480 because
+exchange_cpc has 488 test rounds). Arms per stream: the reference that CAPS uses (Section 5.1 rule at er = 3.8e-4 J:
+linear extrapolation K = 2 for taxi, exponential smoothing for the other three; the same on the three builds), the
+lightweight model (seed 0) and the CNN-LSTM (lowest stored seed: taxi s5, exchange_cpc s19, machine_temp s0, cpu s0).
+Weights and normalisation exactly as in the paper; integer build as PREREG13 (qemu.py scheme), with the transmit rule
+|x - forecast| > floor(tau x unit x 2^fi) on Q(fi) integers.
+
+Round. Each round: forecast from the shared state; if the forecast misses, send the report and store the reading,
+otherwise store the forecast; then sleep (CPU idle, radio asleep) to the next period boundary. Period: 20 ms for the
+reference and the lightweight model on all builds; for the CNN-LSTM 400 ms (m3_float), 120 ms (m3_int), 60 ms (nrf), each
+above its slowest measured forecast plus one report. The energy per round above idle does not depend on the period; the
+short period for the fast arms concentrates their energy against the noise of the power monitor.
+
+Sender sequence (nothing printed inside a phase): 60-s wait (AMENDMENT_15a), IDLE 5 s, SYNC 12 s (radio in receive mode),
+IDLE 5 s; then PASSES passes (3 on the M3 builds, 5 on nrf), each running for every stream the three arms in the order
+reference, lightweight, CNN-LSTM, each RUN of R rounds followed by IDLE 5 s; then SYNC 12 s and IDLE 5 s. After each RUN
+the sender prints transmissions, send errors, late rounds, forecast and active cycles, wall time, and the transmit
+decisions as a bitmap. Expected duration: m3_float 47 min, m3_int 20 min, nrf 23 min.
+
+Host check (done before freezing, passed). The firmware's own predictor and transmit-rule code (app/netx_pred.h),
+compiled with the firmware's compiler, flags and newlib and run under qemu-arm, gives on all 480 rounds the same transmit
+decisions as the Python emulation (gen.py float64; gen2.py bit-exact integer): 52 of 52 stream-arm-build combinations
+(check/check.py, check/out_*.txt). The expected bitmaps are in check/expected_decisions.json.
+
+Measurements (analyse_netx.py, tested on synthetic traces from sim_netx.py before any run).
+ Alignment: the clock offset (search -120 to 120 s, step 0.01 s) maximising the correlation between the 45-sample running
+ median of power and the pattern SYNC on, neighbouring IDLE off, over the two SYNC blocks. Accepted if that correlation is
+ at least 0.9 and the offsets found from the start and the end SYNC separately agree within 0.1 s; otherwise the build is
+ reported as descriptive only. (On the PREREG15 traces this rule gives correlation 0.999 and 0.997.)
+ Energy per round above idle: E_meas = (P_run - P_idle) x wall time / R, with P_run the mean power of the RUN phase and
+ P_idle the mean of the two IDLE phases on either side of it, each trimmed by 0.3 s at both ends. Per arm: the median over
+ the valid passes. Gross energy per round is reported as well.
+ Prediction from the separate measurements (fixed now): E_pred = E_forecast + n_tx/R x E_report_UC, with E_forecast the
+ Section 5.1 above-idle energy per forecast of that arm on that build, E_report_UC the PREREG15 unicast report energy of
+ that node type (4-byte payload; the 3 extra bytes here add about 0.1 ms of airtime), and n_tx the node's own
+ transmissions. The predicted values are listed in netx_plan.json. E_pred leaves out the fixed cost of each round (timer
+ wake-up, the transmit test, bookkeeping), estimated at 1% to 2% on the M3 and up to about 5% for the least costly nRF
+ arm; it is the same for the three arms of a cell.
+
+Validity. A RUN is valid if it had no send error, the sink received at least 99% of the frames the sender sent in it, and
+its power phases lie inside the trace. An arm has a measured value if at least half of the passes the protocol runs (and
+at least two) are valid. A cell (build x stream) enters
+O1 to O3 if alignment was accepted and its three arms have measured values; excluded cells are counted.
+
+Outcomes (fixed now; counts over the valid cells of the 12 build-stream cells).
+ O1 Ranking: the arm with the lowest E_meas has E_pred within 5% of the lowest E_pred of the cell (predicted differences
+    under 5% are ties, and either order counts as agreement).
+ O2 Accuracy: E_meas within +-15% of E_pred, per arm and cell.
+ O3 CAPS on the node: the arm CAPS selects before deployment, with the node's own report energy and validation
+    suppression (seed 0 lightweight, the stored CNN-LSTM seed; listed in netx_plan.json "choice"), has E_meas within 5% of
+    the lowest E_meas of the cell.
+ O4 Loop: the node's transmit decisions equal the expected bitmaps in every pass; the readings received by the sink equal
+    the sender's readings bit for bit. With both, the sink's reconstruction equals the sender's state, within tau on
+    every round.
+ Reported in addition (descriptive): compute-blind selection's E_meas against CAPS's, summed over the valid cells of a
+ build; late rounds; cycles; gross energy per round.
+
+Runs. One run per build. A technical failure (node unavailable, crash, capture missed, radio not initialised) is rerun
+with the same firmware and recorded. A completed valid run is reported whatever it shows; nothing is rerun to change a
+result. Any deviation from this text is written as an amendment before the affected data are analysed.

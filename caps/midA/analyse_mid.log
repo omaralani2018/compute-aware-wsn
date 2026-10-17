@@ -1,0 +1,17 @@
+intel_time        median test rho: lw 0.891 mlp_mid 0.857 cnn_small 0.853 cnn 0.853 | arch p=0.655 size_mlp p=0.229 size_cnn p=0.617
+taxi              median test rho: lw 0.501 mlp_mid 0.557 cnn_small 0.524 cnn 0.554 | arch p=8.43e-07 size_mlp p=9.08e-08 size_cnn p=5.99e-07
+traffic           median test rho: lw 0.084 mlp_mid 0.075 cnn_small 0.093 cnn 0.077 | arch p=0.00328 size_mlp p=0.171 size_cnn p=0.000982
+cpu               median test rho: lw 0.182 mlp_mid 0.135 cnn_small 0.011 cnn 0.011 | arch p=8.5e-08 size_mlp p=0.279 size_cnn p=0.816
+machine_temp      median test rho: lw 0.742 mlp_mid 0.734 cnn_small 0.735 cnn 0.740 | arch p=0.968 size_mlp p=0.695 size_cnn p=0.229
+grok_asg_anomaly  median test rho: lw 0.036 mlp_mid 0.035 cnn_small 0.036 cnn 0.040 | arch p=0.85 size_mlp p=0.223 size_cnn p=0.227
+rds_cpu_util      median test rho: lw 0.109 mlp_mid 0.120 cnn_small 0.096 cnn 0.101 | arch p=4.48e-07 size_mlp p=3.64e-05 size_cnn p=0.588
+iio_networkin     median test rho: lw 0.630 mlp_mid 0.736 cnn_small 0.720 cnn 0.765 | arch p=0.234 size_mlp p=7.54e-06 size_cnn p=0.00231
+twitter_aapl      median test rho: lw 0.613 mlp_mid 0.637 cnn_small 0.652 cnn 0.642 | arch p=0.239 size_mlp p=0.0275 size_cnn p=0.402
+exchange_cpc      median test rho: lw 0.166 mlp_mid 0.164 cnn_small 0.176 cnn 0.175 | arch p=0.0735 size_mlp p=0.464 size_cnn p=0.635
+occupancy         median test rho: lw 0.122 mlp_mid 0.127 cnn_small 0.120 cnn 0.122 | arch p=0.129 size_mlp p=0.0402 size_cnn p=0.515
+significant (Holm):  {'arch': {'sig': 4, 'first_higher': 3, 'second_higher': 1}, 'size_mlp': {'sig': 3, 'first_higher': 3, 'second_higher': 0}, 'size_cnn': {'sig': 3, 'first_higher': 1, 'second_higher': 2}}
+energy verdicts at the anchor (save / cost): {'lightweight': (3, 8, ['taxi', 'traffic', 'exchange_cpc']), 'mlp_mid': (2, 8, ['taxi', 'exchange_cpc']), 'cnnlstm_small': (3, 8, ['taxi', 'traffic', 'exchange_cpc']), 'cnn_lstm': (0, 11, [])}
+screen false exclusions: none
+secondary estimate, streams with positive median net: {'M3 float': {'lightweight': 0, 'mlp_mid': 0, 'cnnlstm_small': 0, 'cnn_lstm': 0}, 'M3 integer': {'lightweight': 3, 'mlp_mid': 0, 'cnnlstm_small': 0, 'cnn_lstm': 0}, 'nRF52840': {'lightweight': 3, 'mlp_mid': 1, 'cnnlstm_small': 0, 'cnn_lstm': 0}}
+CONCLUSION: mixed | selection conclusions stand: True
+ANALYSED

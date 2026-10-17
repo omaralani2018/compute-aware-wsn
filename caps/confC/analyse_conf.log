@@ -1,0 +1,6 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+appliances_indoor    ref=linear_extrap rhoR val 0.842 test 0.846 | screened {'cnn_lstm': True} | false excl [] | picks {'ref': 14, 'lightweight': 6, 'cnn_lstm': 0} | headroom val 6.9% test 5.3%
+occupancy_office     ref=expsm         rhoR val 0.954 test 0.957 | screened {'cnn_lstm': True} | false excl [] | picks {'ref': 20, 'lightweight': 0, 'cnn_lstm': 0} | headroom val 13.2% test 10.0%
+evaluable 2/2 | C1 no false exclusion: True | C2 flag agreement 2/2: True | C3 hindsight ceiling 0.0%: True | C4 CAPS 75.5% below always-CNN: True
+totals vs ref: lw +20.0%, cnn +307.5%, caps +0.0%

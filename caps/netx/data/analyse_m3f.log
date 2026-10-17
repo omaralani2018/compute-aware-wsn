@@ -1,0 +1,6 @@
+m3_float m3f  alignment offset 37.04 s corr 0.989 (start 36.95, end 37.07)  FAILED
+  taxi          linear_extrap 216.6/190.9 uJ tx [280, 280, 280] rx [280, 280, 280]  lightweight 220.2/190.8 uJ tx [234, 234, 234] rx [234, 234, 234]  cnn_lstm 21129.2/17802.8 uJ tx [205, 205, 205] rx [205, 205, 205] 
+  exchange_cpc  expsm 315.5/285.4 uJ tx [419, 419, 419] rx [419, 419, 419]  lightweight 344.2/308.6 uJ tx [408, 408, 408] rx [408, 408, 408]  cnn_lstm 20881.6/17932.8 uJ tx [397, 397, 397] rx [397, 397, 397] 
+  machine_temp  expsm 105.2/84.3 uJ tx [122, 122, 122] rx [122, 122, 122]  lightweight 228.0/196.9 uJ tx [243, 243, 243] rx [243, 243, 243]  cnn_lstm 20159.1/17749.3 uJ tx [126, 126, 126] rx [126, 126, 126] 
+  cpu           expsm 268.8/240.1 uJ tx [352, 352, 352] rx [352, 352, 352]  lightweight 323.2/291.0 uJ tx [382, 382, 382] rx [382, 382, 382]  cnn_lstm 21400.0/17980.2 uJ tx [467, 467, 467] rx [467, 467, 467] 
+O1 0/0  O2 0/0  O3 0/0  O4 {'decisions_equal': 12, 'values_equal': 12, 'runs_valid': 36, 'runs': 36}

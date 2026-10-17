@@ -1,0 +1,14 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+intel_time        val=  6.11%  test= 13.11%  agree
+taxi              val=  0.26%  test=  2.80%  agree
+traffic           val=  0.00%  test=  0.66%  agree
+cpu               val=  0.54%  test=  0.00%  agree
+machine_temp      val=  6.79%  test=  5.78%  agree
+grok_asg_anomaly  val=  0.00%  test=  0.00%  agree
+rds_cpu_util      val=  3.66%  test=  1.33%  agree
+iio_networkin     val=  0.00%  test=  0.00%  agree
+twitter_aapl      val=  0.59%  test=  0.33%  agree
+exchange_cpc      val=  0.38%  test=  0.26%  agree
+occupancy         val=  0.61%  test=  0.32%  agree
+agreement 11 / 11

@@ -1,0 +1,16 @@
+{
+ "median_net_J": {
+  "cpu": -0.00011069246280991737,
+  "exchange_cpc": 1.1092491803278703e-05,
+  "grok_asg_anomaly": -9.985265753424659e-05,
+  "iio_networkin": -2.731271849865949e-05,
+  "intel_time": -3.2937678737233084e-05,
+  "machine_temp": -1.7868740196798344e-05,
+  "occupancy": -1.9733322128851536e-05,
+  "rds_cpu_util": -5.651890909090908e-05,
+  "taxi": 4.104666257668713e-05,
+  "traffic": -1.9442241887905604e-06,
+  "twitter_aapl": -2.6778031439949724e-05
+ },
+ "note": "median net saving (J) at er = 3.8e-4 J and 1 nJ per MAC"
+}

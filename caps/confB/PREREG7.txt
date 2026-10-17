@@ -1,0 +1,18 @@
+Confirmatory evaluation of CAPS on further SensorScope deployments
+Pre-registered 13 Oct 2026, 11:10 Baghdad, from the archive's file listing only (names and sizes, shown by
+the first author's "dir" of the unpacked Zenodo record 10.5281/zenodo.2654726). No file of these deployments has been opened.
+
+Selection rule (fixed): every "<deployment>-meteo.zip" in the record except stbernard-meteo.zip (already used,
+Section 6.10) and the LUCE station archives (excluded for compute, as in the frozen Grand St Bernard protocol):
+ fishnet-meteo.zip (1,324,072 B), genepi-meteo.zip (12,785,279 B), pdg2008-meteo.zip (725,054 B),
+ plaine_morte-meteo.zip (1,544,921 B).
+
+Protocol: the frozen Grand St Bernard protocol (STB_PROTOCOL.md version 4 with Amendment 1) applied to each
+deployment unchanged except for the deployment's own station list and nominal interval, which its rules
+derive from the data (rules 1-7); ambient temperature, tau = 0.10 degC, primary preparation P_seg,
+20 seeds per learned model. A deployment that fails the protocol's own minimum-data rule is reported as not
+evaluable. CAPS as Algorithm 1 (B = 96, hmin = 5%, e_cmd = er), headroom with the lightweight model.
+
+Checks (all reported whatever the outcome), over the evaluable deployments:
+ C1 no false exclusion by the screen; C2 headroom flag agreement on all but at most one deployment;
+ C3 hindsight best fixed arm saves < 5% over the reference (summed); C4 CAPS below always-CNN-LSTM.

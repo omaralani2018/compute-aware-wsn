@@ -1,0 +1,9 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+ambient_temperature  ref=expsm         rhoR val 0.308 test 0.216 | screened {} | false excl [] | picks {'ref': 5, 'lightweight': 15, 'cnn_lstm': 0} | headroom val 1.8% test 0.6%
+Traceback (most recent call last):
+  File "<caps>/confA/analyse_conf.py", line 31, in <module>
+    assert all(len(v) == 20 for v in by.values()), (ds, {k: len(v) for k, v in by.items()})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('occupancy_t4013', {'lightweight': 20, 'cnn_lstm': 14})
+ANALYSED

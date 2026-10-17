@@ -1,0 +1,21 @@
+{
+ "status": "ok",
+ "predictor": "lightweight",
+ "seed": 12,
+ "selected_epoch": 175,
+ "val_rho": 0.4526904474002419,
+ "test_rho": 0.401978512924157,
+ "test_rho_incl_init": 0.39184985483201995,
+ "test_mean_err": 0.019073530570856048,
+ "test_rmse": 0.03501340862980044,
+ "test_max_err": 0.09998174042014393,
+ "test_n_steps": 9401,
+ "test_n_tx": 5622,
+ "test_n_init_reports": 243,
+ "test_n_nonfinite_forecasts": 0,
+ "receiver_verified": true,
+ "sender_receiver_identical": true,
+ "train_windows": 4000,
+ "secs": 38.5,
+ "attempts": 1
+}

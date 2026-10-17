@@ -1,0 +1,176 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+taxi cnn_lstm 5 rhoR=0.429 rhoL=0.555(ok) G96=0.004 sw=2 fracL=0.06
+taxi cnn_lstm 6 rhoR=0.429 rhoL=0.525(ok) G96=0.000 sw=2 fracL=0.03
+taxi cnn_lstm 7 rhoR=0.429 rhoL=0.537(ok) G96=0.005 sw=8 fracL=0.12
+taxi cnn_lstm 8 rhoR=0.429 rhoL=0.562(ok) G96=0.003 sw=10 fracL=0.15
+taxi cnn_lstm 9 rhoR=0.429 rhoL=0.562(ok) G96=0.002 sw=8 fracL=0.12
+taxi cnn_lstm 10 rhoR=0.429 rhoL=0.562(ok) G96=0.002 sw=4 fracL=0.06
+taxi cnn_lstm 11 rhoR=0.429 rhoL=0.572(ok) G96=0.004 sw=6 fracL=0.09
+taxi cnn_lstm 12 rhoR=0.429 rhoL=0.559(ok) G96=-0.000 sw=2 fracL=0.03
+taxi cnn_lstm 13 rhoR=0.429 rhoL=0.553(ok) G96=-0.000 sw=0 fracL=0.00
+taxi cnn_lstm 14 rhoR=0.429 rhoL=0.546(ok) G96=0.001 sw=6 fracL=0.09
+taxi cnn_lstm 15 rhoR=0.429 rhoL=0.558(ok) G96=0.003 sw=6 fracL=0.09
+taxi cnn_lstm 16 rhoR=0.429 rhoL=0.551(ok) G96=0.003 sw=2 fracL=0.06
+taxi cnn_lstm 17 rhoR=0.429 rhoL=0.542(ok) G96=-0.000 sw=0 fracL=0.00
+taxi cnn_lstm 18 rhoR=0.429 rhoL=0.554(ok) G96=0.003 sw=4 fracL=0.06
+taxi cnn_lstm 19 rhoR=0.429 rhoL=0.534(ok) G96=0.004 sw=4 fracL=0.06
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+cpu cnn_lstm 0 rhoR=0.285 rhoL=0.011(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 1 rhoR=0.285 rhoL=0.015(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 2 rhoR=0.285 rhoL=0.011(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 3 rhoR=0.285 rhoL=0.012(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 4 rhoR=0.285 rhoL=0.010(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 5 rhoR=0.285 rhoL=0.009(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 6 rhoR=0.285 rhoL=0.012(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 7 rhoR=0.285 rhoL=0.009(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 8 rhoR=0.285 rhoL=0.011(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 9 rhoR=0.285 rhoL=0.012(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 10 rhoR=0.285 rhoL=0.017(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 11 rhoR=0.285 rhoL=0.009(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 12 rhoR=0.285 rhoL=0.008(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 13 rhoR=0.285 rhoL=0.012(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 14 rhoR=0.285 rhoL=0.007(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 15 rhoR=0.285 rhoL=0.008(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 16 rhoR=0.285 rhoL=0.008(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 17 rhoR=0.285 rhoL=0.012(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 18 rhoR=0.285 rhoL=0.013(ok) G96=0.000 sw=0 fracL=0.00
+cpu cnn_lstm 19 rhoR=0.285 rhoL=0.014(ok) G96=0.000 sw=0 fracL=0.00
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+machine_temp cnn_lstm 0 rhoR=0.770 rhoL=0.758(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 1 rhoR=0.770 rhoL=0.697(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 2 rhoR=0.770 rhoL=0.718(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 3 rhoR=0.770 rhoL=0.756(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 4 rhoR=0.770 rhoL=0.730(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 5 rhoR=0.770 rhoL=0.721(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 6 rhoR=0.770 rhoL=0.745(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 7 rhoR=0.770 rhoL=0.720(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 8 rhoR=0.770 rhoL=0.735(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 9 rhoR=0.770 rhoL=0.773(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 10 rhoR=0.770 rhoL=0.750(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 11 rhoR=0.770 rhoL=0.763(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 12 rhoR=0.770 rhoL=0.733(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 13 rhoR=0.770 rhoL=0.742(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 14 rhoR=0.770 rhoL=0.739(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 15 rhoR=0.770 rhoL=0.755(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 16 rhoR=0.770 rhoL=0.729(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 17 rhoR=0.770 rhoL=0.718(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 18 rhoR=0.770 rhoL=0.741(ok) G96=-0.000 sw=0 fracL=0.00
+machine_temp cnn_lstm 19 rhoR=0.770 rhoL=0.770(ok) G96=-0.000 sw=0 fracL=0.00
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+grok_asg_anomaly cnn_lstm 0 rhoR=0.286 rhoL=0.045(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 1 rhoR=0.286 rhoL=0.035(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 2 rhoR=0.286 rhoL=0.050(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 3 rhoR=0.286 rhoL=0.043(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 4 rhoR=0.286 rhoL=0.041(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 5 rhoR=0.286 rhoL=0.033(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 6 rhoR=0.286 rhoL=0.030(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 7 rhoR=0.286 rhoL=0.040(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 8 rhoR=0.286 rhoL=0.037(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 9 rhoR=0.286 rhoL=0.040(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 10 rhoR=0.286 rhoL=0.040(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 11 rhoR=0.286 rhoL=0.030(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 12 rhoR=0.286 rhoL=0.042(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 13 rhoR=0.286 rhoL=0.049(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 14 rhoR=0.286 rhoL=0.041(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 15 rhoR=0.286 rhoL=0.040(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 16 rhoR=0.286 rhoL=0.031(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 17 rhoR=0.286 rhoL=0.027(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 18 rhoR=0.286 rhoL=0.033(ok) G96=0.000 sw=0 fracL=0.00
+grok_asg_anomaly cnn_lstm 19 rhoR=0.286 rhoL=0.050(ok) G96=0.000 sw=0 fracL=0.00
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+rds_cpu_util cnn_lstm 0 rhoR=0.233 rhoL=0.085(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 1 rhoR=0.233 rhoL=0.117(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 2 rhoR=0.233 rhoL=0.088(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 3 rhoR=0.233 rhoL=0.108(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 4 rhoR=0.233 rhoL=0.098(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 5 rhoR=0.233 rhoL=0.076(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 6 rhoR=0.233 rhoL=0.092(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 7 rhoR=0.233 rhoL=0.107(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 8 rhoR=0.233 rhoL=0.112(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 9 rhoR=0.233 rhoL=0.099(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 10 rhoR=0.233 rhoL=0.103(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 11 rhoR=0.233 rhoL=0.103(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 12 rhoR=0.233 rhoL=0.110(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 13 rhoR=0.233 rhoL=0.090(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 14 rhoR=0.233 rhoL=0.094(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 15 rhoR=0.233 rhoL=0.103(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 16 rhoR=0.233 rhoL=0.108(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 17 rhoR=0.233 rhoL=0.088(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 18 rhoR=0.233 rhoL=0.122(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util cnn_lstm 19 rhoR=0.233 rhoL=0.073(ok) G96=0.000 sw=0 fracL=0.00
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+iio_networkin cnn_lstm 0 rhoR=0.820 rhoL=0.761(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 1 rhoR=0.820 rhoL=0.783(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 2 rhoR=0.820 rhoL=0.686(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 3 rhoR=0.820 rhoL=0.729(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 4 rhoR=0.820 rhoL=0.775(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 5 rhoR=0.820 rhoL=0.727(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 6 rhoR=0.820 rhoL=0.780(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 7 rhoR=0.820 rhoL=0.772(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 8 rhoR=0.820 rhoL=0.721(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 9 rhoR=0.820 rhoL=0.786(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 10 rhoR=0.820 rhoL=0.777(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 11 rhoR=0.820 rhoL=0.740(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 12 rhoR=0.820 rhoL=0.732(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 13 rhoR=0.820 rhoL=0.759(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 14 rhoR=0.820 rhoL=0.807(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 15 rhoR=0.820 rhoL=0.751(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 16 rhoR=0.820 rhoL=0.724(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 17 rhoR=0.820 rhoL=0.772(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 18 rhoR=0.820 rhoL=0.777(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin cnn_lstm 19 rhoR=0.820 rhoL=0.769(ok) G96=0.000 sw=0 fracL=0.00
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+twitter_aapl cnn_lstm 0 rhoR=0.696 rhoL=0.641(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 1 rhoR=0.696 rhoL=0.659(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 2 rhoR=0.696 rhoL=0.637(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 3 rhoR=0.696 rhoL=0.468(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 4 rhoR=0.696 rhoL=0.645(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 5 rhoR=0.696 rhoL=0.675(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 6 rhoR=0.696 rhoL=0.670(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 7 rhoR=0.696 rhoL=0.652(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 8 rhoR=0.696 rhoL=0.632(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 9 rhoR=0.696 rhoL=0.546(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 10 rhoR=0.696 rhoL=0.464(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 11 rhoR=0.696 rhoL=0.638(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 12 rhoR=0.696 rhoL=0.640(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 13 rhoR=0.696 rhoL=0.644(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 14 rhoR=0.696 rhoL=0.682(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 15 rhoR=0.696 rhoL=0.672(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 16 rhoR=0.696 rhoL=0.645(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 17 rhoR=0.696 rhoL=0.586(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 18 rhoR=0.696 rhoL=0.611(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl cnn_lstm 19 rhoR=0.696 rhoL=0.643(ok) G96=0.000 sw=0 fracL=0.00
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+exchange_cpc cnn_lstm 19 rhoR=0.129 rhoL=0.172(ok) G96=0.000 sw=0 fracL=0.00
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+occupancy cnn_lstm 0 rhoR=0.157 rhoL=0.129(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 1 rhoR=0.157 rhoL=0.120(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 2 rhoR=0.157 rhoL=0.136(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 3 rhoR=0.157 rhoL=0.118(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 4 rhoR=0.157 rhoL=0.143(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 5 rhoR=0.157 rhoL=0.125(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 6 rhoR=0.157 rhoL=0.111(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 7 rhoR=0.157 rhoL=0.127(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 8 rhoR=0.157 rhoL=0.134(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 9 rhoR=0.157 rhoL=0.144(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 10 rhoR=0.157 rhoL=0.143(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 11 rhoR=0.157 rhoL=0.122(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 12 rhoR=0.157 rhoL=0.132(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 13 rhoR=0.157 rhoL=0.108(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 14 rhoR=0.157 rhoL=0.120(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 15 rhoR=0.157 rhoL=0.105(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 16 rhoR=0.157 rhoL=0.122(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 17 rhoR=0.157 rhoL=0.122(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 18 rhoR=0.157 rhoL=0.116(ok) G96=0.000 sw=0 fracL=0.00
+occupancy cnn_lstm 19 rhoR=0.157 rhoL=0.115(ok) G96=0.000 sw=0 fracL=0.00

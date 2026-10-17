@@ -1,0 +1,16 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+intel_time        gap median: MSE 0.087  TA 0.069  CLT 0.064 | open MSE 0.980 CLT 0.984
+taxi              gap median: MSE 0.047  TA 0.052  CLT 0.052 | open MSE 0.551 CLT 0.591
+traffic           gap median: MSE 0.000  TA 0.000  CLT 0.000 | open MSE 0.084 CLT 0.094
+cpu               gap median: MSE -0.001  TA 0.002  CLT 0.001 | open MSE 0.179 CLT 0.181
+machine_temp      gap median: MSE 0.012  TA 0.012  CLT 0.006 | open MSE 0.759 CLT 0.785
+grok_asg_anomaly  gap median: MSE -0.000  TA 0.000  CLT 0.001 | open MSE 0.037 CLT 0.056
+rds_cpu_util      gap median: MSE 0.001  TA -0.000  CLT -0.000 | open MSE 0.110 CLT 0.120
+iio_networkin     gap median: MSE 0.079  TA 0.075  CLT 0.071 | open MSE 0.739 CLT 0.808
+twitter_aapl      gap median: MSE 0.033  TA 0.017  CLT 0.017 | open MSE 0.645 CLT 0.741
+exchange_cpc      gap median: MSE -0.002  TA 0.003  CLT 0.003 | open MSE 0.168 CLT 0.174
+occupancy         gap median: MSE -0.000  TA 0.000  CLT 0.000 | open MSE 0.122 CLT 0.158
+CLT vs MSE: gap significantly smaller on 2/11, larger on 0/11; Spearman(gap reduction, closed-loop gain) = 0.44
+TA vs MSE: gap significantly smaller on 1/11, larger on 0/11; Spearman(gap reduction, closed-loop gain) = 0.49
+H1: not supported | H2: not supported

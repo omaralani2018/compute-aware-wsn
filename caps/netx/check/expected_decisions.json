@@ -1,0 +1,152 @@
+{
+ "m3_float": {
+  "taxi:linear_extrap": {
+   "tx": 280,
+   "bits": "08ba75295fc4d3afe77cddf1f32c5d2df20e1bed665ddaceff6f6fafd60e55dd402bd106e3ad2ca6f8d78fadca76df7f634f9173dcc5b47c4967d1d7"
+  },
+  "taxi:lightweight": {
+   "tx": 234,
+   "bits": "33ae675bc71c0bae27dc94f1a32cd9544992800b6e6fe893645b4295d4c2826b885e6651908d82bf561d8d4e333d26dfbf5ba688afc5135a56224909"
+  },
+  "taxi:cnn_lstm": {
+   "tx": 205,
+   "bits": "5bbb2f1f6dc003af735b66dc20aa6b4552e140f95a4142b2649b430650c25a8f004a7a8100b9d100f6158848033c47dc157ba10406d5a39d45235000"
+  },
+  "exchange_cpc:expsm": {
+   "tx": 419,
+   "bits": "77ffffffdddffbfdbf37ebfffabeffcfffff7fff6fff7dfebfffffffdfff6ffeffffffffef79dff4fff7ffffffbddebff72fbfebff3edf5fff3fbff7"
+  },
+  "exchange_cpc:lightweight": {
+   "tx": 408,
+   "bits": "bfeffffff7ff7fffbf7fbeff6ea7ef7f9dfffffe7ffbfffffff7fffe7bffb5b7fffedfdbdf77ff7bff3fdfffffdff7ebf34fbaffffbcf7d5debeacf6"
+  },
+  "exchange_cpc:cnn_lstm": {
+   "tx": 397,
+   "bits": "fdecffcff3ffd7e7efbfffff77b3ff7dbfffdffb7ffa4fffcbbcffff3bffdef3ff3fd9ffbb7bff5ef7f7dfffffddf5f8fffbfaffcf3defaffceaeffe"
+  },
+  "machine_temp:expsm": {
+   "tx": 122,
+   "bits": "020001000348002802000c0002082c0020e3962e008008100300b89b1621c8c14008348062245068988f539ca800c00100a03e210621ccd45008f100"
+  },
+  "machine_temp:lightweight": {
+   "tx": 243,
+   "bits": "024421102101002a00c508c042092c4224a3966fb51acfe67997fe9d16b56c55eb4a41db3abf769157fb5b9fecd2ba5cabdd4477aec7effd7cf6b6ed"
+  },
+  "machine_temp:cnn_lstm": {
+   "tx": 126,
+   "bits": "02400000010800280005080842012c0400070204100884802b80fa5e062808c141085019e224640895bd196c2810a21932c40e3204018e545898a048"
+  },
+  "cpu:expsm": {
+   "tx": 352,
+   "bits": "79f7ddff39ffffffbffefb6fdffff7effffffeff14d7e7edd4e3bdfe5ff5bf7dfdb2a9c552efa57075f5fcab7fffc6ffd5faffd00f9dd0e60ffeea1d"
+  },
+  "cpu:lightweight": {
+   "tx": 382,
+   "bits": "ff7fffbfdfffffdefffffffdfbfffbf85b7ffffb3faaefe7f0f3dfcffffe52f5ff7772eeb2efaff3f7effc7f1efddfff71ffffc77dfc7de694f2b75f"
+  },
+  "cpu:cnn_lstm": {
+   "tx": 467,
+   "bits": "f7ff3fffeffffbecbfe7fb7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  }
+ },
+ "m3_int": {
+  "taxi:linear_extrap": {
+   "tx": 280,
+   "bits": "08ba75295fc4d3afe77cddf1f32c5d2df20e1bed665ddaceff6f6fafd60e55dd402bd106e3ad2ca6f8d78fadca76df7f634f9173dcc5b47c4967d1d7"
+  },
+  "taxi:lightweight": {
+   "tx": 235,
+   "bits": "33ae675bc71c0bae27dc94f1a32cd9544992800b6e6fe893645b4295d4c2826b885ee661908d82bf561d8d4e333d26dfbf5ba688afc5135a56224909"
+  },
+  "taxi:cnn_lstm": {
+   "tx": 221,
+   "bits": "d7bba7df6dfc03af736326c5742a6b4952e240f89a415aab649b430650c256cf8047d10030b11119f615484953be47dc157ba1a204d5579e45005a00"
+  },
+  "exchange_cpc:expsm": {
+   "tx": 419,
+   "bits": "77ffffffdddffbfdbf37ebfffabeffcfffff7fff6fff7dfebfffffffdfff6ffeffffffffef79dff4fff7ffffffbddebff72fbfebff3edf5fff3fbff7"
+  },
+  "exchange_cpc:lightweight": {
+   "tx": 406,
+   "bits": "bfeffffff7ff7fffbf7fbeff6ec66f7f9dfffffe7ffbfffffff7fffe7bffb5b7fffedfdbdf77ff7bff3fdfffffdff7ebf34fbaffffbcf7d5debeacf6"
+  },
+  "exchange_cpc:cnn_lstm": {
+   "tx": 398,
+   "bits": "fdecffcff3ffd7e7efbfffff77b3ff7dbfffdffbfffa4fffcbbcffff3bffdef3ff3fd9ffbb7bff5ef7f7dfffffddf5f8fffbfaffcf3defaffceaeffe"
+  },
+  "machine_temp:expsm": {
+   "tx": 122,
+   "bits": "020001000348002802000c0002082c0020e3962e008008100300b89b1621c8c14008348062245068988f539ca800c00100a03e210621ccd45008f100"
+  },
+  "machine_temp:lightweight": {
+   "tx": 243,
+   "bits": "024421102101002a00c508c042092c4224a3966fb51acfe67997fe9d16b56c55eb4a41db3abf769157fb5b9fecd2ba5cabdd4477aec7effd7cf6b6ed"
+  },
+  "machine_temp:cnn_lstm": {
+   "tx": 132,
+   "bits": "024000000148022822040808020828042087020480100c402b00fa5e06a809c141085319e224548894b9197428c0a0102194ae3204658e643810a444"
+  },
+  "cpu:expsm": {
+   "tx": 352,
+   "bits": "79f7ddff39ffffffbffefb6fdffff7effffffeff14d7e7edd4e3bdfe5ff5bf7dfdb2a9c552efa57075f5fcab7fffc6ffd5faffd00f9dd0e60ffeea1d"
+  },
+  "cpu:lightweight": {
+   "tx": 380,
+   "bits": "ff7fffbfdfffffdefffffffdfbfffbf85b7ffffb3faaefe7f0f3dfcffffe52f5ff7772ccb2efaff3f7effc7f1efddfff71ffffc74dfc7de694feb75f"
+  },
+  "cpu:cnn_lstm": {
+   "tx": 466,
+   "bits": "f7ff3fffefeffbecbfe7fb7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  }
+ },
+ "nrf": {
+  "taxi:linear_extrap": {
+   "tx": 280,
+   "bits": "08ba75295fc4d3afe77cddf1f32c5d2df20e1bed665ddaceff6f6fafd60e55dd402bd106e3ad2ca6f8d78fadca76df7f634f9173dcc5b47c4967d1d7"
+  },
+  "taxi:lightweight": {
+   "tx": 234,
+   "bits": "33ae675bc71c0bae27dc94f1a32cd9544992800b6e6fe893645b4295d4c2826b885e6651908d82bf561d8d4e333d26dfbf5ba688afc5135a56224909"
+  },
+  "taxi:cnn_lstm": {
+   "tx": 205,
+   "bits": "5bbb2f1f6dc003af735b66dc20aa6b4552e140f95a4142b2649b430650c25a8f004a7a8100b9d100f6158848033c47dc157ba10406d5a39d45235000"
+  },
+  "exchange_cpc:expsm": {
+   "tx": 419,
+   "bits": "77ffffffdddffbfdbf37ebfffabeffcfffff7fff6fff7dfebfffffffdfff6ffeffffffffef79dff4fff7ffffffbddebff72fbfebff3edf5fff3fbff7"
+  },
+  "exchange_cpc:lightweight": {
+   "tx": 408,
+   "bits": "bfeffffff7ff7fffbf7fbeff6ea7ef7f9dfffffe7ffbfffffff7fffe7bffb5b7fffedfdbdf77ff7bff3fdfffffdff7ebf34fbaffffbcf7d5debeacf6"
+  },
+  "exchange_cpc:cnn_lstm": {
+   "tx": 397,
+   "bits": "fdecffcff3ffd7e7efbfffff77b3ff7dbfffdffb7ffa4fffcbbcffff3bffdef3ff3fd9ffbb7bff5ef7f7dfffffddf5f8fffbfaffcf3defaffceaeffe"
+  },
+  "machine_temp:expsm": {
+   "tx": 122,
+   "bits": "020001000348002802000c0002082c0020e3962e008008100300b89b1621c8c14008348062245068988f539ca800c00100a03e210621ccd45008f100"
+  },
+  "machine_temp:lightweight": {
+   "tx": 243,
+   "bits": "024421102101002a00c508c042092c4224a3966fb51acfe67997fe9d16b56c55eb4a41db3abf769157fb5b9fecd2ba5cabdd4477aec7effd7cf6b6ed"
+  },
+  "machine_temp:cnn_lstm": {
+   "tx": 126,
+   "bits": "02400000010800280005080842012c0400070204100884802b80fa5e062808c141085019e224640895bd196c2810a21932c40e3204018e545898a048"
+  },
+  "cpu:expsm": {
+   "tx": 352,
+   "bits": "79f7ddff39ffffffbffefb6fdffff7effffffeff14d7e7edd4e3bdfe5ff5bf7dfdb2a9c552efa57075f5fcab7fffc6ffd5faffd00f9dd0e60ffeea1d"
+  },
+  "cpu:lightweight": {
+   "tx": 382,
+   "bits": "ff7fffbfdfffffdefffffffdfbfffbf85b7ffffb3faaefe7f0f3dfcffffe52f5ff7772eeb2efaff3f7effc7f1efddfff71ffffc77dfc7de694f2b75f"
+  },
+  "cpu:cnn_lstm": {
+   "tx": 467,
+   "bits": "f7ff3fffeffffbecbfe7fb7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  }
+ }
+}

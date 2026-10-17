@@ -1,0 +1,22 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+rds_cpu_util lightweight 0 rhoR=0.233 rhoL=0.118(ok) G96=0.021 sw=3 fracL=0.29
+rds_cpu_util lightweight 1 rhoR=0.233 rhoL=0.107(ok) G96=0.012 sw=1 fracL=0.21
+rds_cpu_util lightweight 2 rhoR=0.233 rhoL=0.105(ok) G96=0.018 sw=2 fracL=0.16
+rds_cpu_util lightweight 3 rhoR=0.233 rhoL=0.113(ok) G96=0.015 sw=2 fracL=0.16
+rds_cpu_util lightweight 4 rhoR=0.233 rhoL=0.112(ok) G96=0.016 sw=1 fracL=0.21
+rds_cpu_util lightweight 5 rhoR=0.233 rhoL=0.109(ok) G96=0.014 sw=2 fracL=0.16
+rds_cpu_util lightweight 6 rhoR=0.233 rhoL=0.072(ok) G96=0.000 sw=0 fracL=0.00
+rds_cpu_util lightweight 7 rhoR=0.233 rhoL=0.121(ok) G96=0.021 sw=1 fracL=0.37
+rds_cpu_util lightweight 8 rhoR=0.233 rhoL=0.110(ok) G96=0.017 sw=1 fracL=0.21
+rds_cpu_util lightweight 9 rhoR=0.233 rhoL=0.110(ok) G96=0.013 sw=1 fracL=0.21
+rds_cpu_util lightweight 10 rhoR=0.233 rhoL=0.102(ok) G96=0.008 sw=1 fracL=0.21
+rds_cpu_util lightweight 11 rhoR=0.233 rhoL=0.108(ok) G96=0.010 sw=2 fracL=0.08
+rds_cpu_util lightweight 12 rhoR=0.233 rhoL=0.080(ok) G96=0.005 sw=2 fracL=0.08
+rds_cpu_util lightweight 13 rhoR=0.233 rhoL=0.121(ok) G96=0.021 sw=2 fracL=0.32
+rds_cpu_util lightweight 14 rhoR=0.233 rhoL=0.107(ok) G96=0.012 sw=2 fracL=0.16
+rds_cpu_util lightweight 15 rhoR=0.233 rhoL=0.116(ok) G96=0.016 sw=3 fracL=0.29
+rds_cpu_util lightweight 16 rhoR=0.233 rhoL=0.088(ok) G96=0.004 sw=2 fracL=0.08
+rds_cpu_util lightweight 17 rhoR=0.233 rhoL=0.112(ok) G96=0.015 sw=4 fracL=0.24
+rds_cpu_util lightweight 18 rhoR=0.233 rhoL=0.090(ok) G96=0.003 sw=2 fracL=0.16
+rds_cpu_util lightweight 19 rhoR=0.233 rhoL=0.089(ok) G96=0.006 sw=2 fracL=0.08

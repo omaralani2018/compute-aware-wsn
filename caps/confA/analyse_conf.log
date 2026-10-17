@@ -1,0 +1,9 @@
+ambient_temperature  ref=expsm         rhoR val 0.308 test 0.216 | screened {} | false excl [] | picks {'ref': 5, 'lightweight': 15, 'cnn_lstm': 0} | headroom val 1.8% test 0.6%
+occupancy_t4013      ref=expsm         rhoR val 0.180 test 0.111 | screened {} | false excl [] | picks {'ref': 20, 'lightweight': 0, 'cnn_lstm': 0} | headroom val 0.5% test 0.4%
+speed_6005           ref=expsm         rhoR val 0.108 test 0.083 | screened {} | false excl [] | picks {'ref': 20, 'lightweight': 0, 'cnn_lstm': 0} | headroom val 0.2% test 0.9%
+speed_t4013          ref=expsm         rhoR val 0.128 test 0.103 | screened {} | false excl [] | picks {'ref': 14, 'lightweight': 6, 'cnn_lstm': 0} | headroom val 0.9% test 0.0%
+TravelTime_387       ref=persistence   rhoR val 0.378 test 0.755 | screened {} | false excl [] | picks {'ref': 20, 'lightweight': 0, 'cnn_lstm': 0} | headroom val 0.0% test 0.0%
+TravelTime_451       ref=expsm         rhoR val 0.625 test 0.792 | screened {} | false excl [] | picks {'ref': 20, 'lightweight': 0, 'cnn_lstm': 0} | headroom val 0.0% test 0.0%
+evaluable 6/6 | C1 no false exclusion: True | C2 flag agreement 6/6: True | C3 hindsight ceiling 1.8%: True | C4 CAPS 35.8% below always-CNN: True
+totals vs ref: lw +15.0%, cnn +54.0%, caps -1.1%
+ANALYSED

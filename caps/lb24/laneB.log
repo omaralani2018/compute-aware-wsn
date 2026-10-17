@@ -1,0 +1,106 @@
+taxi cheap linear_extrap 0.4294
+  lightweight seed  0  ep200  val=0.589 test=0.555  92s
+  lightweight seed  1  ep200  val=0.619 test=0.549  86s
+  lightweight seed  2  ep200  val=0.598 test=0.533  95s
+  lightweight seed  3  ep200  val=0.603 test=0.567  102s
+  lightweight seed  4  ep200  val=0.608 test=0.540  99s
+  lightweight seed  5  ep175  val=0.594 test=0.530  88s
+  lightweight seed  6  ep200  val=0.613 test=0.548  78s
+  lightweight seed  7  ep200  val=0.593 test=0.542  74s
+  lightweight seed  8  ep175  val=0.576 test=0.516  73s
+  lightweight seed  9  ep200  val=0.592 test=0.531  71s
+  lightweight seed 10  ep175  val=0.586 test=0.546  76s
+  lightweight seed 11  ep200  val=0.583 test=0.527  74s
+  lightweight seed 12  ep175  val=0.585 test=0.519  87s
+  lightweight seed 13  ep150  val=0.602 test=0.556  83s
+  lightweight seed 14  ep175  val=0.609 test=0.533  82s
+  lightweight seed 15  ep200  val=0.607 test=0.549  80s
+  lightweight seed 16  ep175  val=0.578 test=0.516  79s
+  lightweight seed 17  ep175  val=0.606 test=0.541  75s
+  lightweight seed 18  ep175  val=0.598 test=0.541  74s
+  lightweight seed 19  ep125  val=0.607 test=0.545  77s
+traffic cheap linear_extrap 0.0531
+  lightweight seed  0  ep100  val=0.080 test=0.047  65s
+  lightweight seed  1  ep150  val=0.111 test=0.050  53s
+  lightweight seed  2  ep125  val=0.102 test=0.086  63s
+  lightweight seed  3  ep175  val=0.116 test=0.041  62s
+  lightweight seed  4  ep 50  val=0.098 test=0.056  59s
+  lightweight seed  5  ep150  val=0.116 test=0.041  63s
+  lightweight seed  6  ep 25  val=0.093 test=0.065  62s
+  lightweight seed  7  ep 50  val=0.124 test=0.065  59s
+  lightweight seed  8  ep100  val=0.089 test=0.071  65s
+  lightweight seed  9  ep100  val=0.098 test=0.068  61s
+  lightweight seed 10  ep150  val=0.120 test=0.065  69s
+  lightweight seed 11  ep 25  val=0.120 test=0.062  62s
+  lightweight seed 12  ep200  val=0.147 test=0.059  71s
+  lightweight seed 13  ep200  val=0.093 test=0.059  65s
+  lightweight seed 14  ep200  val=0.116 test=0.053  64s
+  lightweight seed 15  ep175  val=0.098 test=0.086  65s
+  lightweight seed 16  ep 50  val=0.102 test=0.065  63s
+  lightweight seed 17  ep 50  val=0.098 test=0.068  63s
+  lightweight seed 18  ep 50  val=0.084 test=0.062  63s
+  lightweight seed 19  ep 50  val=0.116 test=0.047  63s
+grok_asg_anomaly cheap expsm 0.2862
+  lightweight seed  0  ep 25  val=0.090 test=0.029  74s
+  lightweight seed  1  ep 75  val=0.097 test=0.033  72s
+  lightweight seed  2  ep 25  val=0.079 test=0.025  76s
+  lightweight seed  3  ep 75  val=0.090 test=0.025  70s
+  lightweight seed  4  ep175  val=0.077 test=0.035  79s
+  lightweight seed  5  ep 25  val=0.097 test=0.040  75s
+  lightweight seed  6  ep 25  val=0.069 test=0.020  74s
+  lightweight seed  7  ep 25  val=0.079 test=0.024  70s
+  lightweight seed  8  ep 25  val=0.076 test=0.025  77s
+  lightweight seed  9  ep 25  val=0.075 test=0.028  74s
+  lightweight seed 10  ep 75  val=0.075 test=0.032  77s
+  lightweight seed 11  ep100  val=0.080 test=0.029  81s
+  lightweight seed 12  ep 75  val=0.069 test=0.030  90s
+  lightweight seed 13  ep 25  val=0.083 test=0.027  75s
+  lightweight seed 14  ep125  val=0.080 test=0.031  75s
+  lightweight seed 15  ep 25  val=0.073 test=0.023  70s
+  lightweight seed 16  ep 25  val=0.078 test=0.025  70s
+  lightweight seed 17  ep 75  val=0.071 test=0.023  71s
+  lightweight seed 18  ep100  val=0.073 test=0.027  69s
+  lightweight seed 19  ep 25  val=0.079 test=0.035  74s
+rds_cpu_util cheap expsm 0.2231
+  lightweight seed  0  ep200  val=0.278 test=0.149  70s
+  lightweight seed  1  ep175  val=0.242 test=0.115  73s
+  lightweight seed  2  ep150  val=0.210 test=0.117  67s
+  lightweight seed  3  ep125  val=0.277 test=0.130  72s
+  lightweight seed  4  ep125  val=0.238 test=0.112  75s
+  lightweight seed  5  ep125  val=0.251 test=0.127  73s
+  lightweight seed  6  ep125  val=0.207 test=0.111  68s
+  lightweight seed  7  ep150  val=0.285 test=0.206  68s
+  lightweight seed  8  ep125  val=0.213 test=0.109  69s
+  lightweight seed  9  ep 50  val=0.233 test=0.105  67s
+  lightweight seed 10  ep 25  val=0.226 test=0.088  65s
+  lightweight seed 11  ep125  val=0.241 test=0.120  66s
+  lightweight seed 12  ep 25  val=0.196 test=0.084  80s
+  lightweight seed 13  ep150  val=0.242 test=0.112  79s
+  lightweight seed 14  ep 25  val=0.202 test=0.094  74s
+  lightweight seed 15  ep150  val=0.248 test=0.139  77s
+  lightweight seed 16  ep175  val=0.279 test=0.187  76s
+  lightweight seed 17  ep 25  val=0.187 test=0.102  76s
+  lightweight seed 18  ep150  val=0.187 test=0.100  74s
+  lightweight seed 19  ep100  val=0.222 test=0.098  71s
+exchange_cpc cheap expsm 0.1291
+  lightweight seed  0  ep200  val=0.142 test=0.184  65s
+  lightweight seed  1  ep 50  val=0.154 test=0.154  64s
+  lightweight seed  2  ep175  val=0.185 test=0.150  66s
+  lightweight seed  3  ep125  val=0.167 test=0.152  69s
+  lightweight seed  4  ep100  val=0.160 test=0.162  61s
+  lightweight seed  5  ep 25  val=0.182 test=0.137  59s
+  lightweight seed  6  ep 75  val=0.157 test=0.172  62s
+  lightweight seed  7  ep 25  val=0.151 test=0.201  58s
+  lightweight seed  8  ep 75  val=0.145 test=0.164  63s
+  lightweight seed  9  ep100  val=0.173 test=0.162  60s
+  lightweight seed 10  ep125  val=0.145 test=0.137  60s
+  lightweight seed 11  ep150  val=0.164 test=0.154  50s
+  lightweight seed 12  ep150  val=0.151 test=0.152  46s
+  lightweight seed 13  ep175  val=0.170 test=0.148  48s
+  lightweight seed 14  ep200  val=0.167 test=0.156  45s
+  lightweight seed 15  ep100  val=0.154 test=0.166  45s
+  lightweight seed 16  ep200  val=0.170 test=0.176  45s
+  lightweight seed 17  ep150  val=0.164 test=0.178  45s
+  lightweight seed 18  ep125  val=0.151 test=0.215  39s
+  lightweight seed 19  ep100  val=0.154 test=0.148  34s
+LANEDONE

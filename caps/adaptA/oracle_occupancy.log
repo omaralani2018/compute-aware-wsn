@@ -1,0 +1,22 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+occupancy lightweight 0 rhoR=0.157 rhoL=0.125(ok) G96=0.003 sw=1 fracL=0.19
+occupancy lightweight 1 rhoR=0.157 rhoL=0.123(ok) G96=-0.000 sw=2 fracL=0.13
+occupancy lightweight 2 rhoR=0.157 rhoL=0.119(ok) G96=0.016 sw=4 fracL=0.27
+occupancy lightweight 3 rhoR=0.157 rhoL=0.120(ok) G96=0.003 sw=1 fracL=0.19
+occupancy lightweight 4 rhoR=0.157 rhoL=0.112(ok) G96=0.003 sw=4 fracL=0.27
+occupancy lightweight 5 rhoR=0.157 rhoL=0.112(ok) G96=-0.000 sw=2 fracL=0.13
+occupancy lightweight 6 rhoR=0.157 rhoL=0.122(ok) G96=0.006 sw=4 fracL=0.27
+occupancy lightweight 7 rhoR=0.157 rhoL=0.140(ok) G96=0.011 sw=3 fracL=0.33
+occupancy lightweight 8 rhoR=0.157 rhoL=0.122(ok) G96=-0.000 sw=4 fracL=0.27
+occupancy lightweight 9 rhoR=0.157 rhoL=0.122(ok) G96=0.003 sw=2 fracL=0.13
+occupancy lightweight 10 rhoR=0.157 rhoL=0.118(ok) G96=0.005 sw=4 fracL=0.27
+occupancy lightweight 11 rhoR=0.157 rhoL=0.126(ok) G96=0.000 sw=0 fracL=0.00
+occupancy lightweight 12 rhoR=0.157 rhoL=0.116(ok) G96=0.003 sw=1 fracL=0.19
+occupancy lightweight 13 rhoR=0.157 rhoL=0.122(ok) G96=0.008 sw=3 fracL=0.33
+occupancy lightweight 14 rhoR=0.157 rhoL=0.112(ok) G96=0.010 sw=3 fracL=0.33
+occupancy lightweight 15 rhoR=0.157 rhoL=0.123(ok) G96=0.010 sw=1 fracL=0.19
+occupancy lightweight 16 rhoR=0.157 rhoL=0.112(ok) G96=0.007 sw=2 fracL=0.13
+occupancy lightweight 17 rhoR=0.157 rhoL=0.136(ok) G96=0.005 sw=3 fracL=0.19
+occupancy lightweight 18 rhoR=0.157 rhoL=0.123(ok) G96=-0.000 sw=6 fracL=0.40
+occupancy lightweight 19 rhoR=0.157 rhoL=0.112(ok) G96=0.003 sw=4 fracL=0.27

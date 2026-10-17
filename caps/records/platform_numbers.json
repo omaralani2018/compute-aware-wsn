@@ -1,0 +1,118 @@
+{
+ "anchor_er_J": 0.00038,
+ "crossover_taxi_lightweight": {
+  "ATmega128L": {
+   "delta_rho": 0.07152082660639336,
+   "er_star_J": 0.002914734107529154,
+   "reference": "linear_extrap"
+  },
+  "M3 float": {
+   "delta_rho": 0.07152082660639336,
+   "er_star_J": 0.00043455077295771174,
+   "reference": "linear_extrap"
+  },
+  "M3 integer": {
+   "delta_rho": 0.06909912818856961,
+   "er_star_J": 0.00010395063045152426,
+   "reference": "linear_extrap"
+  },
+  "nRF52840": {
+   "delta_rho": 0.07152082660639336,
+   "er_star_J": 1.80905691930245e-05,
+   "reference": "linear_extrap"
+  }
+ },
+ "cycle_spread_max_over_mean": {
+  "ATmega128L": {
+   "cnn_lstm": 0.030501222226042124,
+   "expsm": 0.011321389823071293,
+   "lightweight": 0.04410891059121225,
+   "lin12": 0.022416891920578497,
+   "lin2": 0.0838814480656147,
+   "persistence": 0.0
+  },
+  "M3 float": {
+   "cnn_lstm": 0.04053782268560968,
+   "expsm": 0.00043564849390098637,
+   "lightweight": 0.0063802469774763,
+   "lin12": 0.005436546770893225,
+   "lin2": 0.049288106912263485,
+   "persistence": 0.0
+  },
+  "M3 integer": {
+   "cnn_q": 0.0009192039576597644,
+   "expsm_q": 0.0,
+   "light_q": 0.019183775004024017,
+   "lin12_q": 0.0,
+   "lin2_q": 0.0,
+   "persistence": 0.0
+  },
+  "nRF52840": {
+   "cnn_lstm": 0.022571135974617684,
+   "expsm": 0.0,
+   "lightweight": 0.0026876473326225003,
+   "lin12": 0.0,
+   "lin2": 0.024951692850541773,
+   "persistence": 0.0
+  }
+ },
+ "gross_energy_positive_median_net_J": {
+  "M3 float": {},
+  "M3 integer": {
+   "taxi": 9.903840366070477e-06
+  },
+  "nRF52840": {
+   "taxi": 4.906027684736024e-06
+  }
+ },
+ "integer_minus_float_max_abs_degC_100_windows": {
+  "cnn_q": 0.09969260690208159,
+  "expsm_q": 1.8386933973602027e-05,
+  "light_q": 0.0029144638703186843,
+  "lin12_q": 1.9449176210883934e-05,
+  "lin2_q": 2.288818359375e-05
+ },
+ "integer_second_over_first_node_E_inc": {
+  "cnn_q": 1.0092365000606147,
+  "light_q": 1.0007291260755253
+ },
+ "low_cost_energy_J": {
+  "ATmega128L": {
+   "expsm": 1.083115234375e-05,
+   "lin12": 4.6003255208333334e-05,
+   "lin2": 1.1862988281249999e-05,
+   "persistence": 2.9296874999999997e-08
+  },
+  "M3 float": {
+   "expsm": 1.6893194876239009e-06,
+   "lin12": 7.107835846095615e-06,
+   "lin2": 1.2350567075708356e-06,
+   "persistence": 1.270044594844564e-08
+  },
+  "M3 integer": {
+   "expsm_q": 3.949857196246885e-07,
+   "lin12_q": 4.094606424928529e-07,
+   "lin2_q": 3.1328984142775474e-08,
+   "persistence": 1.2527876650011833e-08
+  },
+  "nRF52840": {
+   "expsm": 4.608772598432456e-08,
+   "lin12": 1.027727724344597e-07,
+   "lin2": 3.5475324727908565e-08,
+   "persistence": 2.5573044746820955e-09
+  }
+ },
+ "power_trace_median_sample_interval_s": {
+  "iotlab/data/m3_cons_cut2.txt": 0.004425048828125,
+  "iotlab/data/m3b_cons_cut.txt": 0.004425048828125,
+  "iotlab/data/nrf_cons_cut.txt": 0.004515886306762695,
+  "iotlab/data/nrfb_cons_cut.txt": 0.0044248104095458984,
+  "iotlab/fixed/data/fix_m3_21.txt": 0.004425048828125,
+  "iotlab/fixed/data/fix_m3_22.txt": 0.004425048828125
+ },
+ "smallest_power_step_at_run_start_W": {
+  "M3 float": 0.06188553333333334,
+  "M3 integer": 0.06405146666666665,
+  "nRF52840": 0.018827590909090863
+ }
+}

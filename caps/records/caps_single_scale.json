@@ -1,0 +1,10 @@
+{
+ "per_stream_scale": {
+  "caps_vs_ref_pct": 0.192368188647829
+ },
+ "single_scale": {
+  "caps_vs_ref_pct": 0.1612162065495415
+ },
+ "seed_choices": 220,
+ "identical_choices": 220
+}

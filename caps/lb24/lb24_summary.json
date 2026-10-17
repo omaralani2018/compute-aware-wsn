@@ -1,0 +1,267 @@
+{
+ "per_stream": {
+  "12": {
+   "intel_time": {
+    "ref": "persistence",
+    "ref_macs": 0,
+    "rho_ref": 0.9222531723924482,
+    "rho_lw_med": 0.8909868682849185,
+    "net_med": -1.2089195560861298e-05,
+    "p_save": 0.9999971389770508,
+    "p_cost": 4.76837158203125e-06,
+    "verified": true,
+    "verdict": "cost"
+   },
+   "taxi": {
+    "ref": "linear_extrap",
+    "ref_macs": 2,
+    "rho_ref": 0.42944785276073616,
+    "rho_lw_med": 0.5009686793671295,
+    "net_med": 2.6971914110429457e-05,
+    "p_save": 4.4161929315406386e-05,
+    "p_cost": 0.9999558380706846,
+    "verified": true,
+    "verdict": "save"
+   },
+   "traffic": {
+    "ref": "expsm",
+    "ref_macs": 12,
+    "rho_ref": 0.06489675516224191,
+    "rho_lw_med": 0.08407079646017701,
+    "net_med": 7.090135693215338e-06,
+    "p_save": 5.0815954184402776e-05,
+    "p_cost": 0.9999491840458156,
+    "verified": true,
+    "verdict": "save"
+   },
+   "cpu": {
+    "ref": "expsm",
+    "ref_macs": 12,
+    "rho_ref": 0.2851239669421488,
+    "rho_lw_med": 0.18223140495867768,
+    "net_med": -3.929517355371903e-05,
+    "p_save": 0.9999558380706846,
+    "p_cost": 4.4161929315406386e-05,
+    "verified": true,
+    "verdict": "cost"
+   },
+   "machine_temp": {
+    "ref": "expsm",
+    "ref_macs": 12,
+    "rho_ref": 0.7703040093993244,
+    "rho_lw_med": 0.7423997650168894,
+    "net_med": -1.0799612865325319e-05,
+    "p_save": 0.9999904632568359,
+    "p_cost": 1.33514404296875e-05,
+    "verified": true,
+    "verdict": "cost"
+   },
+   "grok_asg_anomaly": {
+    "ref": "expsm",
+    "ref_macs": 12,
+    "rho_ref": 0.2862292718096612,
+    "rho_lw_med": 0.036409516943042564,
+    "net_med": -9.512750684931507e-05,
+    "p_save": 0.999955900648979,
+    "p_cost": 4.4099351020972264e-05,
+    "verified": true,
+    "verdict": "cost"
+   },
+   "rds_cpu_util": {
+    "ref": "expsm",
+    "ref_macs": 12,
+    "rho_ref": 0.23305785123966938,
+    "rho_lw_med": 0.10867768595041322,
+    "net_med": -4.7460462809917346e-05,
+    "p_save": 0.9999559631598236,
+    "p_cost": 4.4036840176377516e-05,
+    "verified": true,
+    "verdict": "cost"
+   },
+   "iio_networkin": {
+    "ref": "expsm",
+    "ref_macs": 12,
+    "rho_ref": 0.8203753351206434,
+    "rho_lw_med": 0.6300268096514745,
+    "net_med": -7.252843967828419e-05,
+    "p_save": 0.9999557754248939,
+    "p_cost": 4.4224575106059504e-05,
+    "verified": true,
+    "verdict": "cost"
+   },
+   "twitter_aapl": {
+    "ref": "expsm",
+    "ref_macs": 12,
+    "rho_ref": 0.695661286941941,
+    "rho_lw_med": 0.6126598197442884,
+    "net_med": -3.1736557535107975e-05,
+    "p_save": 0.9999557754248939,
+    "p_cost": 4.4224575106059504e-05,
+    "verified": true,
+    "verdict": "cost"
+   },
+   "exchange_cpc": {
+    "ref": "expsm",
+    "ref_macs": 12,
+    "rho_ref": 0.12909836065573765,
+    "rho_lw_med": 0.16598360655737704,
+    "net_med": 1.3820393442622967e-05,
+    "p_save": 4.378747036907218e-05,
+    "p_cost": 0.999956212529631,
+    "verified": true,
+    "verdict": "save"
+   },
+   "occupancy": {
+    "ref": "expsm",
+    "ref_macs": 12,
+    "rho_ref": 0.1568627450980392,
+    "rho_lw_med": 0.12184873949579833,
+    "net_med": -1.3501322128851535e-05,
+    "p_save": 0.999957807350719,
+    "p_cost": 4.219264928100132e-05,
+    "verified": true,
+    "verdict": "cost"
+   }
+  },
+  "24": {
+   "intel_time": {
+    "ref": "persistence",
+    "ref_macs": 0,
+    "rho_ref": 0.9222531723924482,
+    "rho_lw_med": 0.8413958526771896,
+    "net_med": -3.112578149179823e-05,
+    "p_save": 1.0,
+    "p_cost": 9.5367431640625e-07,
+    "verified": true,
+    "verdict": "cost"
+   },
+   "taxi": {
+    "ref": "linear_extrap",
+    "ref_macs": 2,
+    "rho_ref": 0.42944785276073616,
+    "rho_lw_med": 0.5410074265418147,
+    "net_med": 4.199463803680983e-05,
+    "p_save": 9.5367431640625e-07,
+    "p_cost": 1.0,
+    "verified": true,
+    "verdict": "save"
+   },
+   "traffic": {
+    "ref": "linear_extrap",
+    "ref_macs": 20,
+    "rho_ref": 0.053097345132743334,
+    "rho_lw_med": 0.06194690265486724,
+    "net_med": 2.982831858407085e-06,
+    "p_save": 0.013702372628112901,
+    "p_cost": 0.9862976273718871,
+    "verified": true,
+    "verdict": "ns"
+   },
+   "cpu": {
+    "ref": "expsm",
+    "ref_macs": 24,
+    "rho_ref": 0.2851239669421488,
+    "rho_lw_med": 0.06900826446280994,
+    "net_med": -8.249996694214877e-05,
+    "p_save": 0.9999484703882926,
+    "p_cost": 5.152961170740304e-05,
+    "verified": true,
+    "verdict": "cost"
+   },
+   "machine_temp": {
+    "ref": "expsm",
+    "ref_macs": 24,
+    "rho_ref": 0.7703040093993244,
+    "rho_lw_med": 0.7360845939198121,
+    "net_med": -1.3379377882214694e-05,
+    "p_save": 1.0,
+    "p_cost": 9.5367431640625e-07,
+    "verified": true,
+    "verdict": "cost"
+   },
+   "grok_asg_anomaly": {
+    "ref": "expsm",
+    "ref_macs": 24,
+    "rho_ref": 0.2862292718096612,
+    "rho_lw_med": 0.027757750540735426,
+    "net_med": -9.859517808219179e-05,
+    "p_save": 0.999956150288122,
+    "p_cost": 4.384971187795107e-05,
+    "verified": true,
+    "verdict": "cost"
+   },
+   "rds_cpu_util": {
+    "ref": "expsm",
+    "ref_macs": 24,
+    "rho_ref": 0.22314049586776863,
+    "rho_lw_med": 0.11157024793388426,
+    "net_med": -4.277269421487606e-05,
+    "p_save": 0.9999557754248939,
+    "p_cost": 4.4224575106059504e-05,
+    "verified": true,
+    "verdict": "cost"
+   },
+   "iio_networkin": {
+    "ref": "expsm",
+    "ref_macs": 24,
+    "rho_ref": 0.8203753351206434,
+    "rho_lw_med": 0.6273458445040214,
+    "net_med": -7.372720643431636e-05,
+    "p_save": 0.9999558380706846,
+    "p_cost": 4.4161929315406386e-05,
+    "verified": true,
+    "verdict": "cost"
+   },
+   "twitter_aapl": {
+    "ref": "expsm",
+    "ref_macs": 24,
+    "rho_ref": 0.6958708866065815,
+    "rho_lw_med": 0.535946342485852,
+    "net_med": -6.114732676587719e-05,
+    "p_save": 0.9999557754248939,
+    "p_cost": 4.4224575106059504e-05,
+    "verified": true,
+    "verdict": "cost"
+   },
+   "exchange_cpc": {
+    "ref": "expsm",
+    "ref_macs": 24,
+    "rho_ref": 0.12909836065573765,
+    "rho_lw_med": 0.15881147540983603,
+    "net_med": 1.0914983606557386e-05,
+    "p_save": 4.3974396735250754e-05,
+    "p_cost": 0.9999560256032648,
+    "verified": true,
+    "verdict": "save"
+   },
+   "occupancy": {
+    "ref": "linear_extrap",
+    "ref_macs": 20,
+    "rho_ref": 0.16666666666666663,
+    "rho_lw_med": 0.12114845938375352,
+    "net_med": -1.7676918767506985e-05,
+    "p_save": 0.999956212529631,
+    "p_cost": 4.378747036907218e-05,
+    "verified": true,
+    "verdict": "cost"
+   }
+  }
+ },
+ "counts": {
+  "12": {
+   "save": 3,
+   "cost": 8,
+   "ns": 0
+  },
+  "24": {
+   "save": 2,
+   "cost": 8,
+   "ns": 1
+  }
+ },
+ "changes": [
+  "traffic"
+ ],
+ "flips": [],
+ "insensitive": true
+}

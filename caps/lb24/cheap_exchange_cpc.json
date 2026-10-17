@@ -1,0 +1,16 @@
+{
+ "alpha": 0.9,
+ "K": 3,
+ "val": {
+  "persistence": 0.1450617283950617,
+  "expsm": 0.16049382716049387,
+  "linear_extrap": 0.1450617283950617
+ },
+ "test": {
+  "persistence": 0.15163934426229508,
+  "expsm": 0.12909836065573765,
+  "linear_extrap": 0.14754098360655743
+ },
+ "selected": "expsm",
+ "selected_macs": 24
+}

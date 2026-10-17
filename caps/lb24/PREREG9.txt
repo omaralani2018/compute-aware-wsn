@@ -1,0 +1,16 @@
+Look-back sensitivity: 24 readings instead of 12 (all predictors receive the same 12-reading context, which does not
+show whether architectures benefit differently from longer history)
+Pre-registered 13 Oct 2026, 11:40 Baghdad, before any run with a 24-reading look-back.
+
+Change: LOOK_BACK = 24 for every arm, everything else as the frozen benchmark (11 streams, tau 0.10, splits,
+validation selection, MSE loss, 20 seeds, epoch cap 200, checkpoints every 25). Exponential smoothing averages
+24 readings (24 MACs); the linear-extrapolation grid becomes K in {2,3,4,6,8,10,12,16,20,24}; the lightweight
+model takes 24 inputs (24*16 + 16 = 400 MACs). The CNN-LSTM is not rerun (compute; it loses on 11 of 11 at a
+12-reading look-back by 53 to 204 uJ per node-round).
+
+Reported (no threshold tuned):
+ R1 test suppression of the reference and of the lightweight model at 24 vs 12 (seed medians);
+ R2 the energy verdict of the lightweight model against the reference at 24 (one-sided Wilcoxon over seeds,
+    Holm across 11 streams, both directions) vs the 3 saves / 8 costs at 12; any stream whose verdict flips.
+Conclusion rule fixed now: "the selection conclusions are insensitive to the look-back" if no stream changes
+from a significant saving to a significant cost or the reverse.

@@ -1,0 +1,8 @@
+data/m3_cons_cut.txt: lines 210367 to 247780 of 454471/consumption/m3_21.oml (271487 lines): identical
+data/m3_cons_cut2.txt: lines 210367 to 260176 of 454471/consumption/m3_21.oml (271487 lines): identical
+data/m3b_cons_cut.txt: lines 10 to 57572 of 454553/consumption/m3_22.oml (279073 lines): identical
+data/nrf_cons_cut.txt: lines 23466 to 93956 of 454508/consumption/nrf52840dk_5.oml (267432 lines): identical
+data/nrfb_cons_cut.txt: lines 10 to 53067 of 454554/consumption/nrf52840dk_6.oml (272257 lines): identical
+fixed/data/fix_m3_21.txt: lines 10 to 52703 of 454575/consumption/m3_21.oml (271548 lines): identical
+fixed/data/fix_m3_22.txt: lines 10 to 52712 of 454575/consumption/m3_22.oml (271613 lines): identical
+records match RECORDS.sha256; windows differing: 0

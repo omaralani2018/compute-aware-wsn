@@ -1,0 +1,39 @@
+Option A, Step 2 (Gate 2): causal CASS vs static selection vs AMS
+Pre-registered 12 Oct 2026, 20:55 Baghdad, BEFORE any Step 2 code was run and
+before Gate 1 finished. Runs only if Gate 1 (PREREG.txt) is passed.
+
+CASS (Compute-Aware Sink-assisted Switching), per node, two arms {R, L}
+- The node runs only the active arm. The sink runs the inactive arm in shadow on the
+  shared reconstructed series x~ (x~ = x when sent, forecast when suppressed).
+- Sink-side suppression estimate over the trailing W readings:
+    active arm : exact (the sink knows which rounds were sent);
+    shadow arm : suppressed_hat(t) = |x~(t) - xhat_shadow(t)| / unit <= tau.
+  (The sink never sees x on suppressed rounds; this estimator is the information
+  limit of shadow evaluation and is reported as such.)
+- Switch from a to b at the end of a window iff
+    (rho_hat_b - rho_hat_a) * er - (M_b - M_a) * Eop  >  er / W + h * er,
+  i.e. the gain must pay the command (amortised over one window) plus a margin h.
+  After a switch the node dwells at least W readings. Each switch charges e_cmd = er.
+- Start arm: the compute-aware criterion's choice on validation (per seed).
+- Tuning: W in {96, 192, 384}, h in {0, 0.01, 0.02, 0.05}; one (W, h) per stream,
+  chosen on the VALIDATION span by the median energy over seeds; ties -> larger W,
+  then larger h. The test span is evaluated once with the chosen pair.
+
+AMS baseline (Le Borgne et al. 2007, ref [6]), as published
+- The node runs all candidate arms (both MACs charged while both are alive), racing
+  with the Hoeffding bound, delta = 0.05, model cost C = 1 (relative update rate);
+  current model changes only at an update, to the arm with the lowest update rate;
+  each change charges e_cmd = er. Secondary: the same AMS with compute not charged,
+  to separate the effect of charging computation.
+
+Pairs: R-L1 (lightweight) primary; R-L2 (CNN-LSTM, stored weights) secondary.
+Energy per reading as in PREREG.txt (sensing excluded; sink not charged).
+
+Decision rule ("we adopt CASS") requires all of:
+ 1. CASS < static criterion choice: paired one-sided Wilcoxon over seeds per stream,
+    Holm-corrected over the 11 streams at alpha = 0.05, AND median relative saving
+    >= 1%, on at least 3 streams.
+ 2. No stream where CASS's median energy exceeds the static choice by more than 1%.
+ 3. CASS has lower median energy than AMS on at least 6 of the 11 streams.
+ 1 and 2 without 3: weaker contribution, decided with the co-author.
+ 1 not met: reported as a negative result; screening bound kept as the addition.

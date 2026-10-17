@@ -1,0 +1,6 @@
+Section 6.11 totals vs reference: ref +0.0%, lw +11.6%, cnn +57.8%, caps -0.3%, hind3 -2.0%, hind3_switch -3.0%, lw_ta +7.1%, hind4_with_ta -3.1%, hind4_switch -3.7%
+max CNN-LSTM switching saving 0.54%; Gate 1: 2 streams at 5%
+crossover on taxi: ATmega128L 2.91e-03 J, M3 float 4.35e-04 J, M3 integer 1.04e-04 J, nRF52840 1.81e-05 J
+gross energy, positive median net: M3 float []; M3 integer ['taxi']; nRF52840 ['taxi']
+power trace sample interval (ms): 4.43, 4.43, 4.52, 4.42, 4.43, 4.43
+CNN-LSTM at 6,440 MACs, positive median net (uJ): taxi 41.0, exchange_cpc 11.1

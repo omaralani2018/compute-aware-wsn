@@ -1,0 +1,15 @@
+intel_time        ref12=persistence   rhoR 0.922 lw 0.891 cost | ref24=persistence   rhoR 0.922 lw 0.841 cost | verified True
+taxi              ref12=linear_extrap rhoR 0.429 lw 0.501 save | ref24=linear_extrap rhoR 0.429 lw 0.541 save | verified True
+traffic           ref12=expsm         rhoR 0.065 lw 0.084 save | ref24=linear_extrap rhoR 0.053 lw 0.062 ns   | verified True
+cpu               ref12=expsm         rhoR 0.285 lw 0.182 cost | ref24=expsm         rhoR 0.285 lw 0.069 cost | verified True
+machine_temp      ref12=expsm         rhoR 0.770 lw 0.742 cost | ref24=expsm         rhoR 0.770 lw 0.736 cost | verified True
+grok_asg_anomaly  ref12=expsm         rhoR 0.286 lw 0.036 cost | ref24=expsm         rhoR 0.286 lw 0.028 cost | verified True
+rds_cpu_util      ref12=expsm         rhoR 0.233 lw 0.109 cost | ref24=expsm         rhoR 0.223 lw 0.112 cost | verified True
+iio_networkin     ref12=expsm         rhoR 0.820 lw 0.630 cost | ref24=expsm         rhoR 0.820 lw 0.627 cost | verified True
+twitter_aapl      ref12=expsm         rhoR 0.696 lw 0.613 cost | ref24=expsm         rhoR 0.696 lw 0.536 cost | verified True
+exchange_cpc      ref12=expsm         rhoR 0.129 lw 0.166 save | ref24=expsm         rhoR 0.129 lw 0.159 save | verified True
+occupancy         ref12=expsm         rhoR 0.157 lw 0.122 cost | ref24=linear_extrap rhoR 0.167 lw 0.121 cost | verified True
+look-back 12: {'save': 3, 'cost': 8, 'ns': 0} | look-back 24: {'save': 2, 'cost': 8, 'ns': 1}
+verdict changes: ['traffic'] | save<->cost flips: []
+CONCLUSION: insensitive to the look-back
+ANALYSED

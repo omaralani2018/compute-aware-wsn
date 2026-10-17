@@ -1,0 +1,26 @@
+PREREG16: compute-blind selection against CAPS (written before any of the numbers below were computed)
+Date: 2026-10-15, Asia/Baghdad. Author of the analysis: O. B. Habeeb.
+
+Purpose. Quantify what CAPS adds over selecting the predictor by suppression alone, the rule of earlier dual-prediction
+selection whose metric omits computation, and over always running the reference, across processors, arithmetic and radio cost.
+
+Data (already computed, unchanged): tau = 0.10; per-seed validation and test suppression of the lightweight model and the
+CNN-LSTM (seeds 0 to 19) and validation/test suppression of the low-cost arms, exactly as used for Tables 2, 4 and 6 (and 8).
+Energy per node-round = Esense + Einf + (1 - rho_test) * er, as in caps_platforms.py.
+
+Selectors, applied per seed:
+ S1 CAPS: Algorithm 1 Steps 1 and 2 exactly as in caps_platforms.py (reference re-selected by validation energy on the
+    measured/simulated platforms, by validation suppression at 1 nJ per MAC).
+ S2 Compute-blind: among {reference chosen by highest validation suppression, lightweight, CNN-LSTM} choose the highest
+    validation suppression; ties go to the lower MAC count. No screen.
+ S3 Always the reference (as in S1). S4 Hindsight best of reference, lightweight, CNN-LSTM (seed medians), as in the paper.
+Outcome: total over streams of the seed-median energy per node-round; reported as % relative to S1 (CAPS) and to S3,
+plus counts of seeds on which each selector picks each candidate.
+
+Configurations, ALL to be reported whatever the result (none dropped):
+ A. 11 development streams, 1 nJ per MAC, er in {1e-4, 3.75e-4, 3.8e-4, 1e-3, 3e-3} J per report.
+ B. 11 development streams, er = 3.8e-4 J, energies of the ATmega128L (total active), IoT-LAB M3 software float,
+    M3 integer code and nRF52840 (run minus idle), as in Table 2.
+ C. The twelve confirmatory datasets (six NAB, four SensorScope, two indoor), 1 nJ per MAC, er = 3.8e-4 J, if their
+    per-seed inputs are available unchanged; if a group's inputs are not available it is reported as not computed.
+Status in the paper: an analysis computed after the main results, with the selector fixed by this file before computing.

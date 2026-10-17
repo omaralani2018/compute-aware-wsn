@@ -1,0 +1,7 @@
+m3_float m3f2  alignment: start offset 37.20 s (corr 0.998), end offset 37.33 s (corr 0.998), drift 0.13 s  OK
+  taxi          linear_extrap 217.0/190.9 uJ tx [280, 280, 280] rx [280, 280, 280]  lightweight 220.4/190.8 uJ tx [234, 234, 234] rx [234, 234, 234]  cnn_lstm 21112.7/17802.8 uJ tx [205, 205, 205] rx [205, 205, 205] | O1 True O3 True (CAPS lightweight, lowest linear_extrap)
+  exchange_cpc  expsm 315.6/285.4 uJ tx [419, 419, 419] rx [419, 419, 419]  lightweight 344.4/308.6 uJ tx [408, 408, 408] rx [408, 408, 408]  cnn_lstm 20870.5/17932.8 uJ tx [397, 397, 397] rx [397, 397, 397] | O1 True O3 True (CAPS expsm, lowest expsm)
+  machine_temp  expsm 105.3/84.3 uJ tx [122, 122, 122] rx [122, 122, 122]  lightweight 227.7/196.9 uJ tx [243, 243, 243] rx [243, 243, 243]  cnn_lstm 20147.1/17749.3 uJ tx [126, 126, 126] rx [126, 126, 126] | O1 True O3 True (CAPS expsm, lowest expsm)
+  cpu           expsm 268.9/240.1 uJ tx [352, 352, 352] rx [352, 352, 352]  lightweight 324.0/291.0 uJ tx [382, 382, 382] rx [382, 382, 382]  cnn_lstm 21395.2/17980.2 uJ tx [467, 467, 467] rx [467, 467, 467] | O1 True O3 True (CAPS expsm, lowest expsm)
+O1 4/4  O2 6/12  O3 4/4  O4 {'decisions_equal': 12, 'values_equal': 12, 'runs_valid': 36, 'runs': 36}
+compute-blind vs CAPS (measured, valid cells): +6821.2%

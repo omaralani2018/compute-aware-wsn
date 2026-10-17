@@ -1,0 +1,29 @@
+Measured execution time and energy of the predictors on real nodes (FIT IoT-LAB)
+Pre-registered 13 Oct 2026, before any firmware was flashed or any measurement taken.
+Purpose: replace the datasheet energy model with a measurement (inference energy was estimated from MAC counts
+rather than hardware execution), and test the CAPS screen with measured costs on two processors, one
+without and one with a hardware FPU.
+
+Nodes: IoT-LAB M3 (STM32F103, Cortex-M3, 72 MHz, no FPU, software float) and Nordic nRF52840DK (Cortex-M4F,
+64 MHz, hardware single-precision FPU). One node of each; a second node of each if available (reported separately).
+Firmware: RIOT 2025.07, arm-none-eabi-gcc 13.2.1, RIOT default -Os. Same predictors, weights (Intel seed 0) and 100
+Intel test windows as PREREG11 (avrsim); code checked on the host against NumPy before flashing (max rel err 2.1e-7).
+Part A: DWT cycle count of each call (call overhead subtracted) and result bits, 100 windows x 6 predictors.
+Part B: phases IDLE 2 s (RIOT idle, ztimer sleep) and RUN <predictor> 4 s (back-to-back calls, nothing printed),
+order IDLE, then for each predictor RUN + IDLE, repeated 3 rounds. Consumption monitoring on (power, voltage,
+current) at the shortest sampling period the platform allows; the profile used is recorded.
+
+Analysis (fixed now):
+ Correctness: node forecasts vs NumPy within 1e-4 relative (as PREREG11); a mismatch is reported, not repaired.
+ Time per forecast t_k: Part A mean cycles / core clock (Part B cycles/calls reported as a check).
+ Power: P_run,k = mean power in RUN k, P_idle = mean power in the IDLE phases, each phase trimmed by 300 ms at
+ both ends; phases located by the serial timestamps; if the serial and power clocks disagree by more than 300 ms,
+ phases are located instead as the contiguous intervals above the midpoint between the idle and run levels,
+ matched in time order to the known phase sequence. Values are medians over the 3 rounds.
+ Primary energy per forecast: E_k = (P_run,k - P_idle) x t_k (energy added by computing instead of idling).
+ Also reported: gross P_run,k x t_k, and nJ per MAC for expsm, linear, lightweight and CNN-LSTM vs the 1 nJ/MAC anchor.
+ CAPS with these energies, exactly as analyse_avr.py: radio at the anchor er = 3.8e-4 J; reference re-selected on
+ validation with each cheap arm's measured energy charged (linear K interpolated between K=2 and K=12); for the
+ lightweight model and CNN-LSTM on the 11 streams: median net saving over the 20 stored seeds, number of positive
+ seeds, screen decision, and whether each exclusion is correct (median net <= 0). Per node type.
+ Labelled "measured on IoT-LAB nodes (board-level power)". No threshold is tuned; nothing is rerun to change a result.

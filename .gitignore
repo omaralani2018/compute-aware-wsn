@@ -1,3 +1,25 @@
 __pycache__/
 *.pyc
 run/
+# version 1.6: created by caps/setup.sh and by the firmware builds of caps/README.md
+caps/stage17/
+caps/stb_exec/
+caps/*/nab_repo
+caps/adaptA/intel_time.npy
+caps/lb24/intel_time.npy
+caps/confB/run_*/stb_segments_*.pkl
+caps/confB/run_*/prep_setup.log
+caps/confC/data/*.csv
+caps/confC/data/data*.txt
+caps/iotlab/app/bin/
+caps/iotlab/fixed/app_q/bin/
+caps/iotlab/hostchk/host
+caps/iotlab/fixed/host/host
+caps/iotlab/RIOT/
+caps/iotlab/radio/bin_TX/
+caps/iotlab/radio/bin_RX/
+# version 1.7: firmware builds and host-check binaries of caps/README.md
+caps/netx/app/bin_*/
+caps/netx/app_rx2/bin_*/
+caps/netx/check/h_*
+caps/netx/check/rx2/t

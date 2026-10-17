@@ -1,0 +1,120 @@
+  machine_temp seed  0 round 2 ep50 val=0.789 (ta 0.787) test=0.778 (ta 0.777) 61s
+  machine_temp seed  1 round 1 ep25 val=0.799 (ta 0.794) test=0.778 (ta 0.756) 59s
+  machine_temp seed  2 round 0 ep 0 val=0.789 (ta 0.789) test=0.776 (ta 0.776) 60s
+  machine_temp seed  3 round 3 ep50 val=0.796 (ta 0.787) test=0.788 (ta 0.765) 59s
+  machine_temp seed  4 round 2 ep50 val=0.791 (ta 0.782) test=0.773 (ta 0.777) 62s
+  machine_temp seed  5 round 3 ep25 val=0.789 (ta 0.781) test=0.739 (ta 0.753) 64s
+  machine_temp seed  6 round 3 ep50 val=0.790 (ta 0.789) test=0.779 (ta 0.776) 60s
+  machine_temp seed  7 round 3 ep25 val=0.795 (ta 0.783) test=0.782 (ta 0.720) 60s
+  machine_temp seed  8 round 3 ep25 val=0.791 (ta 0.787) test=0.771 (ta 0.768) 56s
+  machine_temp seed  9 round 0 ep 0 val=0.790 (ta 0.790) test=0.780 (ta 0.780) 61s
+  machine_temp seed 10 round 3 ep25 val=0.800 (ta 0.795) test=0.775 (ta 0.782) 58s
+  machine_temp seed 11 round 2 ep25 val=0.793 (ta 0.788) test=0.786 (ta 0.746) 59s
+  machine_temp seed 12 round 0 ep 0 val=0.793 (ta 0.793) test=0.764 (ta 0.764) 57s
+  machine_temp seed 13 round 2 ep25 val=0.789 (ta 0.785) test=0.784 (ta 0.785) 57s
+  machine_temp seed 14 round 0 ep 0 val=0.784 (ta 0.784) test=0.778 (ta 0.778) 57s
+  machine_temp seed 15 round 2 ep50 val=0.794 (ta 0.788) test=0.747 (ta 0.737) 60s
+  machine_temp seed 16 round 3 ep25 val=0.794 (ta 0.781) test=0.787 (ta 0.724) 61s
+  machine_temp seed 17 round 3 ep50 val=0.803 (ta 0.781) test=0.792 (ta 0.752) 59s
+  machine_temp seed 18 round 3 ep50 val=0.802 (ta 0.786) test=0.785 (ta 0.718) 57s
+  machine_temp seed 19 round 1 ep50 val=0.787 (ta 0.784) test=0.769 (ta 0.786) 56s
+  taxi seed  1 round 3 ep25 val=0.569 (ta 0.554) test=0.521 (ta 0.504) 59s
+  taxi seed  2 round 3 ep50 val=0.578 (ta 0.569) test=0.552 (ta 0.524) 59s
+  taxi seed  3 round 3 ep25 val=0.580 (ta 0.561) test=0.555 (ta 0.515) 60s
+  taxi seed  4 round 0 ep 0 val=0.579 (ta 0.579) test=0.537 (ta 0.537) 58s
+  taxi seed  5 round 1 ep50 val=0.565 (ta 0.563) test=0.531 (ta 0.537) 54s
+  taxi seed  6 round 1 ep50 val=0.567 (ta 0.545) test=0.523 (ta 0.519) 58s
+  taxi seed  7 round 3 ep25 val=0.576 (ta 0.553) test=0.551 (ta 0.511) 58s
+  taxi seed  8 round 3 ep25 val=0.561 (ta 0.537) test=0.531 (ta 0.506) 56s
+  taxi seed  9 round 3 ep25 val=0.558 (ta 0.545) test=0.544 (ta 0.521) 55s
+  taxi seed 10 round 2 ep25 val=0.570 (ta 0.559) test=0.545 (ta 0.518) 57s
+  taxi seed 11 round 2 ep50 val=0.582 (ta 0.547) test=0.550 (ta 0.506) 61s
+  taxi seed 12 round 3 ep25 val=0.591 (ta 0.567) test=0.543 (ta 0.530) 59s
+  taxi seed 13 round 2 ep25 val=0.559 (ta 0.540) test=0.535 (ta 0.498) 63s
+  taxi seed 14 round 3 ep50 val=0.587 (ta 0.573) test=0.551 (ta 0.537) 61s
+  taxi seed 15 round 2 ep50 val=0.579 (ta 0.574) test=0.525 (ta 0.521) 58s
+  taxi seed 16 round 3 ep50 val=0.574 (ta 0.573) test=0.533 (ta 0.547) 56s
+  taxi seed 17 round 0 ep 0 val=0.549 (ta 0.549) test=0.514 (ta 0.514) 57s
+  taxi seed 18 round 2 ep25 val=0.590 (ta 0.554) test=0.543 (ta 0.531) 57s
+  taxi seed 19 round 0 ep 0 val=0.578 (ta 0.578) test=0.540 (ta 0.540) 55s
+  cpu seed  0 round 2 ep50 val=0.215 (ta 0.133) test=0.223 (ta 0.151) 35s
+  cpu seed  1 round 3 ep50 val=0.215 (ta 0.177) test=0.202 (ta 0.227) 36s
+  cpu seed  2 round 3 ep50 val=0.203 (ta 0.158) test=0.178 (ta 0.124) 35s
+  cpu seed  3 round 3 ep50 val=0.215 (ta 0.164) test=0.074 (ta 0.104) 32s
+  cpu seed  4 round 3 ep25 val=0.194 (ta 0.163) test=0.160 (ta 0.166) 35s
+  cpu seed  5 round 2 ep25 val=0.208 (ta 0.163) test=0.113 (ta 0.089) 36s
+  cpu seed  6 round 0 ep 0 val=0.187 (ta 0.187) test=0.080 (ta 0.080) 35s
+  cpu seed  7 round 3 ep25 val=0.208 (ta 0.114) test=0.165 (ta 0.073) 37s
+  cpu seed  8 round 2 ep25 val=0.215 (ta 0.163) test=0.238 (ta 0.094) 34s
+  cpu seed  9 round 3 ep50 val=0.195 (ta 0.151) test=0.145 (ta 0.217) 35s
+  cpu seed 10 round 2 ep50 val=0.200 (ta 0.156) test=0.129 (ta 0.060) 34s
+  cpu seed 11 round 1 ep50 val=0.211 (ta 0.140) test=0.117 (ta 0.021) 35s
+  cpu seed 12 round 3 ep25 val=0.211 (ta 0.123) test=0.194 (ta 0.121) 32s
+  cpu seed 13 round 1 ep50 val=0.206 (ta 0.158) test=0.225 (ta 0.169) 35s
+  cpu seed 14 round 3 ep25 val=0.203 (ta 0.139) test=0.217 (ta 0.095) 34s
+  cpu seed 15 round 2 ep25 val=0.216 (ta 0.129) test=0.134 (ta 0.040) 34s
+  cpu seed 16 round 2 ep50 val=0.206 (ta 0.139) test=0.182 (ta 0.142) 36s
+  cpu seed 17 round 2 ep50 val=0.212 (ta 0.132) test=0.232 (ta 0.181) 33s
+  cpu seed 18 round 2 ep25 val=0.246 (ta 0.169) test=0.232 (ta 0.055) 36s
+  cpu seed 19 round 2 ep50 val=0.226 (ta 0.143) test=0.226 (ta 0.250) 34s
+  occupancy seed  0 round 1 ep25 val=0.160 (ta 0.158) test=0.160 (ta 0.158) 27s
+  occupancy seed  1 round 0 ep 0 val=0.174 (ta 0.174) test=0.147 (ta 0.147) 25s
+  occupancy seed  2 round 0 ep 0 val=0.172 (ta 0.172) test=0.179 (ta 0.179) 25s
+  occupancy seed  3 round 0 ep 0 val=0.168 (ta 0.168) test=0.140 (ta 0.140) 24s
+  occupancy seed  4 round 0 ep 0 val=0.149 (ta 0.149) test=0.146 (ta 0.146) 25s
+  occupancy seed  5 round 0 ep 0 val=0.176 (ta 0.176) test=0.153 (ta 0.153) 25s
+  occupancy seed  6 round 1 ep50 val=0.166 (ta 0.158) test=0.160 (ta 0.141) 24s
+  occupancy seed  7 round 0 ep 0 val=0.168 (ta 0.168) test=0.155 (ta 0.155) 26s
+  occupancy seed  8 round 0 ep 0 val=0.191 (ta 0.191) test=0.139 (ta 0.139) 23s
+  occupancy seed  9 round 1 ep50 val=0.170 (ta 0.166) test=0.171 (ta 0.155) 26s
+  occupancy seed 10 round 0 ep 0 val=0.181 (ta 0.181) test=0.158 (ta 0.158) 27s
+  occupancy seed 11 round 0 ep 0 val=0.170 (ta 0.170) test=0.157 (ta 0.157) 25s
+  occupancy seed 12 round 0 ep 0 val=0.174 (ta 0.174) test=0.162 (ta 0.162) 24s
+  occupancy seed 13 round 1 ep25 val=0.162 (ta 0.149) test=0.182 (ta 0.167) 24s
+  occupancy seed 14 round 3 ep25 val=0.162 (ta 0.158) test=0.139 (ta 0.162) 28s
+  occupancy seed 15 round 0 ep 0 val=0.158 (ta 0.158) test=0.154 (ta 0.154) 27s
+  occupancy seed 16 round 0 ep 0 val=0.170 (ta 0.170) test=0.157 (ta 0.157) 28s
+  occupancy seed 17 round 0 ep 0 val=0.160 (ta 0.160) test=0.171 (ta 0.171) 27s
+  occupancy seed 18 round 0 ep 0 val=0.158 (ta 0.158) test=0.151 (ta 0.151) 27s
+  occupancy seed 19 round 1 ep50 val=0.162 (ta 0.160) test=0.176 (ta 0.167) 27s
+  iio_networkin seed  0 round 0 ep 0 val=0.751 (ta 0.751) test=0.740 (ta 0.740) 20s
+  iio_networkin seed  1 round 0 ep 0 val=0.719 (ta 0.719) test=0.735 (ta 0.735) 20s
+  iio_networkin seed  2 round 0 ep 0 val=0.719 (ta 0.719) test=0.686 (ta 0.686) 20s
+  iio_networkin seed  3 round 0 ep 0 val=0.707 (ta 0.707) test=0.740 (ta 0.740) 20s
+  iio_networkin seed  4 round 0 ep 0 val=0.723 (ta 0.723) test=0.743 (ta 0.743) 20s
+  iio_networkin seed  5 round 0 ep 0 val=0.723 (ta 0.723) test=0.735 (ta 0.735) 20s
+  iio_networkin seed  6 round 0 ep 0 val=0.739 (ta 0.739) test=0.708 (ta 0.708) 19s
+  iio_networkin seed  7 round 3 ep50 val=0.747 (ta 0.731) test=0.767 (ta 0.727) 18s
+  iio_networkin seed  8 round 1 ep25 val=0.735 (ta 0.731) test=0.786 (ta 0.713) 20s
+  iio_networkin seed  9 round 0 ep 0 val=0.715 (ta 0.715) test=0.684 (ta 0.684) 19s
+  iio_networkin seed 10 round 0 ep 0 val=0.743 (ta 0.743) test=0.702 (ta 0.702) 20s
+  iio_networkin seed 11 round 0 ep 0 val=0.739 (ta 0.739) test=0.751 (ta 0.751) 19s
+  iio_networkin seed 12 round 0 ep 0 val=0.727 (ta 0.727) test=0.751 (ta 0.751) 19s
+  iio_networkin seed 13 round 2 ep25 val=0.739 (ta 0.711) test=0.791 (ta 0.732) 18s
+  iio_networkin seed 14 round 0 ep 0 val=0.767 (ta 0.767) test=0.694 (ta 0.694) 18s
+  iio_networkin seed 15 round 3 ep25 val=0.727 (ta 0.695) test=0.788 (ta 0.697) 21s
+  iio_networkin seed 16 round 2 ep25 val=0.723 (ta 0.679) test=0.729 (ta 0.662) 20s
+  iio_networkin seed 17 round 1 ep25 val=0.743 (ta 0.739) test=0.753 (ta 0.732) 20s
+  iio_networkin seed 18 round 0 ep 0 val=0.699 (ta 0.699) test=0.724 (ta 0.724) 19s
+  iio_networkin seed 19 round 0 ep 0 val=0.731 (ta 0.731) test=0.729 (ta 0.729) 18s
+  traffic seed  0 round 0 ep 0 val=0.116 (ta 0.116) test=0.103 (ta 0.103) 17s
+  traffic seed  1 round 0 ep 0 val=0.111 (ta 0.111) test=0.091 (ta 0.091) 18s
+  traffic seed  2 round 0 ep 0 val=0.129 (ta 0.129) test=0.097 (ta 0.097) 18s
+  traffic seed  3 round 0 ep 0 val=0.129 (ta 0.129) test=0.080 (ta 0.080) 18s
+  traffic seed  4 round 0 ep 0 val=0.129 (ta 0.129) test=0.100 (ta 0.100) 17s
+  traffic seed  5 round 0 ep 0 val=0.124 (ta 0.124) test=0.103 (ta 0.103) 16s
+  traffic seed  6 round 0 ep 0 val=0.093 (ta 0.093) test=0.091 (ta 0.091) 18s
+  traffic seed  7 round 0 ep 0 val=0.111 (ta 0.111) test=0.103 (ta 0.103) 18s
+  traffic seed  8 round 0 ep 0 val=0.093 (ta 0.093) test=0.074 (ta 0.074) 17s
+  traffic seed  9 round 0 ep 0 val=0.111 (ta 0.111) test=0.109 (ta 0.109) 17s
+  traffic seed 10 round 3 ep50 val=0.124 (ta 0.120) test=0.091 (ta 0.074) 18s
+  traffic seed 11 round 0 ep 0 val=0.111 (ta 0.111) test=0.094 (ta 0.094) 17s
+  traffic seed 12 round 0 ep 0 val=0.129 (ta 0.129) test=0.103 (ta 0.103) 17s
+  traffic seed 13 round 0 ep 0 val=0.120 (ta 0.120) test=0.091 (ta 0.091) 18s
+  traffic seed 14 round 0 ep 0 val=0.102 (ta 0.102) test=0.077 (ta 0.077) 18s
+  traffic seed 15 round 1 ep50 val=0.120 (ta 0.111) test=0.091 (ta 0.077) 17s
+  traffic seed 16 round 3 ep25 val=0.133 (ta 0.107) test=0.086 (ta 0.083) 19s
+  traffic seed 17 round 3 ep25 val=0.124 (ta 0.120) test=0.077 (ta 0.094) 18s
+  traffic seed 18 round 0 ep 0 val=0.116 (ta 0.116) test=0.086 (ta 0.086) 18s
+  traffic seed 19 round 2 ep50 val=0.102 (ta 0.093) test=0.091 (ta 0.097) 14s
+LANEDONE

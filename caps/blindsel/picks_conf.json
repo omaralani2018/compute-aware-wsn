@@ -1,0 +1,54 @@
+{
+ "per_dataset": {
+  "ambient_temperature": {
+   "ref": 5,
+   "lightweight": 15
+  },
+  "occupancy_t4013": {
+   "ref": 20
+  },
+  "speed_6005": {
+   "ref": 20
+  },
+  "speed_t4013": {
+   "ref": 12,
+   "lightweight": 6,
+   "cnn_lstm": 2
+  },
+  "TravelTime_387": {
+   "ref": 20
+  },
+  "TravelTime_451": {
+   "ref": 20
+  },
+  "fishnet": {
+   "ref": 14,
+   "lightweight": 2,
+   "cnn_lstm": 4
+  },
+  "genepi": {
+   "ref": 20
+  },
+  "pdg2008": {
+   "ref": 20
+  },
+  "plaine_morte": {
+   "ref": 20
+  },
+  "appliances_indoor": {
+   "ref": 14,
+   "lightweight": 5,
+   "cnn_lstm": 1
+  },
+  "occupancy_office": {
+   "lightweight": 1,
+   "ref": 19
+  }
+ },
+ "total": {
+  "ref": 204,
+  "lightweight": 29,
+  "cnn_lstm": 7
+ },
+ "max_cnn_lstm_seeds_any_dataset": 4
+}

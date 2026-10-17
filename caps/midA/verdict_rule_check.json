@@ -1,0 +1,63 @@
+{
+ "lightweight": {
+  "prereg14_holm_one_sided": {
+   "save": [
+    "taxi",
+    "traffic",
+    "exchange_cpc"
+   ],
+   "cost": 8
+  },
+  "section63_bonferroni22_two_sided": {
+   "save": [
+    "taxi",
+    "traffic",
+    "exchange_cpc"
+   ],
+   "cost": 8
+  }
+ },
+ "mlp_mid": {
+  "prereg14_holm_one_sided": {
+   "save": [
+    "taxi",
+    "exchange_cpc"
+   ],
+   "cost": 8
+  },
+  "section63_bonferroni22_two_sided": {
+   "save": [
+    "taxi",
+    "exchange_cpc"
+   ],
+   "cost": 8
+  }
+ },
+ "cnnlstm_small": {
+  "prereg14_holm_one_sided": {
+   "save": [
+    "taxi",
+    "traffic",
+    "exchange_cpc"
+   ],
+   "cost": 8
+  },
+  "section63_bonferroni22_two_sided": {
+   "save": [
+    "taxi",
+    "exchange_cpc"
+   ],
+   "cost": 8
+  }
+ },
+ "cnn_lstm": {
+  "prereg14_holm_one_sided": {
+   "save": [],
+   "cost": 11
+  },
+  "section63_bonferroni22_two_sided": {
+   "save": [],
+   "cost": 11
+  }
+ }
+}

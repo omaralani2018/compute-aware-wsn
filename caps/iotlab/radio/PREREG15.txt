@@ -1,0 +1,51 @@
+Measured energy of one report on the nodes' own radios (FIT IoT-LAB)
+Pre-registered 14 Oct 2026, before any of this firmware was flashed and before any radio measurement.
+Purpose: the radio cost per report in the paper (er = 3.8e-4 J) is a modelled LEACH report of 4,000 bits, not the radio
+of the nodes measured in Section 6.14. This experiment measures, on the same two node types, the energy of sending one
+report with each node's own IEEE 802.15.4 radio, and applies CAPS (Section 6.14) at that measured radio cost.
+
+Nodes: one transmitting (TX) and one receiving (RX) node of each type in the same experiment and site:
+ IoT-LAB M3 (AT86RF231 radio), grenoble, TX m3-21, RX m3-22;
+ nRF52840DK (integrated radio), saclay, TX nrf52840dk-5, RX nrf52840dk-6.
+If a listed node is unavailable, another node of the same type and site is used and named in the record.
+Consumption profiles: the same as PREREG12 (caps_m3 for the M3 TX node, caps_custom for the nRF52840DK TX node).
+Firmware: RIOT 2025.07 (commit eb65305c), arm-none-eabi-gcc 13.2.1, RIOT default -Os; app radio/ (main.c, Makefile),
+GNRC link layer only (no IPv6, no 6LoWPAN), channel 22, PAN 0x0023, short addresses (TX 0x0001, RX 0x0002), default
+transmit power and CSMA-CA settings of each driver (both printed by the node). Builds: ROLE=TX and ROLE=RX per board.
+
+TX node sequence (nothing printed inside a phase):
+ SYNC (once): IDLE 2 s, radio in receive mode 12 s, IDLE 2 s (for the clock alignment only).
+ Then 3 rounds of: IDLE, RUN S_BC, IDLE, RUN S_UC, IDLE, RUN L_BC, IDLE, LISTEN, IDLE.
+ IDLE 2 s: radio asleep, CPU idle (ztimer sleep), as the IDLE phase of PREREG12.
+ RUN <v> 4 s: back-to-back reports; one report = wake the radio (NETOPT_STATE_IDLE), send one frame, wait for the end of
+ the transmission (gnrc_tx_sync), put the radio to sleep (NETOPT_STATE_SLEEP). Variants:
+   S_BC  4-byte payload, broadcast, no acknowledgement  (PRIMARY: one reading, smallest frame)
+   S_UC  4-byte payload, unicast to the RX node, acknowledgement requested (driver default retries)
+   L_BC  100-byte payload, broadcast
+ LISTEN 4 s: radio in receive mode, no transmission (context: idle-listening power; not used in any decision).
+ After each RUN the node prints reports sent, cycles, wall time, and the link-layer counters tx_success and tx_failed.
+RX node: receive mode throughout, prints the number of frames received every 10 s.
+
+Analysis (fixed now; scripts analyse_radio.py and radio_decisions.py, tested on synthetic traces before any run):
+ Serial lines of the TX node only (split by node name), after its last boot banner.
+ Alignment: the offset between the power and serial clocks is the shift (-120 to 120 s, step 0.01 s) that maximises
+ the correlation between the 45-sample running median of the power trace and the expected on/off pattern (RUN, LISTEN
+ and SYNC on; IDLE off), over shifts that keep at least 90% of the pattern inside the trace. Each phase is its serial
+ interval shifted by that offset and trimmed by 300 ms at both ends. Alignment is accepted if the correlation is at
+ least 0.8; otherwise the run counts as a technical failure (see Runs).
+ Energy of one report: E = (P_run - P_idle) x wall time / reports, per round; median over the 3 rounds. P_idle is the
+ median of the IDLE phase means. Also reported: gross energy P_run x wall time / reports, time per report, cycles.
+ Validity of a variant: no send error, tx_failed at most 1% and tx_success at least 99% of the reports; for S_UC the
+ RX count is also reported. An invalid variant is reported as such and not used in decisions.
+ Decisions (radio_decisions.py): CAPS exactly as in Section 6.14 (caps_platforms.py) with the measured forecast energies
+ of PREREG12/13 and, as radio cost per report, the measured S_BC energy of the same node type (M3 software float and
+ M3 integer use the M3 radio; nRF52840 its own). Reported per platform: the low-cost reference re-selected on
+ validation at that cost, the number of streams on which the lightweight model and the CNN-LSTM have a positive median
+ net saving over 20 seeds (and which streams), screen exclusions and false exclusions, CAPS total against always
+ running the reference and against the best of the three choices in hindsight, and the picks over seeds.
+ Secondary: the same with the S_UC energy. No prediction is made; every output is reported whatever its value.
+Paper: Section 6.14 reports the measured report energies and the decisions at them next to those at the anchor,
+labelled "radio measured on the same node types (sender side, one frame per report, no MAC duty-cycling)", and the
+Limitations state that receiver, relay and duty-cycled MAC costs are not measured.
+Runs: one experiment per site. A run that fails for a technical reason (no serial capture, node failure, flashing
+error) may be repeated once with the same firmware; the reason is recorded. Nothing is rerun to change a result.

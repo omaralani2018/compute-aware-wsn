@@ -1,0 +1,52 @@
+Building application "caps_radio" for "iotlab-m3" with CPU "stm32".
+
+"make" -C <caps>/iotlab/RIOT/pkg/cmsis/ 
+"make" -C <caps>/iotlab/RIOT/boards
+"make" -C <caps>/iotlab/RIOT/boards/iotlab-m3
+"make" -C <caps>/iotlab/RIOT/core
+"make" -C <caps>/iotlab/RIOT/core/lib
+"make" -C <caps>/iotlab/RIOT/cpu/stm32
+"make" -C <caps>/iotlab/RIOT/drivers
+"make" -C <caps>/iotlab/RIOT/sys
+"make" -C <caps>/iotlab/RIOT/boards/common/init
+"make" -C <caps>/iotlab/RIOT/boards/common/iotlab
+"make" -C <caps>/iotlab/RIOT/drivers/at86rf2xx
+"make" -C <caps>/iotlab/RIOT/drivers/netdev
+"make" -C <caps>/iotlab/RIOT/cpu/cortexm_common
+"make" -C <caps>/iotlab/RIOT/cpu/stm32/periph
+"make" -C <caps>/iotlab/RIOT/sys/auto_init
+"make" -C <caps>/iotlab/RIOT/drivers/periph_common
+"make" -C <caps>/iotlab/RIOT/cpu/stm32/stmclk
+"make" -C <caps>/iotlab/RIOT/sys/div
+"make" -C <caps>/iotlab/RIOT/cpu/stm32/vectors
+"make" -C <caps>/iotlab/RIOT/cpu/cortexm_common/periph
+"make" -C <caps>/iotlab/RIOT/sys/event
+"make" -C <caps>/iotlab/RIOT/sys/fmt
+"make" -C <caps>/iotlab/RIOT/sys/frac
+"make" -C <caps>/iotlab/RIOT/sys/libc
+"make" -C <caps>/iotlab/RIOT/sys/luid
+"make" -C <caps>/iotlab/RIOT/sys/malloc_thread_safe
+"make" -C <caps>/iotlab/RIOT/sys/net/gnrc
+"make" -C <caps>/iotlab/RIOT/sys/net/link_layer/eui_provider
+"make" -C <caps>/iotlab/RIOT/sys/net/link_layer/ieee802154
+"make" -C <caps>/iotlab/RIOT/sys/net/link_layer/l2util
+"make" -C <caps>/iotlab/RIOT/sys/net/netif
+"make" -C <caps>/iotlab/RIOT/sys/newlib_syscalls_default
+"make" -C <caps>/iotlab/RIOT/sys/pm_layered
+"make" -C <caps>/iotlab/RIOT/sys/net/gnrc/netapi
+"make" -C <caps>/iotlab/RIOT/sys/preprocessor
+"make" -C <caps>/iotlab/RIOT/sys/random
+"make" -C <caps>/iotlab/RIOT/sys/stdio
+"make" -C <caps>/iotlab/RIOT/sys/stdio_uart
+"make" -C <caps>/iotlab/RIOT/sys/net/gnrc/netif
+"make" -C <caps>/iotlab/RIOT/sys/net/gnrc/netreg
+"make" -C <caps>/iotlab/RIOT/sys/ztimer
+"make" -C <caps>/iotlab/RIOT/sys/net/gnrc/pkt
+"make" -C <caps>/iotlab/RIOT/sys/net/gnrc/pktbuf
+"make" -C <caps>/iotlab/RIOT/sys/net/gnrc/pktbuf_static
+"make" -C <caps>/iotlab/RIOT/sys/net/gnrc/tx_sync
+"make" -C <caps>/iotlab/RIOT/sys/net/gnrc/netif/hdr
+"make" -C <caps>/iotlab/RIOT/sys/net/gnrc/netif/ieee802154
+"make" -C <caps>/iotlab/RIOT/sys/net/gnrc/netif/init_devs
+   text	   data	    bss	    dec	    hex	filename
+  24348	    148	  10372	  34868	   8834	<caps>/iotlab/radio/bin_TX/iotlab-m3/caps_radio.elf

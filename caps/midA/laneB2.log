@@ -1,0 +1,61 @@
+  mlp_mid    seed  0  ep 50  val=0.079 test=0.042  42s
+  mlp_mid    seed  1  ep 25  val=0.103 test=0.039  39s
+  mlp_mid    seed  2  ep 75  val=0.083 test=0.034  40s
+  mlp_mid    seed  3  ep 25  val=0.082 test=0.039  38s
+  mlp_mid    seed  4  ep 25  val=0.097 test=0.043  39s
+  mlp_mid    seed  5  ep 25  val=0.091 test=0.035  36s
+  mlp_mid    seed  6  ep 50  val=0.087 test=0.033  38s
+  mlp_mid    seed  7  ep 75  val=0.102 test=0.043  38s
+  mlp_mid    seed  8  ep 50  val=0.084 test=0.029  36s
+  mlp_mid    seed  9  ep 25  val=0.096 test=0.040  40s
+  mlp_mid    seed 10  ep 25  val=0.081 test=0.037  37s
+  mlp_mid    seed 11  ep 50  val=0.087 test=0.035  39s
+  mlp_mid    seed 12  ep 50  val=0.087 test=0.038  39s
+  mlp_mid    seed 13  ep 75  val=0.102 test=0.049  37s
+  mlp_mid    seed 14  ep 25  val=0.088 test=0.035  37s
+  mlp_mid    seed 15  ep 25  val=0.076 test=0.030  40s
+  mlp_mid    seed 16  ep 25  val=0.087 test=0.031  40s
+  mlp_mid    seed 17  ep 75  val=0.098 test=0.024  40s
+  mlp_mid    seed 18  ep 25  val=0.058 test=0.028  40s
+  mlp_mid    seed 19  ep 25  val=0.084 test=0.032  38s
+  mlp_mid    seed  0  ep200  val=0.782 test=0.750  51s
+  mlp_mid    seed  1  ep 25  val=0.787 test=0.768  46s
+  mlp_mid    seed  2  ep 50  val=0.787 test=0.760  50s
+  mlp_mid    seed  3  ep 75  val=0.788 test=0.764  48s
+  mlp_mid    seed  4  ep125  val=0.775 test=0.731  47s
+  mlp_mid    seed  5  ep 75  val=0.781 test=0.738  46s
+  mlp_mid    seed  6  ep 25  val=0.789 test=0.713  46s
+  mlp_mid    seed  7  ep100  val=0.786 test=0.685  45s
+  mlp_mid    seed  8  ep 75  val=0.752 test=0.697  47s
+  mlp_mid    seed  9  ep200  val=0.744 test=0.701  46s
+  mlp_mid    seed 10  ep 75  val=0.784 test=0.713  50s
+  mlp_mid    seed 11  ep200  val=0.784 test=0.745  48s
+  mlp_mid    seed 12  ep150  val=0.790 test=0.743  46s
+  mlp_mid    seed 13  ep 50  val=0.787 test=0.784  45s
+  mlp_mid    seed 14  ep100  val=0.798 test=0.778  43s
+  mlp_mid    seed 15  ep150  val=0.782 test=0.771  44s
+  mlp_mid    seed 16  ep200  val=0.761 test=0.682  47s
+  mlp_mid    seed 17  ep175  val=0.767 test=0.694  44s
+  mlp_mid    seed 18  ep150  val=0.768 test=0.673  43s
+  mlp_mid    seed 19  ep 25  val=0.771 test=0.685  47s
+  mlp_mid    seed  0  ep 25  val=0.107 test=0.199  38s
+  mlp_mid    seed  1  ep 25  val=0.136 test=0.264  35s
+  mlp_mid    seed  2  ep 25  val=0.140 test=0.115  36s
+  mlp_mid    seed  3  ep 75  val=0.124 test=0.211  36s
+  mlp_mid    seed  4  ep 25  val=0.128 test=0.221  36s
+  mlp_mid    seed  5  ep 25  val=0.118 test=0.021  34s
+  mlp_mid    seed  6  ep 25  val=0.114 test=0.189  36s
+  mlp_mid    seed  7  ep 25  val=0.138 test=0.137  34s
+  mlp_mid    seed  8  ep 25  val=0.132 test=0.083  35s
+  mlp_mid    seed  9  ep 25  val=0.127 test=0.064  29s
+  mlp_mid    seed 10  ep 50  val=0.141 test=0.086  25s
+  mlp_mid    seed 11  ep 75  val=0.134 test=0.075  25s
+  mlp_mid    seed 12  ep 25  val=0.144 test=0.131  25s
+  mlp_mid    seed 13  ep 25  val=0.139 test=0.101  24s
+  mlp_mid    seed 14  ep 75  val=0.123 test=0.133  24s
+  mlp_mid    seed 15  ep 25  val=0.109 test=0.203  25s
+  mlp_mid    seed 16  ep 50  val=0.136 test=0.212  25s
+  mlp_mid    seed 17  ep125  val=0.129 test=0.043  25s
+  mlp_mid    seed 18  ep 25  val=0.114 test=0.175  28s
+  mlp_mid    seed 19  ep 25  val=0.123 test=0.180  25s
+LANEDONE

@@ -1,0 +1,41 @@
+PREREG17 (NETX) commands. Run from the computer that holds your IoT-LAB SSH key. Replace LOGIN with your user name.
+Files needed in the current folder (from the fw folder): netx_tx_m3_float.elf, netx_tx_m3_int.elf, netx_rx_m3.elf,
+netx_tx_nrf.elf, netx_rx_nrf.elf.
+
+=== A. M3 float, grenoble (about 50 minutes) ===
+1) scp netx_tx_m3_float.elf netx_tx_m3_int.elf netx_rx_m3.elf LOGIN@grenoble.iot-lab.info:~/
+2) ssh LOGIN@grenoble.iot-lab.info
+3) iotlab-experiment submit -n netx_m3f -d 60 -l grenoble,m3,21,netx_tx_m3_float.elf,caps_m3 -l grenoble,m3,22,netx_rx_m3.elf
+   iotlab-experiment wait
+4) Power-cycle both nodes (AMENDMENT_15a):
+   iotlab-node --stop -l grenoble,m3,21+22
+   iotlab-node --start -l grenoble,m3,21+22
+5) Right away (the sender waits 60 s), start the capture in the foreground:
+   serial_aggregator | tee netx_m3f_serial.txt
+6) Wait for "ALL DONE" (about 48 minutes after step 4), wait 30 s more, then Ctrl+C.
+7) iotlab-experiment stop
+   ls -la ~/.iot-lab/EXPID/consumption/
+8) Back on your computer:
+   scp LOGIN@grenoble.iot-lab.info:~/netx_m3f_serial.txt .
+   scp LOGIN@grenoble.iot-lab.info:~/.iot-lab/EXPID/consumption/m3_21.oml netx_m3f_21.oml
+
+=== B. M3 integer, grenoble (about 25 minutes) ===
+Same as A with: -n netx_m3i -d 30 and netx_tx_m3_int.elf in place of netx_tx_m3_float.elf;
+capture file netx_m3i_serial.txt; "ALL DONE" about 21 minutes after step 4; copy m3_21.oml as netx_m3i_21.oml.
+
+=== C. nRF52840, saclay (about 30 minutes) ===
+1) scp netx_tx_nrf.elf netx_rx_nrf.elf LOGIN@saclay.iot-lab.info:~/
+2) ssh LOGIN@saclay.iot-lab.info
+3) iotlab-experiment submit -n netx_nrf -d 35 -l saclay,nrf52840dk,5,netx_tx_nrf.elf,caps_custom -l saclay,nrf52840dk,6,netx_rx_nrf.elf
+   iotlab-experiment wait
+4) iotlab-node --stop -l saclay,nrf52840dk,5+6
+   iotlab-node --start -l saclay,nrf52840dk,5+6
+5) serial_aggregator | tee netx_nrf_serial.txt
+6) Wait for "ALL DONE" (about 24 minutes after step 4), 30 s more, Ctrl+C.
+7) iotlab-experiment stop ; ls -la ~/.iot-lab/EXPID/consumption/
+8) scp LOGIN@saclay.iot-lab.info:~/netx_nrf_serial.txt .
+   scp LOGIN@saclay.iot-lab.info:~/.iot-lab/EXPID/consumption/nrf52840dk_5.oml netx_nrf_5.oml
+
+Send the six files (three serial captures, three .oml files) with the three experiment ids.
+If a node is busy, use another node of the same type for both roles' place and write down which ones.
+If the capture shows "ERROR no network interface", stop, and repeat steps 4 to 6 once.

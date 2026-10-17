@@ -1,0 +1,90 @@
+{
+ "cpu": {
+  "budget_macs": 330036.81389578164,
+  "cnn_screened": false,
+  "headroom_test": 0.0,
+  "headroom_val": 0.0054219760063553,
+  "reference": "expsm",
+  "select_lightweight": 16
+ },
+ "exchange_cpc": {
+  "budget_macs": 319024.34567901236,
+  "cnn_screened": false,
+  "headroom_test": 0.00264745067497113,
+  "headroom_val": 0.0037535218835694772,
+  "reference": "expsm",
+  "select_lightweight": 19
+ },
+ "grok_asg_anomaly": {
+  "budget_macs": 197414.59740259737,
+  "cnn_screened": false,
+  "headroom_test": 0.0,
+  "headroom_val": 0.0,
+  "reference": "expsm",
+  "select_lightweight": 0
+ },
+ "iio_networkin": {
+  "budget_macs": 96156.57831325302,
+  "cnn_screened": true,
+  "headroom_test": 0.0,
+  "headroom_val": 0.0,
+  "reference": "expsm",
+  "select_lightweight": 0
+ },
+ "intel_time": {
+  "budget_macs": 30768.026533996686,
+  "cnn_screened": true,
+  "headroom_test": 0.131105600785403,
+  "headroom_val": 0.061144274170597535,
+  "reference": "persistence",
+  "select_lightweight": 0
+ },
+ "machine_temp": {
+  "budget_macs": 84651.78849966952,
+  "cnn_screened": true,
+  "headroom_test": 0.05779937631000187,
+  "headroom_val": 0.0678946949652624,
+  "reference": "expsm",
+  "select_lightweight": 6
+ },
+ "occupancy": {
+  "budget_macs": 316944.7731092437,
+  "cnn_screened": false,
+  "headroom_test": 0.00322189366504233,
+  "headroom_val": 0.006112508851580545,
+  "reference": "expsm",
+  "select_lightweight": 0
+ },
+ "rds_cpu_util": {
+  "budget_macs": 287605.0521091811,
+  "cnn_screened": false,
+  "headroom_test": 0.013346444559961923,
+  "headroom_val": 0.036559026751912194,
+  "reference": "expsm",
+  "select_lightweight": 0
+ },
+ "taxi": {
+  "budget_macs": 223618.09306834705,
+  "cnn_screened": false,
+  "headroom_test": 0.027990220843941593,
+  "headroom_val": 0.0026262259643720087,
+  "reference": "linear_extrap",
+  "select_lightweight": 20
+ },
+ "traffic": {
+  "budget_macs": 332723.11111111107,
+  "cnn_screened": false,
+  "headroom_test": 0.006590971360670161,
+  "headroom_val": 2.220446049250313e-16,
+  "reference": "expsm",
+  "select_lightweight": 1
+ },
+ "twitter_aapl": {
+  "budget_macs": 129546.59119496851,
+  "cnn_screened": false,
+  "headroom_test": 0.003289726795276171,
+  "headroom_val": 0.005898696120013702,
+  "reference": "expsm",
+  "select_lightweight": 0
+ }
+}

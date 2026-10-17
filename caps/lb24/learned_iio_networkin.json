@@ -1,0 +1,392 @@
+{
+ "dataset": "iio_networkin",
+ "unit": 6208281.595060436,
+ "T": 1243,
+ "split": [
+  621,
+  870
+ ],
+ "tau": 0.1,
+ "entries": [
+  {
+   "predictor": "lightweight",
+   "seed": 0,
+   "selected_epoch": 175,
+   "val_rho": 0.5863453815261044,
+   "test_rho": 0.6193029490616622,
+   "test_mean_err": 177952.7468924041,
+   "test_max_err": 616194.4285099274,
+   "test_rmse": 264472.312329205,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.05414650000000001,
+    "E_initialisation": 0.00912,
+    "E_total": 0.0632665
+   },
+   "secs": 20.9
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 1,
+   "selected_epoch": 200,
+   "val_rho": 0.6345381526104418,
+   "test_rho": 0.6300268096514745,
+   "test_mean_err": 181021.43463476637,
+   "test_max_err": 619033.1985945879,
+   "test_rmse": 269677.1583007149,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.052626500000000014,
+    "E_initialisation": 0.00912,
+    "E_total": 0.06174650000000001
+   },
+   "secs": 24.0
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 2,
+   "selected_epoch": 150,
+   "val_rho": 0.6305220883534137,
+   "test_rho": 0.6890080428954424,
+   "test_mean_err": 208599.1238729389,
+   "test_max_err": 617405.1941451356,
+   "test_rmse": 292851.9502031709,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.0442665,
+    "E_initialisation": 0.00912,
+    "E_total": 0.0533865
+   },
+   "secs": 22.1
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 3,
+   "selected_epoch": 125,
+   "val_rho": 0.6506024096385542,
+   "test_rho": 0.6943699731903485,
+   "test_mean_err": 196645.94390240483,
+   "test_max_err": 618848.3485036488,
+   "test_rmse": 280985.13133384194,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.0435065,
+    "E_initialisation": 0.00912,
+    "E_total": 0.05262649999999999
+   },
+   "secs": 22.8
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 4,
+   "selected_epoch": 125,
+   "val_rho": 0.6305220883534137,
+   "test_rho": 0.6407506702412868,
+   "test_mean_err": 189936.14872837623,
+   "test_max_err": 619643.6419863654,
+   "test_rmse": 278204.57641132135,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.05110650000000001,
+    "E_initialisation": 0.00912,
+    "E_total": 0.060226500000000016
+   },
+   "secs": 21.2
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 5,
+   "selected_epoch": 75,
+   "val_rho": 0.6385542168674698,
+   "test_rho": 0.6058981233243967,
+   "test_mean_err": 174061.06465586898,
+   "test_max_err": 618704.0085305299,
+   "test_rmse": 259183.5285384016,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.05604650000000001,
+    "E_initialisation": 0.00912,
+    "E_total": 0.06516650000000002
+   },
+   "secs": 21.9
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 6,
+   "selected_epoch": 75,
+   "val_rho": 0.6305220883534137,
+   "test_rho": 0.6568364611260054,
+   "test_mean_err": 185206.33367588557,
+   "test_max_err": 611506.2907719444,
+   "test_rmse": 272157.39266492095,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.0488265,
+    "E_initialisation": 0.00912,
+    "E_total": 0.0579465
+   },
+   "secs": 22.7
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 7,
+   "selected_epoch": 175,
+   "val_rho": 0.6506024096385542,
+   "test_rho": 0.581769436997319,
+   "test_mean_err": 177035.44440909242,
+   "test_max_err": 620059.3135478878,
+   "test_rmse": 272641.2426583175,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.05946650000000001,
+    "E_initialisation": 0.00912,
+    "E_total": 0.06858650000000001
+   },
+   "secs": 21.5
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 8,
+   "selected_epoch": 100,
+   "val_rho": 0.6385542168674698,
+   "test_rho": 0.67828418230563,
+   "test_mean_err": 202569.13568403455,
+   "test_max_err": 619961.1069265287,
+   "test_rmse": 282381.1010795064,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.04578650000000001,
+    "E_initialisation": 0.00912,
+    "E_total": 0.05490650000000001
+   },
+   "secs": 21.9
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 9,
+   "selected_epoch": 150,
+   "val_rho": 0.5542168674698795,
+   "test_rho": 0.517426273458445,
+   "test_mean_err": 151069.03288222436,
+   "test_max_err": 611263.8990865406,
+   "test_rmse": 246875.02449421005,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.06858650000000001,
+    "E_initialisation": 0.00912,
+    "E_total": 0.07770650000000001
+   },
+   "secs": 22.2
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 10,
+   "selected_epoch": 200,
+   "val_rho": 0.570281124497992,
+   "test_rho": 0.6005361930294906,
+   "test_mean_err": 165908.10634550583,
+   "test_max_err": 618195.1460158969,
+   "test_rmse": 255659.86179806344,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.05680650000000001,
+    "E_initialisation": 0.00912,
+    "E_total": 0.06592650000000001
+   },
+   "secs": 21.4
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 11,
+   "selected_epoch": 25,
+   "val_rho": 0.6827309236947792,
+   "test_rho": 0.6407506702412868,
+   "test_mean_err": 187188.37138543004,
+   "test_max_err": 619245.0706938012,
+   "test_rmse": 270395.4225728483,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.05110650000000001,
+    "E_initialisation": 0.00912,
+    "E_total": 0.060226500000000016
+   },
+   "secs": 22.2
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 12,
+   "selected_epoch": 75,
+   "val_rho": 0.6626506024096386,
+   "test_rho": 0.6487935656836461,
+   "test_mean_err": 188611.43936039548,
+   "test_max_err": 619447.620772955,
+   "test_rmse": 269309.730363466,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.04996650000000001,
+    "E_initialisation": 0.00912,
+    "E_total": 0.059086500000000014
+   },
+   "secs": 24.6
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 13,
+   "selected_epoch": 125,
+   "val_rho": 0.6586345381526104,
+   "test_rho": 0.5388739946380697,
+   "test_mean_err": 155676.85770949387,
+   "test_max_err": 619188.3208805916,
+   "test_rmse": 251070.6078481632,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.0655465,
+    "E_initialisation": 0.00912,
+    "E_total": 0.0746665
+   },
+   "secs": 22.1
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 14,
+   "selected_epoch": 175,
+   "val_rho": 0.6265060240963856,
+   "test_rho": 0.5308310991957105,
+   "test_mean_err": 169729.14287348962,
+   "test_max_err": 616951.828543677,
+   "test_rmse": 263839.7739020234,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.06668650000000001,
+    "E_initialisation": 0.00912,
+    "E_total": 0.07580650000000001
+   },
+   "secs": 22.3
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 15,
+   "selected_epoch": 200,
+   "val_rho": 0.5983935742971888,
+   "test_rho": 0.6300268096514745,
+   "test_mean_err": 178222.51069060716,
+   "test_max_err": 612099.5799319306,
+   "test_rmse": 262215.112764994,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.052626500000000014,
+    "E_initialisation": 0.00912,
+    "E_total": 0.06174650000000001
+   },
+   "secs": 23.3
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 16,
+   "selected_epoch": 200,
+   "val_rho": 0.5742971887550201,
+   "test_rho": 0.5844504021447721,
+   "test_mean_err": 166337.1703564334,
+   "test_max_err": 615912.4906900879,
+   "test_rmse": 254424.2207964907,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.059086500000000014,
+    "E_initialisation": 0.00912,
+    "E_total": 0.06820650000000002
+   },
+   "secs": 21.3
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 17,
+   "selected_epoch": 25,
+   "val_rho": 0.5983935742971888,
+   "test_rho": 0.6246648793565683,
+   "test_mean_err": 178706.02290689977,
+   "test_max_err": 612056.104805585,
+   "test_rmse": 266317.9314086799,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.05338650000000001,
+    "E_initialisation": 0.00912,
+    "E_total": 0.0625065
+   },
+   "secs": 22.3
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 18,
+   "selected_epoch": 25,
+   "val_rho": 0.5863453815261044,
+   "test_rho": 0.5951742627345844,
+   "test_mean_err": 168235.25340540247,
+   "test_max_err": 604931.9962848825,
+   "test_rmse": 259444.3072051605,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.057566500000000013,
+    "E_initialisation": 0.00912,
+    "E_total": 0.06668650000000001
+   },
+   "secs": 21.4
+  },
+  {
+   "predictor": "lightweight",
+   "seed": 19,
+   "selected_epoch": 125,
+   "val_rho": 0.6586345381526104,
+   "test_rho": 0.646112600536193,
+   "test_mean_err": 188771.0167351286,
+   "test_max_err": 608973.8256322714,
+   "test_rmse": 273705.8641950803,
+   "test_nonfinite": 0,
+   "receiver_verified": true,
+   "energy": {
+    "E_inf_per_round": 4.0000000000000003e-07,
+    "E_operating": 0.050346500000000016,
+    "E_initialisation": 0.00912,
+    "E_total": 0.05946650000000002
+   },
+   "secs": 23.2
+  }
+ ]
+}

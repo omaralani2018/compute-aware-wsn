@@ -1,0 +1,6 @@
+nrf52840dk  alignment offset 28.78 s, correlation 0.732  P_idle 0.4149 W (rounds [0.4149, 0.415, 0.4149, 0.4149, 0.4148, 0.4149, 0.4149, 0.4149, 0.4148, 0.4148, 0.4149, 0.4149, 0.4149, 0.4149, 0.4147, 0.4149, 0.4148])
+S_BC  E_inc    26.35 uJ (rounds [26.25, 26.35, 26.55])  E_gross   909.05 uJ  2.128 ms/report  reports 5662 received 5658 send_err 0  VALID
+S_UC  E_inc    45.09 uJ (rounds [44.83, 45.31, 45.09])  E_gross  1215.17 uJ  2.821 ms/report  reports 4270 received 4271 send_err 0  VALID
+L_BC  E_inc   107.92 uJ (rounds [107.92, 107.27, 108.04])  E_gross  2297.19 uJ  5.277 ms/report  reports 2282 received 2278 send_err 0  VALID
+LISTEN  receive-on power above idle 0.0264 W
+alignment FAILED (correlation >= 0.8 required)

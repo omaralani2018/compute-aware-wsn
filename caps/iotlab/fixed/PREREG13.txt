@@ -1,0 +1,20 @@
+Fixed-point implementation of the predictors on the M3 (no FPU), measured on IoT-LAB
+Pre-registered 13 Oct 2026, before any fixed-point code was written or run.
+Purpose: remove the limitation "software floating point only" for processors without an FPU.
+
+Implementation (integer only, no float in any forecast): readings in Q16.16 (int32). Exponential smoothing and linear
+extrapolation: Q16.16 inputs, Q16.16 coefficients, int64 accumulation. Lightweight model: inputs normalised to Q11 int16
+(saturated to +-16), weights quantised per tensor to at most 12 bits plus sign (power-of-two scale), int64
+accumulation, ReLU, output rescaled to Q16.16. CNN-LSTM: same scheme, Q11 activations, sigmoid and tanh by a 512-entry
+lookup table over [-8, 8) in Q11. All right shifts are arithmetic (floor). A Python emulator reproduces the C arithmetic
+bit for bit; agreement is checked on the 100 Intel test windows before flashing (must be exact; if not, the C or
+emulator is fixed before any node run and the fix is logged).
+Measurement: as PREREG12 (same phases, profile caps_m3, same analysis rules and alignment), on m3-21 and m3-22.
+Accuracy: the lightweight model's closed-loop test (and validation) suppression is recomputed with the emulator for all
+11 streams x 20 seeds; the cheap arms keep their float suppression (Q16.16 quantisation, 1.5e-5, is checked on the
+100 windows and reported); the CNN-LSTM keeps its float suppression (favourable to it; its forecast error vs float on the
+100 windows is reported).
+Reported: cycles, measured incremental energy per forecast, nJ/MAC; change in lightweight suppression (fixed minus float,
+median over seeds per stream); CAPS with fixed-point energies (reference re-selected as in analyse_avr.py), screen
+decisions, false exclusions, streams where the lightweight model saves energy. No threshold tuned; nothing rerun to
+change a result. Labelled "integer implementation written for this test", not an optimised library.

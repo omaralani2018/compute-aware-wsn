@@ -1,0 +1,23 @@
+Amendment 15a to PREREG15, written 14 Oct 2026 after the first M3 run and before any power data of it was analysed.
+First run: experiment 455108 (grenoble, TX m3-21, RX m3-22). It counts as a technical failure under "Runs":
+ - The serial capture started after the sequence that ran at flashing had ended, so its phase records are missing
+   (only the last phases were captured; the RX node had counted 8,328 frames).
+ - After the node reset used to restart the sequence, the TX node's radio driver failed to initialise
+   ("gnrc_netif: init 2 failed: -134", ENOTSUP: the radio did not answer, having been left asleep by the firmware),
+   so no frame was sent in the captured sequence (send_err equal to every report; RX count 0).
+ - The link-layer counters tx_success/tx_failed stayed at 0 although frames were received: this RIOT version does not
+   update them for drivers on the new netdev API, so the validity rule of PREREG15 cannot be evaluated with them.
+ Its files (radio_m3_serial.txt, m3_21.oml) are kept but not used; nothing in them was analysed.
+Changes (firmware and analysis only; phases, variants, energy definition and decisions unchanged):
+ 1. The TX node waits 60 s after boot (instead of 3 s) so that the serial capture can start without a node reset;
+    the procedure no longer resets the nodes.
+ 2. If no network interface is found, the node prints an error and stops (no measurement).
+ 3. At the end of the sequence the radio is left awake, so that a later reset can initialise it.
+ 4. Each report's payload carries a tag (variant, round, counter); the RX node counts received frames per variant and
+    round and prints them every 10 s ("RXV v r count").
+ 5. Validity of a variant (replaces the counter rule): no send error, and the RX node received at least 99% of the
+    reports sent (sum over the three rounds); TX lines are selected by node name.
+The repeated run is the one permitted by "Runs" (same experiment design), with this firmware.
+ 6. Procedure: after the experiment is running, both nodes are power-cycled once (iotlab-node --stop, then --start),
+    because a radio left asleep by the first run keeps the driver from initialising until power is removed; the serial
+    capture is started right after --start, within the 60-s wait.

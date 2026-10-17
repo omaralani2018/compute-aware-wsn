@@ -1,0 +1,33 @@
+Option A, Step 1: oracle upper bound for sink-assisted model switching
+Pre-registered 12 Oct 2026, 20:50 Baghdad, BEFORE any switching result was computed.
+
+Question: if the sink could switch the node between the reference arm R and a
+learned arm L block by block, knowing each block's future, how much node energy
+could it save over the better of the two static choices? If even this ideal
+switcher saves little, Option A is dropped.
+
+Data and arms
+- 11 streams (intel_time, 10 NAB), tau = 0.10, frozen splits (0.50/0.70), test span only.
+- R = the validation-selected low-cost arm per stream (ms_numbers.json by_tau "0.1").
+- L1 = lightweight (208 MACs), 20 seeds. Weights were not stored for the NAB streams,
+  so they are retrained with the unchanged frozen protocol (run_learned.run). A seed is
+  accepted if its test rho is within 0.005 of learned_<ds>.json; mismatches are reported.
+- L2 = CNN-LSTM (99,488 MACs), stored weights only (secondary analysis).
+
+Energy (node side, per reading, sensing excluded because equal for all arms)
+- e = (1 - sent) * 0 + sent * er + MACs_active * Eop, er = 3.8e-4 J, Eop = 1e-9 J/MAC.
+- Each switch costs one downlink command, charged e_cmd = er.
+- Sink computation (shadow evaluation) is not charged: the sink is mains-powered.
+
+Policy evaluated (exact closed loop, shared reconstructed state)
+- Block length B = 96 readings (primary). Sensitivity: B = 48 and B = 192, reported, not selected.
+- At each block start, from the current shared state, simulate R and L over the block;
+  commit the arm with the lower block energy (including the switch cost if it changes arm).
+- intel_time: each of the 30 nodes switches independently; energies summed.
+
+Metric and decision rule
+- G = 1 - E_switch / min(E_R, E_L) on the test span, per seed; median over seeds.
+- Also reported: G relative to the arm the compute-aware criterion selects.
+- GO to Step 2 if median G >= 5% on at least 3 of the 11 streams for the R-L1 pair.
+  Otherwise Option A is dropped and reported as a negative result.
+- Nothing in this step is tuned on the test span; B is fixed above.

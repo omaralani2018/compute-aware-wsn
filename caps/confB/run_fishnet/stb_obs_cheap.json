@@ -1,0 +1,53 @@
+{
+ "prep": "obs",
+ "alpha": 1.0,
+ "K": 6,
+ "val": {
+  "persistence": 0.5637876706794862,
+  "expsm": 0.5637876706794862,
+  "linear_extrap": 0.526541165064232
+ },
+ "selected": "persistence",
+ "selected_macs": 0,
+ "test": {
+  "persistence": {
+   "rho": 0.5668144670492088,
+   "rho_incl_init": 0.5435861091424521,
+   "mean_err": 0.026299773952356047,
+   "rmse": 0.041387221505941964,
+   "max_err": 0.09999999999999964,
+   "n_steps": 23004,
+   "n_tx": 9965,
+   "n_init_reports": 983,
+   "receiver_verified": true,
+   "sender_receiver_identical": true,
+   "macs": 0
+  },
+  "expsm": {
+   "rho": 0.5668144670492088,
+   "rho_incl_init": 0.5435861091424521,
+   "mean_err": 0.026299773952356047,
+   "rmse": 0.041387221505941964,
+   "max_err": 0.09999999999999964,
+   "n_steps": 23004,
+   "n_tx": 9965,
+   "n_init_reports": 983,
+   "receiver_verified": true,
+   "sender_receiver_identical": true,
+   "macs": 12
+  },
+  "linear_extrap": {
+   "rho": 0.5312119631368457,
+   "rho_incl_init": 0.509442614749656,
+   "mean_err": 0.024873475736141373,
+   "rmse": 0.039837186799618944,
+   "max_err": 0.09999999999999964,
+   "n_steps": 23004,
+   "n_tx": 10784,
+   "n_init_reports": 983,
+   "receiver_verified": true,
+   "sender_receiver_identical": true,
+   "macs": 6
+  }
+ }
+}

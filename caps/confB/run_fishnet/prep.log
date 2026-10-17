@@ -1,0 +1,25 @@
+{
+ "stations_kept": [
+  101,
+  102,
+  103,
+  104,
+  105,
+  106
+ ],
+ "nominal_interval_s": 120.0,
+ "boundaries_utc": [
+  "2007-08-06 00:00:00",
+  "2007-08-20 00:00:00",
+  "2007-08-25 14:24:00",
+  "2007-09-03 00:00:00"
+ ],
+ "evaluable": {
+  "obs": true,
+  "fill": true
+ },
+ "not_evaluable_reason": {
+  "obs": [],
+  "fill": []
+ }
+}

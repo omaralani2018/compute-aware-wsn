@@ -1,0 +1,17 @@
+Cycle-level simulation of the predictors on the MICA2 processor (ATmega128L)
+Pre-registered 13 Oct 2026, 13:25 Baghdad, before any predictor was compiled or simulated.
+Purpose: replace the estimate of inference energy from MAC counts by execution of the predictors on the processor of the motes that recorded the Intel data (MICA2, MPR400CB, Atmel ATmega128L).
+
+Toolchain: Ubuntu 24.04 packages gcc-avr 7.3.0 (Atmel 3.7.0), avr-libc 2.0.0, simavr 1.6; target atmega128,
+-Os; IEEE single-precision float (software floating point, the ATmega has no FPU), the same arithmetic as the
+evaluated models. Predictors: persistence, exponential smoothing (12-point weights), linear extrapolation (K = 2
+and K = 12), lightweight (Dense 16, ReLU, Dense 1; Intel seed-0 weights), CNN-LSTM (Conv1D 32 + LSTM 32 + Dense 1;
+Intel seed-0 weights; gates with expf/tanh from avr-libc). Normalisation included.
+Correctness: on 100 Intel test windows, C forecasts must agree with the NumPy forward pass within 1e-4 relative.
+Cycles: simavr cycle count of one forecast call, mean and max over the 100 windows.
+Energy per forecast = cycles x 3.0 V x 8 mA / 7.3728 MHz (MICA2 datasheet: 8 mA active, 2.7-3.3 V; 7.3728 MHz
+clock). Reported with a range for 2.7-3.3 V. The radio stays at the anchor er = 3.8e-4 J per report.
+Reported: cycles and energy per forecast per predictor; nJ per MAC implied; the CAPS verdicts at the anchor with
+these energies (reference re-selected on validation with each low-cost arm's compute charged, net saving of the
+lightweight model and CNN-LSTM per stream, screen budgets). Labelled "simulated on the mote's processor, energy from
+the datasheet current", not "measured". No threshold is tuned.

@@ -1,0 +1,20 @@
+PREREG17 runs (recorded as they happen)
+455253 m3_float grenoble m3-21/m3-22: complete; failed the PREREG17 alignment rule (drift 0.12 s > 0.1 s); descriptive (AMENDMENT_17a).
+455256 m3_int   grenoble m3-21/m3-22: complete; confirmatory under 17a.
+455262 nrf      saclay nrf52840dk-5/-6: technical failure, stopped after 2 min: the sink's serial output (node 6) was corrupted
+                (merged lines, lost characters, also in its periodic count lines before any frame), so the received frames
+                could not be counted. No data analysed. Rerun with the same firmware, sink moved to node 7 (PREREG17: another
+                node of the same type when a node is unusable).
+455263 nrf      saclay nrf52840dk-5/-7: rerun.
+455263 nrf      saclay nrf52840dk-5/-7: technical failure, stopped after about 2 min: the sink's serial output on node 7 was
+                corrupted in the same way (0 of 215 frame lines intact), so the fault is the serial path of the saclay
+                nRF52840DK sinks, not one node. No data analysed. The sink firmware is changed (AMENDMENT_17b) before the rerun.
+455264 m3_float grenoble m3-21/m3-22: second M3 float run, the confirmatory one under AMENDMENT_17a.
+455264 m3_float: complete; analysed with analyse_netx_17a.py (confirmatory).
+455267 nrf      saclay nrf52840dk-5/-7, sink v2 (AMENDMENT_17b): confirmatory nRF run.
+455267 nrf      saclay nrf52840dk-5/-7, sink v2: technical failure, stopped after about 13 min: the sink's serial output lost
+                characters in every line (0 of 22 checksummed lines intact), so no received count could be established
+                and every run would be invalid under 17b. No power data read. The nRF52840DK sinks' serial path at saclay
+                is unusable today (nodes 6 and 7, two firmwares); the sender's own lines (node 5) were intact.
+455268 nrf      saclay nrf52840dk-5 sender, m3-1 sink (AMENDMENT_17c): confirmatory nRF run.
+455268 nrf: complete; analysed with analyse_netx_17b.py (confirmatory).

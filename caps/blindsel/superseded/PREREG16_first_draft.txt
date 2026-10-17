@@ -1,0 +1,26 @@
+PREREG16: value of CAPS across radio cost and platform (development streams)
+Written 2026-10-15 before any of the quantities below were computed.
+
+Question. How much energy does CAPS save over always running the validation-selected low-cost reference,
+and how close does it come to the best static choice in hindsight, when the radio cost per report and the
+platform change?
+
+Data (existing, unchanged): 11 development streams at tau = 0.10; per-seed validation and test suppression of
+the lightweight model and the CNN-LSTM (stage17/run/learned_*.json; integer-code suppression from
+iotlab/fixed/accuracy_q.json for the M3 in integer code); low-cost arms from stage17/run/ms_numbers.json;
+per-forecast energies from the platform summaries used by capsplat/caps_platforms.py (run minus idle).
+
+Grid (fixed now, equal to the swept grid of the paper): er in {1e-4, 3.75e-4, 3.8e-4 (anchor), 1e-3, 3e-3} J per report;
+platforms {1 nJ per MAC, ATmega128L, M3 software float, M3 integer, nRF52840}.
+
+Method: exactly the computation of capsplat/caps_platforms.py with ER replaced by each grid value
+(reference re-selected at each er: by validation suppression at 1 nJ per MAC as in the paper, by validation-span
+energy on the platforms); CAPS per seed (Screen then Select), stream energy = median over seeds; totals summed
+over the 11 streams; Esense as in frozen_benchmark.
+
+Reported for every grid point, none omitted: CAPS, hindsight static best, always-lightweight and always-CNN-LSTM
+totals relative to always-reference (%); CAPS above hindsight (%); CAPS picks.
+
+Status: descriptive, computed after the development results were known; the development streams have been
+examined; not a confirmatory test and not used to change CAPS. No threshold or parameter is chosen after seeing
+these numbers.

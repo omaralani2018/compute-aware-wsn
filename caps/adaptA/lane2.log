@@ -1,0 +1,83 @@
+  lightweight seed 17  ep100  val=0.102 test=0.097  70s
+  lightweight seed 18  ep175  val=0.089 test=0.071  56s
+  lightweight seed 19  ep100  val=0.102 test=0.071  58s
+  lightweight seed  0  ep100  val=0.124 test=0.217  71s
+  lightweight seed  1  ep 50  val=0.166 test=0.207  65s
+  lightweight seed  2  ep 75  val=0.154 test=0.223  63s
+  lightweight seed  3  ep 75  val=0.171 test=0.235  60s
+  lightweight seed  4  ep125  val=0.174 test=0.178  60s
+  lightweight seed  5  ep 75  val=0.159 test=0.248  62s
+  lightweight seed  6  ep 75  val=0.179 test=0.187  64s
+  lightweight seed  7  ep 75  val=0.127 test=0.030  69s
+  lightweight seed  8  ep125  val=0.141 test=0.171  65s
+  lightweight seed  9  ep 75  val=0.167 test=0.235  66s
+  lightweight seed 10  ep 25  val=0.151 test=0.046  62s
+  lightweight seed 11  ep175  val=0.172 test=0.017  61s
+  lightweight seed 12  ep200  val=0.124 test=0.086  70s
+  lightweight seed 13  ep 75  val=0.140 test=0.164  68s
+  lightweight seed 14  ep150  val=0.159 test=0.187  67s
+  lightweight seed 15  ep200  val=0.143 test=0.026  60s
+  lightweight seed 16  ep175  val=0.151 test=0.138  44s
+  lightweight seed 17  ep175  val=0.138 test=0.155  42s
+  lightweight seed 18  ep100  val=0.144 test=0.229  42s
+  lightweight seed 19  ep 50  val=0.130 test=0.265  54s
+  lightweight seed  0  ep 25  val=0.079 test=0.035  59s
+  lightweight seed  1  ep150  val=0.074 test=0.032  54s
+  lightweight seed  2  ep 25  val=0.110 test=0.036  51s
+  lightweight seed  3  ep175  val=0.096 test=0.037  51s
+  lightweight seed  4  ep 50  val=0.103 test=0.040  51s
+  lightweight seed  5  ep 25  val=0.082 test=0.036  55s
+  lightweight seed  6  ep 25  val=0.106 test=0.053  68s
+  lightweight seed  7  ep125  val=0.113 test=0.046  57s
+  lightweight seed  8  ep150  val=0.079 test=0.030  54s
+  lightweight seed  9  ep 50  val=0.078 test=0.035  55s
+  lightweight seed 10  ep 50  val=0.081 test=0.034  60s
+  lightweight seed 11  ep 25  val=0.116 test=0.057  56s
+  lightweight seed 12  ep 50  val=0.111 test=0.046  64s
+  lightweight seed 13  ep 50  val=0.094 test=0.045  57s
+  lightweight seed 14  ep 50  val=0.089 test=0.030  54s
+  lightweight seed 15  ep 25  val=0.077 test=0.027  55s
+  lightweight seed 16  ep100  val=0.080 test=0.030  53s
+  lightweight seed 17  ep 25  val=0.108 test=0.051  55s
+  lightweight seed 18  ep150  val=0.111 test=0.048  53s
+  lightweight seed 19  ep 75  val=0.109 test=0.043  51s
+  lightweight seed  0  ep200  val=0.241 test=0.118  61s
+  lightweight seed  1  ep175  val=0.215 test=0.107  50s
+  lightweight seed  2  ep200  val=0.228 test=0.105  51s
+  lightweight seed  3  ep125  val=0.234 test=0.113  52s
+  lightweight seed  4  ep150  val=0.201 test=0.112  51s
+  lightweight seed  5  ep125  val=0.217 test=0.109  54s
+  lightweight seed  6  ep200  val=0.153 test=0.072  54s
+  lightweight seed  7  ep200  val=0.234 test=0.121  53s
+  lightweight seed  8  ep175  val=0.216 test=0.110  56s
+  lightweight seed  9  ep100  val=0.215 test=0.110  54s
+  lightweight seed 10  ep125  val=0.211 test=0.102  56s
+  lightweight seed 11  ep200  val=0.230 test=0.108  57s
+  lightweight seed 12  ep175  val=0.165 test=0.080  63s
+  lightweight seed 13  ep200  val=0.228 test=0.121  62s
+  lightweight seed 14  ep100  val=0.220 test=0.107  58s
+  lightweight seed 15  ep125  val=0.216 test=0.116  53s
+  lightweight seed 16  ep100  val=0.194 test=0.088  52s
+  lightweight seed 17  ep150  val=0.216 test=0.112  43s
+  lightweight seed 18  ep125  val=0.196 test=0.090  37s
+  lightweight seed 19  ep125  val=0.172 test=0.089  33s
+  lightweight seed  0  ep200  val=0.198 test=0.148  36s
+  lightweight seed  1  ep200  val=0.148 test=0.160  27s
+  lightweight seed  2  ep 50  val=0.164 test=0.145  31s
+  lightweight seed  3  ep100  val=0.179 test=0.193  28s
+  lightweight seed  4  ep100  val=0.188 test=0.207  26s
+  lightweight seed  5  ep125  val=0.176 test=0.182  24s
+  lightweight seed  6  ep175  val=0.188 test=0.154  25s
+  lightweight seed  7  ep 75  val=0.176 test=0.160  26s
+  lightweight seed  8  ep 75  val=0.176 test=0.174  25s
+  lightweight seed  9  ep175  val=0.176 test=0.193  24s
+  lightweight seed 10  ep100  val=0.198 test=0.191  25s
+  lightweight seed 11  ep125  val=0.191 test=0.191  26s
+  lightweight seed 12  ep200  val=0.164 test=0.154  32s
+  lightweight seed 13  ep 75  val=0.179 test=0.215  27s
+  lightweight seed 14  ep 75  val=0.164 test=0.168  27s
+  lightweight seed 15  ep100  val=0.173 test=0.164  24s
+  lightweight seed 16  ep150  val=0.170 test=0.184  24s
+  lightweight seed 17  ep150  val=0.170 test=0.145  26s
+  lightweight seed 18  ep175  val=0.185 test=0.139  26s
+  lightweight seed 19  ep 50  val=0.167 test=0.145  26s

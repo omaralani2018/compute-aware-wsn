@@ -1,0 +1,22 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+exchange_cpc lightweight 0 rhoR=0.129 rhoL=0.148(ok) G96=0.012 sw=4 fracL=0.59
+exchange_cpc lightweight 1 rhoR=0.129 rhoL=0.160(ok) G96=0.000 sw=3 fracL=0.79
+exchange_cpc lightweight 2 rhoR=0.129 rhoL=0.145(ok) G96=0.008 sw=3 fracL=0.39
+exchange_cpc lightweight 3 rhoR=0.129 rhoL=0.193(ok) G96=0.000 sw=3 fracL=0.79
+exchange_cpc lightweight 4 rhoR=0.129 rhoL=0.207(ok) G96=0.003 sw=1 fracL=0.98
+exchange_cpc lightweight 5 rhoR=0.129 rhoL=0.182(ok) G96=0.005 sw=2 fracL=0.79
+exchange_cpc lightweight 6 rhoR=0.129 rhoL=0.154(ok) G96=-0.002 sw=2 fracL=0.79
+exchange_cpc lightweight 7 rhoR=0.129 rhoL=0.160(ok) G96=-0.002 sw=3 fracL=0.79
+exchange_cpc lightweight 8 rhoR=0.129 rhoL=0.174(ok) G96=0.013 sw=4 fracL=0.59
+exchange_cpc lightweight 9 rhoR=0.129 rhoL=0.193(ok) G96=0.003 sw=1 fracL=0.98
+exchange_cpc lightweight 10 rhoR=0.129 rhoL=0.191(ok) G96=0.000 sw=1 fracL=0.98
+exchange_cpc lightweight 11 rhoR=0.129 rhoL=0.191(ok) G96=-0.002 sw=4 fracL=0.59
+exchange_cpc lightweight 12 rhoR=0.129 rhoL=0.154(ok) G96=0.012 sw=4 fracL=0.59
+exchange_cpc lightweight 13 rhoR=0.129 rhoL=0.215(ok) G96=0.000 sw=1 fracL=0.98
+exchange_cpc lightweight 14 rhoR=0.129 rhoL=0.168(ok) G96=-0.002 sw=2 fracL=0.79
+exchange_cpc lightweight 15 rhoR=0.129 rhoL=0.164(ok) G96=0.003 sw=4 fracL=0.59
+exchange_cpc lightweight 16 rhoR=0.129 rhoL=0.184(ok) G96=0.008 sw=4 fracL=0.59
+exchange_cpc lightweight 17 rhoR=0.129 rhoL=0.145(ok) G96=0.008 sw=2 fracL=0.20
+exchange_cpc lightweight 18 rhoR=0.129 rhoL=0.139(ok) G96=0.017 sw=4 fracL=0.39
+exchange_cpc lightweight 19 rhoR=0.129 rhoL=0.145(ok) G96=0.012 sw=2 fracL=0.59

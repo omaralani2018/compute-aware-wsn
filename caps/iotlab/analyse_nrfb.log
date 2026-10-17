@@ -1,0 +1,21 @@
+alignment: offset (power minus serial) 25.250 s, correlation 0.968; levels idle 0.4145 W, run 0.4365 W, midpoint 0.4255 W; 19 intervals > 1 s, 19 matched
+nrf52840dk  core 64 MHz  P_idle 0.4145 W (rounds [0.4147, 0.4146, 0.4145, 0.4147, 0.4145, 0.4146, 0.4146, 0.4146, 0.4145, 0.4146, 0.4144, 0.4145, 0.4145, 0.4145, 0.4144, 0.4145, 0.4145, 0.4145])  V mean 4.901
+persistence  cycles           8  t     0.0001 ms (partB 0.0003)  P_run 0.4351 W  E_inc      0.003 uJ  E_gross      0.054 uJ  - nJ/MAC  err 0.0e+00 OK
+expsm        cycles         134  t     0.0021 ms (partB 0.0022)  P_run 0.4365 W  E_inc      0.046 uJ  E_gross      0.914 uJ  3.84 nJ/MAC  err 1.8e-07 OK
+lin2         cycles         119  t     0.0019 ms (partB 0.0018)  P_run 0.4336 W  E_inc      0.035 uJ  E_gross      0.806 uJ  17.68 nJ/MAC  err 9.4e-08 OK
+lin12        cycles         339  t     0.0053 ms (partB 0.0053)  P_run 0.4340 W  E_inc      0.103 uJ  E_gross      2.299 uJ  8.59 nJ/MAC  err 2.1e-07 OK
+lightweight  cycles        3330  t     0.0520 ms (partB 0.0521)  P_run 0.4399 W  E_inc      1.321 uJ  E_gross     22.890 uJ  6.35 nJ/MAC  err 1.0e-07 OK
+cnn_lstm     cycles     1945046  t    30.3913 ms (partB 30.3874)  P_run 0.4394 W  E_inc    756.902 uJ  E_gross  13355.360 uJ  7.61 nJ/MAC  err 7.2e-08 OK
+edge check (run minus idle, first 0.2 s of each RUN): min 0.0188 W, median 0.0212 W
+intel_time        ref persistence   (paper persistence  ) | lightweight net    -13.20 uJ ( 0/20 >0) screened False | CNN-LSTM net     -783.4 uJ screened True
+taxi              ref linear_extrap (paper linear_extrap) | lightweight net    +25.89 uJ (20/20 >0) screened False | CNN-LSTM net     -709.4 uJ screened True
+traffic           ref expsm         (paper expsm        ) | lightweight net     +6.01 uJ (18/20 >0) screened False | CNN-LSTM net     -752.4 uJ screened True
+cpu               ref expsm         (paper expsm        ) | lightweight net    -40.37 uJ ( 0/20 >0) screened False | CNN-LSTM net     -861.1 uJ screened True
+machine_temp      ref expsm         (paper expsm        ) | lightweight net    -11.88 uJ ( 2/20 >0) screened False | CNN-LSTM net     -768.3 uJ screened True
+grok_asg_anomaly  ref expsm         (paper expsm        ) | lightweight net    -96.21 uJ ( 0/20 >0) screened False | CNN-LSTM net     -850.3 uJ screened True
+rds_cpu_util      ref expsm         (paper expsm        ) | lightweight net    -48.54 uJ ( 0/20 >0) screened False | CNN-LSTM net     -806.9 uJ screened True
+iio_networkin     ref expsm         (paper expsm        ) | lightweight net    -73.61 uJ ( 0/20 >0) screened False | CNN-LSTM net     -777.7 uJ screened True
+twitter_aapl      ref expsm         (paper expsm        ) | lightweight net    -32.82 uJ ( 0/20 >0) screened False | CNN-LSTM net     -777.2 uJ screened True
+exchange_cpc      ref expsm         (paper expsm        ) | lightweight net    +12.74 uJ (20/20 >0) screened False | CNN-LSTM net     -739.3 uJ screened True
+occupancy         ref expsm         (paper expsm        ) | lightweight net    -14.58 uJ ( 0/20 >0) screened False | CNN-LSTM net     -770.2 uJ screened True
+positive median net saving: lightweight 3/11, CNN-LSTM 0/11 | screened: lightweight 0/11, CNN-LSTM 11/11 | false exclusions: none

@@ -1,0 +1,26 @@
+Tolerance-aware training (TA) of the on-node lightweight predictor: pilot
+Pre-registered 12 Oct 2026, 23:15 Baghdad, BEFORE any TA model was trained.
+
+Hypothesis: learned predictors lose to tuned cheap baselines partly because they are
+trained on MSE, while the protocol only rewards forecasts that fall inside the tolerance.
+
+What changes: ONLY the training loss. Architecture (Dense16, 208 MACs), data windows,
+normalisation, splits, epoch cap 200, checkpoint every 25 epochs, seeds 0-19, closed-loop
+validation selection, evaluator and energy model are those of the frozen protocol.
+- Loss (standardised target units): mean(max(0, |yhat - y| - eps)),
+  eps = c * tau * unit / sy, c in {0.25, 0.5, 1.0}.
+- c and the checkpoint are selected jointly on VALIDATION closed-loop suppression
+  (ties: smaller c, then earlier epoch). Same seed => same initial weights as the MSE run.
+- Test span evaluated once per seed with the selected (c, epoch).
+
+Comparisons on the test span, 11 streams, 20 seeds, paired by seed:
+ H1 (objective): TA test rho > MSE test rho (stored learned_<ds>.json values).
+ H2 (decision):  net saving vs the reference arm R, (rho - rho_R)*er - (208 - M_R)*Eop > 0.
+Tests: one-sided Wilcoxon signed-rank over seeds, Holm across the 11 streams, alpha 0.05.
+
+GO (TA becomes a contribution) requires both:
+ 1. H1 significant on at least 4 of 11 streams, and H1 significantly reversed
+    (TA < MSE) on none.
+ 2. The number of streams where the learned model significantly beats R (H2) rises by
+    at least 2 compared with the MSE model under the same test.
+Otherwise TA is reported as a negative result. Nothing is tuned on the test span.

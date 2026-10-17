@@ -1,0 +1,22 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+twitter_aapl lightweight 0 rhoR=0.696 rhoL=0.657(ok) G96=0.022 sw=17 fracL=0.26
+twitter_aapl lightweight 1 rhoR=0.696 rhoL=0.616(ok) G96=0.003 sw=7 fracL=0.12
+twitter_aapl lightweight 2 rhoR=0.696 rhoL=0.621(ok) G96=0.002 sw=4 fracL=0.06
+twitter_aapl lightweight 3 rhoR=0.696 rhoL=0.580(ok) G96=0.010 sw=8 fracL=0.10
+twitter_aapl lightweight 4 rhoR=0.696 rhoL=0.618(ok) G96=0.016 sw=8 fracL=0.12
+twitter_aapl lightweight 5 rhoR=0.696 rhoL=0.613(ok) G96=0.003 sw=2 fracL=0.02
+twitter_aapl lightweight 6 rhoR=0.696 rhoL=0.645(ok) G96=0.014 sw=10 fracL=0.10
+twitter_aapl lightweight 7 rhoR=0.696 rhoL=0.588(ok) G96=0.000 sw=0 fracL=0.00
+twitter_aapl lightweight 8 rhoR=0.696 rhoL=0.590(ok) G96=-0.000 sw=2 fracL=0.02
+twitter_aapl lightweight 9 rhoR=0.696 rhoL=0.582(ok) G96=0.001 sw=2 fracL=0.02
+twitter_aapl lightweight 10 rhoR=0.696 rhoL=0.605(ok) G96=0.002 sw=6 fracL=0.06
+twitter_aapl lightweight 11 rhoR=0.696 rhoL=0.598(ok) G96=-0.003 sw=2 fracL=0.02
+twitter_aapl lightweight 12 rhoR=0.696 rhoL=0.635(ok) G96=0.004 sw=12 fracL=0.12
+twitter_aapl lightweight 13 rhoR=0.696 rhoL=0.638(ok) G96=0.002 sw=8 fracL=0.10
+twitter_aapl lightweight 14 rhoR=0.696 rhoL=0.613(ok) G96=0.007 sw=7 fracL=0.07
+twitter_aapl lightweight 15 rhoR=0.696 rhoL=0.595(ok) G96=0.005 sw=2 fracL=0.02
+twitter_aapl lightweight 16 rhoR=0.696 rhoL=0.607(ok) G96=0.011 sw=8 fracL=0.10
+twitter_aapl lightweight 17 rhoR=0.696 rhoL=0.607(ok) G96=0.003 sw=2 fracL=0.02
+twitter_aapl lightweight 18 rhoR=0.696 rhoL=0.613(ok) G96=0.003 sw=6 fracL=0.06
+twitter_aapl lightweight 19 rhoR=0.696 rhoL=0.620(ok) G96=0.001 sw=2 fracL=0.02

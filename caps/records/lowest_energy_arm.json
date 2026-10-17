@@ -1,0 +1,167 @@
+{
+ "differs": [
+  "intel_time",
+  "traffic",
+  "grok_asg_anomaly",
+  "exchange_cpc",
+  "occupancy"
+ ],
+ "sign_changes": [],
+ "streams": {
+  "intel_time": {
+   "reference": "persistence",
+   "lowest_test_energy_arm": "linear_extrap",
+   "lightweight": {
+    "mean_net_vs_reference_uJ": -16.828484591236702,
+    "mean_net_vs_lowest_uJ": -17.191798204890112,
+    "p_vs_lowest": 9.5367431640625e-06
+   },
+   "cnn_lstm": {
+    "mean_net_vs_reference_uJ": -134.00857302029448,
+    "mean_net_vs_lowest_uJ": -134.37188663394795,
+    "p_vs_lowest": 1.9073486328125e-06
+   }
+  },
+  "taxi": {
+   "reference": "linear_extrap",
+   "lowest_test_energy_arm": "linear_extrap",
+   "lightweight": {
+    "mean_net_vs_reference_uJ": 27.89215950920247,
+    "mean_net_vs_lowest_uJ": 27.89215950920247,
+    "p_vs_lowest": 8.832385863081277e-05
+   },
+   "cnn_lstm": {
+    "mean_net_vs_reference_uJ": -52.99520245398773,
+    "mean_net_vs_lowest_uJ": -52.99520245398773,
+    "p_vs_lowest": 1.9073486328125e-06
+   }
+  },
+  "traffic": {
+   "reference": "expsm",
+   "lowest_test_energy_arm": "linear_extrap",
+   "lightweight": {
+    "mean_net_vs_reference_uJ": 6.58571091445428,
+    "mean_net_vs_lowest_uJ": 5.460766961651938,
+    "p_vs_lowest": 0.0002157662885100959
+   },
+   "cnn_lstm": {
+    "mean_net_vs_reference_uJ": -95.77688495575221,
+    "mean_net_vs_lowest_uJ": -96.90182890855453,
+    "p_vs_lowest": 8.658390851382302e-05
+   }
+  },
+  "cpu": {
+   "reference": "expsm",
+   "lowest_test_energy_arm": "expsm",
+   "lightweight": {
+    "mean_net_vs_reference_uJ": -46.92657851239671,
+    "mean_net_vs_lowest_uJ": -46.92657851239671,
+    "p_vs_lowest": 8.832385863081277e-05
+   },
+   "cnn_lstm": {
+    "mean_net_vs_reference_uJ": -203.63054545454546,
+    "mean_net_vs_lowest_uJ": -203.63054545454546,
+    "p_vs_lowest": 8.646063208626282e-05
+   }
+  },
+  "machine_temp": {
+   "reference": "expsm",
+   "lowest_test_energy_arm": "expsm",
+   "lightweight": {
+    "mean_net_vs_reference_uJ": -14.242996622117795,
+    "mean_net_vs_lowest_uJ": -14.242996622117795,
+    "p_vs_lowest": 2.6702880859375e-05
+   },
+   "cnn_lstm": {
+    "mean_net_vs_reference_uJ": -111.10369863416064,
+    "mean_net_vs_lowest_uJ": -111.10369863416064,
+    "p_vs_lowest": 1.9073486328125e-06
+   }
+  },
+  "grok_asg_anomaly": {
+   "reference": "expsm",
+   "lowest_test_energy_arm": "persistence",
+   "lightweight": {
+    "mean_net_vs_reference_uJ": -93.92202739726028,
+    "mean_net_vs_lowest_uJ": -101.3312876712329,
+    "p_vs_lowest": 8.819870204194453e-05
+   },
+   "cnn_lstm": {
+    "mean_net_vs_reference_uJ": -193.43490410958904,
+    "mean_net_vs_lowest_uJ": -200.84416438356166,
+    "p_vs_lowest": 8.69545403378786e-05
+   }
+  },
+  "rds_cpu_util": {
+   "reference": "expsm",
+   "lowest_test_energy_arm": "expsm",
+   "lightweight": {
+    "mean_net_vs_reference_uJ": -49.01500826446277,
+    "mean_net_vs_lowest_uJ": -49.01500826446277,
+    "p_vs_lowest": 8.807368035275503e-05
+   },
+   "cnn_lstm": {
+    "mean_net_vs_reference_uJ": -150.41484297520657,
+    "mean_net_vs_lowest_uJ": -150.41484297520657,
+    "p_vs_lowest": 8.782404130245517e-05
+   }
+  },
+  "iio_networkin": {
+   "reference": "expsm",
+   "lowest_test_energy_arm": "expsm",
+   "lightweight": {
+    "mean_net_vs_reference_uJ": -75.63567828418229,
+    "mean_net_vs_lowest_uJ": -75.63567828418229,
+    "p_vs_lowest": 8.844915021211901e-05
+   },
+   "cnn_lstm": {
+    "mean_net_vs_reference_uJ": -123.7735871313673,
+    "mean_net_vs_lowest_uJ": -123.7735871313673,
+    "p_vs_lowest": 8.832385863081277e-05
+   }
+  },
+  "twitter_aapl": {
+   "reference": "expsm",
+   "lowest_test_energy_arm": "expsm",
+   "lightweight": {
+    "mean_net_vs_reference_uJ": -31.999395514567194,
+    "mean_net_vs_lowest_uJ": -31.999395514567194,
+    "p_vs_lowest": 8.844915021211901e-05
+   },
+   "cnn_lstm": {
+    "mean_net_vs_reference_uJ": -127.24921316285896,
+    "mean_net_vs_lowest_uJ": -127.24921316285896,
+    "p_vs_lowest": 1.9073486328125e-06
+   }
+  },
+  "exchange_cpc": {
+   "reference": "expsm",
+   "lowest_test_energy_arm": "persistence",
+   "lightweight": {
+    "mean_net_vs_reference_uJ": 15.572442622950836,
+    "mean_net_vs_lowest_uJ": 6.994868852458986,
+    "p_vs_lowest": 0.004019582126057663
+   },
+   "cnn_lstm": {
+    "mean_net_vs_reference_uJ": -82.26698360655735,
+    "mean_net_vs_lowest_uJ": -90.84455737704918,
+    "p_vs_lowest": 8.69545403378786e-05
+   }
+  },
+  "occupancy": {
+   "reference": "expsm",
+   "lowest_test_energy_arm": "linear_extrap",
+   "lightweight": {
+    "mean_net_vs_reference_uJ": -13.873871148459353,
+    "mean_net_vs_lowest_uJ": -16.534935574229674,
+    "p_vs_lowest": 8.438529856200263e-05
+   },
+   "cnn_lstm": {
+    "mean_net_vs_reference_uJ": -111.74350700280108,
+    "mean_net_vs_lowest_uJ": -114.40457142857137,
+    "p_vs_lowest": 8.782404130245517e-05
+   }
+  }
+ },
+ "bonferroni_threshold": 0.002272727272727273
+}

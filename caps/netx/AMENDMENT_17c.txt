@@ -1,0 +1,9 @@
+Amendment 17c to PREREG17, written 15 Oct 2026 before any nRF52840 power data were read.
+Run 455267 (sink v2 on nrf52840dk-7) was stopped after about 13 min as a technical failure: the sink's serial output lost
+characters in every line (0 of 22 checksummed lines intact). With runs 455262 and 455263, the serial path of the
+nRF52840DK sinks at saclay was unusable on two nodes and with two sink firmwares, while the sender's lines were intact.
+Change: for the nRF52840 run the sink is an IoT-LAB M3 node at saclay (m3-1, the nearest M3 to the sender nrf52840dk-5,
+about 2.2 m), running the frozen PREREG17 M3 sink firmware (fw/netx_rx_m3.elf). Its AT86RF231 radio is an IEEE 802.15.4
+2.4-GHz radio on the same channel, PAN and address, and acknowledges the sender's unicast frames. The sender, its
+firmware, the measurement, predictions, validity and outcomes are unchanged; the sink is not measured. The E_report_UC used
+in E_pred stays the PREREG15 value measured with an nRF52840DK sink. Analysis: analyse_netx_17b.py (its PREREG17 sink path).

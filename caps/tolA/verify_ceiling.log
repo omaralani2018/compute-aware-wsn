@@ -1,0 +1,9 @@
+ref        2.3598e-03  (+0.0% vs ref)
+lw         2.6344e-03  (+11.6% vs ref)
+lw_ta      2.5265e-03  (+7.1% vs ref)
+cnn        3.7248e-03  (+57.8% vs ref)
+caps       2.3528e-03  (-0.3% vs ref)
+caps_ta    2.3530e-03  (-0.3% vs ref)
+hind_fixed 2.2861e-03  (-3.1% vs ref)
+hind_all   2.2721e-03  (-3.7% vs ref)
+cnn costs 58.3% more than caps_ta

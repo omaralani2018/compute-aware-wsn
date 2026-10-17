@@ -1,0 +1,288 @@
+[
+ {
+  "stream": "intel_time",
+  "ref": "persistence",
+  "ref_macs": 0,
+  "rho_ref_val": 0.9190315091210614,
+  "rho_ref_test": 0.9222531723924482,
+  "budget_macs_val": 30768.026533996686,
+  "lightweight": {
+   "needed_gain": 0.0005473684210526316,
+   "excluded_by_bound": false,
+   "er_lower_bound": 2.5689005407176795e-06,
+   "actual_net_saving": -1.6828484591236698e-05,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.04373811734535972
+  },
+  "cnn_lstm": {
+   "needed_gain": 0.2618105263157895,
+   "excluded_by_bound": true,
+   "er_lower_bound": 0.0012287248893986563,
+   "actual_net_saving": -0.00013400857302029449,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.09084361321130129
+  }
+ },
+ {
+  "stream": "taxi",
+  "ref": "linear_extrap",
+  "ref_macs": 2,
+  "rho_ref_val": 0.4115365971885604,
+  "rho_ref_test": 0.42944785276073616,
+  "budget_macs_val": 223618.09306834705,
+  "lightweight": {
+   "needed_gain": 0.0005421052631578948,
+   "excluded_by_bound": false,
+   "er_lower_bound": 3.500642504118617e-07,
+   "actual_net_saving": 2.789215950920246e-05,
+   "actual_sig_net": true,
+   "actual_crossover": 2.785947598253274e-06,
+   "actual_delta": 0.07394252502421703
+  },
+  "cnn_lstm": {
+   "needed_gain": 0.2618052631578947,
+   "excluded_by_bound": false,
+   "er_lower_bound": 0.00016906064085667218,
+   "actual_net_saving": -5.2995202453987714e-05,
+   "actual_sig_net": true,
+   "actual_crossover": 0.0008131647980997625,
+   "actual_delta": 0.12234420406845334
+  }
+ },
+ {
+  "stream": "traffic",
+  "ref": "expsm",
+  "ref_macs": 12,
+  "rho_ref_val": 0.12444444444444447,
+  "rho_ref_test": 0.06489675516224191,
+  "budget_macs_val": 332723.11111111107,
+  "lightweight": {
+   "needed_gain": 0.0005157894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 2.238578680203046e-07,
+   "actual_net_saving": 6.585710914454269e-06,
+   "actual_sig_net": true,
+   "actual_crossover": 1.0982479338842989e-05,
+   "actual_delta": 0.017846607669616498
+  },
+  "cnn_lstm": {
+   "needed_gain": 0.26177894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 0.00011361472081218276,
+   "actual_net_saving": -9.577688495575223e-05,
+   "actual_sig_net": true,
+   "actual_crossover": 0.010218898181818209,
+   "actual_delta": 0.009734513274336259
+  }
+ },
+ {
+  "stream": "cpu",
+  "ref": "expsm",
+  "ref_macs": 12,
+  "rho_ref_val": 0.13151364764267992,
+  "rho_ref_test": 0.2851239669421488,
+  "budget_macs_val": 330036.81389578164,
+  "lightweight": {
+   "needed_gain": 0.0005157894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 2.2568000000000002e-07,
+   "actual_net_saving": -4.692657851239672e-05,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.12297520661157031
+  },
+  "cnn_lstm": {
+   "needed_gain": 0.26177894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 0.00011453950857142858,
+   "actual_net_saving": -0.00020363054545454552,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.2740909090909091
+  }
+ },
+ {
+  "stream": "machine_temp",
+  "ref": "expsm",
+  "ref_macs": 12,
+  "rho_ref_val": 0.7772637144745539,
+  "rho_ref_test": 0.7703040093993244,
+  "budget_macs_val": 84651.78849966952,
+  "lightweight": {
+   "needed_gain": 0.0005157894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 8.799643916913948e-07,
+   "actual_net_saving": -1.4242996622117795e-05,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.036965780584520505
+  },
+  "cnn_lstm": {
+   "needed_gain": 0.26177894736842106,
+   "excluded_by_bound": true,
+   "er_lower_bound": 0.00044660886646884283,
+   "actual_net_saving": -0.00011110369863416066,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.030599206932001743
+  }
+ },
+ {
+  "stream": "grok_asg_anomaly",
+  "ref": "expsm",
+  "ref_macs": 12,
+  "rho_ref_val": 0.48051948051948057,
+  "rho_ref_test": 0.2862292718096612,
+  "budget_macs_val": 197414.59740259737,
+  "lightweight": {
+   "needed_gain": 0.0005157894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 3.773000000000001e-07,
+   "actual_net_saving": -9.392202739726028e-05,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.246647440519106
+  },
+  "cnn_lstm": {
+   "needed_gain": 0.26177894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 0.00019149130000000003,
+   "actual_net_saving": -0.00019343490410958907,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.24726027397260278
+  }
+ },
+ {
+  "stream": "rds_cpu_util",
+  "ref": "expsm",
+  "ref_macs": 12,
+  "rho_ref_val": 0.2431761786600496,
+  "rho_ref_test": 0.23305785123966938,
+  "budget_macs_val": 287605.0521091811,
+  "lightweight": {
+   "needed_gain": 0.0005157894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 2.5897704918032786e-07,
+   "actual_net_saving": -4.9015008264462795e-05,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.12847107438016528
+  },
+  "cnn_lstm": {
+   "needed_gain": 0.26177894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 0.00013143878032786886,
+   "actual_net_saving": -0.0001504148429752066,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.13404958677685946
+  }
+ },
+ {
+  "stream": "iio_networkin",
+  "ref": "expsm",
+  "ref_macs": 12,
+  "rho_ref_val": 0.7469879518072289,
+  "rho_ref_test": 0.8203753351206434,
+  "budget_macs_val": 96156.57831325302,
+  "lightweight": {
+   "needed_gain": 0.0005157894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 7.746666666666666e-07,
+   "actual_net_saving": -7.563567828418231e-05,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.19852546916890085
+  },
+  "cnn_lstm": {
+   "needed_gain": 0.26177894736842106,
+   "excluded_by_bound": true,
+   "er_lower_bound": 0.0003931670476190476,
+   "actual_net_saving": -0.0001237735871313673,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.06394101876675602
+  }
+ },
+ {
+  "stream": "twitter_aapl",
+  "ref": "expsm",
+  "ref_macs": 12,
+  "rho_ref_val": 0.659119496855346,
+  "rho_ref_test": 0.695661286941941,
+  "budget_macs_val": 129546.59119496851,
+  "lightweight": {
+   "needed_gain": 0.0005157894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 5.749815498154983e-07,
+   "actual_net_saving": -3.1999395514567207e-05,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.08369314609096633
+  },
+  "cnn_lstm": {
+   "needed_gain": 0.26177894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 0.0002918207380073802,
+   "actual_net_saving": -0.00012724921316285896,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.07308740306015515
+  }
+ },
+ {
+  "stream": "exchange_cpc",
+  "ref": "expsm",
+  "ref_macs": 12,
+  "rho_ref_val": 0.16049382716049387,
+  "rho_ref_test": 0.12909836065573765,
+  "budget_macs_val": 319024.34567901236,
+  "lightweight": {
+   "needed_gain": 0.0005157894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 2.3347058823529413e-07,
+   "actual_net_saving": 1.557244262295084e-05,
+   "actual_sig_net": true,
+   "actual_crossover": 4.723358024691352e-06,
+   "actual_delta": 0.041495901639344315
+  },
+  "cnn_lstm": {
+   "needed_gain": 0.26177894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 0.00011849347058823531,
+   "actual_net_saving": -8.226698360655736e-05,
+   "actual_sig_net": true,
+   "actual_crossover": 0.002196574117647057,
+   "actual_delta": 0.04528688524590168
+  }
+ },
+ {
+  "stream": "occupancy",
+  "ref": "expsm",
+  "ref_macs": 12,
+  "rho_ref_val": 0.16596638655462181,
+  "rho_ref_test": 0.1568627450980392,
+  "budget_macs_val": 316944.7731092437,
+  "lightweight": {
+   "needed_gain": 0.0005157894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 2.3500251889168765e-07,
+   "actual_net_saving": -1.3873871148459377e-05,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.035994397759103625
+  },
+  "cnn_lstm": {
+   "needed_gain": 0.26177894736842106,
+   "excluded_by_bound": false,
+   "er_lower_bound": 0.00011927097229219144,
+   "actual_net_saving": -0.00011174350700280113,
+   "actual_sig_net": true,
+   "actual_crossover": null,
+   "actual_delta": -0.032282913165266096
+  }
+ }
+]

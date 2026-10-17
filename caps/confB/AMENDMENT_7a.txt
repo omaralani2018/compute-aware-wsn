@@ -1,0 +1,11 @@
+Amendment 7a to PREREG7, 13 Oct 2026 11:25 Baghdad, written after reading only the four *-meteo-def.txt column
+definition files and the archive listings (station file names and sizes), before any station file was read.
+1. "P_seg" in PREREG7 means the frozen protocol's primary preparation P_obs (observed readings per segment);
+   the sensitivity preparation P_fill is not run.
+2. Rule 1 (parsing) takes the field count and the positions of "Time since the epoch" and "Ambient Temperature"
+   from each deployment's own definition file: 17 fields, time 8, temperature 9 for fishnet, genepi and pdg2008;
+   18 fields, time 8, temperature 10 for plaine_morte (which adds "Sequence Number" as field 9).
+3. The station manifest of each deployment is the set of station files in its archive.
+4. CAPS Step 3 on segments: blocks of B = 96 steps within each segment after its 12-reading warm-up; the arm in
+   use carries over between consecutive segments of the same station; one report er per switch command.
+Everything else as PREREG7 and STB_PROTOCOL.md version 4 with Amendment 1.

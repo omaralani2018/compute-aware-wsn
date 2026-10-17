@@ -1,0 +1,24 @@
+Closed-loop tolerance-aware training (CLT) of the lightweight predictor: pilot
+Pre-registered 13 Oct 2026, 09:00 Baghdad, BEFORE any CLT model was trained.
+This is the third model-improvement test after CASS (stopped) and TA (rule not met);
+all three are reported whatever the outcome.
+
+Hypothesis: learned predictors lose partly because they are trained on true histories
+but forecast from reconstructed ones. CLT trains on the inputs the deployed node sees.
+
+Procedure (per stream and seed, seeds 0-19, 11 streams, tau = 0.10):
+- Round 0 = the TA model already trained (PREREG3), with its selected margin c.
+- Rounds 1-3: run closed-loop dual prediction over the TRAINING span with the current
+  model; build 4,000 windows whose inputs come from the reconstructed series and whose
+  targets are the true readings; add them to the training set (aggregation over rounds,
+  plus the original true-history windows); fine-tune 50 epochs with the TA loss (same c);
+  evaluate closed-loop validation suppression after 25 and 50 epochs.
+- Select, on VALIDATION suppression only, among round 0 and the 6 checkpoints of rounds 1-3
+  (ties: earlier). Test span evaluated once. Architecture, normalisation, data unchanged.
+
+Decision rule (same bar as PREREG3, applied to CLT against the original MSE models):
+ 1. CLT test rho > MSE test rho significantly (one-sided Wilcoxon over seeds, Holm across
+    11 streams, alpha 0.05) on at least 4 of 11, and significantly lower on none.
+ 2. Streams where the learned model's net energy saving over the reference is significant
+    (one-sided Wilcoxon, Holm) rise from 3 (MSE) to at least 5.
+ GO only if both hold. Also reported: CLT vs TA, paired. Nothing tuned on the test span.

@@ -1,0 +1,21 @@
+  stb obs cnn_lstm   seed  0 ok ep 50 val=0.4062 test=0.3116 verified=True 270s
+  stb obs cnn_lstm   seed  1 ok ep 50 val=0.4055 test=0.3140 verified=True 235s
+  stb obs cnn_lstm   seed  2 ok ep200 val=0.3568 test=0.2665 verified=True 230s
+  stb obs cnn_lstm   seed  3 ok ep100 val=0.4117 test=0.3119 verified=True 226s
+  stb obs cnn_lstm   seed  4 ok ep100 val=0.4061 test=0.3144 verified=True 220s
+  stb obs cnn_lstm   seed  5 ok ep 75 val=0.3990 test=0.3134 verified=True 224s
+  stb obs cnn_lstm   seed  6 ok ep175 val=0.3682 test=0.2622 verified=True 221s
+  stb obs cnn_lstm   seed  7 ok ep100 val=0.3521 test=0.2886 verified=True 218s
+  stb obs cnn_lstm   seed  8 ok ep150 val=0.4017 test=0.3118 verified=True 226s
+  stb obs cnn_lstm   seed  9 ok ep175 val=0.4089 test=0.3081 verified=True 225s
+  stb obs cnn_lstm   seed 10 ok ep 75 val=0.4091 test=0.3428 verified=True 226s
+  stb obs cnn_lstm   seed 11 ok ep200 val=0.3996 test=0.3202 verified=True 223s
+  stb obs cnn_lstm   seed 12 ok ep150 val=0.4056 test=0.3075 verified=True 226s
+  stb obs cnn_lstm   seed 13 ok ep 25 val=0.3678 test=0.2711 verified=True 224s
+  stb obs cnn_lstm   seed 14 ok ep 50 val=0.3800 test=0.3170 verified=True 239s
+  stb obs cnn_lstm   seed 15 ok ep125 val=0.3846 test=0.2945 verified=True 227s
+  stb obs cnn_lstm   seed 16 ok ep 75 val=0.4050 test=0.3142 verified=True 228s
+  stb obs cnn_lstm   seed 17 ok ep 50 val=0.3910 test=0.2864 verified=True 239s
+  stb obs cnn_lstm   seed 18 ok ep175 val=0.3722 test=0.2747 verified=True 291s
+  stb obs cnn_lstm   seed 19 ok ep150 val=0.3863 test=0.2883 verified=True 239s
+LANEDONE

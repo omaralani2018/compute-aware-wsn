@@ -1,0 +1,32 @@
+Two further analyses, pre-registered 13 Oct 2026 before any code for them was run.
+
+A. Model size versus architecture (the 208-MAC network and the 99,488-MAC CNN-LSTM differ in both, so size and
+   architecture cannot be separated with these two models alone).
+   Two mid-size learned predictors are added, everything else as the frozen benchmark (12-reading look-back, MSE loss,
+   20 seeds, epoch cap 200, checkpoints every 25, validation-selected checkpoint, receiver verification, 11 streams):
+     mlp_mid       : Dense 64 ReLU, Dense 32 ReLU, Dense 1           M = 12*64 + 64*32 + 32         = 2,848 MACs
+     cnnlstm_small : Conv1D 8 (kernel 3, same) ReLU, LSTM 8, Dense 1 M = 12*3*8 + 12*4*8*(8+8) + 8 = 6,440 MACs
+   (MAC counting as in Section 5.1 for the 99,488-MAC CNN-LSTM.)
+   Tests (two-sided Mann-Whitney U on test suppression over the 20 seeds of each model, Holm across the 11 streams):
+     (i)  architecture at similar size: mlp_mid vs cnnlstm_small;
+     (ii) size within architecture: mlp_mid vs lightweight (208), cnnlstm_small vs cnn_lstm (99,488).
+   Energy verdict of each new model against the validation-selected reference at er = 3.8e-4 J and 1 nJ per MAC, as in
+   Section 6.3 (one-sided Wilcoxon over seeds in each direction, Holm across streams), and the CAPS screen with the new
+   models as candidates (false exclusions counted as in Section 6.11).
+   Conclusion rule fixed now:
+     "size, not architecture" if (i) is significant on at most 2 of 11 streams and (ii) on at least 6 of 11 for at least
+     one architecture; "architecture" if (i) is significant on at least 6 of 11 in one direction; otherwise "mixed".
+     The selection conclusions of the paper stand if neither new model saves energy significantly on more streams than
+     the lightweight model (3 of 11) and the screen makes no false exclusion.
+   Secondary (labelled estimate): net saving with the measured nJ per MAC of Section 6.14 for the same architecture
+   family (MLP: lightweight value; CNN-LSTM: CNN-LSTM value) on each platform.
+
+B. Predictability statistic tested on datasets not used in development.
+   The training-span statistic of Section 6.6 (fraction of first differences within tau on the training span; within
+   segments for SensorScope) and closed-loop persistence test suppression at tau = 0.10 are computed on the 13 datasets
+   not used in development (Grand St Bernard, six NAB, four SensorScope, two indoor). Fastness (Eq. 7) is reported
+   alongside.
+   Confirmed if Spearman(statistic, persistence suppression) >= 0.6 with one-sided p < 0.05 and mean absolute error
+   <= 0.10 on the 13; also reported pooled with the 11 development streams (24). Descriptive: Spearman between the
+   statistic and the lightweight model's median suppression difference from the reference over the 24 datasets.
+No threshold is tuned and nothing is rerun to change a result.

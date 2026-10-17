@@ -1,0 +1,127 @@
+  cnnlstm_small seed  0  ep200  val=0.899 test=0.902  157s
+  cnnlstm_small seed  1  ep200  val=0.885 test=0.887  154s
+  cnnlstm_small seed  2  ep125  val=0.875 test=0.884  149s
+  cnnlstm_small seed  3  ep200  val=0.881 test=0.871  148s
+  cnnlstm_small seed  4  ep150  val=0.869 test=0.847  149s
+  cnnlstm_small seed  5  ep100  val=0.872 test=0.861  148s
+  cnnlstm_small seed  6  ep200  val=0.878 test=0.869  145s
+  cnnlstm_small seed  7  ep100  val=0.843 test=0.841  146s
+  cnnlstm_small seed  8  ep125  val=0.886 test=0.845  158s
+  cnnlstm_small seed  9  ep200  val=0.878 test=0.859  152s
+  cnnlstm_small seed 10  ep125  val=0.836 test=0.815  151s
+  cnnlstm_small seed 11  ep200  val=0.873 test=0.880  143s
+  cnnlstm_small seed 12  ep200  val=0.839 test=0.804  144s
+  cnnlstm_small seed 13  ep200  val=0.736 test=0.787  147s
+  cnnlstm_small seed 14  ep 75  val=0.837 test=0.812  142s
+  cnnlstm_small seed 15  ep 75  val=0.845 test=0.822  146s
+  cnnlstm_small seed 16  ep200  val=0.871 test=0.886  146s
+  cnnlstm_small seed 17  ep100  val=0.804 test=0.828  145s
+  cnnlstm_small seed 18  ep200  val=0.877 test=0.901  142s
+  cnnlstm_small seed 19  ep 75  val=0.847 test=0.794  145s
+  cnnlstm_small seed  0  ep200  val=0.540 test=0.514  115s
+  cnnlstm_small seed  1  ep150  val=0.551 test=0.502  119s
+  cnnlstm_small seed  2  ep200  val=0.558 test=0.532  114s
+  cnnlstm_small seed  3  ep200  val=0.548 test=0.532  112s
+  cnnlstm_small seed  4  ep150  val=0.552 test=0.514  122s
+  cnnlstm_small seed  5  ep125  val=0.551 test=0.524  122s
+  cnnlstm_small seed  6  ep200  val=0.550 test=0.528  115s
+  cnnlstm_small seed  7  ep200  val=0.564 test=0.528  110s
+  cnnlstm_small seed  8  ep175  val=0.565 test=0.532  114s
+  cnnlstm_small seed  9  ep200  val=0.550 test=0.510  111s
+  cnnlstm_small seed 10  ep200  val=0.571 test=0.542  111s
+  cnnlstm_small seed 11  ep150  val=0.565 test=0.518  108s
+  cnnlstm_small seed 12  ep200  val=0.587 test=0.534  110s
+  cnnlstm_small seed 13  ep200  val=0.538 test=0.511  113s
+  cnnlstm_small seed 14  ep150  val=0.535 test=0.505  111s
+  cnnlstm_small seed 15  ep175  val=0.569 test=0.532  113s
+  cnnlstm_small seed 16  ep125  val=0.556 test=0.527  112s
+  cnnlstm_small seed 17  ep200  val=0.543 test=0.518  110s
+  cnnlstm_small seed 18  ep175  val=0.564 test=0.523  114s
+  cnnlstm_small seed 19  ep175  val=0.545 test=0.505  113s
+  cnnlstm_small seed  0  ep 75  val=0.138 test=0.080  44s
+  cnnlstm_small seed  1  ep125  val=0.107 test=0.112  45s
+  cnnlstm_small seed  2  ep100  val=0.111 test=0.083  40s
+  cnnlstm_small seed  3  ep 25  val=0.129 test=0.118  40s
+  cnnlstm_small seed  4  ep100  val=0.116 test=0.080  41s
+  cnnlstm_small seed  5  ep 50  val=0.120 test=0.091  41s
+  cnnlstm_small seed  6  ep175  val=0.116 test=0.094  40s
+  cnnlstm_small seed  7  ep125  val=0.138 test=0.074  41s
+  cnnlstm_small seed  8  ep 50  val=0.116 test=0.097  42s
+  cnnlstm_small seed  9  ep 25  val=0.133 test=0.088  44s
+  cnnlstm_small seed 10  ep 50  val=0.129 test=0.106  39s
+  cnnlstm_small seed 11  ep150  val=0.120 test=0.088  39s
+  cnnlstm_small seed 12  ep 25  val=0.102 test=0.103  39s
+  cnnlstm_small seed 13  ep175  val=0.111 test=0.068  38s
+  cnnlstm_small seed 14  ep 25  val=0.129 test=0.103  41s
+  cnnlstm_small seed 15  ep 50  val=0.129 test=0.094  41s
+  cnnlstm_small seed 16  ep 25  val=0.147 test=0.100  37s
+  cnnlstm_small seed 17  ep200  val=0.138 test=0.091  39s
+  cnnlstm_small seed 18  ep175  val=0.116 test=0.080  39s
+  cnnlstm_small seed 19  ep 25  val=0.124 test=0.106  39s
+  cnnlstm_small seed  0  ep 50  val=0.148 test=0.009  66s
+  cnnlstm_small seed  1  ep 25  val=0.145 test=0.011  62s
+  cnnlstm_small seed  2  ep 25  val=0.146 test=0.011  61s
+  cnnlstm_small seed  3  ep 75  val=0.144 test=0.060  62s
+  cnnlstm_small seed  4  ep 25  val=0.155 test=0.012  62s
+  cnnlstm_small seed  5  ep 50  val=0.156 test=0.009  62s
+  cnnlstm_small seed  6  ep150  val=0.165 test=0.009  62s
+  cnnlstm_small seed  7  ep 50  val=0.161 test=0.009  60s
+  cnnlstm_small seed  8  ep 50  val=0.165 test=0.011  61s
+  cnnlstm_small seed  9  ep 25  val=0.141 test=0.011  61s
+  cnnlstm_small seed 10  ep 50  val=0.161 test=0.009  59s
+  cnnlstm_small seed 11  ep175  val=0.161 test=0.015  62s
+  cnnlstm_small seed 12  ep200  val=0.149 test=0.017  61s
+  cnnlstm_small seed 13  ep 25  val=0.161 test=0.009  62s
+  cnnlstm_small seed 14  ep200  val=0.175 test=0.012  63s
+  cnnlstm_small seed 15  ep 75  val=0.154 test=0.013  64s
+  cnnlstm_small seed 16  ep125  val=0.163 test=0.020  62s
+  cnnlstm_small seed 17  ep 50  val=0.158 test=0.010  62s
+  cnnlstm_small seed 18  ep100  val=0.144 test=0.011  62s
+  cnnlstm_small seed 19  ep 25  val=0.145 test=0.005  63s
+  cnnlstm_small seed  0  ep175  val=0.794 test=0.754  120s
+  cnnlstm_small seed  1  ep125  val=0.788 test=0.723  118s
+  cnnlstm_small seed  2  ep150  val=0.788 test=0.736  116s
+  cnnlstm_small seed  3  ep150  val=0.798 test=0.742  118s
+  cnnlstm_small seed  4  ep125  val=0.795 test=0.738  119s
+  cnnlstm_small seed  5  ep175  val=0.761 test=0.691  122s
+  cnnlstm_small seed  6  ep200  val=0.788 test=0.733  118s
+  cnnlstm_small seed  7  ep 75  val=0.791 test=0.719  117s
+  cnnlstm_small seed  8  ep150  val=0.795 test=0.733  120s
+  cnnlstm_small seed  9  ep175  val=0.797 test=0.744  117s
+  cnnlstm_small seed 10  ep175  val=0.790 test=0.723  122s
+  cnnlstm_small seed 11  ep100  val=0.792 test=0.731  123s
+  cnnlstm_small seed 12  ep125  val=0.788 test=0.725  122s
+  cnnlstm_small seed 13  ep125  val=0.788 test=0.740  119s
+  cnnlstm_small seed 14  ep 75  val=0.790 test=0.744  119s
+  cnnlstm_small seed 15  ep125  val=0.786 test=0.722  121s
+  cnnlstm_small seed 16  ep175  val=0.780 test=0.721  120s
+  cnnlstm_small seed 17  ep175  val=0.780 test=0.739  123s
+  cnnlstm_small seed 18  ep200  val=0.796 test=0.743  121s
+  cnnlstm_small seed 19  ep100  val=0.790 test=0.737  111s
+  cnnlstm_small seed  0  ep150  val=0.065 test=0.028  69s
+  cnnlstm_small seed  1  ep 25  val=0.107 test=0.027  63s
+  cnnlstm_small seed  2  ep 25  val=0.093 test=0.033  63s
+  cnnlstm_small seed  3  ep 75  val=0.090 test=0.040  66s
+  cnnlstm_small seed  4  ep125  val=0.094 test=0.040  63s
+  cnnlstm_small seed  5  ep150  val=0.121 test=0.039  64s
+  cnnlstm_small seed  6  ep125  val=0.100 test=0.047  64s
+  cnnlstm_small seed  7  ep200  val=0.119 test=0.066  55s
+  cnnlstm_small seed  8  ep200  val=0.068 test=0.039  55s
+  cnnlstm_small seed  9  ep150  val=0.090 test=0.048  56s
+  cnnlstm_small seed 10  ep 25  val=0.083 test=0.033  54s
+  cnnlstm_small seed 11  ep 25  val=0.080 test=0.023  55s
+  cnnlstm_small seed 12  ep200  val=0.110 test=0.032  54s
+  cnnlstm_small seed 13  ep175  val=0.092 test=0.033  53s
+  cnnlstm_small seed 14  ep 75  val=0.107 test=0.034  53s
+  cnnlstm_small seed 15  ep 25  val=0.070 test=0.023  56s
+  cnnlstm_small seed 16  ep200  val=0.091 test=0.037  52s
+  cnnlstm_small seed 17  ep150  val=0.092 test=0.043  53s
+  cnnlstm_small seed 18  ep175  val=0.090 test=0.036  53s
+  cnnlstm_small seed 19  ep175  val=0.100 test=0.039  53s
+  mlp_mid    seed  0  ep 75  val=0.895 test=0.897  40s
+  mlp_mid    seed  1  ep 25  val=0.790 test=0.656  37s
+  mlp_mid    seed  2  ep175  val=0.786 test=0.650  37s
+  mlp_mid    seed  3  ep200  val=0.879 test=0.904  39s
+  mlp_mid    seed  4  ep 25  val=0.825 test=0.716  40s
+  mlp_mid    seed  5  ep 25  val=0.784 test=0.779  37s
+  mlp_mid    seed  6  ep 50  val=0.886 test=0.907  37s

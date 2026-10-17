@@ -1,0 +1,12 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+twitter_aapl 0 0.728568 0.728568 ok
+twitter_aapl 7 0.719136 0.719136 ok
+twitter_aapl 19 0.724796 0.724796 ok
+occupancy 0 0.158263 0.158263 ok
+occupancy 7 0.155462 0.155462 ok
+occupancy 19 0.166667 0.166667 ok
+taxi 0 0.533742 0.533742 ok
+taxi 7 0.511463 0.511463 ok
+taxi 19 0.539877 0.539877 ok
+mismatches 0

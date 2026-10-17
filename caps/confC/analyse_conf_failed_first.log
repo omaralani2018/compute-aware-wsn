@@ -1,0 +1,8 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+Traceback (most recent call last):
+  File "<caps>/confC/analyse_conf.py", line 45, in <module>
+    if span == "test": assert abs((1 - txL / n) - by["lightweight"][i]["test_rho"]) < 1e-9
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+ANALYSED

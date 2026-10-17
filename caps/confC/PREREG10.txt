@@ -1,0 +1,20 @@
+Targeted test of CAPS Step 1 (screen) on indoor WSN temperature data
+Pre-registered 13 Oct 2026, 13:05 Baghdad, BEFORE the files were downloaded.
+Purpose stated openly: the confirmatory sets (PREREG6, PREREG7) have reference suppression below the level at
+which the screen can exclude the CNN-LSTM, so the screen was untested there. Datasets are chosen by type
+(indoor temperature measured by a wireless sensor network, public, from the data author's repository), not by
+any result.
+
+Data (author repositories, github.com/LuisM78):
+ A. Appliances energy prediction (Candanedo et al. 2017): energydata_complete.csv, ZigBee WSN in a house,
+    10-minute readings. Indoor temperature columns T1, T2, T3, T4, T5, T7, T8, T9 (T6 is outside the building and
+    is excluded by the dataset's own documentation), evaluated as one deployment with N = 8 nodes (as Intel).
+ B. Occupancy detection (Candanedo and Feldheim 2016): datatest.txt, datatraining.txt, datatest2.txt, column
+    "Temperature", one office node, 1-minute readings; the three files are joined in time order, duplicate
+    timestamps averaged; the series is evaluated as one stream (gaps between files are not bridged or flagged).
+Tolerance tau = 0.10 degC (physical, unit 1), as Intel. Everything else as PREREG6 (frozen benchmark, 20 seeds
+per learned model, MSE loss, CAPS with B = 96, hmin = 5%).
+
+Reported: the screen's exclusions and, for each, whether the excluded model's median test net saving is <= 0
+(correct) or > 0 (false exclusion); if nothing is excluded, the screen is reported as untested again. Also the
+headroom flags (validation vs test), the hindsight ceiling and CAPS vs always-CNN-LSTM. No threshold is tuned.

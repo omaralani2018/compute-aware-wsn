@@ -1,0 +1,85 @@
+{
+ "streams": {
+  "appliances_indoor": {
+   "evaluable": true,
+   "ref": "linear_extrap",
+   "rho_ref_val": 0.8424436280719534,
+   "rho_ref_test": 0.8463941901705793,
+   "screened": {
+    "lightweight": false,
+    "cnn_lstm": true
+   },
+   "false_exclusions": [],
+   "median_net": {
+    "lightweight": -8.432873163317007e-06,
+    "cnn_lstm": -0.00012505707177841582
+   },
+   "caps_picks": {
+    "ref": 14,
+    "lightweight": 6,
+    "cnn_lstm": 0
+   },
+   "headroom": {
+    "val": 0.06860943228099986,
+    "test": 0.05299196104739978
+   },
+   "flag_val": true,
+   "flag_test": true,
+   "energy": {
+    "ref": 5.847620773517988e-05,
+    "lw": 6.690908089849689e-05,
+    "cnn": 0.0001835332795135957,
+    "caps": 5.847620773517988e-05,
+    "hind": 5.847620773517988e-05
+   },
+   "verified": true
+  },
+  "occupancy_office": {
+   "evaluable": true,
+   "ref": "expsm",
+   "rho_ref_val": 0.9540257844806617,
+   "rho_ref_test": 0.9568811800940185,
+   "screened": {
+    "lightweight": false,
+    "cnn_lstm": true
+   },
+   "false_exclusions": [],
+   "median_net": {
+    "lightweight": -6.5714255146701304e-06,
+    "cnn_lstm": -0.00010551263478683742
+   },
+   "caps_picks": {
+    "ref": 20,
+    "lightweight": 0,
+    "cnn_lstm": 0
+   },
+   "headroom": {
+    "val": 0.1319481305322276,
+    "test": 0.09966234859179318
+   },
+   "flag_val": true,
+   "flag_test": true,
+   "energy": {
+    "ref": 1.6497151564272988e-05,
+    "lw": 2.306857707894312e-05,
+    "cnn": 0.00012200978635111041,
+    "caps": 1.6497151564272988e-05,
+    "hind": 1.6497151564272988e-05
+   },
+   "verified": true
+  }
+ },
+ "totals": {
+  "ref": 7.497335929945286e-05,
+  "lw": 8.997765797744001e-05,
+  "cnn": 0.0003055430658647061,
+  "caps": 7.497335929945286e-05,
+  "hind": 7.497335929945286e-05
+ },
+ "C1": true,
+ "C2": true,
+ "agree": 2,
+ "ceiling": 0.0,
+ "C3": true,
+ "C4": true
+}

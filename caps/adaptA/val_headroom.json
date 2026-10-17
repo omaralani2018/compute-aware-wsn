@@ -1,0 +1,71 @@
+{
+ "streams": {
+  "intel_time": {
+   "val_headroom": 0.061144274170597535,
+   "test_headroom": 0.131105600785403,
+   "flag_val": true,
+   "flag_test": true
+  },
+  "taxi": {
+   "val_headroom": 0.0026262259643720087,
+   "test_headroom": 0.027990220843941593,
+   "flag_val": false,
+   "flag_test": false
+  },
+  "traffic": {
+   "val_headroom": 2.220446049250313e-16,
+   "test_headroom": 0.006590971360670161,
+   "flag_val": false,
+   "flag_test": false
+  },
+  "cpu": {
+   "val_headroom": 0.0054219760063553,
+   "test_headroom": 0.0,
+   "flag_val": false,
+   "flag_test": false
+  },
+  "machine_temp": {
+   "val_headroom": 0.0678946949652624,
+   "test_headroom": 0.05779937631000187,
+   "flag_val": true,
+   "flag_test": true
+  },
+  "grok_asg_anomaly": {
+   "val_headroom": 0.0,
+   "test_headroom": 0.0,
+   "flag_val": false,
+   "flag_test": false
+  },
+  "rds_cpu_util": {
+   "val_headroom": 0.036559026751912194,
+   "test_headroom": 0.013346444559961923,
+   "flag_val": false,
+   "flag_test": false
+  },
+  "iio_networkin": {
+   "val_headroom": 0.0,
+   "test_headroom": 0.0,
+   "flag_val": false,
+   "flag_test": false
+  },
+  "twitter_aapl": {
+   "val_headroom": 0.005898696120013702,
+   "test_headroom": 0.003289726795276171,
+   "flag_val": false,
+   "flag_test": false
+  },
+  "exchange_cpc": {
+   "val_headroom": 0.0037535218835694772,
+   "test_headroom": 0.00264745067497113,
+   "flag_val": false,
+   "flag_test": false
+  },
+  "occupancy": {
+   "val_headroom": 0.006112508851580545,
+   "test_headroom": 0.00322189366504233,
+   "flag_val": false,
+   "flag_test": false
+  }
+ },
+ "agreement": 11
+}

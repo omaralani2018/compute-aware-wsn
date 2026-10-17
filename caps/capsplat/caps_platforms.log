@@ -1,0 +1,10 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+anchor    inc   CAPS  -0.3%  hindsight  -2.0%  CAPS above hindsight 1.77%  always-lw  +11.6%  always-CNN    +57.8%  picks {'ref': 158, 'lightweight': 62, 'cnn_lstm': 0}
+mica2     inc   CAPS  +0.0%  hindsight  +0.0%  CAPS above hindsight 0.00%  always-lw +109.5%  always-CNN +51110.0%  picks {'ref': 220, 'lightweight': 0, 'cnn_lstm': 0}
+m3_float  inc   CAPS  +0.2%  hindsight  +0.0%  CAPS above hindsight 0.16%  always-lw  +26.2%  always-CNN  +8219.9%  picks {'ref': 200, 'lightweight': 20, 'cnn_lstm': 0}
+m3_float  gross CAPS  +0.0%  hindsight  +0.0%  CAPS above hindsight 0.00%  always-lw  +44.4%  always-CNN +18465.6%  picks {'ref': 220, 'lightweight': 0, 'cnn_lstm': 0}
+m3_int    inc   CAPS  +0.2%  hindsight  -1.2%  CAPS above hindsight 1.36%  always-lw  +14.9%  always-CNN  +1494.3%  picks {'ref': 181, 'lightweight': 39, 'cnn_lstm': 0}
+m3_int    gross CAPS  -0.4%  hindsight  -0.4%  CAPS above hindsight 0.00%  always-lw  +19.3%  always-CNN  +3200.8%  picks {'ref': 197, 'lightweight': 23, 'cnn_lstm': 0}
+nrf       inc   CAPS  -0.1%  hindsight  -1.9%  CAPS above hindsight 1.83%  always-lw  +12.1%  always-CNN   +366.8%  picks {'ref': 164, 'lightweight': 56, 'cnn_lstm': 0}
+nrf       gross CAPS  -0.2%  hindsight  -0.2%  CAPS above hindsight 0.00%  always-lw  +22.3%  always-CNN  +6288.3%  picks {'ref': 200, 'lightweight': 20, 'cnn_lstm': 0}

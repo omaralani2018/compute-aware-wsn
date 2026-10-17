@@ -1,0 +1,22 @@
+[provenance] dual_prediction_fix.py sha256=e8cfb5f685df1002... MATCHES frozen reference
+[provenance] path=<caps>/stage17/run/dual_prediction_fix.py
+iio_networkin lightweight 0 rhoR=0.820 rhoL=0.689(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 1 rhoR=0.820 rhoL=0.713(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 2 rhoR=0.820 rhoL=0.622(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 3 rhoR=0.820 rhoL=0.692(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 4 rhoR=0.820 rhoL=0.566(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 5 rhoR=0.820 rhoL=0.681(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 6 rhoR=0.820 rhoL=0.531(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 7 rhoR=0.820 rhoL=0.638(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 8 rhoR=0.820 rhoL=0.501(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 9 rhoR=0.820 rhoL=0.590(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 10 rhoR=0.820 rhoL=0.668(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 11 rhoR=0.820 rhoL=0.509(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 12 rhoR=0.820 rhoL=0.547(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 13 rhoR=0.820 rhoL=0.718(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 14 rhoR=0.820 rhoL=0.574(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 15 rhoR=0.820 rhoL=0.651(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 16 rhoR=0.820 rhoL=0.702(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 17 rhoR=0.820 rhoL=0.745(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 18 rhoR=0.820 rhoL=0.531(ok) G96=0.000 sw=0 fracL=0.00
+iio_networkin lightweight 19 rhoR=0.820 rhoL=0.568(ok) G96=0.000 sw=0 fracL=0.00

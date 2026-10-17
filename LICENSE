@@ -24,7 +24,8 @@ SOFTWARE.
 
 Scope. The MIT licence above covers the code and documentation written by
 the authors. The outputs of that code in this package (results/, figures/,
-weights/, weights_sens/, stb/run_outputs/ and the run outputs under tm/) and
+weights/, weights_sens/, stb/run_outputs/, the run outputs under tm/ and
+the outputs, weights, logs and records under caps/) and
 the separate archive compute-aware-wsn-v1.5-cells.zip are released under
 Creative Commons Attribution 4.0 International (CC BY 4.0,
 https://creativecommons.org/licenses/by/4.0/), without prejudice to the terms
@@ -32,7 +33,9 @@ of the data they are derived from.
 
 Third-party data are covered by neither licence, wherever they appear (in
 inputs/ and inside stb/STB_frozen_2026-10-09.zip, including preprocessed
-copies of them such as inputs/intel_*.npy). The Intel Berkeley Research Lab
+copies of them such as inputs/intel_*.npy, and, in caps/, the data folders
+and the Intel test windows in the generated headers, reference files and
+firmware). The Intel Berkeley Research Lab
 data (inputs/intel_*.npy, inputs/intel_time_rows.csv, inputs/mote_locs.txt)
 are from P. Bodik, W. Hong, C. Guestrin, S. Madden, M. Paskin and
 R. Thibaux, "Intel Lab Data", 2004,
@@ -44,6 +47,15 @@ under the MIT licence (Copyright 2014-2024 Numenta Inc.; LICENSE.txt of
 github.com/numenta/NAB at commit ea702d75), whose notice is reproduced in
 inputs/nab/LICENSE_NAB.txt. The SensorScope Grand St Bernard file
 (inputs/sensorscope/stbernard-meteo.zip, unmodified) is by G. Barrenetxea,
-"Sensorscope Data," Zenodo, 2019, doi:10.5281/zenodo.2654726, licensed under
-Creative Commons Attribution 4.0 International (CC BY 4.0). All are included
+"Sensorscope Data," Zenodo, 2019, doi:10.5281/zenodo.2654726, licensed
+under Creative Commons Attribution 4.0 International (CC BY 4.0). The further data
+of caps/ are six NAB files (caps/confA/data/, MIT as above) and four
+SensorScope archives (caps/confB/data/, unmodified, same authors, record and
+licence as the Grand St Bernard file). The flash images under caps/ contain
+RIOT (GNU LGPL-2.1, https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html;
+source at github.com/RIOT-OS/RIOT, tag 2025.07), Arm CMSIS headers (Apache-2.0)
+and newlib (BSD-style licences); caps/avrsim/fw/fw.elf contains avr-libc
+(modified BSD licence) and the simulator section of simavr's
+avr_mcu_section.h (GPL-3.0, used to build for the simulator only); their own
+terms apply to those parts (caps/iotlab/firmware/THIRD_PARTY_NOTICES.txt). All are included
 for reproducibility only and remain subject to their own terms.
