@@ -1,0 +1,18 @@
+RULE6: NLMS dual predictor initialised at the zero-order hold (Meghana and Parameshachari, AIKIIE 2026,
+doi 10.1109/AIKIIE69997.2026.11707909, Sec. III.C, Eqs. (7)-(9), Table I) under the protocol of Paper 1.
+Written 16 Nov 2026 before any NLMS number was computed on any stream.
+
+Method as published: prediction xhat = w . x over the p latest reconstructed values (newest first);
+w(0) = [1, 0, ..., 0] (zero-order hold); update on both sides w <- w + mu * e * x / (||x||^2 + eps), with e the
+retained value minus the prediction (zero on suppressed rounds, the paper's "null correction"); single-error
+transmission rule (send when |x - xhat| > tau). Published setting p = 4, mu = 0.06. eps is not given in the paper;
+we use eps = 1e-9 * p * mean(x^2 on the training span) (negligible against ||x||^2) and state this.
+Protocol: identical to src/matched_baselines.py (split 50/20/30, 12-row synchronised warm-up, tau = 0.10 physical
+on Intel and 0.10 x training-span std on NAB, independent receiver check, test scored once).
+Two runs per stream, both reported:
+ (a) published setting p = 4, mu = 0.06;
+ (b) validation-selected over p in {2, 4, 8, 12} x mu in {0.01, 0.03, 0.06, 0.1, 0.3, 1.0}, ties to the first entry.
+Compute charge: 3p + 1 MACs per round (p prediction, p norm, p update, 1 scaling), charged every round.
+Reported whatever the result: test suppression per stream for (a) and (b), streams above the validation-selected
+reference of Table 2, and the net saving at e_r = 3.8e-4 J and 1 nJ per MAC. Table 5 gains one column, (b), with (a)
+stated in the text. No other change to the paper's results.

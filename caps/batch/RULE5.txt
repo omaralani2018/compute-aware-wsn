@@ -1,0 +1,20 @@
+Direction A (batching), analysis plan. Written 16 Nov 2026 before any batching number was computed.
+Radio cost per frame: linear in payload bytes through the two measured 802.15.4 broadcast points of each
+node type (package caps/iotlab/radio: S_BC 4 B and L_BC 100 B; M3 2.67e-4 and 6.16e-4 J, nRF52840
+2.66e-5 and 1.08e-4 J). Payload capped at 100 B (no extrapolation beyond the measured range).
+Schemes, all on the test span, reference = validation-selected low-cost predictor of the paper:
+ S0 immediate dual prediction: one 4-B frame per report.
+ S1 raw batching: every reading sent, B readings per frame (4 B each), B in {5, 10, 25}; worst-case
+    delay B-1 readings.
+ S2 batched dual prediction: reports buffered (5 B each: 4 B value + 1 B offset), a frame is sent when
+    20 reports are buffered or when the oldest buffered report has waited D-1 readings, D in {5,10,25}
+    (same worst-case delay as S1 with B = D).
+Datasets: the 11 development streams; then the held-out sets (confA 6 NAB streams, confC 2 indoor sets).
+Questions (all reported per stream and node type, whatever the outcome):
+ C1 on how many streams is S1 (B = 25) cheaper in radio energy per reading than S0?
+ C2 on how many streams is S2 (D = 25) cheaper than both S0 and S1 (B = 25)?
+ C3 under S2, on how many streams does the lightweight model pay (criterion, measured per-forecast costs)
+    compared with S0?
+Called a substantive finding if C1 or C2 holds on at least half of the streams on both node types.
+Limits stated in advance: delay (no real-time alarms), frame loss not modelled (99.7%+ delivery measured),
+linear interpolation between two measured payload sizes, idle/listening energy equal across schemes.

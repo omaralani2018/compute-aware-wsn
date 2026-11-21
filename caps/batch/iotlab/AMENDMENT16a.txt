@@ -1,0 +1,7 @@
+AMENDMENT16a (16 Nov 2026, after the M3 run 458822, before the nRF52840 run). Analysis only; firmware and outcomes unchanged.
+1. The power trace of run 458822 starts later than the serial log on its own clock: the alignment offset is 163.7 s,
+   outside the +-120 s search range copied from PREREG15. The search range is widened to +-300 s and the correlation
+   grid is restricted to the span covered by the trace. With +-120 s the search stopped at the bound (-118.7 s,
+   correlation 0.76, rejected by the 0.8 rule); with +-300 s it finds 163.7 s, correlation 0.987.
+2. Phases not covered by the power trace are reported and not used (none in run 458822 after the correct offset).
+The same analysis is applied unchanged to the nRF52840 run.

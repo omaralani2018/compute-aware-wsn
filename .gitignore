@@ -23,3 +23,5 @@ caps/netx/app/bin_*/
 caps/netx/app_rx2/bin_*/
 caps/netx/check/h_*
 caps/netx/check/rx2/t
+# version 1.8: firmware build of caps/batch/iotlab/app
+caps/batch/iotlab/app/bin_*/

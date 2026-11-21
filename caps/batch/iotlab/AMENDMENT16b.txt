@@ -1,0 +1,11 @@
+AMENDMENT16b (16 Nov 2026, written after the nRF52840 run 458828 finished and before its power trace was analysed).
+Capture and validity only; firmware, schedules, outcomes P1-P3 and their thresholds unchanged.
+1. In run 458827 serial_aggregator recorded no lines from the nRF52840 nodes; that run was abandoned unanalysed.
+   In run 458828 the TX serial port was read with nc on the SSH frontend (nrf52840dk-5:20000), each line stamped with
+   the frontend clock (date +%s.%N) in the serial_aggregator format 'timestamp;node;message'. The analysis reads it unchanged.
+2. The RX node's RXV counts were not captured in run 458828 (the RX port was read only after the experiment stopped).
+   For this run the validity rule 'RX count >= 99% of frames' cannot be evaluated; validity is judged on send_err = 0
+   and late = 0 only, and the RX count is reported as unavailable. The M3 run 458822 keeps the full rule (all counts complete).
+3. The TX log of 458828 is complete: 5 rounds, 162 phases, send_err = 0 and late = 0 in every phase.
+4. One of the 462,865 sample lines of b16_nrf_5.oml (line 12,725, t = 61.1 s, before the first phase) carries a NUL byte
+   inside its timestamp and cannot be parsed. Sample lines that do not parse as eight numbers are skipped and counted.

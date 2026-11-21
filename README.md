@@ -1,7 +1,7 @@
 # Measured Inference Energy and Compute-Aware Predictor Selection for Dual-Prediction Data Reduction in Wireless Sensor Networks
 
-Reproducibility package for the paper by **Omar Bakr Habeeb** and **Mustafa Musa**
-(University of Information Technology and Communications, Baghdad), version 1.7.
+Reproducibility package for the paper by **Omar Bakr Habeeb** and **Mustafa Musa Jaber**
+(University of Information Technology and Communications, Baghdad), version 1.8.
 
 A predictor is worth running on a sensor node only when the transmission energy its extra suppression removes
 exceeds the inference energy it adds:
@@ -14,8 +14,9 @@ e_r*  =  (E_inf,cand − E_inf,ref) / Δρ               (crossover radio cost)
 The package holds the protocol, the data preparation, every per-seed output, the saved weights and SHA-256
 manifests. `TABLES_AND_FIGURES.md` maps every table, figure and quoted number to the command and output that
 produce it. `caps/README.md` covers what runs from `caps/`: Sections 4.4 and 5.1 and parts of Sections 5.2, 5.3,
-5.5 and 6.1. Numbers are those of the manuscript this version accompanies; `NUMBERING_v1.7.md` maps those of version
-1.6.
+5.5 and 6.1. Section, table, figure and reference numbers in this README, `TABLES_AND_FIGURES.md` (above its version 1.8
+section) and `caps/README.md` are those of the version 1.7 manuscript; `NUMBERING_v1.8.md` maps them to the current
+manuscript. `caps/batch/` and `caps/nlms/`, added in 1.8, use the current numbers.
 
 ## Layout
 
@@ -30,11 +31,12 @@ produce it. `caps/README.md` covers what runs from `caps/`: Sections 4.4 and 5.1
 | `tm/` | training comparison of Section 6.1 and its supplement: protocol, code, per-run results, `TM_RESULTS.md` |
 | `caps/` | CAPS, the processor and radio measurements, the twelve further datasets, the training, look-back and model-size analyses and the open- and closed-loop comparison (Sections 4.4, 5.1 to 5.3, 5.5 and 6.1) |
 | `caps/blindsel/`, `caps/netx/`, `caps/boot/` | added in 1.7: compute-blind selection against CAPS (Sections 4.5 and 5.1 to 5.3); dual prediction run end to end on the nodes (Sections 4.4 and 5.1); moving-block bootstrap over test rounds (Section 5.2, computed afterwards) |
+| `caps/batch/`, `caps/nlms/` | added in 1.8: batched reporting, its analysis and the node run (current Sections 3.7, 4.4 and 5.7, Tables 7 and 8); the NLMS dual predictor of current Table 5 |
 | `figures/` | Figures 1, 3 and 4 and Figures S1 to S3 as PNG (300 dpi) and PDF, two-panel figures also per panel (`_a`, `_b`), the checkpoint figure summarised in Section 5.5 and two figures of earlier drafts; Figure 2 is in `caps/iotlab/` |
 | `RUN_ORDER.md` | order of the original run (26 September 2026) |
 | `MATCHED_BASELINES.md` | matched comparison of Table 5: sources, reproduction checks, settings, rerun commands (older numbering) |
-| `CHANGES_v1.1.md` to `CHANGES_v1.7.md` | what each version added or changed, its checks and run steps; `CHANGES_v1.5.md` maps the numbers of version 1.4 files to those of version 1.5 |
-| `NUMBERING_v1.7.md` | section, table, figure and reference numbers of version 1.6 docs and of this version |
+| `CHANGES_v1.1.md` to `CHANGES_v1.8.md` | what each version added or changed, its checks and run steps; `CHANGES_v1.5.md` maps the numbers of version 1.4 files to those of version 1.5 |
+| `NUMBERING_v1.7.md`, `NUMBERING_v1.8.md` | numbers of version 1.6 docs against version 1.7; numbers of version 1.7 against the current manuscript |
 | `SHA256SUMS*` | manifests (see Versions and manifests) |
 | `requirements.txt` | package versions of the re-runs |
 | `audit/`, `audit2/` | development audit scripts, kept for the record; they need `WORKDIR` and a file not included |
@@ -167,33 +169,34 @@ the saved weights (row above).
 ## Versions and manifests
 
 Version 1.0 (26 September 2026) was the first; 1.1 to 1.3 were folded into 1.4; 1.5 added the Intel preparations
-(Section 5.5), Grand St Bernard (Section 5.3) and `tm/`; 1.6 added `caps/`; 1.7 adds `caps/blindsel/`,
-`caps/netx/` and `caps/boot/`. The per-reading records of the Intel preparations and Grand St Bernard
+(Section 5.5), Grand St Bernard (Section 5.3) and `tm/`; 1.6 added `caps/`; 1.7 added `caps/blindsel/`,
+`caps/netx/` and `caps/boot/`; 1.8 adds `caps/batch/` and `caps/nlms/`. The per-reading records of the Intel preparations and Grand St Bernard
 (`compute-aware-wsn-v1.5-cells.zip`) are in the version 1.5 record, doi:10.5281/zenodo.23277263.
 
 - `SHA256SUMS`: the code as run in version 1.0 (bare names; check from each folder). `build_ms.py`, the manuscript
   generator, is listed but not included.
 - `SHA256SUMS_v1.x`: the files added or changed in that version. Where a file is in several manifests, the latest
   applies, so older manifests report later-changed files as changed; each CHANGES file says which.
-- `SHA256SUMS_all`: every file except itself and `SHA256SUMS_v1.7`, plus the version 1.5 cells archive; check it, and
+- `SHA256SUMS_all`: every file except itself and `SHA256SUMS_v1.8`, plus the version 1.5 cells archive; check it, and
   `SHA256SUMS_v1.5`, with `sha256sum -c --ignore-missing`.
 
 Files of earlier versions, including docstrings, keep the section and reference numbers of their drafts:
 
-| Work | This version | Version 1.6 docs | `MATCHED_BASELINES.md`, `CHANGES_v1.4.md`, `CHANGES_v1.5.md` and this README before version 1.6 | `CHANGES_v1.2.md`, `results/matched_earlier_grids/README.md` and comments of the version 1.2 sources |
-|---|---|---|---|---|
-| Santini and Römer (LMS dual prediction) | [15] | [18] | [10] | [13] |
-| Fathy et al. (AM-DR) | [41] | [34] | [24] | [25] |
-| Fathalla et al. (LSTM-DPS) | [42] | [35] | [25] | [18] |
-| Nikov et al. (Cortex-M0 simulator) | [34] | [29] | [21] | |
-| Garofalo et al. (PULP-NN) | [46] | [36] | [26] | |
-| Cappellone et al. (GAP-8 LSTM forecaster) | [47] | [37] | [27] | |
-| Bodik et al. (Intel Lab Data) | [37] | [32] | [22] | |
-| Morales et al. (deep learning in a dual prediction scheme) | [49] | [40] | [30] | |
-| Barrenetxea (Sensorscope Data) | [43] | [41] | [31] | |
-| Habeeb and Musa (this package) | [50] | [45] | [32] | |
+| Work | Version 1.8 | Version 1.7 | Version 1.6 docs | `MATCHED_BASELINES.md`, `CHANGES_v1.4.md`, `CHANGES_v1.5.md` and this README before version 1.6 | `CHANGES_v1.2.md`, `results/matched_earlier_grids/README.md` and comments of the version 1.2 sources |
+|---|---|---|---|---|---|
+| Santini and Römer (LMS dual prediction) | [2] | [15] | [18] | [10] | [13] |
+| Fathy et al. (AM-DR) | [42] | [41] | [34] | [24] | [25] |
+| Fathalla et al. (LSTM-DPS) | [43] | [42] | [35] | [25] | [18] |
+| Nikov et al. (Cortex-M0 simulator) | [32] | [34] | [29] | [21] | |
+| Garofalo et al. (PULP-NN) | [46] | [46] | [36] | [26] | |
+| Cappellone et al. (GAP-8 LSTM forecaster) | [47] | [47] | [37] | [27] | |
+| Bodik et al. (Intel Lab Data) | [35] | [37] | [32] | [22] | |
+| Morales et al. (deep learning in a dual prediction scheme) | [48] | [49] | [40] | [30] | |
+| Barrenetxea (Sensorscope Data) | [45] | [43] | [41] | [31] | |
+| Habeeb and Jaber (this package) | [38] | [50] | [45] | [32] | |
 
-`NUMBERING_v1.7.md` maps the section, table and figure numbers of version 1.6 docs to this version.
+`NUMBERING_v1.7.md` maps the numbers of version 1.6 docs to version 1.7, and `NUMBERING_v1.8.md` those of version 1.7 to
+the current manuscript, including every reference.
 
 ## Citing
 
@@ -201,7 +204,7 @@ Files of earlier versions, including docstrings, keep the section and reference 
 @article{habeeb2026computeaware,
   title   = {Measured Inference Energy and Compute-Aware Predictor Selection for
              Dual-Prediction Data Reduction in Wireless Sensor Networks},
-  author  = {Habeeb, Omar Bakr and Musa, Mustafa},
+  author  = {Habeeb, Omar Bakr and Jaber, Mustafa Musa},
   year    = {2026}
 }
 ```
@@ -211,11 +214,11 @@ This version of the package:
 ```bibtex
 @software{habeeb2026computeawarewsn,
   title     = {compute-aware-wsn: reproducibility package},
-  author    = {Habeeb, Omar Bakr and Musa, Mustafa},
-  version   = {1.7},
+  author    = {Habeeb, Omar Bakr and Jaber, Mustafa Musa},
+  version   = {1.8},
   publisher = {Zenodo},
   year      = {2026},
-  doi       = {10.5281/zenodo.23440217},
+  doi       = {10.5281/zenodo.24421871},
   url       = {https://github.com/omaralani2018/compute-aware-wsn}
 }
 ```
@@ -227,9 +230,10 @@ This version of the package:
 Code and documentation: MIT. Outputs (results, figures, weights, run records): CC BY 4.0 (see `LICENSE`).
 Third-party data keep their terms: NAB files MIT (Numenta, Inc., `inputs/nab/LICENSE_NAB.txt`); Intel data with
 acknowledgement, as the Intel Lab Data page states; SensorScope files CC BY 4.0 (G. Barrenetxea). The flash images in
-`caps/iotlab/firmware/`, `caps/iotlab/fixed/firmware/`, `caps/iotlab/radio/firmware/` and `caps/netx/firmware/`
-contain RIOT (LGPL-2.1), Arm CMSIS (Apache-2.0) and newlib, with the application source in `caps/iotlab/` and
-`caps/netx/`; `caps/avrsim/fw/fw.elf` contains
+`caps/iotlab/firmware/`, `caps/iotlab/fixed/firmware/`, `caps/iotlab/radio/firmware/`, `caps/netx/firmware/` and
+`caps/batch/iotlab/firmware/` contain RIOT (LGPL-2.1), Arm CMSIS (Apache-2.0) and newlib, with the application source
+in `caps/iotlab/`, `caps/netx/` and `caps/batch/iotlab/`; `caps/avrsim/fw/fw.elf` contains
 avr-libc (BSD) and a section of simavr (GPL-3.0). `src/m0/build_sim.sh` downloads, but the package does not include,
 the Thumbulator simulator (MIT) and the xPack Arm GNU toolchain. See `LICENSE`,
-`caps/iotlab/firmware/THIRD_PARTY_NOTICES.txt` and `caps/netx/firmware/THIRD_PARTY_NOTICES.txt`.
+`caps/iotlab/firmware/THIRD_PARTY_NOTICES.txt`, `caps/netx/firmware/THIRD_PARTY_NOTICES.txt` and
+`caps/batch/iotlab/firmware/THIRD_PARTY_NOTICES.txt`.

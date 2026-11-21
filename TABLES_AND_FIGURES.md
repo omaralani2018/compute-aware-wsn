@@ -89,3 +89,19 @@ supplement to that section in the Supplementary material.
 | Section 3.1; supplement to Section 5.4 | 57.8% to 39.5% with sensing at 1×10⁻⁴ J | computed from `caps/records/totals_611.json` (`absolute_J`: reference and CNN-LSTM totals, each plus 11 × (1×10⁻⁴ − 1×10⁻⁷) J) | `totals_611.json` |
 | Section 5.5 (full text in the Supplementary material) | open- and closed-loop gap: smaller on 2 of 11, Spearman 0.44 | `caps/shiftA/shift.py` | `shift_summary.json` (`summary.clt`) |
 | Supplement to Section 6.1 | training on reconstructed history: inconclusive on all eleven streams, no saving turned into a cost or the reverse | `tm/tm_driver.sh`, `tm/tm_stats.py` (protocol `tm/TM_PROTOCOL.md`) | `tm/tm_summary.json` (`streams.<stream>`: `outcome`, `d_mean`, `d_ci95_bootstrap`, `p_d`, `arms.<arm>.label`); per stream `tm/TM_RESULTS.md`; per run `tm/tm_runs/` |
+
+## Version 1.8 (numbers of the current manuscript)
+
+| Paper | Source |
+|---|---|
+| Table 5, NLMS column (and Section 5.6) | `caps/nlms/nlms_zoh.py` -> `nlms_results.json` |
+| Table 6 | published values of the cited studies; no computation |
+| Table 7, Section 5.7 (S1 against S0, the rule ρ > 0.2, savings) | `caps/batch/batch.py`, `heldout.py`, `table7_rows.py` |
+| Section 5.7 (lightweight model under S2 on the three platforms) | `caps/batch/c3.py` -> `c3.json` |
+| Table 8, Section 5.7 (node run) | `caps/batch/iotlab/analyse_batch.py` -> summaries in `run_m3/` and `run_nrf/` |
+| Section 5.7, standard deviation 2.0×10⁻⁶ J per reading on the nRF52840 | sample standard deviation of the ten replays of the S1 schedule, which taxi and the Intel mote share (`rounds_net` of `taxi_S1` and `intel_time_S1` in `run_nrf/batch_nrf_summary.json`) |
+| Section 5.2, cpu: reference suppression 0.13 on validation and 0.29 on test | `ms_numbers.json` (`datasets.cpu.by_tau."0.1"`: `val`, `test`) |
+| Section 5.3, the indoor protocol names the outcomes but not their thresholds | `caps/confC/PREREG10.txt` (against `caps/confA/PREREG6.txt` and `caps/confB/PREREG7.txt`) |
+| Eq. (8) values (3.1×10⁻⁵ and 5.4×10⁻⁶ J) | 100-byte broadcast cost in `caps/iotlab/radio/radio_*_summary.json`, divided by 20 |
+| Section 3.7, general threshold q/(v+q) | derived in the text: S2 spends (1 − ρ)(v + q) bytes per reading against v for S1 |
+| Section 5.2, Stay-or-Switch with blocks of 48 and 192 rounds (2 and 1 of 11 streams at 5%) | `caps/adaptA/oracle_*_lightweight.json` (`B48`, `B192`; median `G_best` over seeds) |
